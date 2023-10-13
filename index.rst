@@ -1,10 +1,9 @@
 
 .. toctree::
-   :maxdepth: 5
-   :caption: keyestudio docs
+   :maxdepth: 3
+   :caption: KS0567 Keyestudio ESP32 Smart Farm Kit
 
-   README.md
-   docs/keyestudio/index
+   wiki/index.md
 
 
 
