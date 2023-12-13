@@ -18,7 +18,7 @@ Welcome to check out more contents from our official website:
 
 **Obtain Information and After-sales Service**
 
-1. Information reference: [https://wiki.keyestudio.com/KS0567_Keyestudio_ESP32_IoT_Control_Smart_Farm_Starter_Kit_for_Arduino_Scratch_3.0_Graphical_Programming](https://wiki.keyestudio.com/KS0567_Keyestudio_ESP32_IoT_Control_Smart_Farm_Starter_Kit_for_Arduino_Scratch_3.0_Graphical_Programming)
+1. Information reference: [https://wiki.keyestudio.com/KS0567_Keyestudio](https://wiki.keyestudio.com/KS0567_Keyestudio_ESP32_IoT_Control_Smart_Farm_Starter_Kit_for_Arduino_Scratch_3.0_Graphical_Programming)
 
 2. If something is found missing or broken, or you have some difficulty learning the kit, please feel free to contact us. Welcome to send email to us: [service@keyestudio.com](http://m.138.gz.cn/webadmin/~CAmsnCrrNXhTAySKCerrIfWjjZuuWVfI/~/usr/mod_edituser.jsp?;uid=service@keyestudio.com;;clearCache=)
 
@@ -43,7 +43,7 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 
 
 
-# home
+# **Keyestudio ESP32 Smart Farm Kit**
 
 ![img](./index_img/1.png)
 
@@ -69,7 +69,7 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 |  8   |  ![img](./index_img/7.png)  |                          130 Motor                           |  1   |
 |  9   |  ![img](./index_img/8.png)  |                             Fan                              |  1   |
 |  10  |  ![img](./index_img/9.png)  |                         Steam Sensor                         |  1   |
-|  11  | ![img](./index_img/10.png)  |            DHT11 Temperature and Humidity Sensor             |  1   |
+|  11  | ![img](./index_img/10.png)  |          DHT11 Temperature and <br> Humidity Sensor          |  1   |
 |  12  | ![img](./index_img/11.png)  |                      PIR Motion Sensor                       |  1   |
 |  13  | ![img](./index_img/12.png)  |                       5V Relay Module                        |  1   |
 |  14  | ![img](./index_img/13.png)  |                     Soil Humidity Sensor                     |  1   |
@@ -77,10 +77,10 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 |  16  | ![img](./index_img/15.png)  |                  SR01 V3 Ultrasonic Module                   |  1   |
 |  17  | ![img](./index_img/16.png)  |                       White LED Module                       |  1   |
 |  18  | ![img](./index_img/17.png)  |                        Photoresistor                         |  1   |
-|  19  | ![img](./index_img/18.png)  |               9G 180° Servo (23 * 12.2 * 29mm)               |  1   |
+|  19  | ![img](./index_img/18.png)  |            9G 180° Servo <br/>(23 * 12.2 * 29mm)             |  1   |
 |  20  | ![img](./index_img/19.png)  |                     I2C 1602 LCD Display                     |  1   |
 |  21  | ![img](./index_img/20.png)  |                   6-slot AA Battery Holder                   |  1   |
-|  22  | ![img](./index_img/21.png)  |         DC 3V Water Pump (With 15CM Breadboard Wire)         |  1   |
+|  22  | ![img](./index_img/21.png)  |      DC 3V Water Pump<br/> (With 15CM Breadboard Wire)       |  1   |
 |  23  | ![img](./index_img/22.png)  |                       USB Cable TYPE-C                       |  1   |
 |  24  | ![img](./index_img/23.png)  |                 M1.4*6MM Self-Tapping Screw                  |  4   |
 |  25  | ![img](./index_img/24.png)  |                         M3 Lock-Nut                          |  4   |
@@ -92,12 +92,12 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 |  31  | ![img](./index_img/30.png)  |                            M3 Nut                            |  12  |
 |  32  | ![img](./index_img/31.png)  |                            M2 Nut                            |  2   |
 |  33  | ![img](./index_img/32.png)  |               M3*10MM Dual-Pass Copper Pillar                |  4   |
-|  34  | ![img](./index_img/33.png)  | 15cm 3P F-F DuPont Wires (Connected, 26AWG, Black-Red-Yellow) |  4   |
-|  35  | ![img](./index_img/34.png)  | 20cm 3P F-F DuPont Wires (Connected, 26AWG, Black-Red-Yellow) |  5   |
-|  36  | ![img](./index_img/34.png)  | 25cm 3P F-F DuPont Wires (Connected, 26AWG, Black-Red-Yellow) |  1   |
-|  37  | ![img](./index_img/35.png)  | 20cm 4P F-F DuPont Wires (Connected, 26AWG, Black-Red-Blue-Green) |  1   |
-|  38  | ![img](./index_img/36.png)  | 20cm 4P F-F DuPont Wires (Divided, 26AWG, Black-Green-Blue-Red) |  1   |
-|  39  | ![img](./index_img/37.png)  | 20cm 4P F-F DuPont Wires (Divided, 26AWG, Black-Red-Blue-Green) |  1   |
+|  34  | ![img](./index_img/33.png)  | 15cm 3P F-F DuPont Wires<br/> (Connected, 26AWG, Black-Red-Yellow) |  4   |
+|  35  | ![img](./index_img/34.png)  | 20cm 3P F-F DuPont Wires <br/>(Connected, 26AWG, Black-Red-Yellow) |  5   |
+|  36  | ![img](./index_img/34.png)  | 25cm 3P F-F DuPont Wires<br/> (Connected, 26AWG, Black-Red-Yellow) |  1   |
+|  37  | ![img](./index_img/35.png)  | 20cm 4P F-F DuPont Wires <br/>(Connected, 26AWG, Black-Red-Blue-Green) |  1   |
+|  38  | ![img](./index_img/36.png)  | 20cm 4P F-F DuPont Wires <br/>(Divided, 26AWG, Black-Green-Blue-Red) |  1   |
+|  39  | ![img](./index_img/37.png)  | 20cm 4P F-F DuPont Wires <br/>(Divided, 26AWG, Black-Red-Blue-Green) |  1   |
 |  40  | ![img](./index_img/38.png)  |                  15CM 40P M-F DuPont Wires                   |  2   |
 |  41  | ![img](./index_img/39.png)  |                3.0*40MM Phillips Screwdriver                 |  1   |
 |  42  | ![img](./index_img/40.png)  |                     Slotted Screwdriver                      |  1   |
@@ -120,7 +120,6 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 
 
 - What’s more, we provide detailed courses and example codes for you to deeply understand and master knowledge. In this way, it can not only improve the hands-on capability and creativity, but also cultivate the awareness of scientific and technological innovation as well as the ability of problem-solving.
-
 
 ## **Features**
 
@@ -154,7 +153,9 @@ Working Temperature: –10°C ~ +65°C
 
 
 
-For the detailed parameters of ESP32 development board, please refer to: [https://wiki.keyestudio.com/KS5016_Keyestudio_ESP32_PLUS_Development_Boardhttps://wiki.keyestudio.com/KS5016_Keyestudio_ESP32_PLUS_Development_Board](https://wiki.keyestudio.com/KS5016_Keyestudio_ESP32_PLUS_Development_Boardhttps://wiki.keyestudio.com/KS5016_Keyestudio_ESP32_PLUS_Development_Board)
+For the detailed parameters of ESP32 development board, please refer to: 
+
+[https://wiki.keyestudio.com/KS5016_Keyestudio_ESP32_PLUS_Development_Board](https://wiki.keyestudio.com/KS5016_Keyestudio_ESP32_PLUS_Development_Board)
 
 
 
