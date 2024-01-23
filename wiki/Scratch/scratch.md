@@ -4,7 +4,7 @@
 
 ### KidsBlock Installation
 
-Install Kidsblock on Windows System
+#### Install Kidsblock on Windows System
 
 1. You could download KidsBlock from: 
 
@@ -39,7 +39,7 @@ Install Kidsblock on Windows System
 
 
 
-Install Kidsblock on MacOS
+#### Install Kidsblock on MacOS
 
 1. Please download Kidsblock package first: [http://xiazai.keyesrobot.cn/KidsBlock.dmg](http://xiazai.keyesrobot.cn/KidsBlock.dmg)
 
@@ -81,7 +81,7 @@ Install Kidsblock on MacOS
 
 (**Following demonstrations are based on Windows System, and is only a reference for MacOS.**)
 
-Main Page Function Distribution 1
+#### Main Page Function Distribution 1
 
 ![img](./scratch_img/an10.png)
 
@@ -188,7 +188,7 @@ Click ![img](./scratch_img/an11.png) to select “English” or “简体中文"
 
 
 
-Main Page Function Distribution 2
+#### Main Page Function Distribution 2
 
 ![img](././scratch_img/an34.png)
 
@@ -291,33 +291,33 @@ The whole assembling generally can be divided into two parts: assembling parts a
 
 ------
 
-Step 1
+### Step 1
 
-1.1 Required components
+#### 1.1 Required components
 
 ![img](./scratch_img/image001.png)
 
 ------
 
-1.2
+#### 1.2
 
 ![img](./scratch_img/image002.png)
 
 ------
 
-1.3
+#### 1.3
 
 ![img](./scratch_img/image003.png)
 
 ------
 
-1.4
+#### 1.4
 
 ![img](./scratch_img/image004.png)
 
 ------
 
-1.5
+#### 1.5
 
 ![img](./scratch_img/image006.png)
 
@@ -325,17 +325,17 @@ Step 1
 
 
 
-Step 2
+### Step 2
 
 ------
 
-2.1 Required components
+#### 2.1 Required components
 
 ![img](./scratch_img/image007.png)
 
 ------
 
-2.2
+#### 2.2
 
 Assemble the wooden board X and O on bottom plate H
 
@@ -343,37 +343,37 @@ Assemble the wooden board X and O on bottom plate H
 
 ------
 
-2.3
+#### 2.3
 
 ![img](./scratch_img/image010.png)
 
 ------
 
-2.4
+#### 2.4
 
 ![img](./scratch_img/image011.png)
 
 ------
 
-2.5
+#### 2.5
 
 ![img](./scratch_img/image012.png)
 
 ------
 
-2.6
+#### 2.6
 
 ![img](./scratch_img/image013.png)
 
 ------
 
-2.7
+#### 2.7
 
 ![img](./scratch_img/image014.png)
 
 ------
 
-2.8 Wiring
+#### 2.8 Wiring
 
 |    Module    |   Wire    | Pin  |
 | :----------: | :-------: | :--: |
@@ -385,7 +385,7 @@ Assemble the wooden board X and O on bottom plate H
 
 ------
 
-2.9
+#### 2.9
 
 ![img](./scratch_img/image015-1.png)
 
@@ -393,71 +393,71 @@ Assemble the wooden board X and O on bottom plate H
 
 
 
-Step 3
+### Step 3
 
 ------
 
-3.1 Required components
+#### 3.1 Required components
 
 ![img](./scratch_img/image016.png)
 
 ------
 
-3.2
+#### 3.2
 
 ![img](./scratch_img/image017.png)
 
 ------
 
-3.3
+#### 3.3
 
 ![img](./scratch_img/image018.png)
 
 ------
 
-3.4
+#### 3.4
 
 ![img](./scratch_img/image019.png)
 
 ------
 
-3.5
+#### 3.5
 
 ![img](./scratch_img/image020.png)
 
 ------
 
-3.6
+#### 3.6
 
 ![img](./scratch_img/image021.png)
 
 ------
 
-3.7
+#### 3.7
 
 ![img](./scratch_img/image022.png)
 
 ------
 
-3.8
+#### 3.8
 
 ![img](./scratch_img/image023.png)
 
 ------
 
-3.9
+#### 3.9
 
 ![img](./scratch_img/image024.png)
 
 ------
 
-3.10
+#### 3.10
 
 ![img](./scratch_img/image025.png)
 
 ------
 
-3.11
+#### 3.11
 
 ![img](./scratch_img/image026.png)
 
@@ -465,19 +465,23 @@ Step 3
 
 
 
-Step 4
+### Step 4
 
 ------
 
-4.1 Required components
+#### 4.1 Required components
 
 ![img](./scratch_img/image027.png)
 
 ------
 
-4.2 Set Servo to 180°
+#### 4.2 Set Servo to 180°
 
 **Before mount the servo, firstly please set the angle to 180° by programming: Arduino(C++) or Scratch(Graphical programming).**
+
+Please refer to the software installation steps for details.
+
+
 
 **Connect Servo to ESP32 development board at pin IO26.**
 
@@ -504,43 +508,43 @@ Step 4
 
 ------
 
-4.3 Install Servo
+#### 4.3 Install Servo
 
 ![img](./scratch_img/image029.png)
 
 ------
 
-4.4
+#### 4.4
 
 ![img](./scratch_img/image030.png)
 
 ------
 
-4.5
+#### 4.5
 
 ![img](./scratch_img/image031.png)
 
 ------
 
-4.6
+#### 4.6
 
 ![img](./scratch_img/image032.png)
 
 ------
 
-4.7
+#### 4.7
 
 ![img](./scratch_img/image033.png)
 
 ------
 
-4.8
+#### 4.8
 
 ![img](./scratch_img/image034.png)
 
 ------
 
-4.9 
+#### 4.9 
 
 **NOTE: When installing the lid of the feeding box, its opening should be fully closed.**
 
@@ -548,19 +552,19 @@ Step 4
 
 ------
 
-4.10
+#### 4.10
 
 ![img](./scratch_img/image036.png)
 
 ------
 
-4.11
+#### 4.11
 
 ![img](./scratch_img/image037.png)
 
 ------
 
-4.12
+#### 4.12
 
 ![img](./scratch_img/image037-1.png)
 
@@ -568,41 +572,41 @@ Step 4
 
 
 
-Step 5
+### Step 5
 
 ------
 
-5.1 Required components
+#### 5.1 Required components
 
 ![img](./scratch_img/image038.png)
 
 ------
 
-5.2
+#### 5.2
 
 ![img](./scratch_img/image039.png)
 
 ------
 
-5.3
+#### 5.3
 
 ![img](./scratch_img/image040.png)
 
 ------
 
-5.4
+#### 5.4
 
 ![img](./scratch_img/image041.png)
 
 ------
 
-5.5 Prototype
+#### 5.5 Prototype
 
 ![img](./scratch_img/image042.png)
 
 ------
 
-5.6 Wiring
+#### 5.6 Wiring
 
 **Connect modules via Dupont wires.**
 
@@ -619,7 +623,7 @@ Step 5
 
 ------
 
-5.7
+#### 5.7
 
 **For the LCD display, connect green to SCL, blue to SDA, red to VCC, black to GND.**
 
@@ -629,29 +633,29 @@ Step 5
 
 
 
-Step 6
+### Step 6
 
 ------
 
-6.1 Required components
+#### 6.1 Required components
 
 ![img](./scratch_img/image045.png)
 
 ------
 
-6.2
+#### 6.2
 
 ![img](./scratch_img/image046.png)
 
 ------
 
-6.3
+#### 6.3
 
 ![img](./scratch_img/image047.png)
 
 ------
 
-6.4 Wiring
+#### 6.4 Wiring
 
 |      Module       |              Wire               |
 | :---------------: | :-----------------------------: |
@@ -663,29 +667,29 @@ Step 6
 
 ------
 
-Step 7
+### Step 7
 
 ------
 
-7.1 Required components
+#### 7.1 Required components
 
 ![img](./scratch_img/image049.png)
 
 ------
 
-7.2
+#### 7.2
 
 ![img](./scratch_img/image050.png)
 
 ------
 
-7.3
+#### 7.3
 
 ![img](./scratch_img/image051.png)
 
 ------
 
-7.4 Wiring
+#### 7.4 Wiring
 
 **Connect modules via Dupont wires.**
 
@@ -702,59 +706,59 @@ Step 7
 
 
 
-Step 8
+### Step 8
 
 ------
 
-8.1 Required components
+#### 8.1 Required components
 
 ![img](./scratch_img/image053.png)
 
 ------
 
-8.2
+#### 8.2
 
 ![img](./scratch_img/image054.png)
 
 ------
 
-8.3
+#### 8.3
 
 ![img](./scratch_img/image055.png)
 
 ------
 
-8.4
+#### 8.4
 
 ![img](./scratch_img/image056.png)
 
 ------
 
-8.5
+#### 8.5
 
 ![img](./scratch_img/image057.png)
 
 ------
 
-8.6
+#### 8.6
 
 ![img](./scratch_img/image058.png)
 
 ------
 
-8.7
+#### 8.7
 
 ![img](./scratch_img/image059.png)
 
 ------
 
-8.8 Prototype
+#### 8.8 Prototype
 
 ![img](./scratch_img/image060.png)
 
 ------
 
-8.9 Wiring
+#### 8.9 Wiring
 
 |    Module     |              Wire               |
 | :-----------: | :-----------------------------: |
@@ -768,29 +772,29 @@ Step 8
 
 ------
 
-Step 9
+### Step 9
 
 ------
 
-9.1 Required components
+#### 9.1 Required components
 
 ![img](./scratch_img/image062.png)
 
 ------
 
-9.2
+#### 9.2
 
 ![img](./scratch_img/image063.png)
 
 ------
 
-9.3
+#### 9.3
 
 ![img](./scratch_img/image064.png)
 
 ------
 
-9.4 Wiring
+#### 9.4 Wiring
 
 ![img](./scratch_img/image065.png)
 
@@ -798,47 +802,47 @@ Step 9
 
 
 
-Step 10
+### Step 10
 
 ------
 
-10.1 Required components
+#### 10.1 Required components
 
 ![img](./scratch_img/image066.png)
 
 ------
 
-10.2
+#### 10.2
 
 ![img](./scratch_img/image067.png)
 
 ------
 
-10.3
+#### 10.3
 
 ![img](./scratch_img/image068.png)
 
 ------
 
-10.4 Bottom View
+#### 10.4 Bottom View
 
 ![img](./scratch_img/image069.png)
 
 ------
 
-10.5
+#### 10.5
 
 ![img](./scratch_img/image070.png)
 
 ------
 
-10.6
+#### 10.6
 
 ![img](./scratch_img/image071.png)
 
 ------
 
-10.7 
+#### 10.7 
 
 ![img](./scratch_img/image072.png)
 
@@ -846,11 +850,11 @@ Step 10
 
 
 
-Step 11 Wiring
+### Step 11 Wiring
 
 ------
 
-11.1 
+#### 11.1 
 
 **Pay attention to the color of the Dupont wire: Connect yellow to S, red to V, black to G.**
 
@@ -873,7 +877,7 @@ Step 11 Wiring
 
 
 
-11.2 Fan
+#### 11.2 Fan
 
 | Components |                    Wire                     |   ESP32 Board Pins   |
 | :--------: | :-----------------------------------------: | :------------------: |
@@ -890,7 +894,7 @@ Step 11 Wiring
 
 ------
 
-11.3 PIR Motion Sensor
+#### 11.3 PIR Motion Sensor
 
 |     Component     |   Wire    | ESP32 Board Pin |
 | :---------------: | :-------: | :-------------: |
@@ -908,7 +912,7 @@ Step 11 Wiring
 
 ------
 
-11.4 Button Module
+#### 11.4 Button Module
 
 | Component |   Wire    | ESP32 Board Pin |
 | :-------: | :-------: | :-------------: |
@@ -926,7 +930,7 @@ Step 11 Wiring
 
 ------
 
-11.5 Ultrasonic Module  
+#### 11.5 Ultrasonic Module  
 
 |     Component     |                    Wire                     |    ESP32 Board Pins    |
 | :---------------: | :-----------------------------------------: | :--------------------: |
@@ -945,7 +949,7 @@ Step 11 Wiring
 
 ------
 
-11.6 LCD 1602
+#### 11.6 LCD 1602
 
 | Component |                     Wire                      | ESP32 Board Pins |
 | :-------: | :-------------------------------------------: | :--------------: |
@@ -964,7 +968,7 @@ Step 11 Wiring
 
 ------
 
-11.7 Temperature and Humidity Sensor  
+#### 11.7 Temperature and Humidity Sensor  
 
 |            Component            |   Wire    | ESP32 Board Pins |
 | :-----------------------------: | :-------: | :--------------: |
@@ -982,7 +986,7 @@ Step 11 Wiring
 
 ------
 
-11.8 Steam Sensor
+#### 11.8 Steam Sensor
 
 |  Component   |   Wire    | ESP32 Board Pin |
 | :----------: | :-------: | :-------------: |
@@ -1000,7 +1004,7 @@ Step 11 Wiring
 
 ------
 
-11.9 Photoresistor
+#### 11.9 Photoresistor
 
 |   Component   |   Wire    | ESP32 Board Pin |
 | :-----------: | :-------: | :-------------: |
@@ -1018,7 +1022,7 @@ Step 11 Wiring
 
 ------
 
-11.10 Servo
+#### 11.10 Servo
 
 **Pass the wire of Servo through the Hole 15, and then connect it to ESP32 board.**
 
@@ -1038,7 +1042,7 @@ Step 11 Wiring
 
 ------
 
-11.11 Buzzer
+#### 11.11 Buzzer
 
 **Pass the wire of Buzzer through the Hole 17, and then connect it to ESP32 board.**
 
@@ -1058,7 +1062,7 @@ Step 11 Wiring
 
 ------
 
-11.12 LED
+#### 11.12 LED
 
 **Pass the wire of LED through the Hole 7, and then connect it to ESP32 board.**
 
@@ -1078,7 +1082,7 @@ Step 11 Wiring
 
 ------
 
-11.13 Water Lever Sensor
+#### 11.13 Water Lever Sensor
 
 **Pass the wire of water level sensor through the Hole 13, and then connect it to ESP32 board.**
 
@@ -1098,7 +1102,7 @@ Step 11 Wiring
 
 ------
 
-11.14 Soil Humidity Sensor
+#### 11.14 Soil Humidity Sensor
 
 **Pass the wire of soil humidity sensor through the Hole 11, and then connect it to ESP32 board.**
 
@@ -1118,7 +1122,7 @@ Step 11 Wiring
 
 ------
 
-11.15 Relay Module  
+#### 11.15 Relay Module  
 
 |  Component   | Wire | ESP32 Board Pin |
 | :----------: | :--: | :-------------: |
@@ -1140,7 +1144,7 @@ Step 11 Wiring
 
 ------
 
-11.16
+#### 11.16
 
 ![img](./scratch_img/image088.png)
 
@@ -1148,35 +1152,35 @@ Step 11 Wiring
 
 
 
-Step 12
+### Step 12
 
 ------
 
-12.1 Required components
+#### 12.1 Required components
 
 ![img](./scratch_img/image089.png)
 
 ------
 
-12.2
+#### 12.2
 
 ![img](./scratch_img/image090.png)
 
 ------
 
-12.3
+#### 12.3
 
 ![img](./scratch_img/image091.png)
 
 ------
 
-12.4
+#### 12.4
 
 ![img](./scratch_img/image092.png)
 
 ------
 
-12.5
+#### 12.5
 
 ![img](./scratch_img/image093.png)
 
@@ -1184,23 +1188,23 @@ Step 12
 
 
 
-Step 13
+### Step 13
 
 ------
 
-13.1 Required components
+#### 13.1 Required components
 
 ![img](./scratch_img/image094.png)
 
 ------
 
-13.2
+#### 13.2
 
 ![img](./scratch_img/image095.png)
 
 ------
 
-13.3
+#### 13.3
 
 ![img](./scratch_img/image096.png)
 
@@ -1208,47 +1212,47 @@ Step 13
 
 
 
-Step 14
+### Step 14
 
 ------
 
-14.1 Required components
+#### 14.1 Required components
 
 ![img](./scratch_img/image098.png)
 
 ------
 
-14.2
+#### 14.2
 
 ![img](./scratch_img/image099.png)
 
 ------
 
-14.3
+#### 14.3
 
 ![img](./scratch_img/image100.png)
 
 ------
 
-14.4
+#### 14.4
 
 ![image-20230718085623979](./scratch_img/image-20230718085623979.png)
 
 ------
 
-14.5
+#### 14.5
 
 ![image-20230718085641291](./scratch_img/image-20230718085641291.png)
 
 ------
 
-14.6
+#### 14.6
 
 ![image-20230718085722378](./scratch_img/image-20230718085722378.png)
 
 ------
 
-14.7
+#### 14.7
 
 ![image-20230718085743776](./scratch_img/image-20230718085743776.png)
 
@@ -1256,29 +1260,29 @@ Step 14
 
 
 
-Step 15
+### Step 15
 
 ------
 
-15.1 Required components
+#### 15.1 Required components
 
 ![image-20230718085854136](./scratch_img/image-20230718085854136.png)
 
 ------
 
-15.2
+#### 15.2
 
 ![image-20230718085921988](./scratch_img/image-20230718085921988.png)
 
 ------
 
-15.3
+#### 15.3
 
 ![image-20230718085936256](./scratch_img/image-20230718085936256.png)
 
 ------
 
-15.4
+#### 15.4
 
 ![image-20230718085954487](./scratch_img/image-20230718085954487.png)
 
@@ -1286,29 +1290,29 @@ Step 15
 
 
 
-Step 16
+### Step 16
 
 ------
 
-16.1 Required components
+#### 16.1 Required components
 
 ![image-20230718090031524](./scratch_img/image-20230718090031524.png)
 
 ------
 
-16.2
+#### 16.2
 
 ![image-20230718090057124](./scratch_img/image-20230718090057124.png)
 
 ------
 
-16.3
+#### 16.3
 
 ![image-20230718090110113](./scratch_img/image-20230718090110113.png)
 
 ------
 
-16.4
+#### 16.4
 
 ![image-20230718090127577](./scratch_img/image-20230718090127577.png)
 
@@ -1316,23 +1320,23 @@ Step 16
 
 
 
-Step 17
+### Step 17
 
 ------
 
-17.1 Required components
+#### 17.1 Required components
 
 ![image-20230718090150918](./scratch_img/image-20230718090150918.png)
 
 ------
 
-17.2
+#### 17.2
 
 ![image-20230718090215504](./scratch_img/image-20230718090215504.png)
 
 ------
 
-17.3
+#### 17.3
 
 ![image-20230718090227072](./scratch_img/image-20230718090227072.png)
 
@@ -1340,17 +1344,17 @@ Step 17
 
 
 
-Step 18
+### Step 18
 
 ------
 
-18.1
+#### 18.1
 
 ![img](./scratch_img/image128.png)
 
 ------
 
-18.2
+#### 18.2
 
 ![img](./scratch_img/image129.png)
 
@@ -1358,49 +1362,49 @@ Step 18
 
 
 
-18.3
+#### 18.3
 
 ![img](./scratch_img/image130.png)
 
 ------
 
-18.4
+#### 18.4
 
 ![img](./scratch_img/image131.png)
 
 ------
 
-18.5
+#### 18.5
 
 ![img](./scratch_img/image132.png)
 
 ------
 
-18.6
+#### 18.6
 
 ![img](./scratch_img/image131-1.png)
 
 ------
 
-18.7
+#### 18.7
 
 ![img](./scratch_img/image132-1.png)
 
 ------
 
-18.8
+#### 18.8
 
 ![img](./scratch_img/image133.png)
 
 ------
 
-18.9
+#### 18.9
 
 ![img](./scratch_img/image135.png)
 
 ------
 
-18.10
+#### 18.10
 
 ![image-20230718091556561](./scratch_img/image-20230718091556561.png)
 
@@ -1408,23 +1412,23 @@ Step 18
 
 
 
-Step 19
+### Step 19
 
 ------
 
-19.1
+#### 19.1
 
 ![image-20230718091623881](./scratch_img/image-20230718091623881.png)
 
 ------
 
-19.2
+#### 19.2
 
 ![image-20230718091649546](./scratch_img/image-20230718091649546.png)
 
 ------
 
-19.3
+#### 19.3
 
 ![image-20230718091701966](./scratch_img/image-20230718091701966.png)
 
@@ -1458,7 +1462,7 @@ All in all, this is an entry-level tutorial to lay the foundation for subsequent
 
 
 
-Flow Diagram
+#### Flow Diagram
 
 ![image-20230607175228556](./scratch_img/image-20230607175228556.png)
 
@@ -1468,7 +1472,7 @@ Flow Diagram
 
 
 
-Light up an LED
+#### Light up an LED
 
 ##### Description
 
@@ -1657,7 +1661,7 @@ LED lights up and dims gradually; it breathes evenly.
 
 
 
-A Button
+#### A Button
 
 ##### Description
 
@@ -1793,7 +1797,7 @@ When you press the button once, 1 will be displayed. If you press button for the
 
 
 
-Lighting Control
+#### Lighting Control
 
 ##### Description
 
@@ -1857,7 +1861,7 @@ These are essential for a good Scratch developer. Next, we will guide you to kee
 
 
 
-FAQ
+#### FAQ
 
 ##### Q: LED doesn't light up after uploading code.
 
@@ -1892,7 +1896,7 @@ When the photoresistor detects that ambient brightness is lower than the set val
 
 
 
-Flow Diagram
+#### Flow Diagram
 
 ![image-20230607175802112](./scratch_img/image-20230607175802112.png)
 
@@ -1902,7 +1906,7 @@ Flow Diagram
 
 
 
-Photoresistor
+#### Photoresistor
 
 ##### Description
 
@@ -1995,7 +1999,7 @@ The brighter the light detected by the photoresistor is, the greater the value w
 
 
 
-Light Control System
+#### Light Control System
 
 ##### Wiring Diagram
 
@@ -2049,7 +2053,7 @@ When the value of the photoresistor is greater than 800 (in daytime), LED goes o
 
 
 
-FAQ
+#### FAQ
 
 ##### Q: The value of the photoresistor cannot be 0.
 
@@ -2079,7 +2083,7 @@ How does it work? The electric signals are detected and read by the PIR motion s
 
 
 
-Flow Diagram
+#### Flow Diagram
 
 ![image-20230606102303743](./scratch_img/image-20230606102303743.png)
 
@@ -2087,7 +2091,7 @@ Flow Diagram
 
 
 
-PIR Motion Sensor
+#### PIR Motion Sensor
 
 ##### Description
 
@@ -2159,7 +2163,7 @@ When someone is in the area, **Someone** is displayed on the monitor, and the re
 
 
 
-Buzzer
+#### Buzzer
 
 ##### Description
 
@@ -2316,7 +2320,7 @@ Complete Code:
 
 
 
-Alarm System
+#### Alarm System
 
 In this experiment, we will construct an alarm system by a PIR motion sensor, a buzzer and an LED. When the sensor detects a motion, buzzer emits sound and LED blinks to remind of an invasion.
 
@@ -2364,7 +2368,7 @@ Upload the code and the alarm system starts to work. When it detects a motion, b
 
 
 
-FAQ
+#### FAQ
 
 ##### Q: Tones of buzzer is not accurate with actual ones.
 
@@ -2402,7 +2406,7 @@ Besides, it is easy to connect the steam sensor to ESP32 board, which forms a si
 
 
 
-Flow Diagram
+#### Flow Diagram
 
 ![image-20230607180917475](./scratch_img/image-20230607180917475.png)
 
@@ -2412,7 +2416,7 @@ Flow Diagram
 
 
 
-Steam Sensor
+#### Steam Sensor
 
 ##### Description
 
@@ -2489,7 +2493,7 @@ You may open the serial monitor to observe the currently detected value (range: 
 
 
 
-Rain Detection System
+#### Rain Detection System
 
 ##### Description
 
@@ -2568,7 +2572,7 @@ The greater the detected value is, the loader the sound emitted by the buzzer wi
 
 
 
-FAQ
+#### FAQ
 
 ##### Q: Is the steam sensor waterproof?
 
@@ -2588,7 +2592,7 @@ A: It keeps buzzing because there are still blots of water in the detection area
 
 
 
-Description
+#### Description
 
 Solar panel converts solar power into electricity for the LED. It is suitable for multiple applications, such as outdoor lighting, mobile devices charging, and back up power. Hence, you may establish a sophisticated and efficient solar power system according to your own needs.
 
@@ -2598,7 +2602,7 @@ Solar panel converts solar power into electricity for the LED. It is suitable fo
 
 
 
-Working Principle
+#### Working Principle
 
 **How does solar panel convert solar power into electricity?**
 
@@ -2714,7 +2718,7 @@ Generally speaking, solar energy promises well for a wonderful and sustainable f
 
 
 
-Parameters
+#### Parameters
 
 - Voltage: 5V
 - Current: 80mA
@@ -2727,7 +2731,7 @@ Parameters
 
 
 
-Test Result
+#### Test Result
 
 Codes are not required in this project. Importantly, we learn about the new environmental energy --- solar power. 
 
@@ -2739,7 +2743,7 @@ When good illumination is provided, LED will light up in yellow. The brighter th
 
 
 
-FAQ
+#### FAQ
 
 ##### Q: Why does solar panel still work without sunlight?
 
@@ -2765,7 +2769,7 @@ Overall, the automation and remote operation are optimizing the feeding process 
 
 
 
-Flow Diagram
+#### Flow Diagram
 
 ![image-20230607085516167](./scratch_img/image-20230607085516167.png)
 
@@ -2775,9 +2779,9 @@ Flow Diagram
 
 
 
-Servo
+#### Servo
 
-Description
+#### Description
 
 **Servo**, also called **RC Servo Device**, is a motor with a feedback. Commonly, Servo performs precise position control and outputs high torque, which most often appears in robotics projects, RC cars, airplanes and aircraft.
 
@@ -2884,7 +2888,7 @@ The feeding box is slowly opened and then closed ,which is controllable.
 
 
 
-Ultrasonic Sensor
+#### Ultrasonic Sensor
 
 ##### Description
 
@@ -2954,7 +2958,7 @@ Open the serial monitor, and observe.
 
 
 
-Smart Feeding System
+#### Smart Feeding System
 
 ##### Description
 
@@ -3027,7 +3031,7 @@ When an animal is detected, open the feeding box.
 
 
 
-FAQ
+#### FAQ
 
 
 
@@ -3035,7 +3039,7 @@ FAQ
 
 ##### Q: Servo doesn't work.
 
-A: It may be stuck by itself or by wires when mount the bottom plate. before installing, please adjust the servo to 0° first. For how, please refer to the installation guidance. 
+A: It may be stuck by itself or by wires when mount the bottom plate. before installing, please adjust the servo to 180° first. For how, please refer to the installation guidance. 
 
 ------
 
@@ -3065,7 +3069,7 @@ Therefore, it realizes automatic adjustment of ambient temperature and humidity,
 
 
 
-Flow Diagram
+#### Flow Diagram
 
 ![image-20230607121651834](./scratch_img/image-20230607121651834.png)
 
@@ -3073,7 +3077,7 @@ Flow Diagram
 
 
 
-Temperature and Humidity Sensor
+#### Temperature and Humidity Sensor
 
 ##### Description
 
@@ -3152,6 +3156,8 @@ Complete code:
 
 ##### Test Result
 
+![img](./scratch_img/cou71-1.png)
+
 Open the serial monitor, and you will see the current temperature and humidity value. 
 
 ![img](./scratch_img/st88.png)
@@ -3160,7 +3166,7 @@ Open the serial monitor, and you will see the current temperature and humidity v
 
 
 
-LCD 1602 Module
+#### LCD 1602 Module
 
 ##### Description
 
@@ -3262,7 +3268,7 @@ LCD1602 opens its back light and displays ”**HELLO WORLD 0**“ and ”**HELLO
 
 
 
-Fan Module
+#### Fan Module
 
 ##### Description
 
@@ -3342,7 +3348,7 @@ The module is suitable for multiple applications, such as computer heat dissipat
 
 
 
-Temperature Control System
+#### Temperature Control System
 
 ##### Description
 
@@ -3421,7 +3427,7 @@ When the temperature reaches 29°C, the fan will turn on to dissipate heat. When
 
 
 
-FAQ
+#### FAQ
 
 ###### Q: Is temperature and humidty sensor waterproof?
 
@@ -3451,7 +3457,7 @@ A: When fan rotates, more current is required than other sensors, hence voltage 
 
 
 
-Flow Diagram
+#### Flow Diagram
 
 ![image-20230607161101154](./scratch_img/image-20230607161101154.png)
 
@@ -3461,7 +3467,7 @@ Flow Diagram
 
 
 
-Soil Humidity Sensor
+#### Soil Humidity Sensor
 
 ##### Description
 
@@ -3524,7 +3530,7 @@ Touch the detection area of the sensor with a wet finger and the currently detec
 
 
 
-Soil Humidity Monitoring System
+#### Soil Humidity Monitoring System
 
 We adopt LCD1602 to reveal the real-time value of soil humidity value. When the value is lower than the set minimum humidity, the buzzer will emit sound to prompt farmers of irrigation. 
 
@@ -3587,7 +3593,7 @@ When the value detected by the soil humidity sensor is lower than the set thresh
 
 
 
-FAQ
+#### FAQ
 
 ##### Q: Is soil humidity sensor waterproof?
 
@@ -3607,7 +3613,7 @@ A: With the exception of the detection area, the sensor is not waterproof. Spill
 
 
 
-Flow Diagram
+#### Flow Diagram
 
 ![image-20230607165214387](./scratch_img/image-20230607165214387.png)
 
@@ -3617,7 +3623,7 @@ Flow Diagram
 
 
 
-Water Level Sensor
+#### Water Level Sensor
 
 ##### Description
 
@@ -3671,7 +3677,7 @@ Touch the detection area of the sensor with a wet finger and the currently detec
 
 
 
-Water Level Monitoring System
+#### Water Level Monitoring System
 
 The water level monitoring system supervises the change of water level to clarify problems in time and take measures to avoid disasters. It is widely used in water conservancy projects, urban drainage and environmental monitoring.
 
@@ -3736,7 +3742,7 @@ LCD displays the real-time value of water level. In the experiment, we cover the
 
 
 
-FAQ
+#### FAQ
 
 ##### Q: Is water level sensor waterproof?
 
@@ -3762,7 +3768,7 @@ In this project, we stimulate irrigation via a water pump controlled by a relay 
 
 
 
-Flow Diagram
+#### Flow Diagram
 
 ![image-20230607183214310](./scratch_img/image-20230607183214310.png)
 
@@ -3772,7 +3778,7 @@ Flow Diagram
 
 
 
-Water Pumping System
+#### Water Pumping System
 
 ##### Description
 
@@ -3856,7 +3862,7 @@ In this experiment, the water pump is automatized, reducing time and efforts of 
 
 
 
-Auto-Irrigation System
+#### Auto-Irrigation System
 
 ##### Description
 
@@ -3944,7 +3950,7 @@ Complete code:
 
 
 
-FAQ
+#### FAQ
 
 ##### Q: Are the modules waterproof?
 
@@ -3982,7 +3988,7 @@ A: Several pumping operations are required to fill the water pump before using i
 
 
 
-Flow Diagram
+#### Flow Diagram
 
 ![image-20230608105334194](./scratch_img/image-20230608105334194.png)
 
@@ -3990,7 +3996,7 @@ Flow Diagram
 
 
 
-WIFI Web Page Display
+#### WIFI Web Page Display
 
 ##### Description
 
@@ -4088,7 +4094,7 @@ Last but not least, you may open the IP address in browser to visit the web page
 
 
 
-WIFI Control Smart Farm
+#### WIFI Control Smart Farm
 
 ##### Code Flow
 
@@ -4153,7 +4159,7 @@ In this project, we stimulate a smart farm with intelligent and remote managemen
 
 
 
-FAQ
+#### FAQ
 
 ##### Q: Wifi always fails to be connected. 
 
@@ -4191,7 +4197,7 @@ A: Several pumping operations are required to fill the water pump before using i
 
 ![img](./scratch_img/cou121.png)
 
-Description
+#### Description
 
 The APP management system is able to monitor multiple real-time index of the farm, such as temperature and humidity, pool water level, soil humidity, light intensity and rainfall.
 
@@ -4209,7 +4215,7 @@ These functions can be realized via an APP on your phone, facilitating farm mana
 
 
 
-Flow Diagram
+#### Flow Diagram
 
 ![image-20230608150835987](./scratch_img/image-20230608150835987.png)
 
@@ -4219,7 +4225,7 @@ Flow Diagram
 
 
 
-Test Code
+#### Test Code
 
 ##### Code Flow
 
@@ -4265,7 +4271,7 @@ Test Code
 
 
 
-APP
+#### APP
 
 ###### APP Download
 
@@ -4357,7 +4363,7 @@ Search **IOT farm** in APP Store and tap to download.
 
 
 
-FAQ
+#### FAQ
 
 ##### Q: Wifi always fails to be connected.
 

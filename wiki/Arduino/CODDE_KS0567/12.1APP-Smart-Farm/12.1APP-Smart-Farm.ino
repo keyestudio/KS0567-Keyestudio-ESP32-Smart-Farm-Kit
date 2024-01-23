@@ -157,13 +157,13 @@ void loop() {
       //Feeding box
       else if(request == "d")
       {
-        //Servo rotates to 180°, open feeding box
+        //Servo rotates to 80°, open feeding box
         myservo.write(80);
         delay(500);
       }
       else if(request == "D")
       {
-        //Servo rotates to 80°, close feeding box
+        //Servo rotates to 180°, close feeding box
         myservo.write(180);
       }
       //Music

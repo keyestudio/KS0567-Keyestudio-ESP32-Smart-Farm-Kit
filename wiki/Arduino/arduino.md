@@ -283,29 +283,29 @@ The whole assembling generally can be divided into two parts: assembling parts a
 
 ------
 
-Step 1
+### Step 1
 
-1.1 Required components
+##### 1.1 Required components
 
 ![img](./arduino_img/image001.png)
 
 ------
-1.2
+##### 1.2
 
 ![img](./arduino_img/image002.png)
 
 ------
-1.3
+##### 1.3
 
 ![img](./arduino_img/image003.png)
 
 ------
-1.4
+##### 1.4
 
 ![img](./arduino_img/image004.png)
 
 ------
-1.5
+##### 1.5
 
 ![img](./arduino_img/image006.png)
 
@@ -313,17 +313,17 @@ Step 1
 
 
 
-Step 2
+### Step 2
 
 ------
 
-2.1 Required components
+##### 2.1 Required components
 
 ![img](./arduino_img/image007.png)
 
 ------
 
-2.2
+##### 2.2
 
 Assemble the wooden board X and O on bottom plate H
 
@@ -331,37 +331,37 @@ Assemble the wooden board X and O on bottom plate H
 
 ------
 
-2.3
+##### 2.3
 
 ![img](./arduino_img/image010.png)
 
 ------
 
-2.4
+##### 2.4
 
 ![img](./arduino_img/image011.png)
 
 ------
 
-2.5
+##### 2.5
 
 ![img](./arduino_img/image012.png)
 
 ------
 
-2.6
+##### 2.6
 
 ![img](./arduino_img/image013.png)
 
 ------
 
-2.7
+##### 2.7
 
 ![img](./arduino_img/image014.png)
 
 ------
 
-2.8 Wiring
+##### 2.8 Wiring
 
 |    Module    |   Wire    | Pin  |
 | :----------: | :-------: | :--: |
@@ -373,7 +373,7 @@ Assemble the wooden board X and O on bottom plate H
 
 ------
 
-2.9
+##### 2.9
 
 ![img](./arduino_img/image015-1.png)
 
@@ -381,71 +381,71 @@ Assemble the wooden board X and O on bottom plate H
 
 
 
-Step 3
+### Step 3
 
 ------
 
-3.1 Required components
+##### 3.1 Required components
 
 ![img](./arduino_img/image016.png)
 
 ------
 
-3.2
+##### 3.2
 
 ![img](./arduino_img/image017.png)
 
 ------
 
-3.3
+##### 3.3
 
 ![img](./arduino_img/image018.png)
 
 ------
 
-3.4
+##### 3.4
 
 ![img](./arduino_img/image019.png)
 
 ------
 
-3.5
+##### 3.5
 
 ![img](./arduino_img/image020.png)
 
 ------
 
-3.6
+##### 3.6
 
 ![img](./arduino_img/image021.png)
 
 ------
 
-3.7
+##### 3.7
 
 ![img](./arduino_img/image022.png)
 
 ------
 
-3.8
+##### 3.8
 
 ![img](./arduino_img/image023.png)
 
 ------
 
-3.9
+##### 3.9
 
 ![img](./arduino_img/image024.png)
 
 ------
 
-3.10
+##### 3.10
 
 ![img](./arduino_img/image025.png)
 
 ------
 
-3.11
+##### 3.11
 
 ![img](./arduino_img/image026.png)
 
@@ -453,19 +453,23 @@ Step 3
 
 
 
-Step 4
+### Step 4
 
 ------
 
-4.1 Required components
+##### 4.1 Required components
 
 ![img](./arduino_img/image027.png)
 
 ------
 
-4.2 Set Servo to 180°
+##### 4.2 Set Servo to 180°
 
 **Before mount the servo, firstly please set the angle to 180° by programming: Arduino(C++) or Scratch(Graphical programming).**
+
+Please refer to the software installation steps for details:
+
+[https://arduinoide.readthedocs.io](https://arduinoide.readthedocs.io)
 
 **Connect Servo to ESP32 development board at pin IO26.**
 
@@ -492,43 +496,43 @@ Step 4
 
 ------
 
-4.3 Install Servo
+##### 4.3 Install Servo
 
 ![img](./arduino_img/image029.png)
 
 ------
 
-4.4
+##### 4.4
 
 ![img](./arduino_img/image030.png)
 
 ------
 
-4.5
+##### 4.5
 
 ![img](./arduino_img/image031.png)
 
 ------
 
-4.6
+##### 4.6
 
 ![img](./arduino_img/image032.png)
 
 ------
 
-4.7
+##### 4.7
 
 ![img](./arduino_img/image033.png)
 
 ------
 
-4.8
+##### 4.8
 
 ![img](./arduino_img/image034.png)
 
 ------
 
-4.9 
+##### 4.9 
 
 **NOTE: When installing the lid of the feeding box, its opening should be fully closed.**
 
@@ -536,19 +540,19 @@ Step 4
 
 ------
 
-4.10
+##### 4.10
 
 ![img](./arduino_img/image036.png)
 
 ------
 
-4.11
+##### 4.11
 
 ![img](./arduino_img/image037.png)
 
 ------
 
-4.12
+##### 4.12
 
 ![img](./arduino_img/image037-1.png)
 
@@ -556,41 +560,41 @@ Step 4
 
 
 
-Step 5
+### Step 5
 
 ------
 
-5.1 Required components
+##### 5.1 Required components
 
 ![img](./arduino_img/image038.png)
 
 ------
 
-5.2
+##### 5.2
 
 ![img](./arduino_img/image039.png)
 
 ------
 
-5.3
+##### 5.3
 
 ![img](./arduino_img/image040.png)
 
 ------
 
-5.4
+##### 5.4
 
 ![img](./arduino_img/image041.png)
 
 ------
 
-5.5 Prototype
+##### 5.5 Prototype
 
 ![img](./arduino_img/image042.png)
 
 ------
 
-5.6 Wiring
+##### 5.6 Wiring
 
 **Connect modules via Dupont wires.**
 
@@ -607,7 +611,7 @@ Step 5
 
 ------
 
-5.7
+##### 5.7
 
 **For the LCD display, connect green to SCL, blue to SDA, red to VCC, black to GND.**
 
@@ -617,29 +621,29 @@ Step 5
 
 
 
-Step 6
+### Step 6
 
 ------
 
-6.1 Required components
+##### 6.1 Required components
 
 ![img](./arduino_img/image045.png)
 
 ------
 
-6.2
+##### 6.2
 
 ![img](./arduino_img/image046.png)
 
 ------
 
-6.3
+##### 6.3
 
 ![img](./arduino_img/image047.png)
 
 ------
 
-6.4 Wiring
+##### 6.4 Wiring
 
 |      Module       |              Wire               |
 | :---------------: | :-----------------------------: |
@@ -651,29 +655,29 @@ Step 6
 
 ------
 
-Step 7
+### Step 7
 
 ------
 
-7.1 Required components
+##### 7.1 Required components
 
 ![img](./arduino_img/image049.png)
 
 ------
 
-7.2
+##### 7.2
 
 ![img](./arduino_img/image050.png)
 
 ------
 
-7.3
+##### 7.3
 
 ![img](./arduino_img/image051.png)
 
 ------
 
-7.4 Wiring
+##### 7.4 Wiring
 
 **Connect modules via Dupont wires.**
 
@@ -690,59 +694,59 @@ Step 7
 
 
 
-Step 8
+### Step 8
 
 ------
 
-8.1 Required components
+##### 8.1 Required components
 
 ![img](./arduino_img/image053.png)
 
 ------
 
-8.2
+##### 8.2
 
 ![img](./arduino_img/image054.png)
 
 ------
 
-8.3
+##### 8.3
 
 ![img](./arduino_img/image055.png)
 
 ------
 
-8.4
+##### 8.4
 
 ![img](./arduino_img/image056.png)
 
 ------
 
-8.5
+##### 8.5
 
 ![img](./arduino_img/image057.png)
 
 ------
 
-8.6
+##### 8.6
 
 ![img](./arduino_img/image058.png)
 
 ------
 
-8.7
+##### 8.7
 
 ![img](./arduino_img/image059.png)
 
 ------
 
-8.8 Prototype
+##### 8.8 Prototype
 
 ![img](./arduino_img/image060.png)
 
 ------
 
-8.9 Wiring
+##### 8.9 Wiring
 
 |    Module     |              Wire               |
 | :-----------: | :-----------------------------: |
@@ -756,29 +760,29 @@ Step 8
 
 ------
 
-Step 9
+### Step 9
 
 ------
 
-9.1 Required components
+##### 9.1 Required components
 
 ![img](./arduino_img/image062.png)
 
 ------
 
-9.2
+##### 9.2
 
 ![img](./arduino_img/image063.png)
 
 ------
 
-9.3
+##### 9.3
 
 ![img](./arduino_img/image064.png)
 
 ------
 
-9.4 Wiring
+##### 9.4 Wiring
 
 ![img](./arduino_img/image065.png)
 
@@ -786,47 +790,47 @@ Step 9
 
 
 
-Step 10
+### Step 10
 
 ------
 
-10.1 Required components
+##### 10.1 Required components
 
 ![img](./arduino_img/image066.png)
 
 ------
 
-10.2
+##### 10.2
 
 ![img](./arduino_img/image067.png)
 
 ------
 
-10.3
+##### 10.3
 
 ![img](./arduino_img/image068.png)
 
 ------
 
-10.4 Bottom View
+##### 10.4 Bottom View
 
 ![img](./arduino_img/image069.png)
 
 ------
 
-10.5
+##### 10.5
 
 ![img](./arduino_img/image070.png)
 
 ------
 
-10.6
+##### 10.6
 
 ![img](./arduino_img/image071.png)
 
 ------
 
-10.7 
+##### 10.7 
 
 ![img](./arduino_img/image072.png)
 
@@ -834,11 +838,11 @@ Step 10
 
 
 
-Step 11 Wiring
+### Step 11 Wiring
 
 ------
 
-11.1 
+##### 11.1 
 
 **Pay attention to the color of the Dupont wire: Connect yellow to S, red to V, black to G.**
 
@@ -861,7 +865,7 @@ Step 11 Wiring
 
 
 
-11.2 Fan
+##### 11.2 Fan
 
 | Components |                    Wire                     |   ESP32 Board Pins   |
 | :--------: | :-----------------------------------------: | :------------------: |
@@ -878,7 +882,7 @@ Step 11 Wiring
 
 ------
 
-11.3 PIR Motion Sensor
+##### 11.3 PIR Motion Sensor
 
 |     Component     |   Wire    | ESP32 Board Pin |
 | :---------------: | :-------: | :-------------: |
@@ -896,7 +900,7 @@ Step 11 Wiring
 
 ------
 
-11.4 Button Module
+##### 11.4 Button Module
 
 | Component |   Wire    | ESP32 Board Pin |
 | :-------: | :-------: | :-------------: |
@@ -914,7 +918,7 @@ Step 11 Wiring
 
 ------
 
-11.5 Ultrasonic Module  
+##### 11.5 Ultrasonic Module  
 
 |     Component     |                    Wire                     |    ESP32 Board Pins    |
 | :---------------: | :-----------------------------------------: | :--------------------: |
@@ -933,7 +937,7 @@ Step 11 Wiring
 
 ------
 
-11.6 LCD 1602
+##### 11.6 LCD 1602
 
 | Component |                     Wire                      | ESP32 Board Pins |
 | :-------: | :-------------------------------------------: | :--------------: |
@@ -952,7 +956,7 @@ Step 11 Wiring
 
 ------
 
-11.7 Temperature and Humidity Sensor  
+##### 11.7 Temperature and Humidity Sensor  
 
 |            Component            |   Wire    | ESP32 Board Pins |
 | :-----------------------------: | :-------: | :--------------: |
@@ -970,7 +974,7 @@ Step 11 Wiring
 
 ------
 
-11.8 Steam Sensor
+##### 11.8 Steam Sensor
 
 |  Component   |   Wire    | ESP32 Board Pin |
 | :----------: | :-------: | :-------------: |
@@ -988,7 +992,7 @@ Step 11 Wiring
 
 ------
 
-11.9 Photoresistor
+##### 11.9 Photoresistor
 
 |   Component   |   Wire    | ESP32 Board Pin |
 | :-----------: | :-------: | :-------------: |
@@ -1006,7 +1010,7 @@ Step 11 Wiring
 
 ------
 
-11.10 Servo
+##### 11.10 Servo
 
 **Pass the wire of Servo through the Hole 15, and then connect it to ESP32 board.**
 
@@ -1026,7 +1030,7 @@ Step 11 Wiring
 
 ------
 
-11.11 Buzzer
+##### 11.11 Buzzer
 
 **Pass the wire of Buzzer through the Hole 17, and then connect it to ESP32 board.**
 
@@ -1046,7 +1050,7 @@ Step 11 Wiring
 
 ------
 
-11.12 LED
+##### 11.12 LED
 
 **Pass the wire of LED through the Hole 7, and then connect it to ESP32 board.**
 
@@ -1066,7 +1070,7 @@ Step 11 Wiring
 
 ------
 
-11.13 Water Lever Sensor
+##### 11.13 Water Lever Sensor
 
 **Pass the wire of water level sensor through the Hole 13, and then connect it to ESP32 board.**
 
@@ -1086,7 +1090,7 @@ Step 11 Wiring
 
 ------
 
-11.14 Soil Humidity Sensor
+##### 11.14 Soil Humidity Sensor
 
 **Pass the wire of soil humidity sensor through the Hole 11, and then connect it to ESP32 board.**
 
@@ -1106,7 +1110,7 @@ Step 11 Wiring
 
 ------
 
-11.15 Relay Module  
+##### 11.15 Relay Module  
 
 |  Component   | Wire | ESP32 Board Pin |
 | :----------: | :--: | :-------------: |
@@ -1128,7 +1132,7 @@ Step 11 Wiring
 
 ------
 
-11.16
+##### 11.16
 
 ![img](./arduino_img/image088.png)
 
@@ -1136,35 +1140,35 @@ Step 11 Wiring
 
 
 
-Step 12
+### Step 12
 
 ------
 
-12.1 Required components
+##### 12.1 Required components
 
 ![img](./arduino_img/image089.png)
 
 ------
 
-12.2
+##### 12.2
 
 ![img](./arduino_img/image090.png)
 
 ------
 
-12.3
+##### 12.3
 
 ![img](./arduino_img/image091.png)
 
 ------
 
-12.4
+##### 12.4
 
 ![img](./arduino_img/image092.png)
 
 ------
 
-12.5
+##### 12.5
 
 ![img](./arduino_img/image093.png)
 
@@ -1172,23 +1176,23 @@ Step 12
 
 
 
-Step 13
+### Step 13
 
 ------
 
-13.1 Required components
+##### 13.1 Required components
 
 ![img](./arduino_img/image094.png)
 
 ------
 
-13.2
+##### 13.2
 
 ![img](./arduino_img/image095.png)
 
 ------
 
-13.3
+##### 13.3
 
 ![img](./arduino_img/image096.png)
 
@@ -1196,47 +1200,47 @@ Step 13
 
 
 
-Step 14
+### Step 14
 
 ------
 
-14.1 Required components
+##### 14.1 Required components
 
 ![img](./arduino_img/image098.png)
 
 ------
 
-14.2
+##### 14.2
 
 ![img](./arduino_img/image099.png)
 
 ------
 
-14.3
+##### 14.3
 
 ![img](./arduino_img/image100.png)
 
 ------
 
-14.4
+##### 14.4
 
 ![image-20230718085623979](./arduino_img/image-20230718085623979.png)
 
 ------
 
-14.5
+##### 14.5
 
 ![image-20230718085641291](./arduino_img/image-20230718085641291.png)
 
 ------
 
-14.6
+##### 14.6
 
 ![image-20230718085722378](./arduino_img/image-20230718085722378.png)
 
 ------
 
-14.7
+##### 14.7
 
 ![image-20230718085743776](./arduino_img/image-20230718085743776.png)
 
@@ -1244,29 +1248,29 @@ Step 14
 
 
 
-Step 15
+### Step 15
 
 ------
 
-15.1 Required components
+##### 15.1 Required components
 
 ![image-20230718085854136](./arduino_img/image-20230718085854136.png)
 
 ------
 
-15.2
+##### 15.2
 
 ![image-20230718085921988](./arduino_img/image-20230718085921988.png)
 
 ------
 
-15.3
+##### 15.3
 
 ![image-20230718085936256](./arduino_img/image-20230718085936256.png)
 
 ------
 
-15.4
+##### 15.4
 
 ![image-20230718085954487](./arduino_img/image-20230718085954487.png)
 
@@ -1274,29 +1278,29 @@ Step 15
 
 
 
-Step 16
+### Step 16
 
 ------
 
-16.1 Required components
+##### 16.1 Required components
 
 ![image-20230718090031524](./arduino_img/image-20230718090031524.png)
 
 ------
 
-16.2
+##### 16.2
 
 ![image-20230718090057124](./arduino_img/image-20230718090057124.png)
 
 ------
 
-16.3
+##### 16.3
 
 ![image-20230718090110113](./arduino_img/image-20230718090110113.png)
 
 ------
 
-16.4
+##### 16.4
 
 ![image-20230718090127577](./arduino_img/image-20230718090127577.png)
 
@@ -1304,23 +1308,23 @@ Step 16
 
 
 
-Step 17
+### Step 17
 
 ------
 
-17.1 Required components
+##### 17.1 Required components
 
 ![image-20230718090150918](./arduino_img/image-20230718090150918.png)
 
 ------
 
-17.2
+##### 17.2
 
 ![image-20230718090215504](./arduino_img/image-20230718090215504.png)
 
 ------
 
-17.3
+##### 17.3
 
 ![image-20230718090227072](./arduino_img/image-20230718090227072.png)
 
@@ -1328,17 +1332,17 @@ Step 17
 
 
 
-Step 18
+### Step 18
 
 ------
 
-18.1
+##### 18.1
 
 ![img](./arduino_img/image128.png)
 
 ------
 
-18.2
+##### 18.2
 
 ![img](./arduino_img/image129.png)
 
@@ -1346,49 +1350,49 @@ Step 18
 
 
 
-18.3
+##### 18.3
 
 ![img](./arduino_img/image130.png)
 
 ------
 
-18.4
+##### 18.4
 
 ![img](./arduino_img/image131.png)
 
 ------
 
-18.5
+##### 18.5
 
 ![img](./arduino_img/image132.png)
 
 ------
 
-18.6
+##### 18.6
 
 ![img](./arduino_img/image131-1.png)
 
 ------
 
-18.7
+##### 18.7
 
 ![img](./arduino_img/image132-1.png)
 
 ------
 
-18.8
+##### 18.8
 
 ![img](./arduino_img/image133.png)
 
 ------
 
-18.9
+##### 18.9
 
 ![img](./arduino_img/image135.png)
 
 ------
 
-18.10
+##### 18.10
 
 ![image-20230718091556561](./arduino_img/image-20230718091556561.png)
 
@@ -1396,23 +1400,23 @@ Step 18
 
 
 
-Step 19
+### Step 19
 
 ------
 
-19.1
+##### 19.1
 
 ![image-20230718091623881](./arduino_img/image-20230718091623881.png)
 
 ------
 
-19.2
+##### 19.2
 
 ![image-20230718091649546](./arduino_img/image-20230718091649546.png)
 
 ------
 
-19.3
+##### 19.3
 
 ![image-20230718091701966](./arduino_img/image-20230718091701966.png)
 
@@ -1454,7 +1458,7 @@ All in all, this is an entry-level tutorial to lay the foundation for subsequent
 
 #### Light up an LED
 
-Description
+##### Description
 
 LED, short for Light Emitting Diode, is a solid-state semiconductor that converts electrical energy into visible light, so it is also called solid-state lighting. 
 
@@ -1492,7 +1496,7 @@ When S is at a high level, Q1 triode is into conduction, and VCC voltage passes 
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the LED module to io27.**
 
@@ -1504,7 +1508,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Open Arduino IDE and choose corresponding board and COM port. 
 
@@ -1535,7 +1539,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 LED blinks per second, because io27 on ESP32 board outputs high and low level alternatively every second. Besides, various interactive applications can also be realized via an LED, like breathing LED, water flow lights and flashing police light.
 
@@ -1550,9 +1554,9 @@ LED blinks per second, because io27 on ESP32 board outputs high and low level al
 
 
 
-Expansion: Breathing LED
+##### Expansion: Breathing LED
 
-#Description
+###### Description
 
 IO interfaces of MCU (arduino UNO, ESP32 and Raspberry Pi Pico) output only digital signals (high or low level). For instance, in previous experiment (light up an LED), the digital outputs are only HIGH(3.3V) and LOW(0V).
 
@@ -1562,7 +1566,7 @@ If MCU outputs a high level of 3.3V or a low level of 0V, the input voltage shou
 
 ------
 
-#Knowledge
+###### Knowledge
 
 What is PWM?
 
@@ -1583,7 +1587,7 @@ For novice of PWM principles, it may be difficult to transform PWM into codes. Y
 
 ----
 
-#Test Code
+###### Test Code
 
 Open Arduino IDE and choose corresponding board and COM port. Compile and upload the code to the board.
 
@@ -1615,7 +1619,7 @@ void loop(){
 }
 ```
 
-#Test Result
+###### Test Result
 
 LED lights up and dims gradually; it breathes evenly. 
 
@@ -1627,7 +1631,7 @@ LED lights up and dims gradually; it breathes evenly.
 
 #### A Button
 
-Description
+##### Description
 
 **Button Module** is a device to input. MCU reads its power level to detect whether the button is pressed. 
 
@@ -1656,7 +1660,7 @@ Description
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the button module to io5**
 
@@ -1668,7 +1672,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Open Arduino IDE and choose corresponding board and COM port. Compile and upload the code to the board.
 
@@ -1706,7 +1710,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 Open serial monitor and set the corresponding baud rate. 
 
@@ -1722,9 +1726,9 @@ We can read the state of the digital input pin by programming to detect whether 
 
 
 
-Expansion: Auto-locking Button
+##### Expansion: Auto-locking Button
 
-#Test Code
+###### Test Code
 
 An auto-locking button won't pop up when you press it without holding, and it pops up unless you press it again. It works like a switch. For regular buttons, such function can be realized via MCU and software. 
 
@@ -1771,7 +1775,7 @@ void loop() {
 
 ------
 
-#Test Result
+###### Test Result
 
 Upload code and open the serial monitor. 
 
@@ -1785,7 +1789,7 @@ When you press the button once, 1 will be displayed. If you press button for the
 
 #### Lighting Control
 
-Description
+##### Description
 
 In above basic experiments, we remould an auto-locking button to control the LED. An auto-locking button is suitable for any situations where a certain state needs to be maintained, for example, when LED needs to light up for a long time, the ESP32 development board is required for some operations.
 
@@ -1795,7 +1799,7 @@ In this experiment, we will adopt Arduino ESP32 board to guide you to implement 
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the button to io5 and LED to io27**
 
@@ -1807,7 +1811,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Open Arduino IDE and choose corresponding board and COM port. Compile and upload the code to the board.
 
@@ -1866,7 +1870,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 **When you press the button once, LED lights up; if you press again, LED turns off.  This operation is a loop, which is consistent with the lighting principle in reality.**
 
@@ -1882,13 +1886,13 @@ These are essential for a good Arduino developer. Next, we will guide you to kee
 
 #### FAQ
 
-#Q: LED doesn't light up after uploading code.
+###### Q: LED doesn't light up after uploading code.
 
 A: Please check whether the pin defined in code is consistent with that in your wirings. If they are incompatible, please adjust it referring to the code. 
 
 ------
 
-#Q: The button sometimes works while sometimes doesn't.
+###### Q: The button sometimes works while sometimes doesn't.
 
 A: Please modify the delay of shake elimination to a proper value. 
 
@@ -1921,7 +1925,7 @@ When the photoresistor detects that ambient brightness is lower than the set val
 
 #### Photoresistor
 
-Description
+##### Description
 
 A photoresistor, also called photosensor, converts light signal into electric signal (voltage, current, and resistor). 
 
@@ -1959,7 +1963,7 @@ When light hits the photoresistor, the stronger the light is, the smaller the re
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the photoresistor to io34.**
 
@@ -1971,7 +1975,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Open Arduino IDE and choose corresponding board and COM port. Compile and upload the code to the board.
 
@@ -2006,7 +2010,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 Open the serial monitor.
 
@@ -2020,7 +2024,7 @@ The brighter the light detected by the photoresistor is, the greater the value w
 
 #### Light Control System
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the photoresistor to io34 and LED to io27.**
 
@@ -2032,7 +2036,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Open Arduino IDE and choose corresponding board and COM port. Compile and upload the code to the board.
 
@@ -2086,7 +2090,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 When the value of the photoresistor is greater than 800 (in daytime), LED goes off. However, if the value is less than 800, LED will automatically light on. 
 
@@ -2104,13 +2108,13 @@ When the value of the photoresistor is greater than 800 (in daytime), LED goes o
 
 #### FAQ
 
-#Q: The value of the photoresistor cannot be 0?
+###### Q: The value of the photoresistor cannot be 0?
 
 A: In actual life, little light exists although you turn off all lights in your room, so the value of photoresistor only approaches to 0 rather than equals to 0. 
 
 ------
 
-#Q: After uploading code, LED doesn't light up even though the room is dark without lights.
+###### Q: After uploading code, LED doesn't light up even though the room is dark without lights.
 
 A: Increase the determined value of photoresistor. In our example, we set to 800. So you may adjust it to 1000 or a greater value.
 
@@ -2154,7 +2158,7 @@ How does it work? The electric signals are detected and read by the PIR motion s
 
 #### PIR Motion Sensor
 
-Description
+##### Description
 
 A PIR motion sensor detects the presence of a person by sensing the heat given off by the human body. 
 
@@ -2180,7 +2184,7 @@ This sensor is small and easy to use.
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the PIR motion sensor to io23.**
 
@@ -2192,7 +2196,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Open Arduino IDE and choose corresponding board and COM port. Compile and upload the code to the board.
 
@@ -2229,7 +2233,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 Open the serial monotor.
 
@@ -2245,7 +2249,7 @@ Attention: PIR motion sensor is not able to penetrate things, so please do not c
 
 #### Buzzer
 
-Description
+##### Description
 
 A buzzer is an electronic sounder, which emits sounds with different frequencies and durations and is powered by DC voltage. Thus, it can be used as a reminder or an alarm in various electronic devices, such as computers, printers, copiers, alarms, electronic toys, automotive electronics, telephones and timers.
 
@@ -2285,7 +2289,7 @@ A buzzer consists of **vibration device** and **resonance device**. And there ar
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the buzzer to io16.**
 
@@ -2297,9 +2301,9 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
-#Method 1: Analog Squire Wave
+###### Method 1: Analog Squire Wave
 
 Passive buzzer is driven by squire waves, so we stimulate the wave.
 
@@ -2345,7 +2349,7 @@ Thus, 500us is the duration, and we can calculate the frequency = 2kHz, i.e., th
 
 
 
-#Method 2: "tone()" Function
+###### Method 2: "tone()" Function
 
 **tone() generates PWM signal with a certain frequency to drive the buzzer to vibrate,** and the duration and tone is controlled by related parameters.
 
@@ -2398,7 +2402,7 @@ noTone(buzzerPin);
 
 
 
-Test Result
+##### Test Result
 
 Method 1: Buzzer keeps emitting sound. 
 
@@ -2408,7 +2412,7 @@ Method 2: Buzzer alarms via tone() function.
 
 
 
-Expansion: Play Music
+##### Expansion: Play Music
 
 Play music through tone().
 
@@ -2565,7 +2569,7 @@ In this experiment, we will construct an alarm system by a PIR motion sensor, a 
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the PIR motionsensor to io23, buzzer to io16, and LED to io27.**
 
@@ -2577,7 +2581,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Code Flow:
 
@@ -2625,7 +2629,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 Upload the code and the alarm system starts to work. When it detects a motion, buzzer alarms and LED blinks. 
 
@@ -2637,13 +2641,13 @@ Upload the code and the alarm system starts to work. When it detects a motion, b
 
 #### FAQ
 
-#Q: Tones of buzzer is not accurate with actual ones.
+###### Q: Tones of buzzer is not accurate with actual ones.
 
 A: This regular buzzer just stimulates tones, so it is not able to meet professional requirements. If you want standard tones, a more specialized speaker is required. 
 
 ------
 
-#Q: The PIR motion sensor misinforms results.
+###### Q: The PIR motion sensor misinforms results.
 
 A: This PIR motion sensor is also not a professional one. 
 
@@ -2683,7 +2687,7 @@ Besides, it is easy to connect the steam sensor to ESP32 board, which forms a si
 
 #### Steam Sensor
 
-Description
+##### Description
 
 Steam sensor detects the presence of water, so it is usually used in rain detection. If the rain hits the conductive pads on the sensor, it will send a signal to the Arduino board.
 
@@ -2707,7 +2711,7 @@ Steam sensor detects the presence of water, so it is usually used in rain detect
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the steam sensor to io35.**
 
@@ -2719,7 +2723,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Open Arduino IDE and choose corresponding board and COM port. Compile and upload the code to the board.
 
@@ -2748,7 +2752,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 Touch the detection area with a wet finger. The larger the area you touched is, the larger the value will be. 
 
@@ -2762,7 +2766,7 @@ You may open the serial monitor to observe the currently detected value (range: 
 
 #### Rain Detection System
 
-Description
+##### Description
 
 When the steam sensor detects rain, it sends a signal to the board to trigger various actions, for instance, the buzzer alarms to remind that it is raining. This is especially useful for outdoor gardening and farming, enabling users to take necessary precautions to avoid over-watering.
 
@@ -2774,7 +2778,7 @@ Additionally, this system can be used to detect water leakage to prevent damage 
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the steam sensor to io35 and buzzer to io16.**
 
@@ -2786,7 +2790,7 @@ Wiring Diagram
 
 
 
-Test Code:
+##### Test Code:
 
 Code Flow:
 
@@ -2844,7 +2848,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 The greater the detected value is, the loader the sound emitted by the buzzer will be. 
 
@@ -2856,13 +2860,13 @@ The greater the detected value is, the loader the sound emitted by the buzzer wi
 
 #### FAQ
 
-#Q: Is the steam sensor waterproof?
+###### Q: Is the steam sensor waterproof?
 
 A: The detection area can be exposed to water, but the wire junctions are not waterproof. During the experiment, please pay attention to the amount of water not to be too much to prevent short circuit.
 
 ------
 
-#Q: Although a long time has elapsed since the sensor detected water, the buzzer keeps buzzing.
+###### Q: Although a long time has elapsed since the sensor detected water, the buzzer keeps buzzing.
 
 A: It keeps buzzing because there are still blots of water in the detection area. Please just clean it up.
 
@@ -3023,7 +3027,7 @@ When good illumination is provided, LED will light up in yellow. The brighter th
 
 #### FAQ
 
-#Q: Why does solar panel still work without sunlight?
+###### Q: Why does solar panel still work without sunlight?
 
 A: It works with not only sunlight but also ambient light. The brighter the light is, the greater the voltage will be, and the lighter the LED will be.
 
@@ -3057,7 +3061,7 @@ Overall, the automation and remote operation are optimizing the feeding process 
 
 #### Servo
 
-Description
+##### Description
 
 **Servo**, also called **RC Servo Device**, is a motor with a feedback. Commonly, Servo performs precise position control and outputs high torque, which most often appears in robotics projects, RC cars, airplanes and aircraft.
 
@@ -3101,7 +3105,7 @@ The period of a Servo usually lasts 20ms and it produce pulses at a frequency of
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the Servo to io26.**
 
@@ -3113,7 +3117,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Import the library <ESP32_Servo.h> before driving the servo.
 
@@ -3151,7 +3155,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 The feeding box is slowly opened and then closed ,which is controllable.
 
@@ -3177,7 +3181,7 @@ The feeding box is slowly opened and then closed ,which is controllable.
 
 #### Ultrasonic Sensor
 
-Description
+##### Description
 
 ![img](./arduino_img/cou65.png)
 
@@ -3211,7 +3215,7 @@ Simply, MCU controls the module to emit ultrasonic wave which is bounced back af
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the Echo of Ultrasonic module to io13 and Trig to io12.**
 
@@ -3223,7 +3227,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 ```c++
 #define Trigpin 12 //connect trig to io12
@@ -3254,7 +3258,7 @@ void loop(){
 
 
 
-Test Result
+##### Test Result
 
 In this kit, the detection range is within 3~8cm.
 
@@ -3268,9 +3272,9 @@ Open the serial monitor, and observe.
 
 
 
-Smart Feeding System
+##### Smart Feeding System
 
-#Description
+###### Description
 
 The smart feeding system intelligently feeds domestic fowls via an ultrasonic module and a servo. The former detects the distance to animals while the later controls to open or close the feeding box. When a pet is detected close to the box, servo opens it to feed.
 
@@ -3278,7 +3282,7 @@ The smart feeding system intelligently feeds domestic fowls via an ultrasonic mo
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the Echo of Ultrasonic module to io13 and Trig to io12; connect the servo to io26.**
 
@@ -3290,7 +3294,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Code Flow:
 
@@ -3349,7 +3353,7 @@ float getDistance() {
 
 
 
-Test Result
+##### Test Result
 
 When an animal is detected, open the feeding box.
 
@@ -3371,13 +3375,13 @@ When an animal is detected, open the feeding box.
 
 
 
-#Q: Servo doesn't work.
+###### Q: Servo doesn't work.
 
 A: It may be stuck by itself or by wires when mount the bottom plate. before installing, please adjust the servo to 0° first. For how, please refer to the installation guidance. 
 
 ------
 
-#Q: The detected distance is inaccurate.
+###### Q: The detected distance is inaccurate.
 
 A: When detecting, please measure from the transmitting head. Herein, this module is not a high-precision detector, so errors may exist.
 
@@ -3415,7 +3419,7 @@ Therefore, it realizes automatic adjustment of ambient temperature and humidity,
 
 #### Temperature and Humidity Sensor
 
-Description
+##### Description
 
 DHT11 temperature and humidity sensor outputs digital signals. It applies principles of analog signal acquisition and conversion as well as temperature and humidity sensing technology, so that it features long-term stability and high reliability. Besides, the sensor integrates a high-precision resistive humidity sensor and a resistive thermosensitive temperature sensor, and is connected with an 8-bit high-performance MCU.
 
@@ -3457,7 +3461,7 @@ For more details, please visit ASAIR official website: [http://www.aosong.com/pr
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the temperature and humidity sensor to io17.**
 
@@ -3469,7 +3473,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 ```c++
 #include <dht11.h>
@@ -3571,7 +3575,9 @@ double dewPointFast(double celsius, double humidity)
 
 
 
-Test Result
+##### Test Result
+
+![img](./arduino_img/cou71-1.png)
 
 Open the serial monitor, and you will see the current temperature and humidity value. 
 
@@ -3585,7 +3591,7 @@ Open the serial monitor, and you will see the current temperature and humidity v
 
 #### LCD 1602 Module
 
-Description
+##### Description
 
 LCD 1602 possesses a standard 14-pin (without backlight) or 16-pin (with backlight) interface, saving the pins of MCU. Its display drives IC to realize I2C control. 
 
@@ -3642,7 +3648,7 @@ For details of library, please refer to:
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the LCD to I2C BUS as shown below.**
 
@@ -3654,7 +3660,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 ```c++
 #include <LiquidCrystal_I2C.h>
@@ -3712,7 +3718,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 LCD1602 opens its backlight and displays ”**HELLO WORLD 0**“ and ”**HELLO WORLD 1**“.
 
@@ -3726,7 +3732,7 @@ LCD1602 opens its backlight and displays ”**HELLO WORLD 0**“ and ”**HELLO 
 
 #### Motor and Fan
 
-Description
+##### Description
 
 130 Motor is able to adjust speed via PWM. In the process, two pins are needed to be connected for controlling. 
 
@@ -3742,7 +3748,7 @@ The module is suitable for multiple applications, such as computer heat dissipat
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the motor to io18 and io19.**
 
@@ -3754,7 +3760,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 ```c++
 #define MotorPin1 19//(IN+)
@@ -3802,7 +3808,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 130 motor alternatively rotates left and right every 2 seconds.
 
@@ -3820,7 +3826,7 @@ Test Result
 
 #### Temperature Control System
 
-Description
+##### Description
 
 Herein, we read the value of the DHT11 temperature and humidity sensor through monobus communication, and the values will be displayed on the LCD. If values exceed the set threshold, the fan will turn on for dehumidification and cooling to protect the animals and plants in the farm. Remarkably, this system is easy to install with multiple functions, such as speed controlling via PWM and data transmission by monobus. 
 
@@ -3832,7 +3838,7 @@ Overall, it is a practical system that helps farmers monitor and control the rea
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 - **Connect the temperature and humidity sensor to io17.**
 - **Connect motor(fan) modue to io18 and io19**
@@ -3848,7 +3854,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Code Flow: 
 
@@ -3902,7 +3908,7 @@ void loop() {
   lcd.print(Humidity);
   delay(500);
   
-  if (Temperature >= 25) {
+  if (Temperature >= 29) {
     //Turn left
     ledcWrite(1, 100);
     ledcWrite(3, 0);
@@ -3918,7 +3924,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 When the temperature reaches 29°C, the fan will turn on to dissipate heat. When it is lower than 29°C, the fan will turn off (the fan just simulates heat dissipation, so the effect is not good), which saves energy for the farm.
 
@@ -3930,13 +3936,13 @@ When the temperature reaches 29°C, the fan will turn on to dissipate heat. When
 
 #### FAQ
 
-#Q: Is temperature and humidty sensor waterproof?
+###### Q: Is temperature and humidty sensor waterproof?
 
 A: No. It detects the ambient temperature and humidity (in the air), so please do not put it in water. 
 
 ------
 
-#Q: ESP32 board is reset when fan rotates.
+###### Q: ESP32 board is reset when fan rotates.
 
 A: When fan rotates, more current is required than other sensors, hence voltage and current may fluctuate in the circuit. Especially at the moment of fan reversal, fluctuations may be too heavy, resulting in a reset due to extremely low voltage and current in ESP32 development board.
 
@@ -3960,7 +3966,7 @@ A: When fan rotates, more current is required than other sensors, hence voltage 
 
 
 
-Flow Diagram
+##### Flow Diagram
 
 ![image-20230607161101154](./arduino_img/image-20230607161101154.png)
 
@@ -3972,7 +3978,7 @@ Flow Diagram
 
 #### Soil Humidity Sensor
 
-Description
+##### Description
 
 Soil humidity sensors are mainly used to measure water content in volumetric soil, monitor soil moisture, irrigate crops and protect forests. This kind of sensor is integrated in agricultural irrigation system to supply water regularly and efficiently, which optimize irrigation for a best plant growth.
 
@@ -3988,7 +3994,7 @@ Soil humidity sensors are mainly used to measure water content in volumetric soi
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the soil humidity sensor to io32.**
 
@@ -4002,7 +4008,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 ```c++
 #define SoilHumidityPin 32
@@ -4024,7 +4030,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 Open the serial monitor.
 
@@ -4044,7 +4050,7 @@ We adopt LCD1602 to reveal the real-time value of soil humidity value. When the 
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 - **Connect the soil humidity sensor to io32.**
 - **Connect the buzzer to io16.**
@@ -4060,7 +4066,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Code Flow: 
 
@@ -4114,7 +4120,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 When the value detected by the soil humidity sensor is lower than the set threshold, the buzzer emits sound to alarm. 
 
@@ -4126,7 +4132,7 @@ When the value detected by the soil humidity sensor is lower than the set thresh
 
 #### FAQ
 
-#Q: Is soil humidity sensor waterproof?
+###### Q: Is soil humidity sensor waterproof?
 
 A: With the exception of the detection area, the sensor is not waterproof. Spilling water on other area may result in a short circuit.
 
@@ -4142,7 +4148,7 @@ A: With the exception of the detection area, the sensor is not waterproof. Spill
 
 
 
-Flow Diagram
+##### Flow Diagram
 
 ![image-20230607165214387](./arduino_img/image-20230607165214387.png)
 
@@ -4154,7 +4160,7 @@ Flow Diagram
 
 #### Water Level Sensor
 
-Description
+##### Description
 
 The water level sensor is easy to use, portable and cost effective. It integrates a series of exposed parallel lines to measure the volume of water and droplets. Not only is the sensor smaller and smarter than other water detectors, but it also features:
 
@@ -4170,7 +4176,7 @@ The water level sensor is easy to use, portable and cost effective. It integrate
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Connect the water level sensor to io33.**
 
@@ -4184,7 +4190,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 ```c++
 #define WaterLevelPin 33
@@ -4206,7 +4212,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 Open the serial monitor.
 
@@ -4226,7 +4232,7 @@ The water level monitoring system supervises the change of water level to identi
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 - **Connect the water level sensor to io33.**
 - **Connect the buzzer to io16.**
@@ -4242,7 +4248,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Code Flow: 
 
@@ -4296,7 +4302,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 LCD displays the real-time value of water level. In the experiment, we cover the detection area with water to stimulate the water level. When the detected value exceeds the threshold, the buzzer starts to alarm.
 
@@ -4310,7 +4316,7 @@ LCD displays the real-time value of water level. In the experiment, we cover the
 
 #### FAQ
 
-#Q: Is water level sensor waterproof?
+###### Q: Is water level sensor waterproof?
 
 A: With the exception of the detection area, the sensor is not waterproof. Spilling water on other area may result in a short circuit.
 
@@ -4320,7 +4326,7 @@ A: With the exception of the detection area, the sensor is not waterproof. Spill
 
 ------
 
-#***Pay attention! Do not overflow water from plastic pools in experiments. Spilling water on other sensors may cause not only a short circuit to disturb normal operations but also heat generation and even explosion. Do be extra careful! Especially for younger users, please operate with your parents. To guarantee security, please obey guidances and safety regulations.***
+###### ***Pay attention! Do not overflow water from plastic pools in experiments. Spilling water on other sensors may cause not only a short circuit to disturb normal operations but also heat generation and even explosion. Do be extra careful! Especially for younger users, please operate with your parents. To guarantee security, please obey guidances and safety regulations.***
 
 ------
 
@@ -4332,7 +4338,7 @@ In this project, we stimulate irrigation via a water pump controlled by a relay 
 
 
 
-Flow Diagram
+##### Flow Diagram
 
 ![image-20230607183214310](./arduino_img/image-20230607183214310.png)
 
@@ -4344,7 +4350,7 @@ Flow Diagram
 
 #### Water Pumping System
 
-Description
+##### Description
 
 In this experiment, we use ESP32 development board to turn on/off the water pump by a relay module. A pump lifts water and transports liquids, and usually is combined with a relay module in usage.
 
@@ -4388,7 +4394,7 @@ In usage, it is often used in the management of high voltage and load current, s
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 **Attention: Connect yellow to S(Signal), red to V(Power), and black to GND. Do not reverse them!**
 
@@ -4400,7 +4406,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 ```c++
 #define RelayPin 25
@@ -4426,7 +4432,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 Open the serial monitor and input "a", pump water once. 
 
@@ -4436,7 +4442,7 @@ In this experiment, the water pump is automatized, reducing time and efforts of 
 
 ------
 
-Expansion
+##### Expansion
 
 By default, function `Serial.read()` authorizes the Arduino serial port to receive only a byte at a time. What if several bytes are need to be received, you may try `Serial.readBytes()`. 
 
@@ -4477,7 +4483,7 @@ Attention, please, the first parameter of `Serial.readBytes()` is a buffer for d
 
 #### Auto-Irrigation System
 
-Description
+##### Description
 
 In this experiment, we implement a smart irrigation system by a soil humidity sensor, a water level sensor, a relay module and a water pump. We connect the two sensors on ESP32 development board and program to read their output values to control the relay and water pump. 
 
@@ -4489,7 +4495,7 @@ If the soil is very dry, the relay will turn on to control the water pump to irr
 
 
 
-Wiring Diagram
+##### Wiring Diagram
 
 - **Connect the relay module to io25; connect its NC pin to the GND(black) at io2.**
 - **Water pump:**
@@ -4508,7 +4514,7 @@ Wiring Diagram
 
 
 
-Test Code
+##### Test Code
 
 Code Flow:
 
@@ -4611,7 +4617,7 @@ void loop() {
 
 
 
-Test Result
+##### Test Result
 
 ![img](./arduino_img/cou102.png)
 
@@ -4631,13 +4637,13 @@ Test Result
 
 #### FAQ
 
-#Q: Are the modules waterproof?
+###### Q: Are the modules waterproof?
 
 A: The relay module is not, yet the water pump is. The waterproof grade of the water pump is IP68.
 
 ------
 
-#Q: ESP32 board is reset when the water pump works.
+###### Q: ESP32 board is reset when the water pump works.
 
 A: When water pump works, more current is required than other modules, hence voltage and current may fluctuate in the circuit. Sometimes fluctuations may be too heavy, resulting in a reset due to extremely low voltage and current in ESP32 development board.
 
@@ -4653,7 +4659,7 @@ When operating the water pump, please follow the example code for an irrigation 
 
 ------
 
-#Q: Fail to pump water?
+###### Q: Fail to pump water?
 
 A: Several pumping operations are required to fill the water pump before using it. These initial pumpings do not actually draw the water, but to introduce sufficient water into the pump. Only after the pump is full can water be carried out. So we are first for filling, not pumping.
 
@@ -4679,7 +4685,7 @@ A: Several pumping operations are required to fill the water pump before using i
 
 
 
-Flow Diagram
+##### Flow Diagram
 
 ![image-20230608105334194](./arduino_img/image-20230608105334194.png)
 
@@ -4691,7 +4697,7 @@ Flow Diagram
 
 #### WIFI Web Page Display
 
-Description
+##### Description
 
 ESP32 board is equipped with Wi-Fi(2.4G) and Bluetooth(4.2), which enable it to easily connect to WiFi and communicate with other devices on the network. What's more, web pages can be displayed in browsers via ESP32.
 
@@ -4724,9 +4730,9 @@ ESPRESSIF official website: [https://www.espressif.com.cn/en/home](https://www.e
 
 
 
-Procedures
+##### Procedures
 
-#Connect to WiFi
+###### Connect to WiFi
 
 First of all, please make sure that the Wi-Fi networking can normally work on ESP32. The following example code is provided fo r you to connect ESP32 to Wi-Fi: 
 
@@ -4769,7 +4775,7 @@ Upload the code, and the board will connect to Wi-Fi network and print the conne
 
 
 
-#Set Up a Website
+###### Set Up a Website
 
 As long as connecting to Wi-Fi, Web server library of ESP32 is able to provide web pages. In the following example code, we set up a simple website to show “Hello, World!”.
 
@@ -4887,7 +4893,7 @@ In this example code, we establish a Web server by WebServer library on ESP32. T
 
 
 
-#Visit the Website
+###### Visit the Website
 
 **Last but not least, you may open the IP address in browser to visit the web page. In our example code, please input “http://[IP address of ESP32]” to visit the website titled “Hello, World!”.**
 
@@ -4911,7 +4917,7 @@ In this example code, we establish a Web server by WebServer library on ESP32. T
 
 ***NOTE: In this comprehensive experiment, some extracurricular knowledge may be involved, like HTML, CSS and JS, and here we just have a glance at them. For more details, please google them.***
 
-Code Flow
+##### Code Flow
 
 ![img](./arduino_img/flo11.png)
 
@@ -4926,7 +4932,7 @@ const char *PASS = "your_PASSWORD";
 
 
 
-Complete Code
+##### Complete Code
 
 ```c++
 #include <Arduino.h>
@@ -5242,7 +5248,7 @@ void loop(){
 
 
 
-Result
+##### Result
 
 ***PC:***
 
@@ -5283,13 +5289,13 @@ In this project, we stimulate a smart farm with intelligent and remote managemen
 
 #### FAQ
 
-#Q: Wifi always fails to be connected. 
+###### Q: Wifi always fails to be connected. 
 
 A: Move ESP32 to the side of the router and reboot the board, and just be patient to wait. If it still fails to connected, please check whether the WiFi name and password are correct.
 
 ------
 
-#Q: The response is slow during remote opterations on web page.
+###### Q: The response is slow during remote opterations on web page.
 
 A: Possible reasons: 
 
@@ -5301,7 +5307,7 @@ For knowledge of routers, please google by yourself.
 
 ------
 
-#Q: Fail to pump water?
+###### Q: Fail to pump water?
 
 A: Several pumping operations are required to fill the water pump before using it. These initial pumpings do not actually draw the water, but to introduce sufficient water into the pump. Only after the pump is full can water be carried out. So we are first for filling, not pumping.
 
@@ -5321,7 +5327,7 @@ A: Several pumping operations are required to fill the water pump before using i
 
 
 
-Description
+##### Description
 
 The APP management system is able to monitor multiple real-time index of the farm, such as temperature and humidity, pool water level, soil humidity, light intensity and rainfall.
 
@@ -5339,7 +5345,7 @@ These functions can be realized via an APP on your phone, facilitating farm mana
 
 
 
-Flow Diagram
+##### Flow Diagram
 
 ![image-20230608150835987](./arduino_img/image-20230608150835987.png)
 
@@ -5351,7 +5357,7 @@ Flow Diagram
 
 #### Test Code
 
-#Burn Code on ESP32
+###### Burn Code on ESP32
 
 Connect ESP32 to WiFi. In the following code, **ssid** and **pwd** are respectively WiFi name and password.
 
@@ -5360,7 +5366,7 @@ const char* ssid = "your_SSID";
 const char* pwd = "your_PASSWORD";
 ```
 
-#Initialize
+###### Initialize
 
 In setup(), initialize wifi.
 
@@ -5410,7 +5416,7 @@ Initialize wifi server.
 
 After initialization, ESP32 and APP can communicate with each other through WIFI.
 
-#Receive and Send Data
+###### Receive and Send Data
 
 ESP32 receives data from APP.
 
@@ -5442,7 +5448,7 @@ ESP32 sends data to APP.
 
 
 
-#Code Flow
+###### Code Flow
 
 ![img](./arduino_img/flo12.png)
 
@@ -5450,7 +5456,7 @@ ESP32 sends data to APP.
 
 
 
-#Complete Code
+###### Complete Code
 
 ```c++
 #include <Arduino.h>
@@ -5688,11 +5694,11 @@ String dataHandle(int data){
 
 #### APP
 
-APP Download
+##### APP Download
 
 ![img](./arduino_img/couapp1.png)
 
-#Android：
+###### Android：
 
 - Open Google play, and search IOT farm to download.
 
@@ -5702,13 +5708,13 @@ APP Download
 
   ![img](./arduino_img/cou123.png)
 
-#IOS：
+###### IOS：
 
 Search **IOT farm** in APP Store and tap to download.
 
 
 
-APP Interface
+##### APP Interface
 
 ![img](./arduino_img/cou124.png)
 
@@ -5716,7 +5722,7 @@ APP Interface
 
 
 
-APP Function Description
+##### APP Function Description
 
 1. When your phone and ESP32 board connect to the same WIFI, you only need to input IP address at upper-right conner to link them. 
 
@@ -5774,19 +5780,19 @@ APP Function Description
 
 #### FAQ
 
-#Q: Wifi always fails to be connected. 
+###### Q: Wifi always fails to be connected. 
 
 A: Move ESP32 to the side of the router and reboot the board, and just be patient to wait. If it still fails to connected, please check whether the WiFi name and password are correct.
 
 ------
 
-#Q: APP fails to connect to ESP32.
+###### Q: APP fails to connect to ESP32.
 
 A: Please make sure that APP and ESP32 are connected to the same WiFi.
 
 ------
 
-#Q: Fail to pump water?
+###### Q: Fail to pump water?
 
 A: Several pumping operations are required to fill the water pump before using it. These initial pumpings do not actually draw the water, but to introduce sufficient water into the pump. Only after the pump is full can water be carried out. So we are first for filling, not pumping.
 
