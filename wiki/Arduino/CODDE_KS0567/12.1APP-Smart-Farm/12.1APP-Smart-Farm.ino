@@ -1,13 +1,13 @@
-#include <Arduino.h>
-#ifdef ESP32
-  #include <WiFi.h>
-#elif defined(ESP8266)
-  #include <ESP8266WiFi.h>
-#endif
+//#include <Arduino.h>
+//#ifdef ESP32
+ // #include <WiFi.h>
+//#elif defined(ESP8266)
+//  #include <ESP8266WiFi.h>
+//#endif
 
 #include <dht11.h>
 #include <analogWrite.h>
-#include <ESP32_Servo.h>
+//#include <ESP32_Servo.h>
 #include <LiquidCrystal_I2C.h>
 #include "BuzzerMusic.h"
 

@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include <WebServer.h>
 
-const char* ssid = "your_SSID";
-const char* password = "your_PASSWORD";
+const char* ssid = "realme X";
+const char* password = "12345678";
 
 WebServer server(80); //Set the server port to 80. Enter the website by IP address rather than the port number.
 
