@@ -18,7 +18,7 @@ Welcome to check out more contents from our official website:
 
 **Obtain Information and After-sales Service**
 
-1. Information reference: [https://wiki.keyestudio.com/KS0567_Keyestudio](https://wiki.keyestudio.com/KS0567_Keyestudio_ESP32_IoT_Control_Smart_Farm_Starter_Kit_for_Arduino_Scratch_3.0_Graphical_Programming)
+1. Information reference: <https://fs.keyestudio.com/KS0567>
 
 2. If something is found missing or broken, or you have some difficulty learning the kit, please feel free to contact us. Welcome to send email to us: [service@keyestudio.com](http://m.138.gz.cn/webadmin/~CAmsnCrrNXhTAySKCerrIfWjjZuuWVfI/~/usr/mod_edituser.jsp?;uid=service@keyestudio.com;;clearCache=)
 
@@ -77,10 +77,10 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 |  16  | ![img](./index_img/15.png)  |                  SR01 V3 Ultrasonic Module                   |  1   |
 |  17  | ![img](./index_img/16.png)  |                       White LED Module                       |  1   |
 |  18  | ![img](./index_img/17.png)  |                        Photoresistor                         |  1   |
-|  19  | ![img](./index_img/18.png)  |            9G 180° Servo (23 * 12.2 * 29mm)             |  1   |
+|  19  | ![img](./index_img/18.png)  |            9G 180° Servo <br/>(23 * 12.2 * 29mm)             |  1   |
 |  20  | ![img](./index_img/19.png)  |                     I2C 1602 LCD Display                     |  1   |
 |  21  | ![img](./index_img/20.png)  |                   6-slot AA Battery Holder                   |  1   |
-|  22  | ![img](./index_img/21.png)  |      DC 3V Water Pump (With 15CM Breadboard Wire)       |  1   |
+|  22  | ![img](./index_img/21.png)  |      DC 3V Water Pump<br/> (With 15CM Breadboard Wire)       |  1   |
 |  23  | ![img](./index_img/22.png)  |                       USB Cable TYPE-C                       |  1   |
 |  24  | ![img](./index_img/23.png)  |                 M1.4*6MM Self-Tapping Screw                  |  4   |
 |  25  | ![img](./index_img/24.png)  |                         M3 Lock-Nut                          |  4   |
@@ -92,12 +92,12 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 |  31  | ![img](./index_img/30.png)  |                            M3 Nut                            |  12  |
 |  32  | ![img](./index_img/31.png)  |                            M2 Nut                            |  2   |
 |  33  | ![img](./index_img/32.png)  |               M3*10MM Dual-Pass Copper Pillar                |  4   |
-|  34  | ![img](./index_img/33.png)  | 15cm 3P F-F DuPont Wires (Connected, 26AWG, Black-Red-Yellow) |  4   |
-|  35  | ![img](./index_img/34.png)  | 20cm 3P F-F DuPont Wires (Connected, 26AWG, Black-Red-Yellow) |  5   |
-|  36  | ![img](./index_img/34.png)  | 25cm 3P F-F DuPont Wires (Connected, 26AWG, Black-Red-Yellow) |  1   |
-|  37  | ![img](./index_img/35.png)  | 20cm 4P F-F DuPont Wires (Connected, 26AWG, Black-Red-Blue-Green) |  1   |
-|  38  | ![img](./index_img/36.png)  | 20cm 4P F-F DuPont Wires (Divided, 26AWG, Black-Green-Blue-Red) |  1   |
-|  39  | ![img](./index_img/37.png)  | 20cm 4P F-F DuPont Wires (Divided, 26AWG, Black-Red-Blue-Green) |  1   |
+|  34  | ![img](./index_img/33.png)  | 15cm 3P F-F DuPont Wires<br/> (Connected, 26AWG, Black-Red-Yellow) |  4   |
+|  35  | ![img](./index_img/34.png)  | 20cm 3P F-F DuPont Wires <br/>(Connected, 26AWG, Black-Red-Yellow) |  5   |
+|  36  | ![img](./index_img/34.png)  | 25cm 3P F-F DuPont Wires<br/> (Connected, 26AWG, Black-Red-Yellow) |  1   |
+|  37  | ![img](./index_img/35.png)  | 20cm 4P F-F DuPont Wires <br/>(Connected, 26AWG, Black-Red-Blue-Green) |  1   |
+|  38  | ![img](./index_img/36.png)  | 20cm 4P F-F DuPont Wires <br/>(Divided, 26AWG, Black-Green-Blue-Red) |  1   |
+|  39  | ![img](./index_img/37.png)  | 20cm 4P F-F DuPont Wires <br/>(Divided, 26AWG, Black-Red-Blue-Green) |  1   |
 |  40  | ![img](./index_img/38.png)  |                  15CM 40P M-F DuPont Wires                   |  2   |
 |  41  | ![img](./index_img/39.png)  |                3.0*40MM Phillips Screwdriver                 |  1   |
 |  42  | ![img](./index_img/40.png)  |                     Slotted Screwdriver                      |  1   |
