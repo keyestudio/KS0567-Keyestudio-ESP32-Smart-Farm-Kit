@@ -518,6 +518,9 @@ Please refer to the software installation steps for details.
 
 ![img](./scratch_img/image031.png)
 
+Don’t screw over the gear.
+![img](./scratch_img/6e1caadec8b1ec99b0093200763607b6.jpg)
+
 ------
 
 #### 4.6
