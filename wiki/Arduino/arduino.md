@@ -505,7 +505,15 @@ Please refer to the software installation steps for details:
 
 ##### 4.5
 
+
+
 ![img](./arduino_img/image031.png)
+Don't screw over the gear.
+
+
+![img](./arduino_img/6e1caadec8b1ec99b0093200763607b6.jpg)
+
+
 
 ------
 
