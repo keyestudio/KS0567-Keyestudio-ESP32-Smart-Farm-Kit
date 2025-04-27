@@ -39,10 +39,6 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 
 ------
 
-
-
-
-
 # **Keyestudio ESP32 Smart Farm Kit**
 
 ![img](./index_img/1.png)
@@ -51,7 +47,7 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 
 ------
 
-## Kit List
+## 1. Kit List
 
 **When receiving this kit, please make an inventory according to the list.**
 
@@ -111,7 +107,7 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 
 
 
-## **Introduction**
+## 2. Introduction
 
 - Based on ESP32 Internet of Things, this Smart Farm Kit integrates multiple sensors, realizing automatic and wireless manipulation as well as intellectual management.
 
@@ -121,7 +117,7 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 
 - What’s more, we provide detailed courses and example codes for you to deeply understand and master knowledge. In this way, it can not only improve the hands-on capability and creativity, but also cultivate the awareness of scientific and technological innovation as well as the ability of problem-solving.
 
-## **Features**
+## 3. Features
 
 1. Comprehensive: This kit includes multiple modules related to smart farms, such as photoresistor, soil humidity sensor, water level sensor, as well as ESP32 module. So, you can master the knowledge of various sensors and wireless communication during learning.
 2. Practical: Through experiments, you may deeply understand how each sensor works and how it collects and processes data. These knowledge helps you build an intelligent farm system.
@@ -133,7 +129,7 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 
 
 
-## **Parameters**
+## 4. Parameters
 
 Working Voltage: 5V
 
@@ -161,7 +157,7 @@ For the detailed parameters of ESP32 development board, please refer to:
 
 ------
 
-## **Resources**
+## 5. Resources
 
 Keyestudio official website: 
 
@@ -185,8 +181,8 @@ ESP32 espressif official website:
 
 ------
 
-## Tutorial
+## 6. Tutorial
 
 [Arduino Tutorial](./Arduino/arduino.md)
 
-[Scratch Tutorial](./Scratch/scratch.md)
+[KidsBlock Tutorial](./Scratch/scratch.md)
