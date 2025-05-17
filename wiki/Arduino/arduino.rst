@@ -314,7 +314,7 @@ installation is complete:
 .. image:: ./media/a34-1744788169084-23.png
    :alt: a34
 
-Click **Tools> Board > esp32** \**,**and choose the **EPS32 Dev Module**
+Click **Tools> Board > esp32** ,and choose the **EPS32 Dev Module**
 
 .. image:: ./media/a37.png
    :alt: a37
