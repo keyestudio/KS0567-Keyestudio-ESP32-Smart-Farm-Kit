@@ -481,7 +481,7 @@ Assemble the wooden board X and O on bottom plate
 
 #### 4.1 Required components
 
-![img](./scratch_img/image027.png)
+![image027](media/image027.png)
 
 ![](./scratch_img/image-20250416162128859.png)
 
@@ -534,9 +534,9 @@ Please refer to the software installation steps for details.
 
 #### 4.5
 
-![image-20250416162337896](./scratch_img/image-20250416162337896.png)
+![image-20250416162337896](media/image-20250416162337896.png)
 
-<span style="color:red;">Don’t screw over the gear.</span>
+ Install M1.4*6MM self-tapping screws as shown below 
 
 ![6e1caadec8b1ec99b0093200763607b6](./scratch_img/6e1caadec8b1ec99b0093200763607b6.jpg)
 

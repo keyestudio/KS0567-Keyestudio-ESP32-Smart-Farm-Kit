@@ -448,7 +448,7 @@ The acrylic sheet is packed separately, and it is recommended that you tear off 
 
 ![image-20250416162337896](./media/image-20250416162337896.png)
 
-<span style="color:red;">Don’t screw over the gear.</span>
+ Install M1.4*6MM self-tapping screws as shown below 
 
 ![img](./media/6e1caadec8b1ec99b0093200763607b6.jpg)
 

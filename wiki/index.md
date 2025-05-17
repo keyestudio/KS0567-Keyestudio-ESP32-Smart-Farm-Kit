@@ -78,8 +78,8 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 |  21  | ![img](./index_img/20.png)  |                   6-slot AA Battery Holder                   |  1   |
 |  22  | ![img](./index_img/21.png)  |      DC 3V Water Pump<br/> (With 15CM Breadboard Wire)       |  1   |
 |  23  | ![img](./index_img/22.png)  |                       USB Cable TYPE-C                       |  1   |
-|  24  | ![img](./index_img/23.png)  |                 M1.4*6MM Self-Tapping Screw                  |  4   |
-|  25  | ![img](./index_img/24.png)  |                         M3 Lock-Nut                          |  4   |
+|  24  | ![img](./index_img/23.png)  |                 M1.4*6MM Self-Tapping Screw                  |  6   |
+|  25  | ![img](./index_img/24.png)  |                         M3 Lock-Nut                          |  6   |
 |  26  | ![img](./index_img/25.png)  |                   M4*8MM Round Head Screw                    |  18  |
 |  27  | ![img](./index_img/26.png)  |                   M3*6MM Round Head Screw                    |  8   |
 |  28  | ![img](./index_img/27.png)  |                   M3*10MM Round Head Screw                   |  16  |
@@ -88,20 +88,21 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 |  31  | ![img](./index_img/30.png)  |                            M3 Nut                            |  12  |
 |  32  | ![img](./index_img/31.png)  |                            M2 Nut                            |  2   |
 |  33  | ![img](./index_img/32.png)  |               M3*10MM Dual-Pass Copper Pillar                |  4   |
-|  34  | ![img](./index_img/33.png)  | 15cm 3P F-F DuPont Wires<br/> (Connected, 26AWG, Black-Red-Yellow) |  4   |
-|  35  | ![img](./index_img/34.png)  | 20cm 3P F-F DuPont Wires <br/>(Connected, 26AWG, Black-Red-Yellow) |  5   |
-|  36  | ![img](./index_img/34.png)  | 25cm 3P F-F DuPont Wires<br/> (Connected, 26AWG, Black-Red-Yellow) |  1   |
-|  37  | ![img](./index_img/35.png)  | 20cm 4P F-F DuPont Wires <br/>(Connected, 26AWG, Black-Red-Blue-Green) |  1   |
-|  38  | ![img](./index_img/36.png)  | 20cm 4P F-F DuPont Wires <br/>(Divided, 26AWG, Black-Green-Blue-Red) |  1   |
-|  39  | ![img](./index_img/37.png)  | 20cm 4P F-F DuPont Wires <br/>(Divided, 26AWG, Black-Red-Blue-Green) |  1   |
-|  40  | ![img](./index_img/38.png)  |                  15CM 40P M-F DuPont Wires                   |  2   |
-|  41  | ![img](./index_img/39.png)  |                3.0*40MM Phillips Screwdriver                 |  1   |
-|  42  | ![img](./index_img/40.png)  |                     Slotted Screwdriver                      |  1   |
-|  43  | ![img](./index_img/48.png)  |                         Plastic Box                          |  2   |
-|  44  | ![img](./index_img/45.png)  |                       Water Pump Pipe                        | 6cm  |
-|  45  | ![img](./index_img/46.png)  |                         Solar panel                          |  1   |
-|  46  | ![img](./index_img/49.png)  |                         Cross Wrench                         |  1   |
-|  47  | ![img](./index_img/53.png)  |                           Stickers                           |  1   |
+|  34  |   ![img](media/wps1.jpg)    |                 M1.2*4MM Self-Tapping Screw                  |  4   |
+|  35  | ![img](./index_img/33.png)  | 15cm 3P F-F DuPont Wires<br/> (Connected, 26AWG, Black-Red-Yellow) |  4   |
+|  36  | ![img](./index_img/34.png)  | 20cm 3P F-F DuPont Wires <br/>(Connected, 26AWG, Black-Red-Yellow) |  5   |
+|  37  | ![img](./index_img/34.png)  | 25cm 3P F-F DuPont Wires<br/> (Connected, 26AWG, Black-Red-Yellow) |  1   |
+|  38  | ![img](./index_img/35.png)  | 20cm 4P F-F DuPont Wires <br/>(Connected, 26AWG, Black-Red-Blue-Green) |  1   |
+|  39  | ![img](./index_img/36.png)  | 20cm 4P F-F DuPont Wires <br/>(Divided, 26AWG, Black-Green-Blue-Red) |  1   |
+|  40  | ![img](./index_img/37.png)  | 20cm 4P F-F DuPont Wires <br/>(Divided, 26AWG, Black-Red-Blue-Green) |  1   |
+|  41  | ![img](./index_img/38.png)  |                  22CM 40P M-M DuPont Wires                   |  1   |
+|  42  | ![img](./index_img/39.png)  |                3.0*40MM Phillips Screwdriver                 |  1   |
+|  43  | ![img](./index_img/40.png)  |                     Slotted Screwdriver                      |  1   |
+|  44  | ![img](./index_img/48.png)  |                         Plastic Box                          |  2   |
+|  45  | ![img](./index_img/45.png)  |                       Water Pump Pipe                        | 6cm  |
+|  46  | ![img](./index_img/46.png)  |                         Solar panel                          |  1   |
+|  47  | ![img](./index_img/49.png)  |                         Cross Wrench                         |  1   |
+|  48  | ![img](./index_img/53.png)  |                           Stickers                           |  1   |
 
 ------
 
