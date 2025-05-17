@@ -851,10 +851,7 @@ slowly.
 .. image:: ./media/image-20250417085407205.png
    :alt: image-20250417085407205
 
-.. raw:: html
-<span style="color:red">NOTE: After uploading the code, ifthe door cannot be opened and closed and the servo is hot, please turn offthe powerimmediately.
-.. raw:: html
-</span>
+NOTE: After uploading the code, ifthe door cannot be opened and closed and the servo is hot, please turn offthe powerimmediately.
 
 **check:**
 
@@ -2329,8 +2326,7 @@ incompatible with the library files we provide
 5. You can download all the files needed to run the robot arm, including
    the driver, codes, libraries
 
-`Click to
-download </api/attachment/resource.zip?repo=__root__C:\&path=%2FUsers%2FAdministrator%2FDesktop%2FKS0567%2FKS0567-Keyestudio-ESP32-Smart-Farm-Kit%2Fwiki%2FArduino%2Fresource.zip>`__
+:download:`Click to download <resource.zip>`
 
 .. image:: ./media/image-20250417163433215.png
 
