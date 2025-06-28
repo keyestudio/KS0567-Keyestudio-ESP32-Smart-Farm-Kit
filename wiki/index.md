@@ -182,8 +182,4 @@ ESP32 espressif official website:
 
 ------
 
-## 6. Tutorial
 
-[Arduino Tutorial](./Arduino/arduino.md)
-
-[KidsBlock Tutorial](./Scratch/scratch.md)
