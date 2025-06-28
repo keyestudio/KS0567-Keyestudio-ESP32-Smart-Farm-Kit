@@ -19,7 +19,7 @@
 
 project = 'keyestudio WiKi'
 copyright = 'keyestudio , WiKi'
-author = 'keyestudio WiKi'
+author = 'keyestudio'
 
 # -- General configuration ---------------------------------------------------
 
