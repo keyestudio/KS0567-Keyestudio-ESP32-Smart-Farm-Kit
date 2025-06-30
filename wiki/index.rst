@@ -359,9 +359,13 @@ https://www.espressif.com/
 6. Tutorial
 -----------
 
-:download:`Arduino Tutorial <./Arduino/arduino.md>`
+.. toctree::
+   :maxdepth: 2
 
-:download:`KidsBlock Tutorial <./Scratch/scratch.md>`
+   ./Arduino/arduino.rst
+   ./Scratch/scratch.rst
+
+
 
 .. |img| image:: ./index_img/1-1.png
 .. |image1| image:: ./index_img/47.png
