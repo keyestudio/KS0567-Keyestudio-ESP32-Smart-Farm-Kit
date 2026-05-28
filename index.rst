@@ -5,7 +5,7 @@
 
    wiki/index.rst
    wiki/Arduino/arduino.rst
-   wiki/Scratch/scratch.rst
+   wiki/kidsblock/kidsblock.rst
 
 
 
