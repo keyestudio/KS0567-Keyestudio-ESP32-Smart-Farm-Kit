@@ -6,7 +6,7 @@ Arduino
     :maxdepth: 3
 
     
-    project/1 Introduce Arduino
+    project/1_Introduce_Arduino
     project/2_Driver_Installation_and_Environment_Configuration
     project/3_Set_the_Angle_of_the_Servo
 
