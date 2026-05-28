@@ -1,61 +1,84 @@
-## 1. Introducción a Arduino
+## 1. Présentation d'Arduino
 
-### 1.1 ¿Qué es Arduino?
 
-Arduino es una plataforma electrónica de código abierto basada en hardware y software fáciles de usar. Las placas Arduino son capaces de leer entradas (luz en un sensor, un dedo en un botón o un mensaje de Twitter) y convertirlas en una salida (activar un motor, encender un LED, publicar algo en línea). Puedes indicarle a tu placa qué hacer escribiendo el código del programa en el IDE y enviando las instrucciones al microcontrolador de la placa. Para ello, utilizas el lenguaje de programación Arduino (basado en Wiring) y el software Arduino (IDE), basado en Processing.
 
-### 1.2 Instalar el IDE de Arduino para Windows
+### 1.1 Qu'est-ce qu'Arduino ?
 
-Oficial de Arduino: `Software | Arduino <https://www.arduino.cc/en/software/>`.
 
-Aquí hacemos clic en la opción ![image-20250416143412683](../media/image-20250416143412683.png) para la instalación más sencilla.
+Arduino est une plateforme électronique open-source basée sur du
+matériel et des logiciels faciles à utiliser. Les cartes Arduino sont
+capables de lire des entrées (lumière sur un capteur, un doigt sur un
+bouton ou un message Twitter) et de les transformer en une sortie
+(activation d'un moteur, allumage d'une LED, publication en ligne). Vous
+pouvez dire à votre carte ce qu'elle doit faire en écrivant le code du
+programme dans l'IDE et en envoyant les instructions au microcontrôleur
+de la carte. Pour ce faire, vous utilisez le langage de programmation
+Arduino (basé sur Wiring) et le logiciel Arduino (IDE), basé sur
+Processing.
+
+
+### 1.2 Installer l'IDE Arduino pour Windows
+
+Arduino officiel : `Software |
+Arduino <https://www.arduino.cc/en/software/>`.
+
+Ici, nous cliquons sur l'option ![image-20250416143412683](../media/image-20250416143412683.png) pour l'installation la plus
+simple.
 
 ![image](../media/a2.png)
 
-1. Aquí, tomaremos el sistema Windows como ejemplo para presentar cómo descargarlo e instalarlo. Se proporcionan dos versiones para Windows: para instalar y para descargar (un archivo comprimido, no necesita instalación).
+1. Ici, nous prendrons le système Windows comme exemple pour présenter
+   comment le télécharger et l'installer. Deux versions sont fournies
+   pour Windows : pour l'installation et pour le téléchargement (un
+   fichier compressé, pas besoin d'installer).
 
 ![a3](../media/a3.png)
 
-Haz clic en **JUST DOWNLOAD** para descargar el software.
+Cliquez sur **JUST DOWNLOAD** pour télécharger le logiciel.
 
-2. Guarda el archivo .exe descargado de la página del software en tu disco duro y simplemente ejecuta el archivo.
+2. Enregistrez le fichier .exe téléchargé depuis la page du logiciel sur
+   votre disque dur et exécutez simplement le fichier.
 
 ![a5](../media/a5.png)
 
-3. Lee el Acuerdo de Licencia y acéptalo.
+3. Lisez le contrat de licence et acceptez-le.
 
 ![a6](../media/a6.png)
 
-4. Elige las opciones de instalación.
+4. Choisissez les options d'installation.
 
 ![a7](../media/a7.png)
 
-5. Elige la ubicación de instalación.
+5. Choisissez l'emplacement d'installation.
 
 ![a8](../media/a8.png)
 
-6. Haz clic en finalizar y ejecuta el IDE de Arduino.
+6. Cliquez sur Terminer et exécutez l'IDE Arduino.
 
 ![a9](../media/a9-1744785033221-7.png)
 
-### 1.3 Introducción al IDE de Arduino 2.0
+
+### 1.3 Présentation de l'IDE Arduino 2.0
+
 
 ![image-20250416145828363](../media/image-20250416145828363.png)
 
-**Verificar / Subir** - compila y sube tu código a tu placa Arduino.
+**Vérifier / Télécharger** - compile et télécharge votre code sur votre
+carte Arduino.
 
-**Seleccionar Placa y Puerto** - las placas Arduino detectadas aparecen automáticamente aquí, junto con el número de puerto.
+**Sélectionner la carte et le port** - les cartes Arduino détectées
+s'affichent automatiquement ici, avec le numéro de port.
 
-**Sketchbook** - aquí encontrarás todos tus sketches almacenados localmente en tu computadora. Además, puedes sincronizar con Arduino Cloud y también obtener tus sketches del entorno en línea.
+**Carnet de croquis** - vous trouverez ici tous vos croquis stockés localement sur votre ordinateur. De plus, vous pouvez synchroniser avec Arduino Cloud et obtenir vos croquis depuis l'environnement en ligne.
 
-**Administrador de Placas** - explora los paquetes de Arduino y de terceros que se pueden instalar. Por ejemplo, usar una placa MKR WiFi 1010 requiere el paquete Arduino SAMD Boards instalado.
+**Gestionnaire de cartes** - parcourez les packages Arduino et tiers qui peuvent être installés. Par exemple, l'utilisation d'une carte MKR WiFi 1010 nécessite l'installation du package Arduino SAMD Boards.
 
-**Administrador de Librerías** - explora miles de librerías de Arduino, creadas por Arduino y su comunidad.
+**Gestionnaire de bibliothèques** - parcourez des milliers de bibliothèques Arduino, créées par Arduino et sa communauté.
 
-**Depurador** - prueba y depura programas en tiempo real.
+**Débogueur** - testez et déboguez des programmes en temps réel.
 
-**Buscar** - busca palabras clave en tu código.
+**Rechercher** - recherchez des mots-clés dans votre code.
 
-**Abrir Monitor Serie** - abre la herramienta Monitor Serie, como una nueva pestaña en la consola.
+**Ouvrir le moniteur série** - ouvre l'outil Moniteur série, sous la forme d'un nouvel onglet dans la console.
 
-Si deseas obtener más información sobre el IDE de Arduino, consulta este documento: Primeros pasos con Arduino IDE 2
+Si vous souhaitez en savoir plus sur l'IDE Arduino, veuillez vous référer à ce document : Getting Started with Arduino IDE 2

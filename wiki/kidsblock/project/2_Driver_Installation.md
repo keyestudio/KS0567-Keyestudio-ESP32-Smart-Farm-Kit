@@ -1,59 +1,59 @@
-## 2. Instalación del software
+## 2. Installation du logiciel
 
 
-### 2.1 Instalar controlador
+### 2.1 Installer le pilote
 
 
-**NOTA: Si su computadora ya tiene un controlador instalado, omita esta sección. Si no, siga estos pasos.**
+**REMARQUE : Si un pilote est déjà installé sur votre ordinateur, veuillez simplement ignorer cette section. Sinon, veuillez suivre ces étapes.**
 
-Haga clic en ![image4](../media/an13.png) para seleccionar " **Instalar controlador** ".
+Cliquez sur ![image4](../media/an13.png) pour sélectionner « **Installer le pilote** ».
 
 ![img](../media/an14.png)
 
-- Haga clic en " **Siguiente** " cuando vea el asistente de instalación del controlador del dispositivo:
+- Cliquez sur « **Suivant** » lorsque vous voyez l'assistant d'installation du pilote de périphérique :
 
 ![img](../media/an15.png)
 
-- Haga clic en " **Finalizar** ".
+- Cliquez sur « **Terminer** ».
 
 ![img](../media/an16.png)
 
-- Haga clic en " **Siguiente** ".
+- Cliquez sur « **Suivant** ».
 
 ![img](../media/an17.png)
 
-- Haga clic en " **Finalizar** ".
+- Cliquez sur « **Terminer** ».
 
 ![img](../media/an18.png)
 
-- Si aparece una advertencia, simplemente haga clic en " **Permitir** ". Luego haga clic en " **Instalar** ".
+- Si un avertissement apparaît, cliquez simplement sur « **Autoriser** ». Cliquez ensuite sur « **Installer** ».
 
 ![img](../media/an19.png)
 
-- Toque " **Finalizar** ".
+- Appuyez sur « **Terminer** ».
 
 ![img](../media/an20.png)
 
-- Haga clic en " **Extraer** ".
+- Cliquez sur « **Extraire** ».
 
 ![img](../media/an21.png)
 
-- Haga clic en " **Siguiente** ".
+- Cliquez sur « **Suivant** ».
 
 ![img](../media/an22.png)
 
-- Marque " **Acepto este acuerdo** " y haga clic en " **Siguiente** ".
+- Cochez « **J'accepte cet accord** » et cliquez sur « **Suivant** ».
 
 ![img](../media/an23.png)
 
-- Haga clic en " **Finalizar** ".
+- Cliquez sur « **Terminer** ».
 
 ![img](../media/an24.png)
 
-- Elija " **INSTALAR** ".
+- Choisissez « **INSTALLER** ».
 
 ![img](../media/an25.png)
 
-- Un par de segundos después, el controlador se instalará correctamente. Luego haga clic en " **OK** ".
+- Quelques secondes plus tard, le pilote sera installé avec succès. Cliquez ensuite sur « **OK** ».
 
 ![img](../media/an26.png)

@@ -1,310 +1,428 @@
-## 3. Montaje
+## 3. Assemblage
 
-Durante el montaje, se requiere grabar algunos códigos, así que por favor instale el software primero.
 
-El montaje completo generalmente se puede dividir en dos partes: montaje de
-piezas y cableado.
+Pendant l'assemblage, certains codes doivent être gravés, veuillez donc d'abord installer le logiciel.
+
+L'assemblage complet peut généralement être divisé en deux parties : l'assemblage
+des pièces et le câblage.
 
 ---
 
-### Paso 1 Instalar la placa ESP32 y el módulo de relé
 
-#### 1.1 Componentes requeridos
+
+### Étape 1 Installer la carte ESP32 et le module relais
+
+
+
+#### 1.1 Composants requis
+
 
 ![img](../media/image001.png)
 
 ---
 
+
+
 #### 1.2
+
 
 ![img](../media/image002.png)
 
 ---
 
+
+
 #### 1.3
+
 
 ![img](../media/image003.png)
 
 ---
 
+
+
 #### 1.4
+
 
 ![img](../media/image004.png)
 
 ---
 
+
+
 #### 1.5
+
 
 ![img](../media/image006.png)
 
 ---
 
-### Paso 2 Instalar el marco de fijación para la caja de baterías e instalar la cabina de alimentación, conectar la placa ESP32 y el módulo de relé
 
-#### 2.1 Componentes requeridos
+
+### Étape 2 Installer le cadre de fixation du boîtier de batterie et installer la cabine d'alimentation, connecter la carte ESP32 et le module relais
+
+
+
+#### 2.1 Composants requis
+
 
 ![img](../media/image007.png)
 
 ---
 
+
+
 #### 2.2
 
-Ensamblar las tablas de madera X y O en la placa base
+
+Assembler les planches de bois X et O sur la plaque inférieure
 
 ![img](../media/image008.png)
 
 ---
 
+
+
 #### 2.3
+
 
 ![img](../media/image010.png)
 
 ---
 
+
+
 #### 2.4
+
 
 ![img](../media/image011.png)
 
 ---
 
+
+
 #### 2.5
+
 
 ![img](../media/image012.png)
 
 ---
 
+
+
 #### 2.6
+
 
 ![img](../media/image013.png)
 
 ---
 
+
+
 #### 2.7
+
 
 ![img](../media/image014.png)
 
 ---
 
-#### 2.8 Conectar la placa ESP32 y el módulo de relé
 
-| Módulo | Cable | Pin |
-| --- | --- | --- |
-| Módulo de relé | 3PIN 20cm | IO25 |
 
-| Pin del módulo | Color del cable | Pin de la placa ESP32 |
+#### 2.8 Connecter la carte ESP32 et le module relais
+
+
+| Module | Fil | Broche |
 | --- | --- | --- |
-| V | ROJO | V |
-| G | NEGRO | G |
-| S | AMARILLO | io25 |
+| Module relais | 3PIN 20cm | IO25 |
+
+| Broche du module | Couleur du fil | Broche de la carte ESP32 |
+| --- | --- | --- |
+| V | ROUGE | V |
+| G | NOIR | G |
+| S | JAUNE | io25 |
 
 ![img](../media/image015.png)
 
 ---
 
+
+
 #### 2.9
+
 
 ![img](../media/image015-1.png)
 
 ---
 
-### Paso 3 Instalar la subestructura de la casa
+
+
+### Étape 3 Installer la sous-structure de la maison
+
 
 ---
 
-#### 3.1 Componentes requeridos
+
+
+#### 3.1 Composants requis
+
 
 ![img](../media/image016.png)
 
 ---
 
+
+
 #### 3.2
+
 
 ![img](../media/image017.png)
 
 ---
 
+
+
 #### 3.3
+
 
 ![img](../media/image018.png)
 
 ---
 
+
+
 #### 3.4
+
 
 ![img](../media/image019.png)
 
 ---
 
+
+
 #### 3.5
+
 
 ![img](../media/image020.png)
 
 ---
 
+
+
 #### 3.6
+
 
 ![img](../media/image021.png)
 
 ---
 
+
+
 #### 3.7
+
 
 ![img](../media/image022.png)
 
 ---
 
+
+
 #### 3.8
+
 
 ![img](../media/image023.png)
 
 ---
 
+
+
 #### 3.9
+
 
 ![img](../media/image024.png)
 
 ---
 
+
+
 #### 3.10
+
 
 ![img](../media/image025.png)
 
 ---
 
+
+
 #### 3.11
+
 
 ![img](../media/image026.png)
 
 ---
 
-### Paso 4 Instalar la puerta de la cabina de alimentación
+
+
+### Étape 4 Installer la porte de la cabine d'alimentation
+
 
 ---
 
-#### 4.1 Componentes requeridos
+
+
+#### 4.1 Composants requis
+
 
 ![image027](../media/image027.png)
 
 ![image](../media/image-20250416162128859.png)
 
-La lámina acrílica se empaqueta por separado, y se recomienda quitar su película protectora para reducir la fricción cuando se mueve como puerta.
+La feuille acrylique est emballée séparément, et il est recommandé d'enlever son film protecteur pour réduire le frottement lorsqu'elle se déplace comme une porte.
 
 ---
 
-#### 4.2 Ajustar el servo a 165°
 
-> **⚠ ADVERTENCIA — Lea antes de continuar:**
+
+#### 4.2 Régler le servo à 165°
+
+> **⚠ AVERTISSEMENT — Lire avant de continuer :**
 >
-> 1. **NO ajuste el servo a 180°.** El mecanismo de la puerta no requiere el rango completo de 0°–180°. Ajustarlo al extremo causará que el servo presione contra el tope mecánico, lo que puede sobrecalentar y dañar permanentemente el motor del servo.
-> 2. **Mantenga la placa encendida durante la instalación.** Cuando el servo está encendido y manteniendo su ángulo, NO fuerce el engranaje o la puerta con la mano. Si la placa está apagada, el servo no tiene par de retención, y girar manualmente el engranaje cambiará el ángulo calibrado, causando desalineación después de encenderlo.
-> 3. **NO use fuerza bruta.** Si la puerta no se mueve suavemente, deténgase inmediatamente y verifique el ensamblaje. Forzarla dañará los engranajes del servo.
+> 1. **NE PAS régler le servo à 180°.** Le mécanisme de la porte ne nécessite pas la plage complète de 0° à 180°. Le régler à l'extrémité extrême fera appuyer le servo contre la butée mécanique, ce qui pourrait surchauffer et endommager de façon permanente le moteur du servo.
+> 2. **Maintenir la carte alimentée pendant l'installation.** Lorsque le servo est alimenté et maintient son angle, NE PAS forcer l'engrenage ou la porte à la main. Si la carte n'est pas alimentée, le servo n'a pas de couple de maintien, et la rotation manuelle de l'engrenage déplacera l'angle calibré, provoquant un désalignement après la mise sous tension.
+> 3. **NE PAS utiliser la force brute.** Si la porte ne bouge pas en douceur, arrêtez immédiatement et vérifiez l'assemblage. La forcer endommagera les engrenages du servo.
 
-Tenga en cuenta que este paso es muy importante. Antes de la instalación, asegúrese de ajustar el servo a **165°** (con un margen de 15° reservado en cada extremo para evitar daños mecánicos).
+Veuillez noter que cette étape est très importante. Avant l'installation, assurez-vous de régler le servo à **165°** (avec une marge de 15° réservée à chaque extrémité pour éviter les dommages mécaniques).
 
-**Antes de montar el servo, primero ajuste el ángulo a 165° programando con KidsBlock (programación gráfica).**
+**Avant de monter le servo, veuillez d'abord régler l'angle à 165° en programmant avec KidsBlock (programmation graphique).**
 
-Consulte los pasos de instalación del software para obtener más detalles.
+Veuillez vous référer aux étapes d'installation du logiciel pour plus de détails.
 
-**Conecte el Servo a la placa de desarrollo ESP32 en el pin IO26.**
+**Connecter le servo à la carte de développement ESP32 sur la broche IO26.**
 
 ![img](../media/image028-1.png)
 
 ---
+
 
 ![img](../media/image028-3.png)
 
 ---
 
-- Abra **KidsBlock**. Seleccione la placa ESP32 y el puerto serie correcto, y grabe el siguiente código en la placa. El código ajusta el servo a **165°**.
+
+- Ouvrir **KidsBlock**. Sélectionner la carte ESP32 et le port série correct, et graver le code suivant sur la carte. Le code règle le servo à **165°**.
 
 ![image-20250425134842857](../media/image-20250425134842857.png)
 
 ![img](../media/image028-2.png)
 
-> **Importante:** Mantenga la placa encendida y el servo en 165° mientras procede al paso de ensamblaje. NO desconecte la alimentación ni mueva manualmente el engranaje hasta que el panel de la puerta esté completamente instalado.
+> **Important :** Maintenez la carte alimentée et le servo à 165° pendant que vous passez à l'étape d'assemblage. Ne déconnectez **pas** l'alimentation et ne déplacez **pas** manuellement l'engrenage tant que le panneau de porte n'est pas entièrement installé.
 
 ---
 
-#### 4.3 Instalar el Servo
+
+
+#### 4.3 Installer le servo
+
 
 ![img](../media/image029.png)
 
 ---
 
+
+
 #### 4.4
 
-**Nota: Los tornillos deben apretarse para mantener el servo estable, de lo contrario la puerta podría atascarse.**
+**Note : Les vis doivent être serrées pour maintenir le servo stable, sinon la porte pourrait se bloquer.**
 
 ![img](../media/image030.png)
 
 ---
 
+
+
 #### 4.5
+
 
 ![image-20250416162337896](../media/image-20250416162337896.png)
 
-Instale los tornillos autorroscantes M1.4*6MM como se muestra a continuación
+Installer les vis autotaraudeuses M1.4*6MM comme indiqué ci-dessous
 
 ![6e1caadec8b1ec99b0093200763607b6](../media/6e1caadec8b1ec99b0093200763607b6.jpg)
 
 ---
 
+
+
 #### 4.6
+
 
 ![image-20250416162754513](../media/image-20250416162754513.png)
 
 ---
 
+
+
 #### 4.7
+
 
 ![img](../media/image033.png)
 
 ---
 
+
+
 #### 4.8
 
-No gire el engranaje después de instalarlo en el servo. Si ya ha girado el engranaje, deberá reajustar el ángulo del servo a 180°.
+
+Ne pas tourner l'engrenage après son installation sur le servo. Si vous avez déjà tourné l'engrenage, vous devrez réajuster l'angle du servo à 180°.
 
 ![img](../media/image034.png)
 
 ---
 
+
+
 #### 4.9
 
-**NOTA: Al instalar la tapa de la caja de alimentación, su abertura debe estar completamente cerrada.**
+**NOTE : Lors de l'installation du couvercle de la boîte d'alimentation, son ouverture doit être complètement fermée.**
 
 ![img](../media/image035.png)
 
 ---
 
+
+
 #### 4.10
+
 
 ![img](../media/image036.png)
 
 ---
 
+
+
 #### 4.11
+
 
 ![img](../media/image037.png)
 
 ---
 
+
+
 #### 4.12
+
 
 ![img](../media/image037-1.png)
 
 ---
 
-#### 4.13 Probar la puerta
 
-1. Conecte el Servo al pin IO26 de la placa ESP32. Conecte el amarillo a S, el rojo a V, el negro a G.
+
+#### 4.13 Tester la porte
+
+
+1. Connecter le servo à la broche IO26 de la carte ESP32. Connecter le jaune à S, le rouge à V, le noir à G.
 
 ![img](../media/image028-1.png)
 
-2. Conecte 6 pilas AA al puerto DC 7-12V de la placa ESP32. (Pilas no incluidas en el kit)
-
-![image-20250417084747308](../media/image-20250417084747308.png)
-
-3. Subir el código de prueba
-
-A. Conecte la placa ESP32
+2. Connecter 6 piles AA au port DC 7-12V de la carte ESP32. (Piles non

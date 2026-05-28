@@ -1,139 +1,145 @@
-## 2. Configurar el Arduino
+## 2. Configurer l'Arduino
 
 
-### 2.1 Instalar el controlador para la placa KEYESTUDIO ESP32 PLUS
+### 2.1 Installer le pilote pour la carte KEYESTUDIO ESP32 PLUS
 
 
-La placa KEYESTUDIO ESP32 PLUS es una placa de desarrollo universal WIFI más Bluetooth basada en ESP32, integrada con el módulo ESP32-WOROOM-32 y compatible con Arduino.
+La carte KEYESTUDIO ESP32 PLUS est une carte de développement universelle WIFI et Bluetooth basée sur l'ESP32, intégrant le module ESP32-WOROOM-32 et compatible avec Arduino.
 
-Tiene un sensor Hall, SDIO/SPI de alta velocidad, UART, I2S, así como I2C. Además, está equipada con el sistema operativo freeRTOS, que es bastante adecuado para el Internet de las cosas y el hogar inteligente.
+Elle dispose d'un capteur à effet Hall, d'une interface SDIO/SPI haute vitesse, d'UART, d'I2S ainsi que d'I2C. De plus, elle est équipée du système d'exploitation freeRTOS, ce qui la rend tout à fait adaptée à l'Internet des objets et à la maison intelligente.
 
-**Especificaciones**
+**Spécifications**
 
-Voltaje: 3.3V-5V
+Tension : 3.3V-5V
 
-Corriente de salida: 1.2A (máximo)
+Courant de sortie : 1.2A (maximum)
 
-Potencia máxima de salida: 10W
+Puissance de sortie maximale : 10W
 
-Temperatura de trabajo: -10℃~50℃
+Température de fonctionnement : -10℃~50℃
 
-Dimensiones: 69 * 54 * 14.5mm
+Dimensions : 69 * 54 * 14.5mm
 
-Peso: 25.5g
+Poids : 25.5g
 
-Atributos de protección ambiental: ROHS
+Attributs de protection de l'environnement : ROHS
 
 ![j255](../media/j255.png)
 
-**Instalar controlador**
+**Installer le pilote**
 
-Conecte la placa ESP32 al ordenador y espere a que Windows inicie el proceso de instalación del controlador. A menudo, el controlador CH340 se instalará automáticamente en su sistema al usar Arduino. Puede verificar el Administrador de dispositivos o el puerto del IDE de Arduino para ver si el controlador se instaló correctamente.
+Connectez la carte ESP32 à l'ordinateur et attendez que Windows commence son processus d'installation du pilote. Souvent, le pilote CH340 sera automatiquement installé par votre système lors de l'utilisation d'Arduino. Vous pouvez vérifier le Gestionnaire de périphériques ou le port de l'IDE Arduino pour voir si le pilote est correctement installé.
 
 ![a10](../media/a10.png)
 
-Si el controlador CH340 no se instala automáticamente, debemos instalarlo manualmente.
+Si le pilote CH340 n'est pas installé automatiquement, nous devons l'installer manuellement.
 
-Haga clic para descargar [controlador CH340 para Windows](/Arduino/Windows.zip)
+Cliquez pour télécharger le [pilote Windows CH340](/Arduino/Windows.zip)
 
 ![a51](../media/a51.png)
 
-1. Abra el **Administrador de dispositivos** haciendo clic derecho en "**Mi PC**" y seleccionando **Propiedades**. Busque en **Otros dispositivos**. Debería ver un puerto abierto llamado **USB Serial**.
+1. Ouvrez le **Gestionnaire de périphériques** en cliquant avec le bouton droit sur « **Mon PC** » et en sélectionnant **Propriétés**. Regardez sous **Autres périphériques**. Vous devriez voir un port ouvert nommé **USB Serial**.
 
 ![a11](../media/a11.png)
 
-2. Haga clic derecho en "**USB Serial**" y elija la opción "**Actualizar controlador**".
+2. Cliquez avec le bouton droit sur « **USB Serial** » et choisissez l'option « **Mettre à jour le pilote** ».
 
 ![a13](../media/a13.png)
 
-3. Elija la opción "**Buscar software de controlador en mi equipo**".
+3. Choisissez l'option « **Parcourir mon ordinateur pour le logiciel de pilote** ».
 
 ![a14](../media/a14.png)
 
-4. Seleccione el archivo del controlador llamado "**usb_ch341_3.1.2009.06**", ubicado en la carpeta Driver del paquete del tutorial.
+4. Sélectionnez le fichier de pilote nommé « **usb_ch341_3.1.2009.06** », situé dans le dossier Driver du package du tutoriel.
 
 ![a15](../media/a15.png)
 
-5. Controlador instalado correctamente.
+5. Pilote installé avec succès.
 
 ![a16](../media/a16.png)
 
-6. El Administrador de dispositivos se actualizará automáticamente. Busque en Puertos (COM y LPT). Debería ver un puerto abierto llamado “**USB-SERIAL CH340(COM3)**”.
+6. Le Gestionnaire de périphériques se rafraîchira automatiquement. Regardez sous Ports (COM & LPT). Vous devriez voir un port ouvert nommé « **USB-SERIAL CH340(COM3)** ».
 
 ![a10](../media/a10.png)
 
-7. Haga clic en **Herramientas>Puerto** en el IDE de Arduino, puede encontrar el mismo puerto COM que el controlador CH340 en el administrador de dispositivos.
+7. Cliquez sur **Outils>Port** dans l'IDE Arduino, vous pouvez trouver le même port COM que le pilote CH340 dans le gestionnaire de périphériques.
 
 ![a38](../media/a38.png)
 
 
-### 2.2 Añadir librerías al IDE de Arduino
+### 2.2 Ajouter des bibliothèques à l'IDE Arduino
 
 
-**¿Por qué usar librerías?**
+**Pourquoi utiliser des bibliothèques ?**
 
-Las librerías son increíblemente útiles al crear cualquier tipo de proyecto. Hacen que nuestra experiencia de desarrollo sea mucho más fluida, y hay una cantidad casi infinita de ellas. Se utilizan para interactuar con muchos sensores diferentes, RTC, módulos Wi-Fi, matrices RGB y, por supuesto, con otros componentes de su placa.
+Les bibliothèques sont incroyablement utiles lors de la création de tout type de projet. Elles rendent notre expérience de développement
 
-**Incluir una librería en el sketch**
+beaucoup plus fluide, et il en existe une quantité presque infinie. Elles sont utilisées pour
 
-Para usar una librería, primero debe incluirla en la parte superior del sketch. Si encuentra una línea de código en el formato `#include "nombre de la librería"` al principio del código cuando usa nuestro código, significa que primero debe agregar este archivo de librería al IDE de Arduino antes de poder cargar este código con éxito.
+interfacer avec de nombreux capteurs différents, des RTC, des modules Wi-Fi, des matrices RGB et bien sûr avec d'autres
+
+composants de votre carte.
+
+**Inclure une bibliothèque dans le sketch**
+
+Pour utiliser une bibliothèque, vous devez d'abord l'inclure en haut du sketch. Si vous trouvez une ligne de code au format `#include "nom de la bibliothèque"` au début du code lorsque vous utilisez notre code, cela signifie que vous devez d'abord ajouter ce fichier de bibliothèque à l'IDE Arduino avant de pouvoir télécharger ce code avec succès.
 
 ![image-20250416150700630](../media/image-20250416150700630.png)
 
-Para que el kit de granja inteligente funcione, necesitaremos **agregar estos archivos de librería al IDE de Arduino.** Puede encontrarlos en el paquete del tutorial.
+Pour faire fonctionner le kit de ferme intelligente, nous devrons **ajouter ces fichiers de bibliothèque à l'IDE Arduino.** Vous pouvez les trouver dans le package du tutoriel.
 
 ![image-20250416150847190](../media/image-20250416150847190.png)
 
-**Importar una librería .zip**
+**Importer une bibliothèque .zip**
 
-En la barra de menú, vaya a **Sketch > Incluir librería > Añadir librería .ZIP...** Se le pedirá que seleccione la librería que desea agregar.
+Dans la barre de menu, allez dans **Croquis > Inclure une bibliothèque > Ajouter une bibliothèque .ZIP...** Il vous sera demandé de sélectionner la bibliothèque que vous souhaitez ajouter.
 
 ![4564654654](../media/4564654654.png)
 
-Navegue hasta la ubicación del archivo .zip y ábralo.
+Naviguez jusqu'à l'emplacement du fichier .zip et ouvrez-le.
 
 ![image-20250416151456661](../media/image-20250416151456661.png)
 
-Es posible que deba reiniciar el IDE de Arduino para que la librería esté disponible. Después de instalar correctamente el archivo de la librería, los verá en la lista.
+Vous devrez peut-être redémarrer l'IDE Arduino pour que la bibliothèque soit disponible. Après avoir installé le fichier de bibliothèque avec succès, vous les verrez dans la liste.
 
 ![image-20250416151805635](../media/image-20250416151805635.png)
 
 
-### 2.3 Configurar el entorno de desarrollo para ESP32
+### 2.3 Configurer l'environnement de développement pour ESP32
 
 
-Antes de usar el IDE de Arduino para programar la granja inteligente, debe configurar el IDE de Arduino, seleccionar el tipo de placa correcto (**ESP32 Dev Module**) para la placa ESP32 Plus y seleccionar el **puerto COM** que se asigna en el administrador de dispositivos.
+Avant d'utiliser l'IDE Arduino pour programmer la ferme intelligente, vous devez configurer l'IDE Arduino, sélectionner le type de carte correct (**ESP32 Dev Module**) pour la carte ESP32 Plus, et sélectionner le **port COM** qui est attribué dans le gestionnaire de périphériques.
 
-No hay una opción para ESP32 en la lista de placas predeterminada de Arduino, por lo que debemos **instalarla manualmente**.
+Il n'y a pas d'option pour ESP32 dans la liste des cartes par défaut d'Arduino, nous devons donc l'**installer manuellement**.
 
 ![a30](../media/a30.png)
 
-Haga clic en **Archivo > Preferencias**. Copie el enlace de la placa ESP32 (https://espressif.github.io/arduino-esp32/package_esp32_index.json) en las **URLs adicionales del gestor de tarjetas** y haga clic en **OK**.
+Cliquez sur **Fichier > Préférences**. Copiez le lien de la carte ESP32 (https://espressif.github.io/arduino-esp32/package_esp32_index.json) dans les **URL de gestionnaire de cartes supplémentaires**, et cliquez sur **OK**.
 
 ![a31](../media/a31.png)
 
-Haga clic en el icono de "**Gestor de tarjetas**" en la esquina superior izquierda.
+Cliquez sur l'icône du « **Gestionnaire de cartes** » dans le coin supérieur gauche.
 
 ![a32](../media/a32.png)
 
-Busque **ESP32** en el cuadro de búsqueda e instale la última versión. Puede verificar su proceso en la esquina inferior derecha. **Durante la instalación, mantenga la red estable. Si la instalación falla, repita los pasos anteriores.**
+Recherchez **ESP32** dans la boîte de recherche et installez la dernière version. Vous pouvez vérifier son processus dans le coin inférieur droit. **Pendant l'installation, maintenez le réseau stable. Si l'installation échoue, répétez les étapes ci-dessus.**
 
-Nota: En este tutorial utilizamos la versión 3.1.3 de ESP32. Manténgala consistente para evitar incompatibilidades de código.
+Note : Nous utilisons la version 3.1.3 de l'ESP32 dans ce tutoriel. Veuillez la maintenir cohérente pour éviter les incompatibilités de code.
 
 ![a33](../media/a33.png)
 
-La instalación ha finalizado:
+L'installation est terminée :
 
 ![a34](../media/a34-1744788169084-23.png)
 
-Haga clic en **Herramientas > Placa > esp32** y elija el **Módulo de desarrollo EPS32**.
+Cliquez sur **Outils > Carte > esp32**, et choisissez le **Module de développement EPS32**.
 
 ![a37](../media/a37.png)
 
-Elija el puerto COM. Puede verificar su número de puerto en el Administrador de dispositivos. Si hay muchos puertos COM, desconecte el cable de la placa para ver qué puerto desaparece. Ese será el puerto listo para usar. Si no hay puerto COM, verifique si el controlador está instalado.
+Choisissez le port COM. Vous pouvez vérifier votre numéro de port dans le Gestionnaire de périphériques. S'il y a plusieurs ports COM, débranchez le câble de la carte pour voir quel port disparaît. C'est alors le port prêt à l'emploi. S'il n'y a pas de port COM, veuillez vérifier si le pilote est installé.
 
 ![image](../media/a10-1744788429738-26.png)
 
-Aquí, nuestro puerto COM es COM3. Haga clic en “Herramientas” → “Puerto” → “COM3”.
+Ici, notre port COM est COM3. Cliquez sur « Outils » → « Port » → « COM3 ».
 
 ![image](../media/a38-1744788429738-27.png)

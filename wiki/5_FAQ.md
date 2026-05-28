@@ -1,20 +1,29 @@
-## 5. Preguntas frecuentes
+## FAQ
 
-### P: ¿Qué tipo de baterías debe equipar este kit?
 
-R: Seis pilas AA, cada una con un diámetro de 14 mm y una altura de 49 mm. ¡Instale las baterías correctamente y no las invierta! Para los estudiantes más jóvenes, opere bajo el acompañamiento de los padres.
 
-### P: Ocurre un error al grabar programas en la placa principal ESP32.
+### Q: Quel type de piles ce kit doit-il être équipé ?
+
+
+R: Six piles AA, chacune d'un diamètre de 14MM et d'une hauteur de 49MM. Veuillez installer les piles correctement et ne les inversez pas ! Pour les jeunes apprenants, veuillez opérer sous l'accompagnement des parents.
+
+
+### Q: Une erreur se produit lors de la gravure de programmes sur la carte mère ESP32.
+
 
 R:
 
-- Compruebe si el puerto COM es correcto.
-- Compruebe si la placa seleccionada es correcta.
+-  Veuillez vérifier si le port COM est correct.
+-  Veuillez vérifier si la carte sélectionnée est correcte.
 
-### P: ¿Se puede expandir este kit a otros módulos?
 
-R: Sí. Al expandir a otros módulos, consulte la descripción de los pines para asegurarse de que los pines ESP32 funcionen normalmente.
+### Q: Ce kit peut-il s'étendre à d'autres modules ?
 
-### P: Ocurre un error al importar la biblioteca <Wire.h>.
 
-R: Al instalar la placa de desarrollo ESP32 en Arduino IDE, la biblioteca <Wire.h> se importará automáticamente, por lo que no es necesario agregarla repetidamente.
+R: Oui. Lors de l'extension à d'autres modules, veuillez vérifier la description des broches pour vous assurer que les broches ESP32 fonctionnent normalement.
+
+
+### Q: Une erreur se produit lors de l'importation de la bibliothèque <Wire.h>.
+
+
+R: Lors de l'installation de la carte de développement ESP32 sur Arduino IDE, la bibliothèque <Wire.h> sera importée automatiquement, vous n'avez donc pas besoin de l'ajouter à plusieurs reprises.
