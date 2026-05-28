@@ -1,15 +1,12 @@
-Arduino
-=======
-
 .. _1-introduce-arduino:
 
 1. Introduce Arduino
---------------------
+====================
 
 .. _11-what-is-arduino:
 
 1.1 What is Arduino?
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 | Arduino is an open-source electronics platform based on easy-to-use
 | hardware and software. Arduino boards are able to read inputs- light
@@ -25,7 +22,7 @@ Arduino
 .. _12-install-the-arduino-ide-for-windows:
 
 1.2 Install the Arduino IDE for Windows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
 
 Arduino official: ``Software |
 Arduino <https://www.arduino.cc/en/software/>``.
@@ -67,7 +64,7 @@ Click **JUST DOWNLOAD** to download the software.
 .. _13-introduce-of-arduino-ide-20:
 
 1.3 Introduce of Arduino IDE 2.0
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 
 |image9|
 
@@ -99,12 +96,12 @@ the console.
 If you want to learn more about Arduino IDE, please refer to this
 document：Getting Started with Arduino IDE 2
 
-.. |image1| image:: ./media/image-20250416143412683.png
-.. |image2| image:: ./media/a2.png
-.. |image3| image:: ./media/a3.png
-.. |image4| image:: ./media/a5.png
-.. |image5| image:: ./media/a6.png
-.. |image6| image:: ./media/a7.png
-.. |image7| image:: ./media/a8.png
-.. |image8| image:: ./media/a9-1744785033221-7.png
-.. |image9| image:: ./media/image-20250416145828363.png
+.. |image1| image:: C:\Users\Administrator\Desktop\media\image-20250416143412683.png
+.. |image2| image:: C:\Users\Administrator\Desktop\media\a2.png
+.. |image3| image:: C:\Users\Administrator\Desktop\media\a3.png
+.. |image4| image:: C:\Users\Administrator\Desktop\media\a5.png
+.. |image5| image:: C:\Users\Administrator\Desktop\media\a6.png
+.. |image6| image:: C:\Users\Administrator\Desktop\media\a7.png
+.. |image7| image:: C:\Users\Administrator\Desktop\media\a8.png
+.. |image8| image:: C:\Users\Administrator\Desktop\media\a9-1744785033221-7.png
+.. |image9| image:: C:\Users\Administrator\Desktop\media\image-20250416145828363.png
