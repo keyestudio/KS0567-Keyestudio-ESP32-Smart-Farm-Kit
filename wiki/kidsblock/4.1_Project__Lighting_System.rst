@@ -1,0 +1,526 @@
+.. _41-project--lighting-system:
+
+4.1 Project : Lighting System
+=============================
+
+**Let's start our first project, lighting system.**
+
+--------------
+
+Lighting up an LED is one of the most fundamental KidsBlock practices.
+
+This start-up lesson is designed for beginners to understand hardware
+and software programming on ESP32 development board and to master basic
+circuit and programming knowledge.
+
+|image1|
+
+Therefore, our tutorial guidance is simple. And this intriguing project
+can be applied in actual scenarios at home or in office.
+
+In this project, you will have learned the basic connections and
+settings of the ESP32 development board in the KidsBlock graphical
+programming. What's more, some functions will also be presented for you,
+such as lighting on/off an LED via the output level of a digital pin or
+by a button.
+
+All in all, this is an entry-level tutorial to lay the foundation for
+subsequent KidsBlock programming practices.
+
+--------------
+
+.. _411-flow-diagram:
+
+4.1.1 Flow Diagram
+------------------
+
+|image2|
+
+--------------
+
+.. _412-light-up-an-led:
+
+4.1.2 Light up an LED
+---------------------
+
+**Description:**
+
+LED, short for Light Emitting Diode, is a solid-state semiconductor that
+converts electrical energy into visible light, so it is also called
+solid-state lighting.
+
+When current passes through an LED, it light up.
+
+**Various LED:**
+
+|image3|
+
+--------------
+
+**LED module** is a device to output, whose brightness and blinks can be
+controlled. For how to use, you only need to directly plug it into
+digital output pins on the development board.
+
+|image4|
+
+--------------
+
+**Working principle:**
+
+When S is at a high level, Q1 triode is into conduction, and VCC voltage
+passes through LED to light up it.
+
+|image5|
+
+**Parameters:**
+
+- Voltage: 3~5V
+
+- Current: ≤1.5mA
+
+- Power: 0.07W
+
+--------------
+
+**Wiring Diagram:**
+
+**Connect the LED module to io27.**
+
+**Attention: Connect yellow to S(Signal), red to V(Power), and black to
+GND. Do not reverse them!**
+
+|image6|
+
+--------------
+
+**Test Code:**
+
+- Open Kidsblock and choose the correct device and port.
+
+|image7|
+
+- Drag |image8| from |image9| to the code editing area. Code Blocks
+  execute only when they are in this area.
+
+|image10|
+
+- With this block, when booting the development board, code will run.
+
+|image11|
+
+- In |image12|, drag “ **forever** ” and paste it below the previous
+  block. Block “\ **forever** ” indicates a loop.
+
+|image13|
+
+- Drag an "**LED pin output**" block from |image14| and paste it in “
+  **forever** ”. Set the pin to IO27 and output level to HIGH, so that
+  the LED pin will continue to output high level.
+
+|image15|
+
+|image16|
+
+- Add a 1s delay. Duplicate the "**LED pin output**" block but set the
+  output to LOW, and also add a delay. Then LED will light up and go off
+  in circulation.
+
+|image17|
+
+**Test Result:**
+
+LED blinks per second, because io27 on ESP32 board outputs high and low
+level alternatively every second. Besides, various interactive
+applications can also be realized via an LED, like breathing LED, water
+flow lights and flashing police light.
+
+=========== =======
+Power Level Result
+=========== =======
+HIGH        LED on
+LOW         LED off
+=========== =======
+
+--------------
+
+**Expansion: Breathing LED**
+
+**Description:**
+
+IO interfaces of MCU (like ESP32) output only digital signals (high or
+low level). For instance, in previous experiment (light up an LED), the
+digital outputs are only HIGH(3.3V) and LOW(0V).
+
+If MCU outputs a high level of 3.3V or a low level of 0V, the input
+voltage should be at 0~3.3V. Thus, PWM (**Pulse Width Modulation**) is
+needed to output different voltage value, which is called "analog
+output".
+
+|image18|
+
+--------------
+
+**Knowledge:**
+
+What is PWM?
+
+PWM contains three elements: Frequency(Hz), Period, Duty Cycle(%).
+
+- **PWM Frequency (f):** the times of signal changing from high to low
+  and return to high within one second. Generally speaking, Frequency is
+  the number of PWM Period in a second.
+
+- **PWM Period (T):** Period = 1 / Frequency (T=1/f, and 1 means 1
+  second). For instance: f = 50Hz, so T = 20ms, which implies there are
+  50 times of Period per second.
+
+- **PWM Duty Cycle:** the time ratio of HIGH to the whole Period. If
+  Period = 10ms and 8ms is pulse width time, Low level occupies 2ms, so
+  the Duty Cycle = 8/(8+2) = 80%.
+
+|image19|
+
+**Conclusion: At an appropriate signal frequency, PWM changes effective
+output voltage by changing the duty cycle in one period.** In plain
+English, within a specified time, the more high level the IO port
+outputs, the greater PWM value is, and the lighter LED will be.
+
+|image20|
+
+**Test Code:**
+
+|image21|
+
+- Define a variable **item** and assign it to 0.
+
+|image22|
+
+- Drag a "**forever**" block and paste a "**repeat**" block in it. Set
+  repeat times to 255.
+
+|image23|
+
+- Drag a "**variable mode**" block in "**repeat**" and set the mode to “
+  **++** ”, which means **item** will increase 1 after each execution.
+
+|image24|
+
+- | Find the block to set PWM which is contained in |image25| as shown
+  | below, so you only need to set corresponding pin and analog value to
+  | output PWM.
+
+|image26|
+
+- Set LED pin:
+
+|image27|
+
+- Set channel: (16 channels in total: including 0~15)
+
+|image28|
+
+- Set PWM output value to **item**, which will automatically add 1 from
+  0 to 255. **PWM output is 0~255, so we set the repeat times to 255.**
+
+|image29|
+
+- | Add a delay to 0.01s, so that LED will light up gradually rather
+    than
+  | all of a sudden.
+
+|image30|
+
+- Duplicate the "**repeat**" block as follows, but set mode to
+  "**－－**", which decreases variable **item** each time. And LED will
+  dim gradually.
+
+|image31|
+
+**Test Result**
+
+LED lights up and dims gradually; it breathes evenly.
+
+|image32|
+
+--------------
+
+.. _414-a-button:
+
+4.1.4 A Button
+--------------
+
+**Description**
+
+**Button Module** is a device to input. MCU reads its power level to
+detect whether the button is pressed.
+
+|image33|
+
+--------------
+
+**Schematic Diagram:**
+
+|image34|
+
+**Parameters:**
+
+- Voltage: 3~5V
+
+- Current: ≤1.1mA
+
+- Power: ≤5.5mW
+
+--------------
+
+**The principle of the button module is a circuit controlled by this
+button.**
+
+- **When the button is pressed**, the circuit is in closed state so that
+  current passes through the button to GND, which causes the digital
+  input pin to detect a low level.
+
+- **When the button is released**, the circuit is cut and pin level
+  increases due to a pull-up resistor, which makes the digital pin to
+  detect a high level.
+
+--------------
+
+**Wiring Diagram:**
+
+**Connect the button module to io5**
+
+**Attention: Connect yellow to S(Signal), red to V(Power), and black to
+GND. Do not reverse them!**
+
+|image35|
+
+--------------
+
+**Test Code**
+
+- Initialize the serial port first of all, and set baud rate to 115200.
+
+|image36|
+
+- Set pin to IO5 and mode to input. What follows it is a "**forever**"
+  block.
+
+|image37|
+
+- Read the power level of digital pin 5. If it is 1, print 1. Or else,
+  print 0.
+
+|image38|
+
+Complete code:
+
+|image39|
+
+**Test Result**
+
+Open serial monitor and set the corresponding baud rate.
+
+When the button is released, the value is 1; if you press the button, it
+becomes 0.
+
+|image40|
+
+In KidsBlock, we can read the state of the digital input pin by
+programming to detect whether the button is pressed. Thus, loads of
+interactive applications can be realized via a button module, such as
+LED on/off and display brightness adjustment.
+
+--------------
+
+**Expansion: Auto-locking Button**
+
+An auto-locking button won't pop up when you press it without holding,
+and it never pops up unless you press it again. It works like a switch.
+For regular buttons, such function can be realized via MCU and software.
+
+**Test Code**
+
+- Define two variables: **item** as the read button value and **button**
+  as the value shifted by button.
+
+|image41|
+
+- Assign the read button value to **item**.
+
+|image42|
+
+- Determine whether the button is pressed. If it is, shift the value of
+  **button** and print it.
+
+|image43|
+
+- Delay 0.01s to eliminate the button jitter.
+
+  - If a close state is detected at the button, a delay will be executed
+    to eliminate **Front Porch Jitter**. Generally, the delay is within
+    5ms～10ms (Mechanical proper ties decide). After the jitter
+    disappears, check the button state again. If the closed state level
+    is still maintained, it is confirmed that there is a button pressed.
+
+  - When a released button is detected, a delay of 5ms～10ms also should
+    happen to remove the **Back Porch Jitter**, so that the program for
+    the button can be executed.
+
+- When the button is pressed (the physical pin reads **0**), the
+  ``button`` variable toggles to **1** (system state: ON). Press it
+  again, ``button`` shifts to **0** (system state: OFF), alternatively.
+
+..
+
+   **Note:** The physical button pin reads **0 when pressed** and **1
+   when released** (due to the internal pull-up resistor). The
+   ``button`` variable is a separate software toggle that flips between
+   0 and 1 each time a press is detected. Do **not** confuse the raw pin
+   value with the ``button`` state variable.
+
+Complete code:
+
+|image44|
+
+**Test Result**
+
+Upload code and open the serial monitor.
+
+When you press the button once, 1 will be displayed. If you press button
+for the second time, the value becomes 0. Now, a common button boasts
+the function of an auto-locking one.
+
+|image45|
+
+--------------
+
+.. _413-lighting-control:
+
+4.1.3 Lighting Control
+----------------------
+
+**Description**
+
+In above basic experiments, we remould an auto-locking button to control
+the LED. An auto-locking button is suitable for any situations where a
+certain state needs to be maintained, for example, when LED needs to
+light up for a long time, the ESP32 development board is required for
+some operations.
+
+In this experiment, we will adopt the ESP32 PLUS board to guide you to
+implement a lighting system and simulate real-life scenes to control
+light via the button.
+
+--------------
+
+**Wiring Diagram:**
+
+**Connect the button to io5 and LED to io27**
+
+**Attention: Connect yellow to S(Signal), red to V(Power), and black to
+GND. Do not reverse them!**
+
+|image46|
+
+--------------
+
+**Test Code:**
+
+Code Flow:
+
+|image47|
+
+Complete code:
+
+Based on the code for Auto-locking Button, we add "**LED pin output**"
+blocks.
+
+|image48|
+
+**Test Result:**
+
+**When you press the button once, LED lights up; if you press again, LED
+turns off. This operation is a loop, which is consistent with the
+lighting principle in reality.**
+
+--------------
+
+In this chapter, we have demonstrated how to program and control via
+KidsBlock, and we have learned the basics as well as some software and
+hardware concepts in experiments such as auto-locking button and
+lighting control system.
+
+These are essential for a good KidsBlock developer. Next, we will guide
+you to keep exploring more applications and skills, whether you are a
+beginner or a veteran. Hope you enjoy the fun and challenges during
+learning KidsBlock. Let's move on!
+
+--------------
+
+.. _415-faq:
+
+4.1.5 FAQ
+---------
+
+**Q: LED doesn't light up after uploading code.**
+
+A: Please check whether the pin defined in code is consistent with that
+in your wirings. If they are incompatible, please adjust it referring to
+the code.
+
+--------------
+
+**Q: The button sometimes works while sometimes doesn't.**
+
+A: Please modify the delay of jitter elimination to a proper value.
+
+--------------
+
+.. |image1| image:: ./media/cout1.png
+.. |image2| image:: ./media/image-20230607175228556.png
+.. |image3| image:: ./media/cou1.png
+.. |image4| image:: ./media/cou12.png
+.. |image5| image:: ./media/couy1.png
+.. |image6| image:: ./media/couj1.png
+.. |image7| image:: ./media/st1.png
+.. |image8| image:: ./media/st11.png
+.. |image9| image:: ./media/st14.png
+.. |image10| image:: ./media/st12.png
+.. |image11| image:: ./media/st11.png
+.. |image12| image:: ./media/st15.png
+.. |image13| image:: ./media/st20.png
+.. |image14| image:: ./media/st16.png
+.. |image15| image:: ./media/st21.png
+.. |image16| image:: ./media/st22-1.png
+.. |image17| image:: ./media/st22.png
+.. |image18| image:: ./media/cou1k1.png
+.. |image19| image:: ./media/cou1k2.png
+.. |image20| image:: ./media/cou1k3.png
+.. |image21| image:: ./media/st23.png
+.. |image22| image:: ./media/st25.png
+.. |image23| image:: ./media/st26.png
+.. |image24| image:: ./media/st27.png
+.. |image25| image:: ./media/st16.png
+.. |image26| image:: ./media/st28.png
+.. |image27| image:: ./media/st29.png
+.. |image28| image:: ./media/st30.png
+.. |image29| image:: ./media/st31.png
+.. |image30| image:: ./media/st32.png
+.. |image31| image:: ./media/st33.png
+.. |image32| image:: ./media/st34.gif
+.. |image33| image:: ./media/cou13.png
+.. |image34| image:: ./media/couy12.png
+.. |image35| image:: ./media/couj12.png
+.. |image36| image:: ./media/st36.png
+.. |image37| image:: ./media/st37.png
+.. |image38| image:: ./media/st38.png
+.. |image39| image:: ./media/st35.png
+.. |image40| image:: ./media/st39.png
+.. |image41| image:: ./media/st40.png
+.. |image42| image:: ./media/st41.png
+.. |image43| image:: ./media/st43.png
+.. |image44| image:: ./media/st44.png
+.. |image45| image:: ./media/st46.png
+.. |image46| image:: ./media/couj13.png
+.. |image47| image:: ./media/flo1.png
+.. |image48| image:: ./media/st47.png

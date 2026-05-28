@@ -1,0 +1,330 @@
+.. _46-project-smart-feeding-system:
+
+4.6 Project: Smart Feeding System
+=================================
+
+In this project, the ultrasonic module detects whether animals are in
+the feeding area, and the Servo automatically opens the feeding box for
+fowls. Besides, incorporating IOT enables remote monitoring of such
+feeding systems which provides much convenience.
+
+Overall, the automation and remote operation are optimizing the feeding
+process for this system.
+
+|image1|
+
+--------------
+
+.. _461-flow-diagram:
+
+4.6.1 Flow Diagram
+------------------
+
+|image2|
+
+--------------
+
+.. _462-servo:
+
+4.6.2 Servo
+-----------
+
+**Description:**
+
+**Servo**, also called **RC Servo Device**, is a motor with a feedback.
+Commonly, Servo performs precise position control and outputs high
+torque, which most often appears in robotics projects, RC cars,
+airplanes and aircraft.
+
+|image3|
+
+--------------
+
+**Internal Structure:**
+
+|image4|
+
+- ① Signal(S): It receives the control signal from microcontroller.
+
+- ② Potentiometer: the feedback part of the Servo. It measures the
+  position of output shaft.
+
+- | ③ Embedded board (Internal controller): the core of the Servo. It
+    processes external control signal and the feedback signal of
+    position
+  | and drives the Servo.
+
+- ④ DC motor: the execution part. It outputs speed, torque and position.
+
+- ⑤ Gear system: It scales the outputs from motor to the final output
+  Angle ccording to a certain transmission ratio.
+
+--------------
+
+**Drive the Servo:**
+
+Signal(S) receives PWM to control the output of Servo, and **the
+position of output shaft directly relies on the duty cycle of PWM**.
+
+For instance:
+
+- If we send a signal with pulse width of 1.5ms to Servo, its
+  shaft(horn) will revolves to the middle position(90°);
+
+- If pulse width = ``0.5ms``, the shaft turns to its minimum(0°);
+
+- If pulse width = ``2.5ms``, the shaft turns to its maximum(180°).
+
+**NOTE: The maximum angle varies from the types of Servos. Some are 170°
+while some are only 90°. In spite of this, Servos usually will move a
+half (of the maximum) if they receive a signal with pulse width of
+1.5ms.**
+
+|image5|
+
+The period of a Servo usually lasts 20ms and it produce pulses at a
+frequency of ``50Hz``. Most servos work normally at 40~200Hz.
+
+--------------
+
+**Wiring Diagram:**
+
+**Connect the Servo to io26.**
+
+**Attention: Connect yellow to S(Signal), red to V(Power), and black to
+GND. Do not reverse them!**
+
+|image6|
+
+--------------
+
+**Test Code:**
+
+- Initialize the serial port and define a variable **item** with an
+  assignment of 80.
+
+|image7|
+
+- Set **item** to the angle of Servo from 80° to 180°, rotating 1° every
+  15ms.
+
+|image8|
+
+- Servo rotates 1° every 15ms, from 180° to 80°.
+
+|image9|
+
+Complete code:
+
+|image10|
+
+**Test Result:**
+
+The feeding box is slowly opened and then closed ,which is controllable.
+
+**NOTE: SG90 servo can rotate 180°. As the feeding box is small, 100° of
+rotation is enough to completely close the box.**
+
+- 80°: fully open
+
+- 120°: half open
+
+- 180°: close
+
+|image11|
+
+--------------
+
+**ATTENTION**
+
+**Do not put your fingers into the box to avoid nipping!**
+
+**Do not block the door with something to avoid damaging servo!**
+
+--------------
+
+.. _463-ultrasonic-sensor:
+
+4.6.3 Ultrasonic Sensor
+-----------------------
+
+**Description:**
+
+|image12|
+
+**Schematic Diagram:**
+
+|image13|
+
+--------------
+
+The frequency of sound waves that the human can hear is 20Hz ~ 20KHz,
+while ultrasonic waves are beyond that range.
+
+**Ultrasonic:**
+
+|image14|
+
+Ultrasonic module converts electricity and ultrasonic wave into each
+other by piezoelectric effect, and it also transmits and receives
+ultrasonic wave.
+
+This kind of wave features directivity, strong penetration and easy
+concentration of sound energy.
+
+|image15|
+
+In this ultrasonic ranging system, we firstly program on MCU(ESP32
+development board) to generate an original square wave at 40KHz and
+drive the ultrasonic module to emit it. Immediately, the module
+calculates the distance to the object after receiving the reflected
+wave(Echo) amplified and shaped by the circuit. Herein, it records the
+duration of emission and reflection and calculates the distance
+according to the time difference.
+
+Simply, MCU controls the module to emit ultrasonic wave which is bounced
+back after encountering obstacles and is received by the module. The
+time difference between them is an important factor in computing the
+distance (the speed of sound propagation in air is 340m/s).
+
+--------------
+
+**Wiring Diagram:**
+
+**Connect the Echo of Ultrasonic module to io13 and Trig to io12.**
+
+**Attention: Connect yellow to S(Signal) and red to V(Power). Do not
+reverse them!**
+
+|image16|
+
+--------------
+
+**Test Code:**
+
+Set the correct pin: Trig to pin io12; Echo to pin io13.
+
+|image17|
+
+**Test Result:**
+
+In this kit, the detection range is within 3~8cm.
+
+Open the serial monitor, and observe.
+
+|image18|
+
+--------------
+
+.. _464-smart-feeding-system:
+
+4.6.4 Smart Feeding System
+--------------------------
+
+**Description:**
+
+The smart feeding system intelligently feeds domestic fowls via an
+ultrasonic module and a servo. The former detects the distance to
+animals while the later controls to open or close the feeding box. When
+a pet is detected close to the box, servo opens it to feed.
+
+--------------
+
+**Wiring Diagram:**
+
+**Connect the Echo of Ultrasonic module to io13 and Trig to io12;
+connect the servo to io26.**
+
+**Attention: Connect yellow to S(Signal), red to V(Power) and black to
+GND. Do not reverse them!**
+
+|image19|
+
+--------------
+
+**Test Code:**
+
+Code Flow:
+
+|image20|
+
+Code:
+
+- Initialize the serial port. Define a variable and assign it to 180.
+
+|image21|
+
+- Set the pin correctly, and print the received value.
+
+|image22|
+
+- Determine the detected distance value. If it is within 2cm ~ 7cm, the
+  feeding box will open.
+
+|image23|
+
+Complete code:
+
+|image24|
+
+**Test Result:**
+
+When an animal is detected, open the feeding box.
+
+--------------
+
+**ATTENTION**
+
+**Do not put your fingers into the box to avoid nipping!**
+
+**Do not block the door with something to avoid damaging servo!**
+
+--------------
+
+.. _465-faq:
+
+4.6.5 FAQ
+---------
+
+Q: Servo doesn't work.
+
+A: It may be stuck by itself or by wires when mount the bottom plate.
+before installing, please adjust the servo to 180° first. For how,
+please refer to the installation guidance.
+
+--------------
+
+Q: The detected distance is inaccurate.
+
+A: When detecting, please measure from the transmitting head. Herein,
+this module is not a high-precision detector, so errors may exist.
+
+|image25|
+
+--------------
+
+.. |image1| image:: ./media/cout6.png
+.. |image2| image:: ./media/image-20230607085516167.png
+.. |image3| image:: ./media/cou64.png
+.. |image4| image:: ./media/cou61.png
+.. |image5| image:: ./media/cou62.png
+.. |image6| image:: ./media/couj61.png
+.. |image7| image:: ./media/st78.png
+.. |image8| image:: ./media/st79.png
+.. |image9| image:: ./media/st80.png
+.. |image10| image:: ./media/st81.png
+.. |image11| image:: ./media/cou63.gif
+.. |image12| image:: ./media/cou65.png
+.. |image13| image:: ./media/couy61.png
+.. |image14| image:: ./media/cou66.png
+.. |image15| image:: ./media/cou67.png
+.. |image16| image:: ./media/couj62.png
+.. |image17| image:: ./media/st83.png
+.. |image18| image:: ./media/st82.png
+.. |image19| image:: ./media/couj63.png
+.. |image20| image:: ./media/flo6.png
+.. |image21| image:: ./media/st84.png
+.. |image22| image:: ./media/st85.png
+.. |image23| image:: ./media/st86.png
+.. |image24| image:: ./media/st87.png
+.. |image25| image:: ./media/cou69.png
