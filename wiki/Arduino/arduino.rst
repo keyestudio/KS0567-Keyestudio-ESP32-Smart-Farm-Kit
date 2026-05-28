@@ -6,16 +6,16 @@ Arduino
     :maxdepth: 3
 
     
-    ./1 Introduce Arduino
-    ./2_Driver_Installation_and_Environment_Configuration
-    ./3_Set_the_Angle_of_the_Servo
+    project/1 Introduce Arduino
+    project/2_Driver_Installation_and_Environment_Configuration
+    project/3_Set_the_Angle_of_the_Servo
 
 
 .. toctree::
     :maxdepth: 2
 
 
-    ./4_Assemble_the_Smart_Farm_Kit
+    project/4_Assemble_the_Smart_Farm_Kit
 
 .. _5-projects:
 
@@ -41,18 +41,18 @@ different difficulty levels.
 .. toctree::
     :maxdepth: 3
 
-    ./5.1_Lighting_System
-    ./5.2_Light_Control_System
-    ./5.3_Alarm_System
-    ./5.4_Rain_Detection_System
-    ./5.5_Solar_Power_System
-    ./5.6_Smart_Feeding_System
-    ./5.7_Temperature_Control_System
-    ./5.8_Soil_Humidity_Monitoring_System
-    ./5.9_Water_Level_Monitoring_System
-    ./5.10_Auto-Irrigation_System
-    ./5.11_Web-controlled_Smart_Farm
-    ./5.12_APP_Control_Smart_Farm
+    project/5.1_Lighting_System
+    project/5.2_Light_Control_System
+    project/5.3_Alarm_System
+    project/5.4_Rain_Detection_System
+    project/5.5_Solar_Power_System
+    project/5.6_Smart_Feeding_System
+    project/5.7_Temperature_Control_System
+    project/5.8_Soil_Humidity_Monitoring_System
+    project/5.9_Water_Level_Monitoring_System
+    project/5.10_Auto-Irrigation_System
+    project/5.11_Web-controlled_Smart_Farm
+    project/5.12_APP_Control_Smart_Farm
 
 
 
