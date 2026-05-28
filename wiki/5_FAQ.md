@@ -1,30 +1,29 @@
-# FAQ
+## 5. FAQ
 
 
 
-### Q: What type of batteries should this kit be equipped with?
+### F: Welche Art von Batterien sollte dieses Kit verwenden?
 
 
-A: Six AA batteries, each one with the diameter of 14MM and height of 49MM. Please install batteries in a correct way and do not reverse them! For younger learners, please operate under the accompaniment of parents.
+A: Sechs AA-Batterien, jede mit einem Durchmesser von 14 mm und einer Höhe von 49 mm. Bitte legen Sie die Batterien richtig ein und vertauschen Sie sie nicht! Für jüngere Lernende, bitte unter Begleitung der Eltern bedienen.
 
 
-### Q: An error occurs when burning programs on ESP32 mainboard.
+### F: Beim Brennen von Programmen auf dem ESP32-Mainboard tritt ein Fehler auf.
 
 
 A:
 
--  Please check whether the COM port is correct.
--  Please check whether the selected board is correct.
+- Bitte überprüfen Sie, ob der COM-Port korrekt ist.
+- Bitte überprüfen Sie, ob die ausgewählte Platine korrekt ist.
 
 
-### Q: Can this kit expands to other modules?
+### F: Kann dieses Kit um andere Module erweitert werden?
 
 
-A: Yes. When expanding to other modules, please check pin description to make sure that ESP32 pins work normally.
+A: Ja. Beim Erweitern um andere Module überprüfen Sie bitte die Pin-Beschreibung, um sicherzustellen, dass die ESP32-Pins normal funktionieren.
 
 
-### Q: An error occurs when importing <Wire.h> library.
+### F: Beim Importieren der Bibliothek <Wire.h> tritt ein Fehler auf.
 
 
-A: When installing ESP32 development board on arduino IDE, <Wire.h> library will be imported automatically, so you don't need to add it repeatedly.
-
+A: Wenn Sie das ESP32-Entwicklungsboard in der Arduino IDE installieren, wird die Bibliothek <Wire.h> automatisch importiert, sodass Sie sie nicht wiederholt hinzufügen müssen.

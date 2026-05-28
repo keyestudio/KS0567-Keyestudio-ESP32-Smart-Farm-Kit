@@ -1,12 +1,12 @@
-## 4. Assemble the Smart Farm Kit
+## 4. Smart Farm Kit zusammenbauen
 
 
 
-### Step 1 Install the ESP32 Board and the Relay Module
+### Schritt 1 ESP32 Board und Relaismodul installieren
 
 
 
-#### 1.1 Required components
+#### 1.1 Benötigte Komponenten
 
 
 ![img](../media/image001.png)
@@ -36,11 +36,11 @@
 ![img](../media/image006.png)
 
 
-### Step 2 Install the Fixing Frame for Battery Case and install the Feeding Cabin, connect the ESP32 board and the Relay Module
+### Schritt 2 Befestigungsrahmen für das Batteriegehäuse installieren und die Futterkabine installieren, das ESP32 Board und das Relaismodul verbinden
 
 
 
-#### 2.1 Required components
+#### 2.1 Benötigte Komponenten
 
 
 ![img](../media/image007.png)
@@ -49,7 +49,7 @@
 #### 2.2
 
 
-Assemble the wooden board X and O on bottom plate
+Holzplatte X und O auf der Bodenplatte montieren
 
 ![img](../media/image008.png)
 
@@ -84,18 +84,18 @@ Assemble the wooden board X and O on bottom plate
 ![img](../media/image014.png)
 
 
-#### 2.8 Connect the ESP32 board and the Relay Module
+#### 2.8 ESP32 Board und Relaismodul verbinden
 
 
-| Module | Wire | Pin |
+| Modul | Kabel | Pin |
 | --- | --- | --- |
-| Relay Module | 3PIN 20cm | IO25 |
+| Relaismodul | 3PIN 20cm | IO25 |
 
-| Module Pin | Wire Color | ESP32 Board Pin |
+| Modul Pin | Kabelfarbe | ESP32 Board Pin |
 | --- | --- | --- |
-| V | RED | V |
-| G | BLACK | G |
-| S | YELLOW | io25 |
+| V | ROT | V |
+| G | SCHWARZ | G |
+| S | GELB | io25 |
 
 ![img](../media/image015.png)
 
@@ -106,11 +106,11 @@ Assemble the wooden board X and O on bottom plate
 ![img](../media/image015-1.png)
 
 
-### Step 3 Install the Substructure of the house
+### Schritt 3 Unterkonstruktion des Hauses installieren
 
 
 
-#### 3.1 Required components
+#### 3.1 Benötigte Komponenten
 
 
 ![img](../media/image016.png)
@@ -176,27 +176,27 @@ Assemble the wooden board X and O on bottom plate
 ![img](../media/image026.png)
 
 
-### Step 4 Install the Door of the Feeding Cabin
+### Schritt 4 Tür der Futterkabine installieren
 
 
 
-#### 4.1 Required components
+#### 4.1 Benötigte Komponenten
 
 
 ![img](../media/image027.png)
 
 
-#### 4.2 Set Servo to 180°
+#### 4.2 Servo auf 180° einstellen
 
 
 ![image-20250416162128859](../media/image-20250416162128859.png)
 
-The acrylic sheet is packed separately, and it is recommended that you
-tear off its protective film to reduce the friction when it moves as a
-door.
+Die Acrylplatte ist separat verpackt, und es wird empfohlen, die
+Schutzfolie zu entfernen, um die Reibung beim Bewegen als Tür zu
+reduzieren.
 
 
-#### 4.3 Install Servo
+#### 4.3 Servo installieren
 
 
 ![img](../media/image029.png)
@@ -205,8 +205,8 @@ door.
 #### 4.4
 
 
-**Note: The screws need to be tightened to keep the servo stable,
-otherwise the door may get stuck**
+**Hinweis: Die Schrauben müssen fest angezogen werden, um das Servo
+stabil zu halten, da sich die Tür sonst verklemmen kann.**
 
 ![img](../media/image030.png)
 
@@ -216,7 +216,7 @@ otherwise the door may get stuck**
 
 ![image-20250416162337896](../media/image-20250416162337896.png)
 
-Install M1.4*6MM self-tapping screws as shown below
+M1.4*6MM selbstschneidende Schrauben wie unten gezeigt installieren
 
 ![img](../media/6e1caadec8b1ec99b0093200763607b6.jpg)
 
@@ -236,9 +236,9 @@ Install M1.4*6MM self-tapping screws as shown below
 #### 4.8
 
 
-Do not turn the gear after it is installed on the servo. If you have
-already turned the gear you will need to readjust the servo angle to
-180°.
+Drehen Sie das Zahnrad nicht, nachdem es am Servo installiert wurde. Wenn
+Sie das Zahnrad bereits gedreht haben, müssen Sie den Servowinkel auf
+180° neu einstellen.
 
 ![img](../media/image034.png)
 
@@ -246,8 +246,8 @@ already turned the gear you will need to readjust the servo angle to
 #### 4.9
 
 
-**NOTE: When installing the lid of the feeding box, its opening should
-be fully closed.**
+**HINWEIS: Beim Anbringen des Deckels des Futterkastens sollte dessen
+Öffnung vollständig geschlossen sein.**
 
 ![img](../media/image035.png)
 
@@ -270,57 +270,57 @@ be fully closed.**
 ![img](../media/image037-1.png)
 
 
-#### 4.13 Test the door
+#### 4.13 Tür testen
 
 
-1. Connect Servo to pin IO26 of the ESP32 board. Connect yellow to S,
-   red to V, black to G.
+1. Servo an Pin IO26 des ESP32 Boards anschließen. Gelb an S,
+   rot an V, schwarz an G anschließen.
 
 ![image028-1](../media/image028-1-1744850789118-1.png)
 
-2. Connect 6 AA batteries to the DC 7-12V port of ESP32 board.
-   (Batteries not included in the kit)
+2. 6 AA-Batterien an den DC 7-12V-Anschluss des ESP32 Boards
+   anschließen. (Batterien nicht im Kit enthalten)
 
 ![image-20250417084747308](../media/image-20250417084747308.png)
 
-3. Upload the Test code
+3. Testcode hochladen
 
-A. Connect the ESP32 board to the computer with the usb cable. Open the
-INO file inside the **6.1Servo** folder with Arduino IDE.
+A. Das ESP32 Board mit dem USB-Kabel an den Computer anschließen. Die
+INO-Datei im Ordner **6.1Servo** mit Arduino IDE öffnen.
 
 ![image-20250418081022882](../media/image-20250418081022882.png)
 
 ![image-20250418081231084](../media/image-20250418081231084.png)
 
-B. Click on Tools, select "ESP32 Dev Module" for the board type in the
-drop-down menu bar, and select COM-XX for Port (According to the port
-assigned by your computer in the device manager)
+B. Auf "Tools" klicken, im Dropdown-Menü "ESP32 Dev Module" als Boardtyp
+auswählen und COM-XX für den Port auswählen (entsprechend dem vom
+Computer im Gerätemanager zugewiesenen Port).
 
-C. Please make sure you have uploaded the **ESP32Servo** library and
-then upload the code. The door of the feeding cabin will open and close
-slowly.
+C. Bitte stellen Sie sicher, dass Sie die **ESP32Servo** Bibliothek
+hochgeladen haben und laden Sie dann den Code hoch. Die Tür der
+Futterkabine öffnet und schließt sich langsam.
 
 ![image-20250417085407205](../media/image-20250417085407205.png)
 
-NOTE: After uploading the code, ifthe door cannot be opened and closed and the servo is hot, please turn offthe powerimmediately.
+HINWEIS: Wenn sich die Tür nach dem Hochladen des Codes nicht öffnen und schließen lässt und das Servo heiß ist, schalten Sie die Stromversorgung sofort aus.
 
-**check:**
+**Überprüfen:**
 
-1. Whether the plastic door has good contact and force points with the
-   gear structure of the servo.
-1. Whether the tip of the fixing screw on the gear structure of the
-   servo is stuck with the plastic shell of the servo. If so, please
-   loosen the fixing screw a little to prevent its tip from contacting
-   the servo.
+1. Ob die Kunststofftür guten Kontakt und Kraftpunkte mit der
+   Getriebestruktur des Servos hat.
+1. Ob die Spitze der Befestigungsschraube an der Getriebestruktur des
+   Servos mit dem Kunststoffgehäuse des Servos verklemmt ist. Falls ja,
+   lösen Sie die Befestigungsschraube etwas, um zu verhindern, dass ihre
+   Spitze das Servo berührt.
 
 ![image-20250417085630662](../media/image-20250417085630662.png)
 
 
-### Step 5 Install the LCD display and the DHT11 Sensor
+### Schritt 5 LCD-Display und DHT11-Sensor installieren
 
 
 
-#### 5.1 Required components
+#### 5.1 Benötigte Komponenten
 
 
 ![img](../media/image038.png)
@@ -344,866 +344,19 @@ NOTE: After uploading the code, ifthe door cannot be opened and closed and the s
 ![img](../media/image041.png)
 
 
-#### 5.5 Prototype
+#### 5.5 Prototyp
 
 
 ![img](../media/image042.png)
 
 
-#### 5.6 Wiring
+#### 5.6 Verkabelung
 
 
-**Connect modules via Dupont wires.**
+**Module über Dupont-Kabel verbinden.**
 
-| Module | Wire |
+| Modul | Kabel |
 | --- | --- |
-| Temperature and Humidity Sensor | 3PIN 20cm |
+| Temperatur- und Feuchtigkeitssensor | 3PIN 20cm |
 
-**Pay attention to the color of the Dupont wire:**
-
-**For temperature and humidity sensor, connect yellow to S, red to V,
-black to G.**
-
-![img](../media/image043.png)
-
-
-#### 5.7
-
-
-| Module | Wire |
-| --- | --- |
-| LCD 1602 | 4PIN **(Black-Red-Blue-Green)** |
-
-**For the LCD display, connect green to SCL, blue to SDA, red to VCC,
-black to GND.**
-
-![img](../media/image044.png)
-
-
-### Step 6 Install the Ultrasonic Module
-
-
-
-#### 6.1 Required components
-
-
-![img](../media/image045.png)
-
-
-#### 6.2
-
-
-![img](../media/image046.png)
-
-
-#### 6.3
-
-
-![img](../media/image047.png)
-
-
-#### 6.4 Wiring
-
-
-| Module | Wire |
-| --- | --- |
-| Ultrasonic module | 4PIN **(Black-Green-Blue-Red)** |
-
-**Pay attention to the color of the Dupont wire: For the ultrasonic
-module, connect blue to TRIG,green to ECHO, red to VCC, black to GND.**
-
-![img](../media/image048.png)
-
-
-### Step 7 Install the PIR Motion Sensor and Button Module
-
-
-
-#### 7.1 Required components
-
-
-![img](../media/image049.png)
-
-
-#### 7.2
-
-
-![img](../media/image050.png)
-
-
-#### 7.3
-
-
-![img](../media/image051.png)
-
-
-#### 7.4 Wiring
-
-
-**Connect modules via Dupont wires.**
-
-| Module | Wire |
-| --- | --- |
-| PIR Motion Sensor | 3PIN 15cm |
-| Button Module | 3PIN 15cm |
-
-**Pay attention to the color of the Dupont wire: Connect yellow to S,
-red to V, black to G.**
-
-![img](../media/image052.png)
-
-
-### Step 8 Install the Walls of the House
-
-
-
-#### 8.1 Required components
-
-
-![img](../media/image053.png)
-
-
-#### 8.2
-
-
-![img](../media/image054.png)
-
-
-#### 8.3
-
-
-![img](../media/image055.png)
-
-
-#### 8.4
-
-
-![img](../media/image056.png)
-
-
-#### 8.5
-
-
-![img](../media/image057.png)
-
-
-#### 8.6
-
-
-![img](../media/image058.png)
-
-
-#### 8.7
-
-
-![img](../media/image059.png)
-
-
-#### 8.8 Prototype
-
-
-![img](../media/image060.png)
-
-
-#### 8.9 Wiring
-
-
-| Module | Wire |
-| --- | --- |
-| Fan | 4PIN **Divided (Black-Red-Blue-Green)** |
-| Steam Sensor | 3PIN 15cm |
-| Photoresistor | 3PIN 15cm |
-
-**Pay attention to the color of the Dupont wire for the Fan:**
-
-| Module Pin | Wire Color | ESP32 Board Pins |
-| :--- | :--- | :--- |
-| IN- | GREEN | io18 |
-| IN+ | BLUE | io19 |
-| V | RED | V |
-| G | BLACK | G |
-
-**For Steam Sensor and Photoresistor: Connect yellow to S, red to V, black to G.**
-
-![img](../media/image061.png)
-
-
-### Step 9 Install the Roof of the house
-
-
-
-#### 9.1 Required components
-
-
-![img](../media/image062.png)
-
-
-#### 9.2
-
-
-![img](../media/image063.png)
-
-
-#### 9.3
-
-
-![img](../media/image064.png)
-
-
-#### 9.4 Keep the wires organized
-
-
-![img](../media/image065.png)
-
-
-### Step 10 Install the House and Ground
-
-
-
-#### 10.1 Required components
-
-
-![img](../media/image066.png)
-
-
-#### 10.2
-
-
-![img](../media/image067.png)
-
-
-#### 10.3
-
-
-![img](../media/image068.png)
-
-
-#### 10.4 Bottom View
-
-
-![img](../media/image069.png)
-
-
-#### 10.5
-
-
-![img](../media/image070.png)
-
-
-#### 10.6 Arrange the wires
-
-
-![img](../media/image071.png)
-
-
-#### 10.7
-
-
-![img](../media/image072.png)
-
-
-### Step 11 Wiring the House
-
-
-
-#### 11.1
-
-
-**Pay attention to the color of the Dupont wire: Connect yellow to S,
-red to V, black to G.**
-
-| NO. | Components | Wires | ESP32 Board Pins |
-| --- | --- | --- | --- |
-| 1 | Fan | 4pin, Divided Bla ck-Red-Blue-Green | io18(IN-) \ io19(IN+) |  |
-| 2 | PIR Motion Sensor | 3pin 15cm | io23 |
-| 3 | Button | 3pin 15cm | io5 |
-| 4 | Ultrasonic Module | 4pin,Divided Bla ck-Green-Blue-Red | D12(TRIG) D13(ECHO) |
-| 5 | LCD 1602 | 4pin, Connected | I2C |
-| 6 | Temperature and Humidity Sensor | 3pin 20cm | io17 |
-| 7 | Steam Sensor | 3pin 15cm | io35 |
-| 8 | Photoresistor | 3pin 15cm | io34 |
-| 9 | Servo | -- | io26 |
-| 10 | Buzzer | 3pin 20cm | io16 |
-| 11 | LED | 3pin 20cm | io27 |
-| 12 | Water Level Sensor | 3pin 25cm | io33 |
-| 13 | Soil Humidity Sensor | 3pin 20cm | io32 |
-| 14 | Water Pump | 3pin 20cm | io25 |
-
-
-#### 11.2 Fan
-
-
-Pass the Dupont wire connected to the fan through the hole **marked 30**
-on the wooden board.
-
-| Components | Wire | ESP32 Board Pins |
-| --- | --- | --- |
-| Fan | 4PIN Divided (Black-Red-Blue-Green) | io18(IN-), io19(IN+) |
-
-| Module Pin | Wire Color | ESP32 Board Pins |
-| :--- | :--- | :--- |
-| IN- | GREEN | io18 |
-| IN+ | BLUE | io19 |
-| V | RED | V |
-| G | BLACK | G |
-
-![img](../media/image073.png)
-
-
-#### 11.3 PIR Motion Sensor
-
-
-Pass the Dupont wire connected to the PIR motion sensor through the hole
-marked 24 on the wooden board.
-
-| Component | Wire | ESP32 Board Pin |
-| --- | --- | --- |
-| PIR Motion Sensor | 3PIN 15cm | io23 |
-
-**Connect red to V, black to G, yellow to S.**
-
-| Module Pin | Wire Color | ESP32 Board Pin |
-| --- | --- | --- |
-| V | RED | V |
-| G | BLACK | G |
-| S | YELLOW | io23 |
-
-![img](../media/image074.png)
-
-
-#### 11.4 Button Module
-
-
-Pass the Dupont wire connected to the button module through the hole
-marked 25 on the wooden board.
-
-| Component | Wire | ESP32 Board Pin |
-| --- | --- | --- |
-| Button | 3PIN 15cm | io5 |
-
-**Connect red to V, black to G, yellow to S.**
-
-| Module Pin | Wire Color | ESP32 Board Pin |
-| --- | --- | --- |
-| V | RED | V |
-| G | BLACK | G |
-| S | YELLOW | io5 |
-
-![img](../media/image075.png)
-
-
-#### 11.5 Ultrasonic Module
-
-
-| Component | Wire | ESP32 Board Pins |
-| --- | --- | --- |
-| Ultrasonic Module | 4PIN **Divided** ( Black-Green-Blue-Red) | io13(ECHO), io12(TRIG) |
-
-**Connect red to V, black to G, blue to io12, green to io13.**
-
-| Module Pin | Wire Color | ESP32 Board Pin |
-| --- | --- | --- |
-| V | RED | V (io12) |
-| G | BLACK | G (io12) |
-| ECHO | GREEN | io13 |
-| TRIG | BLUE | io12 |
-
-![img](../media/image076.png)
-
-
-#### 11.6 LCD 1602
-
-
-| Component | Wire | ESP32 Board Pins |
-| --- | --- | --- |
-| LCD1602 | 4PIN Connected (Black-Red-Blue-Green) | I2C |
-
-**Connect red to V, black to G, blue to SDA, green to SCL.**
-
-| Module Pin | Wire Color | ESP32 Board Pin |
-| --- | --- | --- |
-| V | RED | V |
-| G | BLACK | G |
-| SCL | GREEN | SCL |
-| SDA | BLUE | SDA |
-
-![img](../media/image077.png)
-
-
-#### 11.7 Temperature and Humidity Sensor
-
-
-Pass the Dupont wire connected to the button module through the hole marked 20 on the wooden board.
-
-| Component | Wire | ESP32 Board Pins |
-| --- | --- | --- |
-| Temperature and Humidity Sensor | 3PIN 20cm | io17 |
-
-**Connect red to V, black to G, yellow to io17.**
-
-| Module Pin | Wire Color | ESP32 Board Pin |
-| --- | --- | --- |
-| V | RED | V |
-| G | BLACK | G |
-| S | YELLOW | io17 |
-
-![img](../media/image078.png)
-
-
-#### 11.8 Steam Sensor
-
-
-| Component | Wire | ESP32 Board Pin |
-| --- | --- | --- |
-| Steam Sensor | 3PIN 15cm | io35 |
-
-**Connect red to V, black to G, yellow to io35.**
-
-| Module Pin | Wire Color | ESP32 Board Pin |
-| --- | --- | --- |
-| V | RED | V |
-| G | BLACK | G |
-| S | YELLOW | io35 |
-
-![img](../media/image079.png)
-
-
-#### 11.9 Photoresistor
-
-
-| Component | Wire | ESP32 Board Pin |
-| --- | --- | --- |
-| Photoresistor | 3PIN 15cm | io34 |
-
-**Connect red to V, black to G, yellow to io34.**
-
-| Module Pin | Wire Color | ESP32 Board Pin |
-| --- | --- | --- |
-| V | RED | V |
-| G | BLACK | G |
-| S | YELLOW | io34 |
-
-![img](../media/image080.png)
-
-
-#### 11.10 Servo
-
-
-Pass the wire of Servo through the Hole 15, and then connect it to ESP32
-board.
-
-| Component | Wire | ESP32 Board Pin |
-| --- | --- | --- |
-| Servo | 3PIN | io26 |
-
-**Connect red to V, black to G, yellow to io26.**
-
-| ESP32 Board Pin | Wire Color |
-| --- | --- |
-| V | RED |
-| G | BLACK |
-| IO26 | YELLOW |
-
-![img](../media/image081.png)
-
-
-#### 11.11 Buzzer
-
-
-Pass the wire of Buzzer through the Hole 17, and then connect it to
-ESP32 board.
-
-| Component | Wire | ESP32 Board Pin |
-| --- | --- | --- |
-| Buzzer | 3PIN 20cm | io16 |
-
-**Connect red to V, black to G, yellow to io16.**
-
-| Module Pin | Wire Color | ESP32 Board Pin |
-| --- | --- | --- |
-| V | RED | V |
-| G | BLACK | G |
-| S | YELLOW | io16 |
-
-![image-20250417093147856](../media/image-20250417093147856.png)
-
-![img](../media/image082.png)
-
-
-#### 11.12 LED
-
-
-Pass the wire of LED through the Hole 7, and then connect it to ESP32
-board.
-
-| Component | Wire | ESP32 Board Pin |
-| --- | --- | --- |
-| LED | 3PIN 20cm | io27 |
-
-**Connect red to V, black to G, yellow to io27.**
-
-| Module Pin | Wire Color | ESP32 Board Pin |
-| --- | --- | --- |
-| V | RED | V |
-| G | BLACK | G |
-| S | YELLOW | io27 |
-
-![img](../media/image083.png)
-
-
-#### 11.13 Water Lever Sensor
-
-Pass the wire of water level sensor through the Hole 13, and then
-connect it to ESP32 board.
-
-| Component | Wire | ESP32 Board Pin |
-| --- | --- | --- |
-| Water Lever Sensor | 3PIN 25cm | io33 |
-
-**Connect red to V, black to G, yellow to io33.**
-
-| Module Pin | Wire Color | ESP32 Board Pin |
-| --- | --- | --- |
-| V | RED | V |
-| G | BLACK | G |
-| S | YELLOW | io33 |
-
-![img](../media/image084.png)
-
-
-#### 11.14 Soil Humidity Sensor
-
-
-Pass the wire of soil humidity sensor through the Hole 11, and then
-connect it to ESP32 board.
-
-| Component | Wire | ESP32 Board Pin |
-| --- | --- | --- |
-| Soil Humidity Sensor | 3PIN 20cm | io32 |
-
-**Connect red to V, black to G, yellow to io32.**
-
-| Module Pin | Wire Color | ESP32 Board Pin |
-| --- | --- | --- |
-| V | RED | V |
-| G | BLACK | G |
-| S | YELLOW | io32 |
-
-![img](../media/image085.png)
-
-
-#### 11.15 Relay Module
-
-
-| Component | Wire | ESP32 Board Pin |
-| --- | --- | --- |
-| Relay Module | 3PIN | io25 |
-
-| Module Pin | Wire Color | ESP32 Board Pin |
-| --- | --- | --- |
-| V | RED | V |
-| G | BLACK | G |
-| S | YELLOW | io25 |
-
-Pass the wire of Water Pump through the Hole 11 in the way as shown
-below:
-
-![img](../media/image086.png)
-
-The red wire of the water pump is connected to the middle terminal of
-the relay module, and the black wire is connected to the GND of the
-ESP32 board.
-
-In addition, you need to use a Dupont wire to connect the left terminal
-of the relay module to the 3.3V of the ESP32.
-
-![img](../media/image087.png)
-
-![img](../media/image088.png)
-
-Insert the male terminal of the Dupont wire into the female terminal of the relay module and tighten it with a screwdriver.
-
-![image-20250417093737686](../media/image-20250417093737686.png)
-
-After the above steps, note that all the wiring has been finished. And wires of the LED, water level sensor, soil humidity sensor, buzzer and relay water pump have respectively passed through the holes of 7, 11, 13, 17 and 40 carved on the basswood board, preparing for the subsequent installation.
-
-![354e13bf130d878628f1361fdd37b997](../media/354e13bf130d878628f1361fdd37b997.png)
-
-
-### Step 12 Install the house and foundation
-
-
-
-#### 12.1 Required components
-
-
-![img](../media/image089.png)
-
-
-#### 12.2
-
-
-![img](../media/image090.png)
-
-
-#### 12.3
-
-
-![img](../media/image091.png)
-
-
-#### 12.4
-
-
-![img](../media/image092.png)
-
-
-#### 12.5
-
-
-![img](../media/image093.png)
-
-
-### Step 13 Install the Plastic Sinks
-
-
-
-#### 13.1 Required components
-
-
-![img](../media/image094.png)
-
-
-#### 13.2
-
-
-![img](../media/image095.png)
-
-
-#### 13.3
-
-
-![img](../media/image096.png)
-
-
-### Step 14 Install the soil module and water level module
-
-
-
-#### 14.1 Required components
-
-
-![img](../media/image098.png)
-
-
-#### 14.2
-
-
-![img](../media/image099.png)
-
-
-#### 14.3
-
-
-![img](../media/image100.png)
-
-
-#### 14.4
-
-
-![image-20230718085623979](../media/image-20230718085623979.png)
-
-
-#### 14.5
-
-
-![image-20230718085641291](../media/image-20230718085641291.png)
-
-
-#### 14.6
-
-
-![image-20230718085722378](../media/image-20230718085722378.png)
-
-
-#### 14.7
-
-
-![image-20230718085743776](../media/image-20230718085743776.png)
-
-
-### Step 15 Install fence
-
-
-
-#### 15.1 Required components
-
-
-![image-20230718085854136](../media/image-20230718085854136.png)
-
-
-#### 15.2
-
-
-![image-20230718085921988](../media/image-20230718085921988.png)
-
-
-#### 15.3
-
-
-![image-20230718085936256](../media/image-20230718085936256.png)
-
-
-#### 15.4
-
-
-![image-20230718085954487](../media/image-20230718085954487.png)
-
-
-### Step 16 Install the Buzzer and the Led Module
-
-
-
-#### 16.1 Required components
-
-
-![image-20230718090031524](../media/image-20230718090031524.png)
-
-
-#### 16.2
-
-
-![image-20230718090057124](../media/image-20230718090057124.png)
-
-
-#### 16.3
-
-
-![image-20230718090110113](../media/image-20230718090110113.png)
-
-
-#### 16.4
-
-
-![image-20230718090127577](../media/image-20230718090127577.png)
-
-
-### Step 17 Decorate the House
-
-
-
-#### 17.1 Required components
-
-
-![image-20230718090150918](../media/image-20230718090150918.png)
-
-
-#### 17.2
-
-
-![image-20230718090215504](../media/image-20230718090215504.png)
-
-
-#### 17.3
-
-
-![image-20230718090227072](../media/image-20230718090227072.png)
-
-
-### Step 18 Install Solar Panel
-
-
-
-#### 18.1 Required components
-
-
-![img](../media/image128.png)
-
-
-#### 18.2
-
-
-![img](../media/image129.png)
-
-
-#### 18.3
-
-
-![img](../media/image130.png)
-
-
-#### 18.4
-
-
-![img](../media/image131.png)
-
-
-#### 18.5
-
-
-Install the LED light of the solar panel into this hole.
-
-![img](../media/image132.png)
-
-
-#### 18.6
-
-
-Use a sticker to secure its wires to the wall
-
-![img](../media/image131-1.png)
-
-
-#### 18.7
-
-
-![img](../media/image132-1.png)
-
-
-#### 18.8
-
-
-![img](../media/image133.png)
-
-
-#### 18.9
-
-
-![img](../media/image135.png)
-
-
-#### 18.10
-
-
-![image-20230718091556561](../media/image-20230718091556561.png)
-
-
-### Step 19 Install Battery Case
-
-
-
-#### 19.1 Required components
-
-
-![image-20230718091623881](../media/image-20230718091623881.png)
-
-
-#### 19.2
-
-
-Install 6 AA batteries（Not included in the kit）
-
-![image-20250417095312061](../media/image-20250417095312061.png)
-
-
-#### 19.3
-
-
-![image-20230718091649546](../media/image-20230718091649546.png)
-
-
-#### 19.4
-
-
-![image-20230718091701966](../media/image-20230718091701966.png)
-
+**Achten Sie auf die Farbe

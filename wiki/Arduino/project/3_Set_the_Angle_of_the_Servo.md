@@ -1,40 +1,39 @@
-## 3. Set the Angle of the Servo
+## 3. Den Winkel des Servos einstellen
 
-In the next lesson, we will assemble this smart farm kit. Before assembling the servo to the kit, we need to **set its angle to 165°** (with a 15° buffer reserved at each end) so that it will work as expected and avoid mechanical damage.
+In der nächsten Lektion werden wir dieses Smart-Farm-Kit zusammenbauen. Bevor wir den Servo am Kit montieren, müssen wir **seinen Winkel auf 165° einstellen** (mit einem Puffer von 15° an jedem Ende), damit er wie erwartet funktioniert und mechanische Schäden vermieden werden.
 
-> **⚠ WARNING — Read Before Proceeding:**
+> **⚠ WARNUNG — Vor dem Fortfahren lesen:**
 >
-> 1. **Do NOT set the servo to 180°.** The door mechanism does not require the full 0°–180° range. Setting it to the extreme end will cause the servo to press against the mechanical stop, which may overheat and permanently damage the servo motor.
-> 2. **Keep the board powered during installation.** When the servo is powered and holding its angle, do NOT force the gear or door by hand. If the board is unpowered, the servo has no holding torque, and manually rotating the gear will shift the calibrated angle, causing misalignment after power-on.
-> 3. **Do NOT use brute force.** If the door does not move smoothly, stop immediately and check the assembly. Forcing it will strip the servo gears.
+> 1. **Stellen Sie den Servo NICHT auf 180° ein.** Der Türmechanismus benötigt nicht den vollen Bereich von 0°–180°. Wenn Sie ihn an das extreme Ende einstellen, drückt der Servo gegen den mechanischen Anschlag, was zu Überhitzung und dauerhafter Beschädigung des Servomotors führen kann.
+> 2. **Halten Sie die Platine während der Installation mit Strom versorgt.** Wenn der Servo mit Strom versorgt wird und seinen Winkel hält, erzwingen Sie NICHT das Getriebe oder die Tür von Hand. Wenn die Platine nicht mit Strom versorgt wird, hat der Servo kein Haltemoment, und das manuelle Drehen des Getriebes verschiebt den kalibrierten Winkel, was nach dem Einschalten zu einer Fehlausrichtung führt.
+> 3. **Verwenden Sie KEINE rohe Gewalt.** Wenn sich die Tür nicht reibungslos bewegt, halten Sie sofort an und überprüfen Sie die Montage. Gewaltanwendung führt zum Ausreißen der Servozahnräder.
 
 ![image-20250416152950497](../media/image-20250416152950497.png)
 
-1. Connect the servo to the **pin io26** of the ESP32 PLUS board. Note: The brown, red and orange wire of the servo are respectively attached to GND(G), 5V(V) and **Pin io26.**
+1. Verbinden Sie den Servo mit dem **Pin io26** der ESP32 PLUS Platine. Hinweis: Die braunen, roten und orangefarbenen Kabel des Servos sind jeweils mit GND(G), 5V(V) und **Pin io26** verbunden.
 
 ![image028-1](../media/image028-1.png)
 
-2. Connect the ESP32 PLUS board to the computer.
+2. Verbinden Sie die ESP32 PLUS Platine mit dem Computer.
 
 ![image-20250416153731709](../media/image-20250416153731709.png)
 
-3. Make sure you have installed the **ESP32Servo.h** library for the Arduino IDE. If not, please refer to the previous section to install it.
+3. Stellen Sie sicher, dass Sie die Bibliothek **ESP32Servo.h** für die Arduino IDE installiert haben. Falls nicht, lesen Sie den vorherigen Abschnitt, um sie zu installieren.
 
 ![3bd9304d-73d9-4fc3-9e59-50c55f947960](../media/3bd9304d-73d9-4fc3-9e59-50c55f947960.png)
 
-4. Open the **window_servo** code provided in our tutorial package with Arduino IDE.
+4. Öffnen Sie den Code **window_servo**, der in unserem Tutorial-Paket enthalten ist, mit der Arduino IDE.
 
-> **Note:** The provided `window_servo` code sets the servo to **165°** (not 180°). This reserves a 15° mechanical buffer to prevent collision at the end stop. The working range of the door is 15°–165°.
+> **Hinweis:** Der bereitgestellte `window_servo` Code stellt den Servo auf **165°** (nicht 180°) ein. Dies reserviert einen mechanischen Puffer von 15°, um Kollisionen am Endanschlag zu verhindern. Der Arbeitsbereich der Tür beträgt 15°–165°.
 
 ![image-20250416154133013](../media/image-20250416154133013.png)
 
-5. Click on **Tools**, select "**ESP32 Dev Module**" for the board type, and select **COM-XX** for Port as shown in the Device Manager.
+5. Klicken Sie auf **Tools**, wählen Sie "**ESP32 Dev Module**" für den Board-Typ und wählen Sie **COM-XX** für den Port, wie im Geräte-Manager gezeigt.
 
 ![51454125](../media/51454125.png)
 
-6. Click ![image-20250416154532804](../media/image-20250416154532804.png) to upload. After uploading is complete, the servo will move to **165°** and hold that position.
+6. Klicken Sie auf ![image-20250416154532804](../media/image-20250416154532804.png), um hochzuladen. Nach Abschluss des Uploads bewegt sich der Servo auf **165°** und hält diese Position.
 
-> **Important:** Keep the board powered and the servo holding at 165° while you proceed to the assembly step. Do **not** disconnect power or manually move the gear until the door panel is fully installed.
+> **Wichtig:** Halten Sie die Platine mit Strom versorgt und den Servo auf 165° gehalten, während Sie mit dem Montageschritt fortfahren. Trennen Sie die Stromversorgung NICHT und bewegen Sie das Getriebe NICHT manuell, bis die Türverkleidung vollständig installiert ist.
 
 ![image-20250416155301751](../media/image-20250416155301751.png)
-

@@ -1,158 +1,145 @@
-## 2. Configure the Arduino
+## 2. Konfigurieren des Arduino
 
 
-### 2.1 Install Driver for KEYESTUDIO ESP32 PLUS Board
+### 2.1 Treiber für KEYESTUDIO ESP32 PLUS Board installieren
 
 
-KEYESTUDIO ESP32 PLUS Board a universal WIFI plus Bluetooth development
-board based on ESP32, integrated with ESP32-WOROOM-32 module and
-compatible with Arduino.
+Das KEYESTUDIO ESP32 PLUS Board ist ein universelles WIFI- und Bluetooth-Entwicklungsboard, das auf dem ESP32 basiert, mit dem ESP32-WOROOM-32-Modul integriert und mit Arduino kompatibel ist.
 
-It has a hall sensor, high-speed SDIO/SPI, UART, I2S as well as I2C.
-Furthermore, equipped with freeRTOS operating system, which is quite
-suitable for the Internet of things and smart home.
+Es verfügt über einen Hallsensor, Hochgeschwindigkeits-SDIO/SPI, UART, I2S sowie I2C. Darüber hinaus ist es mit dem freeRTOS-Betriebssystem ausgestattet, das sich hervorragend für das Internet der Dinge und Smart Home eignet.
 
-**Specifications**
+**Spezifikationen**
 
-Voltage: 3.3V-5V
+Spannung: 3,3V-5V
 
-Current Output: 1.2A(maximum)
+Stromausgang: 1,2A (maximal)
 
-Maximum power Output: 10W
+Maximale Ausgangsleistung: 10W
 
-Working temperature: -10℃~50℃
+Arbeitstemperatur: -10℃~50℃
 
-Dimension: 69 * 54 * 14.5mm
+Abmessungen: 69 * 54 * 14,5mm
 
-Weight: 25.5g
+Gewicht: 25,5g
 
-Environmental protection attributes: ROHS
+Umweltschutzmerkmale: ROHS
 
 ![j255](../media/j255.png)
 
-**Install driver**
+**Treiber installieren**
 
-Connect the ESP32 board to the computer and wait for Windows to begin its
-driver installation process. Often CH340 driver will be automatically
-installed by your system when using Arduino. You can check the Device
-Manager or the port of the Arduino IDE to see if the driver is successfully
-installed.
+Verbinden Sie das ESP32-Board mit dem Computer und warten Sie, bis Windows den Treiberinstallationsprozess startet. Oft wird der CH340-Treiber automatisch von Ihrem System installiert, wenn Sie Arduino verwenden. Sie können den Geräte-Manager oder den Port der Arduino IDE überprüfen, um festzustellen, ob der Treiber erfolgreich installiert wurde.
 
 ![a10](../media/a10.png)
 
-If the CH340 driver is not installed automatically, we need to install it manually.
+Wenn der CH340-Treiber nicht automatisch installiert wird, müssen wir ihn manuell installieren.
 
-Click to download [Windows CH340 driver](../Windows.zip) 
+Klicken Sie hier, um den [Windows CH340 Treiber](/Arduino/Windows.zip) herunterzuladen.
 
 ![a51](../media/a51.png)
 
-1. Open the **Device Manager** by right clicking “**My PC**” and
-   selecting **Properties**. Look under **Other devices**. You should
-   see an open port named **USB Serial**
+1. Öffnen Sie den **Geräte-Manager**, indem Sie mit der rechten Maustaste auf „**Mein PC**“ klicken und **Eigenschaften** auswählen. Suchen Sie unter **Andere Geräte**. Sie sollten einen offenen Port namens **USB Serial** sehen.
 
 ![a11](../media/a11.png)
 
-2. Right click on the "**USB Serial**" and choose the "**Update
-   Driver**" option.
+2. Klicken Sie mit der rechten Maustaste auf "**USB Serial**" und wählen Sie die Option "**Treiber aktualisieren**".
 
 ![a13](../media/a13.png)
 
-3. Choose the "**Browse my computer for Driver software**" option.
+3. Wählen Sie die Option "**Auf meinem Computer nach Treibersoftware suchen**".
 
 ![a14](../media/a14.png)
 
-4. Select the driver file named "**usb_ch341_3.1.2009.06**", located in the Driver Folder of the tutorial package.
+4. Wählen Sie die Treiberdatei mit dem Namen "**usb_ch341_3.1.2009.06**" aus, die sich im Treiberordner des Tutorialpakets befindet.
 
 ![a15](../media/a15.png)
 
-5. Driver successfully installed.
+5. Treiber erfolgreich installiert.
 
 ![a16](../media/a16.png)
 
-6. Device Manager will automatically refresh. Look under Ports (COM &
-   LPT). You should see an open port named “**USB-SERIAL CH340(COM3)**”
+6. Der Geräte-Manager wird automatisch aktualisiert. Suchen Sie unter Anschlüsse (COM & LPT). Sie sollten einen offenen Port namens „**USB-SERIAL CH340(COM3)**“ sehen.
 
 ![a10](../media/a10.png)
 
-7. Click **Tools>Port** at Arduino IDE, you can find the same COM port
-   as the CH340 driver in the device manager.
+7. Klicken Sie in der Arduino IDE auf **Tools>Port**. Sie finden denselben COM-Port wie den CH340-Treiber im Geräte-Manager.
 
 ![a38](../media/a38.png)
 
 
-### 2.2 Add Libraries to Arduino IDE
+### 2.2 Bibliotheken zur Arduino IDE hinzufügen
 
 
-**Why Use Libraries?**
+**Warum Bibliotheken verwenden?**
 
-Libraries are incredibly useful when creating a project of any type. They make our development
+Bibliotheken sind unglaublich nützlich, wenn man ein Projekt jeglicher Art erstellt. Sie machen unsere Entwicklung
 
-experience much smoother, and there almost an infinite amount out there. They are used to
+viel reibungsloser, und es gibt fast unendlich viele davon. Sie werden verwendet, um
 
-interface with many different sensors, RTCs, Wi-Fi modules, RGB matrices and of course with other
+mit vielen verschiedenen Sensoren, RTCs, Wi-Fi-Modulen, RGB-Matrizen und natürlich mit anderen
 
-components on your board.
+Komponenten auf Ihrem Board zu kommunizieren.
 
-**Including a Library in the sketch**
+**Eine Bibliothek in den Sketch einbinden**
 
-To use a library, you first need to include the library at the top of the sketch.If you find a line of code in the format of `#include "library name"` at the beginning of the code when using our code, it means that you need to add this library file to arduino IDE first before you can successfully upload this code.
+Um eine Bibliothek zu verwenden, müssen Sie diese zuerst am Anfang des Sketches einbinden. Wenn Sie beim Verwenden unseres Codes eine Zeile im Format `#include "Bibliotheksname"` am Anfang des Codes finden, bedeutet dies, dass Sie diese Bibliotheksdatei zuerst zur Arduino IDE hinzufügen müssen, bevor Sie diesen Code erfolgreich hochladen können.
 
 ![image-20250416150700630](../media/image-20250416150700630.png)
 
-To make the smart farm kit work, we will need to **add these library files to the Arduino IDE.** You can find them in the tutorial package.
+Damit das Smart Farm Kit funktioniert, müssen wir **diese Bibliotheksdateien zur Arduino IDE hinzufügen.** Sie finden sie im Tutorial-Paket.
 
 ![image-20250416150847190](../media/image-20250416150847190.png)
 
-**Importing a .zip Library**
+**Eine .zip-Bibliothek importieren**
 
-In the menu bar, go to **Sketch > Include Library > Add .ZIP Library...** You will be prompted to select the library you want to add.
+Gehen Sie in der Menüleiste zu **Sketch > Bibliothek einbinden > .ZIP-Bibliothek hinzufügen...** Sie werden aufgefordert, die Bibliothek auszuwählen, die Sie hinzufügen möchten.
 
 ![4564654654](../media/4564654654.png)
 
-Navigate to the .zip file’s location and open it.
+Navigieren Sie zum Speicherort der .zip-Datei und öffnen Sie sie.
 
 ![image-20250416151456661](../media/image-20250416151456661.png)
 
-You may need to restart the Arduino IDE for the library to be available. After successfully installing the library file, you will see them in the list.
+Möglicherweise müssen Sie die Arduino IDE neu starten, damit die Bibliothek verfügbar ist. Nach erfolgreicher Installation der Bibliotheksdatei werden diese in der Liste angezeigt.
 
 ![image-20250416151805635](../media/image-20250416151805635.png)
 
 
-### 2.3 Configure the development environment for ESP32
+### 2.3 Entwicklungsumgebung für ESP32 konfigurieren
 
 
-Before using Arduino IDE to program the smart farm, you need to configure the Arduino IDE, select the correct board type (**ESP32 Dev Module**) for the ESP32 Plus board, and select the **COM port** that is assigned in the device manager.
+Bevor Sie die Arduino IDE zum Programmieren der Smart Farm verwenden, müssen Sie die Arduino IDE konfigurieren, den richtigen Board-Typ (**ESP32 Dev Module**) für das ESP32 Plus Board auswählen und den im Geräte-Manager zugewiesenen **COM-Port** auswählen.
 
-There is no option for ESP32 in Arduino's default board list,so we need to **install it manually**.
+In der Standard-Boardliste von Arduino gibt es keine Option für ESP32, daher müssen wir sie **manuell installieren**.
 
 ![a30](../media/a30.png)
 
-Click **File > Preferences**. Copy the link of ESP32 board (https://espressif.github.io/arduino-esp32/package_esp32_index.json) into the **Additional boards manager URLs**, and click **OK**.
+Klicken Sie auf **Datei > Voreinstellungen**. Kopieren Sie den Link des ESP32-Boards (https://espressif.github.io/arduino-esp32/package_esp32_index.json) in die **Zusätzliche Boardverwalter-URLs** und klicken Sie auf **OK**.
 
 ![a31](../media/a31.png)
 
-Click the icon of "**Board Manager**" in the upper left corner.
+Klicken Sie auf das Symbol des "**Board-Managers**" in der oberen linken Ecke.
 
 ![a32](../media/a32.png)
 
-Search for **ESP32** in the search box and install the latest version. You can check its process in the lower right corner. **During installation, keep the network stable. If the installation fails, repeat the above steps.**
+Suchen Sie im Suchfeld nach **ESP32** und installieren Sie die neueste Version. Sie können den Fortschritt in der unteren rechten Ecke überprüfen. **Halten Sie während der Installation das Netzwerk stabil. Wenn die Installation fehlschlägt, wiederholen Sie die obigen Schritte.**
 
-Note: We adopt ESP32 version 3.1.3 in this tutorial. Please keep it consistent to avoid code incompatibilities.
+Hinweis: Wir verwenden in diesem Tutorial ESP32 Version 3.1.3. Bitte halten Sie diese Version konsistent, um Code-Inkompatibilitäten zu vermeiden.
 
 ![a33](../media/a33.png)
 
-installation is complete:
+Installation ist abgeschlossen:
 
 ![a34](../media/a34-1744788169084-23.png)
 
-Click **Tools> Board > esp32** ,and choose the **EPS32 Dev Module**
+Klicken Sie auf **Tools > Board > esp32** und wählen Sie das **EPS32 Dev Module**.
 
 ![a37](../media/a37.png)
 
-Choose COM port. You may check your port number at Device Manager. If there are many COM ports, unplug the cable of board to see which port disappears. Then that one is the port ready to use. If there is no COM port, please check whether driver is installed.
+Wählen Sie den COM-Port. Sie können Ihre Portnummer im Geräte-Manager überprüfen. Wenn es viele COM-Ports gibt, ziehen Sie das Kabel des Boards ab, um zu sehen, welcher Port verschwindet. Dieser ist dann der verwendbare Port. Wenn kein COM-Port vorhanden ist, überprüfen Sie bitte, ob der Treiber installiert ist.
 
 ![image](../media/a10-1744788429738-26.png)
 
-Herein, our COM port is COM3. Click “Tools” → “Port” → “COM3”.
+Hier ist unser COM-Port COM3. Klicken Sie auf „Tools“ → „Port“ → „COM3“.
 
 ![image](../media/a38-1744788429738-27.png)
