@@ -1,39 +1,39 @@
-## 3. サーボの角度を設定する
+## 3. Stel de Hoek van de Servo in
 
-次のレッスンでは、このスマートファームキットを組み立てます。キットにサーボを組み立てる前に、**角度を165°に設定する**（両端に15°のバッファを確保する）必要があります。これにより、期待どおりに動作し、機械的損傷を回避できます。
+In de volgende les zullen we deze smart farm kit assembleren. Voordat we de servo aan de kit monteren, moeten we **de hoek instellen op 165°** (met een buffer van 15° aan elk uiteinde gereserveerd) zodat deze naar verwachting werkt en mechanische schade wordt voorkomen.
 
-> **⚠ 警告 — 続行する前にお読みください:**
+> **⚠ WAARSCHUWING — Lezen voordat u verdergaat:**
 >
-> 1. **サーボを180°に設定しないでください。** ドア機構は0°～180°の全範囲を必要としません。極端な端に設定すると、サーボが機械的なストッパーに押し付けられ、過熱してサーボモーターが永久に損傷する可能性があります。
-> 2. **取り付け中はボードに電源を供給し続けてください。** サーボに電源が供給され、角度を保持している間は、ギアやドアを手で無理に動かさないでください。ボードに電源が供給されていない場合、サーボには保持トルクがなく、ギアを手動で回転させると、校正された角度がずれ、電源投入後に位置ずれが発生します。
-> 3. **無理な力を加えないでください。** ドアがスムーズに動かない場合は、すぐに停止して組み立てを確認してください。無理に動かすとサーボギアが破損します。
+> 1. **Stel de servo NIET in op 180°.** Het deurmechanisme heeft niet het volledige bereik van 0°–180° nodig. Het instellen op het uiterste einde zal ervoor zorgen dat de servo tegen de mechanische stop drukt, wat kan leiden tot oververhitting en permanente schade aan de servomotor.
+> 2. **Houd de printplaat van stroom voorzien tijdens de installatie.** Wanneer de servo van stroom is voorzien en zijn hoek vasthoudt, forceer de tandwielen of de deur dan NIET met de hand. Als de printplaat niet van stroom is voorzien, heeft de servo geen houdkoppel, en handmatig draaien aan het tandwiel zal de gekalibreerde hoek verschuiven, wat na het inschakelen tot verkeerde uitlijning leidt.
+> 3. **Gebruik GEEN brute kracht.** Als de deur niet soepel beweegt, stop dan onmiddellijk en controleer de montage. Forceren zal de servotandwielen strippen.
 
 ![image-20250416152950497](../media/image-20250416152950497.png)
 
-1. サーボをESP32 PLUSボードの**ピンio26**に接続します。注：サーボの茶色、赤、オレンジのワイヤーはそれぞれGND(G)、5V(V)、**ピンio26**に接続されています。
+1. Sluit de servo aan op de **pin io26** van de ESP32 PLUS-printplaat. Opmerking: De bruine, rode en oranje draad van de servo zijn respectievelijk bevestigd aan GND(G), 5V(V) en **Pin io26.**
 
 ![image028-1](../media/image028-1.png)
 
-2. ESP32 PLUSボードをコンピューターに接続します。
+2. Sluit de ESP32 PLUS-printplaat aan op de computer.
 
 ![image-20250416153731709](../media/image-20250416153731709.png)
 
-3. Arduino IDE用の**ESP32Servo.h**ライブラリがインストールされていることを確認してください。インストールされていない場合は、前のセクションを参照してインストールしてください。
+3. Zorg ervoor dat u de **ESP32Servo.h**-bibliotheek voor de Arduino IDE hebt geïnstalleerd. Zo niet, raadpleeg dan de vorige sectie om deze te installeren.
 
 ![3bd9304d-73d9-4fc3-9e59-50c55f947960](../media/3bd9304d-73d9-4fc3-9e59-50c55f947960.png)
 
-4. チュートリアルパッケージで提供されている**window_servo**コードをArduino IDEで開きます。
+4. Open de **window_servo**-code die in ons tutorialpakket is geleverd met Arduino IDE.
 
-> **注:** 提供されている`window_servo`コードは、サーボを**165°**に設定します（180°ではありません）。これにより、終端での衝突を防ぐために15°の機械的バッファが確保されます。ドアの動作範囲は15°～165°です。
+> **Opmerking:** De meegeleverde `window_servo`-code stelt de servo in op **165°** (niet 180°). Dit reserveert een mechanische buffer van 15° om botsing bij de eindstop te voorkomen. Het werkbereik van de deur is 15°–165°.
 
 ![image-20250416154133013](../media/image-20250416154133013.png)
 
-5. **ツール**をクリックし、ボードタイプに「**ESP32 Dev Module**」を選択し、デバイスマネージャーに表示されているようにポートに**COM-XX**を選択します。
+5. Klik op **Tools**, selecteer "**ESP32 Dev Module**" voor het type bord, en selecteer **COM-XX** voor Poort zoals weergegeven in Apparaatbeheer.
 
 ![51454125](../media/51454125.png)
 
-6. ![image-20250416154532804](../media/image-20250416154532804.png)をクリックしてアップロードします。アップロードが完了すると、サーボは**165°**に移動し、その位置を保持します。
+6. Klik op ![image-20250416154532804](../media/image-20250416154532804.png) om te uploaden. Nadat het uploaden is voltooid, zal de servo naar **165°** bewegen en die positie vasthouden.
 
-> **重要:** 組み立て手順に進む間、ボードに電源を供給し、サーボを165°で保持したままにしてください。ドアパネルが完全にインストールされるまで、電源を切断したり、ギアを手動で動かしたり**しないでください**。
+> **Belangrijk:** Houd de printplaat van stroom voorzien en de servo op 165° terwijl u doorgaat met de montagestap. Koppel de stroom **niet** los en beweeg de tandwielen niet handmatig totdat het deurpaneel volledig is geïnstalleerd.
 
 ![image-20250416155301751](../media/image-20250416155301751.png)

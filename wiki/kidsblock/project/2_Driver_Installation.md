@@ -1,59 +1,59 @@
-## 2. ソフトウェアのインストール
+## 2. Software-installatie
 
 
-### 2.1 ドライバーのインストール
+### 2.1 Stuurprogramma installeren
 
 
-**注: お使いのコンピューターにすでにドライバーがインストールされている場合は、このセクションをスキップしてください。そうでない場合は、以下の手順に従ってください。**
+**OPMERKING: Als uw computer al een stuurprogramma heeft geïnstalleerd, sla dit gedeelte dan over. Volg anders deze stappen.**
 
-![image4](../media/an13.png) をクリックして「 **ドライバーのインストール** 」を選択します。
+Klik op ![image4](../media/an13.png) om " **Stuurprogramma installeren** " te selecteren.
 
 ![img](../media/an14.png)
 
-- デバイスドライバーのインストールウィザードが表示されたら、「 **次へ** 」をクリックします。
+- Klik op " **Volgende** " wanneer u de installatiewizard voor het apparaatstuurprogramma ziet:
 
 ![img](../media/an15.png)
 
-- 「 **完了** 」をクリックします。
+- Klik op " **Voltooien** ".
 
 ![img](../media/an16.png)
 
-- 「 **次へ** 」をクリックします。
+- Klik op " **Volgende** ".
 
 ![img](../media/an17.png)
 
-- 「 **完了** 」をクリックします。
+- Klik op " **Voltooien** ".
 
 ![img](../media/an18.png)
 
-- 警告が表示された場合は、「 **許可** 」をクリックするだけです。次に「 **インストール** 」をクリックします。
+- Als er een waarschuwing verschijnt, klikt u gewoon op " **Toestaan** ". Klik vervolgens op " **Installeren** ".
 
 ![img](../media/an19.png)
 
-- 「 **完了** 」をタップします。
+- Tik op " **Voltooien** ".
 
 ![img](../media/an20.png)
 
-- 「 **展開** 」をクリックします。
+- Klik op " **Uitpakken** ".
 
 ![img](../media/an21.png)
 
-- 「 **次へ** 」をクリックします。
+- Klik op " **Volgende** ".
 
 ![img](../media/an22.png)
 
-- 「 **この契約に同意します** 」にチェックを入れて「 **次へ** 」をクリックします。
+- Vink " **Ik ga akkoord met deze overeenkomst** " aan en klik op " **Volgende** ".
 
 ![img](../media/an23.png)
 
-- 「 **完了** 」をクリックします。
+- Klik op " **Voltooien** ".
 
 ![img](../media/an24.png)
 
-- 「 **インストール** 」を選択します。
+- Kies " **INSTALLEREN** ".
 
 ![img](../media/an25.png)
 
-- 数秒後、ドライバーが正常にインストールされます。次に「 **OK** 」をクリックします。
+- Een paar seconden later wordt het stuurprogramma succesvol geïnstalleerd. Klik vervolgens op " **OK** ".
 
 ![img](../media/an26.png)

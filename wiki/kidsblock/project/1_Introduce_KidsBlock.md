@@ -1,197 +1,228 @@
-## 1. KidsBlockの紹介
+## 1. Introductie KidsBlock
 
-### 1.1 KidsBlockのインストール
 
-#### 1.1.1 WindowsシステムへのKidsBlockのインストール
 
-1. KidsBlockは以下からダウンロードできます。
+### 1.1 KidsBlock Installatie
 
-   - リンク: http://xiazai.keyesrobot.cn/KidsBlock.exe
 
-   - 提供ファイル: ![img](../media/an1-1.png)
 
-2. ダウンロード後、「KidsBlock.exe」をクリックします。![image1](../media/an1.png)
+#### 1.1.1 Kidsblock installeren op Windows Systeem
 
-3. 「**このコンピューターを使用するすべてのユーザー(all users)**」にチェックを入れ、「**Next**」をクリックします。
+
+1. U kunt KidsBlock downloaden via:
+
+   - Link: http://xiazai.keyesrobot.cn/KidsBlock.exe
+
+   - Meegeleverd bestand: ![img](../media/an1-1.png)
+
+1. Na het downloaden klikt u op "KidsBlock.exe" ![image1](../media/an1.png)
+
+1. Vink " **Anyone who uses this computer(all users)** " aan en klik vervolgens op "**Next** ".
 
 ![img](../media/an2.png)
 
-4. 「**Browse...**」をクリックしてインストールパスを選択し（ここではCドライブを選択していますが、お好きな場所を選択できます）、「**Install**」をクリックします。インストールが開始されます！
+4. Klik op " **Browse...** " om een installatiepad te kiezen (hier kiezen we schijf C; u kunt elke gewenste locatie selecteren) en klik op " **Install** ". Het wordt nu geïnstalleerd!
 
 ![img](../media/an3.png)
 
 ![img](../media/an4.png)
 
-5. インストール完了後、「**Finish**」をクリックして開きます。
+5. Nadat de installatie is voltooid, klikt u op " **Finish** " om het te openen.
 
 ![img](../media/an5.png)
 
-6. 警告が表示された場合は、「**Allow access**」をクリックしてソフトウェアのメインページに入ります。
+6. Als er een waarschuwing verschijnt, klikt u gewoon op " **Allow access** " om de hoofdpagina van de software te openen.
 
 ![img](../media/an6.png)
 
 ---
 
-#### 1.1.2 MacOSへのKidsBlockのインストール
 
-1. まずKidsBlockパッケージをダウンロードしてください: http://xiazai.keyesrobot.cn/KidsBlock.dmg
+
+#### 1.1.2 Kidsblock installeren op MacOS
+
+
+1. Download eerst het Kidsblock-pakket: http://xiazai.keyesrobot.cn/KidsBlock.dmg
 
 ![img](../media/an7.png)
 
-2. KidsBlockをクリックし、「**KidsBlock Desktop**」を「**Applications**」にドラッグします。以下に示す通りです。
+2. Klik op KidsBlock en sleep de "**KidsBlock Desktop**" naar "**Applications**", zoals hieronder weergegeven.
 
 ![img](../media/an8.png)
 
-3. インストール後、KidsBlockアイコンが操作パッドに表示されます。
+3. Na de installatie verschijnt het KidsBlock-pictogram in het bedieningspaneel:
 
 ![img](../media/an9.png)
 
-4. KidsBlockアイコンをクリックしてソフトウェアに入ります。失敗した場合は、一部のコンピューター設定を変更して再入力してください。これは、MacシステムがデフォルトでApp Storeでのインストールのみを許可しており、他のインストールが許可されていないためです。
+4. Klik op het KidsBlock-pictogram om de software te openen. Als dit mislukt, wijzig dan enkele computerinstellingen om het opnieuw te openen. Dit komt omdat Mac-systemen standaard alleen de installatie in de App Store autoriseren, dus andere installaties zijn niet toegestaan.
 
 ![img](../media/an9-1.png)
 
-5. 設定を開き、「プライバシーとセキュリティ」をクリックします。セキュリティオプションを「App Storeと承認済み開発者」に切り替え、「それでも開く」をクリックします。
+5. Open de instellingen en klik op Privacy en Beveiliging. Wijzig de beveiligingsoptie naar "App Store en Goedgekeurde Ontwikkelaars" en klik op "Toch openen".
 
 ![img](../media/an9-2.png)
 
-6. 「開く」をクリックして、ブロックされたソフトウェアに再入力します。
+6. Klik op "Openen" om de geblokkeerde software opnieuw te openen.
 
 ![img](../media/an9-3.png)
 
-7. 設定後、正常に動作します。
+7. Na de instellingen kan het normaal werken.
 
 ![img](../media/an9-4.png)
 
-8. 起動インターフェースは以下の通りです。さあ、プログラミングの旅を楽しんでください！
+8. De opstartinterface is zoals hieronder. Geniet nu van uw programmeerreis!
 
 ![img](../media/an9-5.png)
 
 ---
 
-### 1.2 ソフトウェアガイド
 
-（**以下のデモンストレーションはWindowsシステムに基づいており、MacOSの参考としてのみです。**）
 
-#### 1.2.1 メインページ機能の分布 1
+### 1.2 Softwarehandleiding
+
+
+(**De volgende demonstraties zijn gebaseerd op Windows Systeem, en is slechts een
+referentie voor MacOS.**)
+
+
+#### 1.2.1 Hoofdpagina Functieverdeling 1
+
 
 ![img](../media/an10.png)
 
-#### 1.2.2 言語の選択
 
-![image2](../media/an11.png)をクリックして「English」または「简体中文」を選択します。![image3](../media/an12.png)
+#### 1.2.2 Taal selecteren
 
-#### 1.2.3 デバイスの選択
 
-**デバイスとシリアルポートを選択する**
+Klik op ![image2](../media/an11.png) om "English" of "简体中文" te selecteren ![image3](../media/an12.png)
 
-- ![image5](../media/an27.png)をクリックしてデバイスを選択します。
 
-- ここでは**Kit**に入り、**Smart farm for ESP32**を見つけて追加します。すべてのセンサーはこのキットに含まれているため、追加でインポートする必要はありません。
+#### 1.2.3 Apparaten selecteren
+
+
+**Kies een apparaat en een seriële poort**
+
+- Klik op ![image5](../media/an27.png) om een apparaat te kiezen.
+
+- Hier voeren we **Kit** in om **Smart farm for ESP32** te vinden en toe te voegen. Merk op dat alle sensoren in deze kit zijn inbegrepen, dus u hoeft ze niet extra te importeren.
 
 ![img](../media/an28.png)
 
-- このキットをインポートすると、ポート選択の以下のインターフェースが表示されます。正しいポートで「**Connect**」をクリックします。
+- Na het importeren van deze kit ziet u de volgende interface voor poortselectie. Klik op **Connect** bij de juiste poort.
 
 ![img](../media/an29.png)
 
-- 「**Go to Editor**」をタップします。
+- Tik op **Go to Editor**.
 
 ![img](../media/an30.png)
 
-- メインページ:
+- Hoofdpagina:
 
 ![img](../media/an31.png)
 
-**デバイスの切断**
+**Apparaat loskoppelen**
 
-- キットとポートを切断したい場合は、![image6](../media/an32.png)をクリックしてください。
+- Als u de kit en poort wilt loskoppelen, klikt u op ![image6](../media/an32.png).
 
-- 次に「**Disconnect**」をタップして、現在の接続を解除します。
+- Tik vervolgens op **Disconnect** om de huidige verbinding te ontbinden.
 
 ![img](../media/an33.png)
 
 ---
 
-#### 1.2.4 メインページ機能の分布 2
+
+
+#### 1.2.4 Hoofdpagina Functieverdeling 2
+
 
 ![img](../media/an34.png)
 
-#### 1.2.5 センサー/モジュールの拡張
 
-**注: 必要なすべてのセンサーがキットに統合されており、拡張する必要がないため、この部分はスキップできます。除外されたモジュールを採用したい場合は、以下の手順を参照してください。**
+#### 1.2.5 Een sensor/module uitbreiden
 
-- ![an42](../media/an35.png)をクリックしてセンサー/モジュール拡張ライブラリに入ります。
 
-- 拡張機能を選択します。
+**OPMERKING: Dit deel kan worden OVERGESLAGEN, aangezien alle benodigde sensoren zijn geïntegreerd
+in de kit en niet hoeven te worden uitgebreid. Als u een uitgesloten
+module wilt gebruiken, raadpleeg dan de volgende procedures.**
+
+- Klik op ![an42](../media/an35.png) om de uitbreidingsbibliotheek voor sensoren/modules te openen.
+
+- Kies een uitbreiding.
 
 ![img](../media/an36.png)
 
-- 例えば、ブザーモジュールが必要な場合は、パッシブブザーをクリックします。
-
+- Als bijvoorbeeld een buzzer-module nodig is, klik dan op passieve buzzer:
+   
 - ![img](../media/an37.png)
 
-- 「**Not loaded**」が「**Loaded**」に変わると、このモジュールは正常にインポートされました。
+- Wanneer " **Not loaded** " verandert in " **Loaded** ", is deze module succesvol geïmporteerd.
 
 ![img](../media/an38.png)
 
-- ![image7](../media/an39.png)をクリックしてエディターに戻ります。これで、コードにパッシブブザーブロックが表示されていることがわかります。
+- Klik op ![image7](../media/an39.png) om terug te gaan naar de editor. Nu zult u zien dat een passieve buzzer-blok verschijnt in Code.
 
 ![img](../media/an41.png)
 
-- 「Passive buzzer」を削除したい場合は、![image8](../media/an42.png)をクリックしてライブラリに入り、タップします。
+- Als u de "Passieve buzzer" wilt verwijderen, klikt u gewoon op ![image8](../media/an42.png) om de bibliotheek te openen en tikt u erop.
 
 ![img](../media/an38.png)
 
-- 「Loaded」が「Not loaded」に変わると、このモジュールは正常に削除されました。
+- Wanneer "Loaded" verandert in "Not loaded", is deze module succesvol verwijderd.
 
 ![img](../media/an37.png)
 
-#### 1.2.6 ファイルのインポート
 
-- 方法 1
+#### 1.2.6 Bestand importeren
 
-   - ソフトウェアが動作していない場合は、SB3ファイルを直接クリックして開きます。例えば、![image9](../media/an46.png)をクリックして開きます。デバイスを選択することを忘れないでください。
+
+- Methode 1
+
+   - Als de software niet in gebruik is, klik dan direct op het SB3-bestand
+     om het te openen. Klik bijvoorbeeld op ![image9](../media/an46.png) om het te openen. Vergeet niet een apparaat te selecteren.
 
 ![img](../media/an54.png)
 
-- 方法 2
+- Methode 2
 
-   - Kidsblockを開きます。「**file**」をクリックして「**Load from your computer**」を選択します。![image10](../media/an47.png)
-
-- SB3ファイルを選択します（例: ![image11](../media/an46.png)）。
+   - Open Kidsblock. Klik op " **file** " om " **Load from your computer** " te kiezen. ![image10](../media/an47.png)
+      
+- Selecteer een SB3-bestand (zoals ![image11](../media/an46.png)).
 
 ![img](../media/an50.png)
 
-   - 正常にインポートされました！
+   - Succesvol geïmporteerd!
 
 ![img](../media/an54.png)
 
-#### 1.2.7 コードのアップロードとボーレートの設定
 
-**コードのアップロード**
+#### 1.2.7 Code uploaden & Baudrate instellen
 
-- ファイル![image12](../media/an47.png)をKidsblockにアップロードします。
 
-- 開発ボードをコンピューターに接続し（ポートが表示されない場合は、まずドライバーをインストールしてください）、正しいポートを選択して![image13](../media/an52.png)をクリックします。
+**Code uploaden**
+
+- Upload bestand ![image12](../media/an47.png) naar Kidsblock.
+
+- Verbind het ontwikkelbord met uw computer (Als u geen poort ziet, installeer dan eerst een driver), en selecteer de juiste poort en klik op ![image13](../media/an52.png).
 
 ![img](../media/an54.png)
 
-- アップロードを待ちます。
+- Wacht op het uploaden.
 
 ![img](../media/an53.png)
 
-**ボーレートの設定**
+**Baudrate instellen**
 
-- 印刷ボックスがない場合は、![image14](../media/an56.png)のいずれかをクリックしてボックスサイズを調整してください。
+- Als er geen afdrukvenster is, klik dan op een van ![image14](../media/an56.png) om
+  de grootte van het venster aan te passen.
 
-   - 小さい印刷ボックス ![image15](../media/an58.png)
-   - 大きい印刷ボックス ![image16](../media/an59.png)
-   - 印刷ボックスなし ![image17](../media/an60.png)
+   - Klein afdrukvenster ![image15](../media/an58.png)
+   - Groot afdrukvenster ![image16](../media/an59.png)
+   - Geen afdrukvenster ![image17](../media/an60.png)
 
-- ![image18](../media/an57.png)をクリックして対応するボーレートを設定します。
+- Klik op ![image18](../media/an57.png) om de bijbehorende baudrate in te stellen.
 
 ![img](../media/an55.png)
 
-- 設定後、ボックスに「**Hello KidsBlock**」が印刷され始めます。
+- " **Hello KidsBlock** " begint te worden afgedrukt in het venster na instelling.
 
 ![img](../media/an62.png)

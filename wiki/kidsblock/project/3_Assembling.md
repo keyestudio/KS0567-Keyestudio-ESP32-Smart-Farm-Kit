@@ -1,19 +1,20 @@
-## 3. 組み立て
+## 3. Montage
 
 
-組み立て中にいくつかのコードを書き込む必要があるため、まずソフトウェアをインストールしてください。
+Tijdens de montage moeten er enkele codes worden gebrand, dus installeer eerst de software.
 
-組み立て全体は、一般的に部品の組み立てと配線の2つの部分に分けられます。
+De gehele montage kan over het algemeen worden verdeeld in twee delen: het monteren van
+onderdelen en bedrading.
 
 ---
 
 
 
-### ステップ1 ESP32ボードとリレーモジュールを取り付ける
+### Stap 1 Installeer het ESP32-bord en de relaismodule
 
 
 
-#### 1.1 必要なコンポーネント
+#### 1.1 Benodigde componenten
 
 
 ![img](../media/image001.png)
@@ -58,11 +59,11 @@
 
 
 
-### ステップ2 バッテリーケースの固定フレームを取り付け、給餌キャビンを取り付け、ESP32ボードとリレーモジュールを接続する
+### Stap 2 Installeer het bevestigingsframe voor de batterijhouder en installeer de voedingscabine, verbind het ESP32-bord en de relaismodule
 
 
 
-#### 2.1 必要なコンポーネント
+#### 2.1 Benodigde componenten
 
 
 ![img](../media/image007.png)
@@ -74,7 +75,7 @@
 #### 2.2
 
 
-木製ボードXとOを底板に取り付ける
+Monteer de houten platen X en O op de bodemplaat
 
 ![img](../media/image008.png)
 
@@ -127,18 +128,18 @@
 
 
 
-#### 2.8 ESP32ボードとリレーモジュールを接続する
+#### 2.8 Verbind het ESP32-bord en de relaismodule
 
 
-| モジュール | ワイヤー | ピン |
+| Module | Draad | Pin |
 | --- | --- | --- |
-| リレーモジュール | 3PIN 20cm | IO25 |
+| Relaismodule | 3PIN 20cm | IO25 |
 
-| モジュールピン | ワイヤーの色 | ESP32ボードピン |
+| Module Pin | Draadkleur | ESP32 Board Pin |
 | --- | --- | --- |
-| V | RED | V |
-| G | BLACK | G |
-| S | YELLOW | io25 |
+| V | ROOD | V |
+| G | ZWART | G |
+| S | GEEL | io25 |
 
 ![img](../media/image015.png)
 
@@ -155,14 +156,14 @@
 
 
 
-### ステップ3 家の基礎構造を取り付ける
+### Stap 3 Installeer de onderbouw van het huis
 
 
 ---
 
 
 
-#### 3.1 必要なコンポーネント
+#### 3.1 Benodigde componenten
 
 
 ![img](../media/image016.png)
@@ -261,41 +262,41 @@
 
 
 
-### ステップ4 給餌キャビンのドアを取り付ける
+### Stap 4 Installeer de deur van de voedingscabine
 
 
 ---
 
 
 
-#### 4.1 必要なコンポーネント
+#### 4.1 Benodigde componenten
 
 
 ![image027](../media/image027.png)
 
 ![image](../media/image-20250416162128859.png)
 
-アクリルシートは別々に梱包されており、ドアとして動く際の摩擦を減らすために保護フィルムを剥がすことをお勧めします。
+De acrylplaat is apart verpakt en het wordt aanbevolen om de beschermfolie te verwijderen om de wrijving te verminderen wanneer deze als deur beweegt.
 
 ---
 
 
 
-#### 4.2 サーボを165°に設定する
+#### 4.2 Stel de servo in op 165°
 
-> **⚠ 警告 — 進む前に読んでください:**
+> **⚠ WAARSCHUWING — Lees voordat u verdergaat:**
 >
-> 1. **サーボを180°に設定しないでください。** ドア機構は0°～180°の全範囲を必要としません。極端な端に設定すると、サーボが機械的なストッパーに押し付けられ、過熱してサーボモーターが永久に損傷する可能性があります。
-> 2. **取り付け中はボードに電源を供給し続けてください。** サーボに電源が供給され、その角度を保持している間は、手でギアやドアを無理に動かさないでください。ボードの電源が切れている場合、サーボは保持トルクを持たず、手動でギアを回転させると校正された角度がずれてしまい、電源投入後に位置ずれが発生します。
-> 3. **無理な力を加えないでください。** ドアがスムーズに動かない場合は、すぐに停止して組み立てを確認してください。無理に動かすとサーボギアが破損します。
+> 1. **Stel de servo NIET in op 180°.** Het deurmechanisme vereist niet het volledige bereik van 0°–180°. Als u deze op het uiterste einde instelt, zal de servo tegen de mechanische stop drukken, wat de servomotor kan oververhitten en permanent kan beschadigen.
+> 2. **Houd het bord van stroom voorzien tijdens de installatie.** Wanneer de servo van stroom is voorzien en zijn hoek vasthoudt, forceer de tandwiel of deur dan NIET met de hand. Als het bord niet van stroom is voorzien, heeft de servo geen houdkoppel, en handmatig draaien van het tandwiel zal de gekalibreerde hoek verschuiven, wat na het inschakelen tot verkeerde uitlijning leidt.
+> 3. **Gebruik GEEN brute kracht.** Als de deur niet soepel beweegt, stop dan onmiddellijk en controleer de montage. Forceer het niet, want dit zal de servotandwielen strippen.
 
-このステップは非常に重要です。取り付け前に、サーボを**165°**に設定してください（機械的な損傷を防ぐため、両端に15°のバッファを確保してください）。
+Houd er rekening mee dat deze stap erg belangrijk is. Zorg ervoor dat u de servo vóór installatie instelt op **165°** (met een buffer van 15° aan elk uiteinde om mechanische schade te voorkomen).
 
-**サーボを取り付ける前に、まずKidsBlock（グラフィカルプログラミング）でプログラミングして角度を165°に設定してください。**
+**Voordat u de servo monteert, stelt u eerst de hoek in op 165° door te programmeren met KidsBlock (grafische programmering).**
 
-詳細については、ソフトウェアのインストール手順を参照してください。
+Raadpleeg de software-installatiestappen voor details.
 
-**サーボをESP32開発ボードのio26ピンに接続します。**
+**Verbind de servo met het ESP32-ontwikkelbord op pin IO26.**
 
 ![img](../media/image028-1.png)
 
@@ -307,19 +308,19 @@
 ---
 
 
-- **KidsBlock**を開きます。ESP32ボードと正しいシリアルポートを選択し、以下のコードをボードに書き込みます。このコードはサーボを**165°**に設定します。
+- Open **KidsBlock**. Selecteer het ESP32-bord en de juiste seriële poort, en brand de volgende code naar het bord. De code stelt de servo in op **165°**.
 
 ![image-20250425134842857](../media/image-20250425134842857.png)
 
 ![img](../media/image028-2.png)
 
-> **重要:** 組み立て手順に進む間、ボードに電源を供給し、サーボを165°に保持したままにしてください。ドアパネルが完全に設置されるまで、電源を切断したり、手動でギアを動かしたりしないでください。
+> **Belangrijk:** Houd het bord van stroom voorzien en de servo op 165° terwijl u doorgaat met de montagestap. Koppel de stroom **niet** los en beweeg het tandwiel niet handmatig totdat het deurpaneel volledig is geïnstalleerd.
 
 ---
 
 
 
-#### 4.3 サーボを取り付ける
+#### 4.3 Installeer de servo
 
 
 ![img](../media/image029.png)
@@ -330,7 +331,7 @@
 
 #### 4.4
 
-**注：サーボを安定させるためにネジを締める必要があります。そうしないとドアが詰まる可能性があります。**
+**Opmerking: De schroeven moeten worden vastgedraaid om de servo stabiel te houden, anders kan de deur vastlopen**
 
 ![img](../media/image030.png)
 
@@ -343,7 +344,7 @@
 
 ![image-20250416162337896](../media/image-20250416162337896.png)
 
-以下に示すようにM1.4*6MMのタッピングネジを取り付けます。
+Installeer M1.4*6MM zelftappende schroeven zoals hieronder weergegeven
 
 ![6e1caadec8b1ec99b0093200763607b6](../media/6e1caadec8b1ec99b0093200763607b6.jpg)
 
@@ -372,7 +373,7 @@
 #### 4.8
 
 
-サーボに取り付けた後、ギアを回さないでください。ギアを回してしまった場合は、サーボの角度を180°に再調整する必要があります。
+Draai het tandwiel niet nadat het op de servo is geïnstalleerd. Als u het tandwiel al hebt gedraaid, moet u de servohoek opnieuw instellen op 180°.
 
 ![img](../media/image034.png)
 
@@ -382,7 +383,7 @@
 
 #### 4.9
 
-**注：給餌ボックスの蓋を取り付ける際は、開口部が完全に閉まっている必要があります。**
+**OPMERKING: Bij het installeren van het deksel van de voerbak moet de opening volledig gesloten zijn.**
 
 ![img](../media/image035.png)
 
@@ -417,17 +418,9 @@
 
 
 
-#### 4.13 ドアのテスト
+#### 4.13 Test de deur
 
 
-1. サーボをESP32ボードのio26ピンに接続します。黄色をS、赤をV、黒をGに接続します。
+1. Verbind de servo met pin IO26 van het ESP32-bord. Verbind geel met S, rood met V, zwart met G.
 
-![img](../media/image028-1.png)
-
-2. 6本の単三電池をESP32ボードのDC 7-12Vポートに接続します。（電池はキットに含まれていません）
-
-![image-20250417084747308](../media/image-20250417084747308.png)
-
-3. テストコードをアップロードする
-
-A. USBケーブルでESP32ボードをコンピュータに接続します。**6.1Servo.sb3**フォルダ内のINOファイルをKidsBlock
+![img](../media/image

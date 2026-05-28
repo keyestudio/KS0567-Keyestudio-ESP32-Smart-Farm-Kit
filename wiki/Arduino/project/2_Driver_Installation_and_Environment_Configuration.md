@@ -1,144 +1,133 @@
-## 2. Arduinoの設定
+## 2. Configureer de Arduino
 
+### 2.1 Installeer de driver voor het KEYESTUDIO ESP32 PLUS-bord
 
-### 2.1 KEYESTUDIO ESP32 PLUSボード用ドライバーのインストール
+Het KEYESTUDIO ESP32 PLUS-bord is een universeel WIFI plus Bluetooth ontwikkelingsbord gebaseerd op ESP32, geïntegreerd met de ESP32-WOROOM-32 module en compatibel met Arduino.
 
+Het heeft een hallsensor, high-speed SDIO/SPI, UART, I2S en I2C. Bovendien is het uitgerust met het freeRTOS besturingssysteem, wat zeer geschikt is voor het Internet of Things en smart home-toepassingen.
 
-KEYESTUDIO ESP32 PLUSボードは、ESP32をベースにしたユニバーサルWIFIとBluetooth開発ボードで、ESP32-WOROOM-32モジュールを統合し、Arduinoと互換性があります。
+**Specificaties**
 
-ホールセンサー、高速SDIO/SPI、UART、I2S、I2Cを搭載しています。さらに、freeRTOSオペレーティングシステムを搭載しており、モノのインターネットやスマートホームに非常に適しています。
+Spanning: 3.3V-5V
 
-**仕様**
+Stroomuitgang: 1.2A (maximaal)
 
-電圧: 3.3V-5V
+Maximaal vermogen: 10W
 
-電流出力: 1.2A(最大)
+Werktemperatuur: -10℃~50℃
 
-最大電力出力: 10W
+Afmetingen: 69 * 54 * 14.5mm
 
-動作温度: -10℃~50℃
+Gewicht: 25.5g
 
-寸法: 69 * 54 * 14.5mm
-
-重量: 25.5g
-
-環境保護属性: ROHS
+Milieubeschermingskenmerken: ROHS
 
 ![j255](../media/j255.png)
 
-**ドライバーのインストール**
+**Installeer de driver**
 
-ESP32ボードをコンピューターに接続し、Windowsがドライバーのインストールプロセスを開始するのを待ちます。Arduinoを使用する場合、CH340ドライバーはシステムによって自動的にインストールされることがよくあります。デバイスマネージャーまたはArduino IDEのポートを確認して、ドライバーが正常にインストールされたかどうかを確認できます。
+Verbind het ESP32-bord met de computer en wacht tot Windows begint met het installatieproces van de driver. Vaak wordt de CH340-driver automatisch door uw systeem geïnstalleerd bij gebruik van Arduino. U kunt de Apparaatbeheerder of de poort van de Arduino IDE controleren om te zien of de driver succesvol is geïnstalleerd.
 
 ![a10](../media/a10.png)
 
-CH340ドライバーが自動的にインストールされない場合は、手動でインストールする必要があります。
+Als de CH340-driver niet automatisch wordt geïnstalleerd, moeten we deze handmatig installeren.
 
-[Windows CH340ドライバー](/Arduino/Windows.zip)をダウンロードするにはクリックしてください。
+Klik om de [Windows CH340 driver](/Arduino/Windows.zip) te downloaden
 
 ![a51](../media/a51.png)
 
-1. 「**マイPC**」を右クリックし、「**プロパティ**」を選択して「**デバイスマネージャー**」を開きます。「**その他のデバイス**」の下に、「**USBシリアル**」という開いているポートが表示されるはずです。
+1. Open de **Apparaatbeheerder** door met de rechtermuisknop op "**Deze pc**" te klikken en **Eigenschappen** te selecteren. Kijk onder **Andere apparaten**. U zou een open poort moeten zien met de naam **USB Serial**.
 
 ![a11](../media/a11.png)
 
-2. 「**USBシリアル**」を右クリックし、「**ドライバーの更新**」オプションを選択します。
+2. Klik met de rechtermuisknop op "**USB Serial**" en kies de optie "**Stuurprogramma bijwerken**".
 
 ![a13](../media/a13.png)
 
-3. 「**コンピューターを参照してドライバーソフトウェアを検索します**」オプションを選択します。
+3. Kies de optie "**Op mijn computer naar stuurprogramma's zoeken**".
 
 ![a14](../media/a14.png)
 
-4. チュートリアルパッケージのドライバーフォルダーにある「**usb_ch341_3.1.2009.06**」という名前のドライバーファイルを選択します。
+4. Selecteer het driverbestand met de naam "**usb_ch341_3.1.2009.06**", te vinden in de Drivermap van het tutorialpakket.
 
 ![a15](../media/a15.png)
 
-5. ドライバーが正常にインストールされました。
+5. Driver succesvol geïnstalleerd.
 
 ![a16](../media/a16.png)
 
-6. デバイスマネージャーが自動的に更新されます。「ポート (COM & LPT)」の下に、「**USB-SERIAL CH340(COM3)**」という開いているポートが表示されるはずです。
+6. Apparaatbeheerder wordt automatisch vernieuwd. Kijk onder Poorten (COM & LPT). U zou een open poort moeten zien met de naam "**USB-SERIAL CH340(COM3)**".
 
 ![a10](../media/a10.png)
 
-7. Arduino IDEで「**ツール > ポート**」をクリックすると、デバイスマネージャーのCH340ドライバーと同じCOMポートが見つかります。
+7. Klik op **Extra > Poort** in de Arduino IDE, u kunt dezelfde COM-poort vinden als de CH340-driver in de apparaatbeheerder.
 
 ![a38](../media/a38.png)
 
+### 2.2 Bibliotheken toevoegen aan Arduino IDE
 
-### 2.2 Arduino IDEへのライブラリの追加
+**Waarom bibliotheken gebruiken?**
 
+Bibliotheken zijn ongelooflijk nuttig bij het maken van elk type project. Ze maken onze ontwikkelervaring veel soepeler, en er is bijna een oneindige hoeveelheid beschikbaar. Ze worden gebruikt om te communiceren met veel verschillende sensoren, RTC's, Wi-Fi-modules, RGB-matrices en natuurlijk met andere componenten op uw bord.
 
-**ライブラリを使用する理由**
+**Een bibliotheek opnemen in de sketch**
 
-ライブラリは、あらゆる種類のプロジェクトを作成する際に非常に役立ちます。それらは私たちの開発を
-
-よりスムーズにし、ほぼ無限の数があります。それらは、さまざまなセンサー、RTC、Wi-Fiモジュール、RGBマトリックス、そしてもちろんボード上の他の
-
-コンポーネントとインターフェースするために使用されます。
-
-**スケッチへのライブラリの組み込み**
-
-ライブラリを使用するには、まずスケッチの先頭にライブラリをインクルードする必要があります。当社のコードを使用する際に、コードの冒頭に`#include "library name"`という形式のコード行がある場合、このコードを正常にアップロードする前に、このライブラリファイルをArduino IDEに追加する必要があることを意味します。
+Om een bibliotheek te gebruiken, moet u deze eerst bovenaan de sketch opnemen. Als u een coderegel in het formaat `#include "bibliotheeknaam"` aan het begin van de code vindt bij het gebruik van onze code, betekent dit dat u dit bibliotheekbestand eerst aan de Arduino IDE moet toevoegen voordat u deze code succesvol kunt uploaden.
 
 ![image-20250416150700630](../media/image-20250416150700630.png)
 
-スマートファームキットを動作させるには、**これらのライブラリファイルをArduino IDEに追加する**必要があります。それらはチュートリアルパッケージにあります。
+Om de smart farm kit te laten werken, moeten we **deze bibliotheekbestanden toevoegen aan de Arduino IDE.** U kunt ze vinden in het tutorialpakket.
 
 ![image-20250416150847190](../media/image-20250416150847190.png)
 
-**.zipライブラリのインポート**
+**Een .zip-bibliotheek importeren**
 
-メニューバーで、「**スケッチ > ライブラリをインクルード > .ZIPライブラリを追加...**」に移動します。追加したいライブラリを選択するように求められます。
+Ga in de menubalk naar **Schets > Bibliotheek toevoegen > .ZIP-bibliotheek toevoegen...** U wordt gevraagd de bibliotheek te selecteren die u wilt toevoegen.
 
 ![4564654654](../media/4564654654.png)
 
-.zipファイルの場所を参照して開きます。
+Navigeer naar de locatie van het .zip-bestand en open het.
 
 ![image-20250416151456661](../media/image-20250416151456661.png)
 
-ライブラリが利用可能になるには、Arduino IDEを再起動する必要がある場合があります。ライブラリファイルが正常にインストールされると、リストに表示されます。
+Mogelijk moet u de Arduino IDE opnieuw opstarten om de bibliotheek beschikbaar te maken. Na het succesvol installeren van het bibliotheekbestand, ziet u ze in de lijst.
 
 ![image-20250416151805635](../media/image-20250416151805635.png)
 
+### 2.3 Configureer de ontwikkelomgeving voor ESP32
 
-### 2.3 ESP32の開発環境を設定する
+Voordat u de Arduino IDE gebruikt om de smart farm te programmeren, moet u de Arduino IDE configureren, het juiste bordtype (**ESP32 Dev Module**) selecteren voor het ESP32 Plus-bord en de **COM-poort** selecteren die is toegewezen in de apparaatbeheerder.
 
-
-Arduino IDEを使用してスマートファームをプログラムする前に、Arduino IDEを設定し、ESP32 Plusボードに正しいボードタイプ（**ESP32 Dev Module**）を選択し、デバイスマネージャーで割り当てられている**COMポート**を選択する必要があります。
-
-ArduinoのデフォルトのボードリストにはESP32のオプションがないため、**手動でインストールする**必要があります。
+Er is geen optie voor ESP32 in de standaard bordenlijst van Arduino, dus we moeten deze **handmatig installeren**.
 
 ![a30](../media/a30.png)
 
-「**ファイル > 環境設定**」をクリックします。ESP32ボードのリンク（https://espressif.github.io/arduino-esp32/package_esp32_index.json）を「**追加のボードマネージャーのURL**」にコピーし、「**OK**」をクリックします。
+Klik op **Bestand > Voorkeuren**. Kopieer de link van het ESP32-bord (https://espressif.github.io/arduino-esp32/package_esp32_index.json) naar de **Aanvullende boards manager URLs** en klik op **OK**.
 
 ![a31](../media/a31.png)
 
-左上隅にある「**ボードマネージャー**」のアイコンをクリックします。
+Klik op het pictogram van "**Board Manager**" in de linkerbovenhoek.
 
 ![a32](../media/a32.png)
 
-検索ボックスで「**ESP32**」を検索し、最新バージョンをインストールします。右下でそのプロセスを確認できます。**インストール中はネットワークを安定させてください。インストールに失敗した場合は、上記の手順を繰り返してください。**
+Zoek naar **ESP32** in het zoekvak en installeer de nieuwste versie. U kunt het proces in de rechterbenedenhoek controleren. **Houd tijdens de installatie het netwerk stabiel. Als de installatie mislukt, herhaalt u de bovenstaande stappen.**
 
-注：このチュートリアルではESP32バージョン3.1.3を使用しています。コードの非互換性を避けるため、同じバージョンを使用してください。
+Opmerking: We gebruiken ESP32 versie 3.1.3 in deze tutorial. Houd deze consistent om incompatibiliteit van de code te voorkomen.
 
 ![a33](../media/a33.png)
 
-インストールが完了しました：
+Installatie is voltooid:
 
 ![a34](../media/a34-1744788169084-23.png)
 
-「**ツール > ボード > esp32**」をクリックし、「**EPS32 Dev Module**」を選択します。
+Klik op **Extra > Bord > esp32** en kies de **EPS32 Dev Module**.
 
 ![a37](../media/a37.png)
 
-COMポートを選択します。デバイスマネージャーでポート番号を確認できます。COMポートが多数ある場合は、ボードのケーブルを抜いて、どのポートが消えるかを確認します。それが使用可能なポートです。COMポートがない場合は、ドライバーがインストールされているか確認してください。
+Kies de COM-poort. U kunt uw poortnummer controleren in Apparaatbeheer. Als er veel COM-poorten zijn, koppel dan de kabel van het bord los om te zien welke poort verdwijnt. Dat is dan de poort die u kunt gebruiken. Als er geen COM-poort is, controleer dan of de driver is geïnstalleerd.
 
 ![image](../media/a10-1744788429738-26.png)
 
-ここでは、COMポートはCOM3です。「ツール」→「ポート」→「COM3」をクリックします。
+Hier is onze COM-poort COM3. Klik op "Extra" → "Poort" → "COM3".
 
 ![image](../media/a38-1744788429738-27.png)
-```

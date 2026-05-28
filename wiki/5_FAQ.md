@@ -1,29 +1,29 @@
-## FAQ
+## Veelgestelde vragen
 
 
 
-### Q: このキットにはどのような種類の電池を装備すべきですか？
+### V: Welk type batterijen moet deze kit bevatten?
 
 
-A: 単三電池6本で、それぞれ直径14mm、高さ49mmです。電池は正しい方法で取り付けてください。逆向きに取り付けないでください！小さなお子様は、保護者の同伴のもとで操作してください。
+A: Zes AA-batterijen, elk met een diameter van 14 mm en een hoogte van 49 mm. Plaats de batterijen op de juiste manier en verwissel ze niet! Voor jongere leerlingen, gelieve onder begeleiding van ouders te werken.
 
 
-### Q: ESP32メインボードにプログラムを書き込む際にエラーが発生します。
+### V: Er treedt een fout op bij het branden van programma's op het ESP32-moederbord.
 
 
 A:
 
-- COMポートが正しいか確認してください。
-- 選択したボードが正しいか確認してください。
+- Controleer of de COM-poort correct is.
+- Controleer of het geselecteerde bord correct is.
 
 
-### Q: このキットは他のモジュールに拡張できますか？
+### V: Kan deze kit worden uitgebreid met andere modules?
 
 
-A: はい。他のモジュールに拡張する際は、ピン記述を確認してESP32のピンが正常に動作することを確認してください。
+A: Ja. Bij uitbreiding naar andere modules, controleer de pinbeschrijving om er zeker van te zijn dat de ESP32-pinnen normaal werken.
 
 
-### Q: <Wire.h>ライブラリをインポートする際にエラーが発生します。
+### V: Er treedt een fout op bij het importeren van de bibliotheek <Wire.h>.
 
 
-A: Arduino IDEにESP32開発ボードをインストールすると、<Wire.h>ライブラリは自動的にインポートされるため、繰り返し追加する必要はありません。
+A: Bij het installeren van het ESP32-ontwikkelbord op Arduino IDE wordt de bibliotheek <Wire.h> automatisch geïmporteerd, dus u hoeft deze niet herhaaldelijk toe te voegen.

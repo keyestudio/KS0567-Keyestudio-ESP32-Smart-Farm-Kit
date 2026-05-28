@@ -1,12 +1,12 @@
-## 4. スマートファームキットを組み立てる
+## 4. Monteer de Smart Farm Kit
 
 
 
-### ステップ1 ESP32ボードとリレーモジュールを取り付ける
+### Stap 1 Installeer het ESP32 Board en de Relais Module
 
 
 
-#### 1.1 必要なコンポーネント
+#### 1.1 Benodigde componenten
 
 
 ![img](../media/image001.png)
@@ -36,11 +36,11 @@
 ![img](../media/image006.png)
 
 
-### ステップ2 バッテリーケースの固定フレームを取り付け、給餌キャビンを取り付け、ESP32ボードとリレーモジュールを接続する
+### Stap 2 Installeer het bevestigingsframe voor de batterijhouder en installeer de voedingscabine, verbind het ESP32 board en de relaismodule
 
 
 
-#### 2.1 必要なコンポーネント
+#### 2.1 Benodigde componenten
 
 
 ![img](../media/image007.png)
@@ -49,7 +49,7 @@
 #### 2.2
 
 
-底板に木製ボードXとOを組み立てます
+Monteer de houten platen X en O op de bodemplaat
 
 ![img](../media/image008.png)
 
@@ -84,18 +84,18 @@
 ![img](../media/image014.png)
 
 
-#### 2.8 ESP32ボードとリレーモジュールを接続する
+#### 2.8 Verbind het ESP32 board en de relaismodule
 
 
-| モジュール | ワイヤー | ピン |
+| Module | Draad | Pin |
 | --- | --- | --- |
-| リレーモジュール | 3PIN 20cm | IO25 |
+| Relais Module | 3PIN 20cm | IO25 |
 
-| モジュールピン | ワイヤーの色 | ESP32ボードピン |
+| Module Pin | Draadkleur | ESP32 Board Pin |
 | --- | --- | --- |
-| V | 赤 | V |
-| G | 黒 | G |
-| S | 黄 | io25 |
+| V | ROOD | V |
+| G | ZWART | G |
+| S | GEEL | io25 |
 
 ![img](../media/image015.png)
 
@@ -106,11 +106,11 @@
 ![img](../media/image015-1.png)
 
 
-### ステップ3 家の基礎構造を取り付ける
+### Stap 3 Installeer de onderbouw van het huisje
 
 
 
-#### 3.1 必要なコンポーネント
+#### 3.1 Benodigde componenten
 
 
 ![img](../media/image016.png)
@@ -176,25 +176,27 @@
 ![img](../media/image026.png)
 
 
-### ステップ4 給餌キャビンのドアを取り付ける
+### Stap 4 Installeer de deur van de voedingscabine
 
 
 
-#### 4.1 必要なコンポーネント
+#### 4.1 Benodigde componenten
 
 
 ![img](../media/image027.png)
 
 
-#### 4.2 サーボを180°に設定する
+#### 4.2 Stel Servo in op 180°
 
 
 ![image-20250416162128859](../media/image-20250416162128859.png)
 
-アクリル板は個別に梱包されており、ドアとして動く際の摩擦を減らすために保護フィルムを剥がすことをお勧めします。
+De acrylplaat is apart verpakt, en het wordt aanbevolen om de
+beschermfolie te verwijderen om de wrijving te verminderen wanneer deze
+als deur beweegt.
 
 
-#### 4.3 サーボを取り付ける
+#### 4.3 Installeer Servo
 
 
 ![img](../media/image029.png)
@@ -203,7 +205,8 @@
 #### 4.4
 
 
-**注：ネジはサーボを安定させるためにしっかりと締める必要があります。そうしないとドアが詰まる可能性があります。**
+**Opmerking: De schroeven moeten worden vastgedraaid om de servo stabiel
+te houden, anders kan de deur vastlopen.**
 
 ![img](../media/image030.png)
 
@@ -213,7 +216,7 @@
 
 ![image-20250416162337896](../media/image-20250416162337896.png)
 
-以下に示すようにM1.4*6MMのタッピングネジを取り付けます
+Installeer M1.4*6MM zelftappende schroeven zoals hieronder getoond
 
 ![img](../media/6e1caadec8b1ec99b0093200763607b6.jpg)
 
@@ -233,7 +236,9 @@
 #### 4.8
 
 
-サーボに取り付けた後はギアを回さないでください。ギアを回してしまった場合は、サーボの角度を180°に再調整する必要があります。
+Draai het tandwiel niet nadat het op de servo is geïnstalleerd. Als u
+het tandwiel al hebt gedraaid, moet u de servohoek opnieuw instellen op
+180°.
 
 ![img](../media/image034.png)
 
@@ -241,7 +246,8 @@
 #### 4.9
 
 
-**注：給餌ボックスの蓋を取り付ける際は、開口部が完全に閉じている必要があります。**
+**OPMERKING: Bij het installeren van het deksel van de voerbak moet de
+opening volledig gesloten zijn.**
 
 ![img](../media/image035.png)
 
@@ -264,46 +270,57 @@
 ![img](../media/image037-1.png)
 
 
-#### 4.13 ドアをテストする
+#### 4.13 Test de deur
 
 
-1. サーボをESP32ボードのピンIO26に接続します。黄色をSに、赤をVに、黒をGに接続します。
+1. Verbind de Servo met pin IO26 van het ESP32 board. Verbind geel met S,
+   rood met V, zwart met G.
 
 ![image028-1](../media/image028-1-1744850789118-1.png)
 
-2. 6本の単三電池をESP32ボードのDC 7-12Vポートに接続します。（電池はキットに含まれていません）
+2. Verbind 6 AA batterijen met de DC 7-12V poort van het ESP32 board.
+   (Batterijen niet inbegrepen in de kit)
 
 ![image-20250417084747308](../media/image-20250417084747308.png)
 
-3. テストコードをアップロードする
+3. Upload de testcode
 
-A. USBケーブルでESP32ボードをコンピューターに接続します。**6.1Servo**フォルダー内のINOファイルをArduino IDEで開きます。
+A. Verbind het ESP32 board met de computer via de USB-kabel. Open het
+INO-bestand in de map **6.1Servo** met Arduino IDE.
 
 ![image-20250418081022882](../media/image-20250418081022882.png)
 
 ![image-20250418081231084](../media/image-20250418081231084.png)
 
-B. ツールをクリックし、ドロップダウンメニューバーでボードタイプに「ESP32 Dev Module」を選択し、ポートにCOM-XXを選択します（デバイスマネージャーでコンピューターに割り当てられたポートに従って）。
+B. Klik op Tools, selecteer "ESP32 Dev Module" voor het boardtype in de
+vervolgkeuzelijst, en selecteer COM-XX voor de poort (volgens de poort
+toegewezen door uw computer in de apparaatbeheerder)
 
-C. **ESP32Servo**ライブラリをアップロードしたことを確認してからコードをアップロードしてください。給餌キャビンのドアがゆっくりと開閉します。
+C. Zorg ervoor dat u de **ESP32Servo** bibliotheek hebt geüpload en
+upload vervolgens de code. De deur van de voedingscabine zal langzaam
+openen en sluiten.
 
 ![image-20250417085407205](../media/image-20250417085407205.png)
 
-注：コードをアップロードした後、ドアが開閉せず、サーボが熱くなっている場合は、すぐに電源を切ってください。
+OPMERKING: Als de deur na het uploaden van de code niet kan worden geopend en gesloten en de servo heet is, schakel dan onmiddellijk de stroom uit.
 
-**確認：**
+**controleer:**
 
-1. プラスチック製のドアがサーボのギア構造と良好な接触と力点を持っているか。
-1. サーボのギア構造の固定ネジの先端がサーボのプラスチックシェルに引っかかっていないか。もし引っかかっている場合は、固定ネジを少し緩めて、先端がサーボに接触しないようにしてください。
+1. Of de plastic deur goed contact maakt en krachtpunten heeft met de
+   tandwielstructuur van de servo.
+1. Of de punt van de bevestigingsschroef op de tandwielstructuur van de
+   servo vastzit met de plastic behuizing van de servo. Zo ja, draai dan
+   de bevestigingsschroef een beetje los om te voorkomen dat de punt
+   contact maakt met de servo.
 
 ![image-20250417085630662](../media/image-20250417085630662.png)
 
 
-### ステップ5 LCDディスプレイとDHT11センサーを取り付ける
+### Stap 5 Installeer het LCD-display en de DHT11-sensor
 
 
 
-#### 5.1 必要なコンポーネント
+#### 5.1 Benodigde componenten
 
 
 ![img](../media/image038.png)
@@ -327,31 +344,7 @@ C. **ESP32Servo**ライブラリをアップロードしたことを確認して
 ![img](../media/image041.png)
 
 
-#### 5.5 プロトタイプ
+#### 5.5 Prototype
 
 
 ![img](../media/image042.png)
-
-
-#### 5.6 配線
-
-
-**デュポンワイヤーでモジュールを接続します。**
-
-| モジュール | ワイヤー |
-| --- | --- |
-| 温度湿度センサー | 3PIN 20cm |
-
-**デュポンワイヤーの色に注意してください：**
-
-**温度湿度センサーの場合、黄色をSに、赤をVに、黒をGに接続します。**
-
-![img](../media/image043.png)
-
-
-#### 5.7
-
-
-| モジュール | ワイヤー |
-| --- | --- |
-| LCD
