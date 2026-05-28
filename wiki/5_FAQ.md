@@ -1,4 +1,4 @@
-## 5. Preguntas frecuentes
+## Preguntas frecuentes
 
 ### P: ¿Qué tipo de baterías debe equipar este kit?
 
