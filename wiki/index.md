@@ -51,7 +51,7 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 # **Keyestudio ESP32 Smart Farm Kit**
 
 
-![img](./index_img/1.png)
+![img](media/1.png)
 
 ---
 
@@ -65,54 +65,54 @@ The keyestudio trademark and logo are the copyright of KEYES DIY ROBOT co.,LTD. 
 
 | NO. | PIC | NAME | QTY |
 | --- | --- | --- | --- |
-| 1 | ![img](./index_img/1-1.png) | Basswood Board*6 | 1 |
-| 2 | ![image1](./index_img/47.png) | Basswood Board with Patterns | 1 |
-| 3 | ![image2](./index_img/2.png) | Acrylic Board | 1 |
-| 4 | ![image3](./index_img/3.png) | ESP32 PLUS Development Board | 1 |
-| 5 | ![image4](./index_img/4.png) | Button Module | 1 |
-| 6 | ![image5](./index_img/5.png) | Button Cap (12 * 12 * 7.3) | 1 |
-| 7 | ![image6](./index_img/6.png) | Passive Buzzer | 1 |
-| 8 | ![image7](./index_img/7.png) | 130 Motor | 1 |
-| 9 | ![image8](./index_img/8.png) | Fan | 1 |
-| 10 | ![image9](./index_img/9.png) | Steam Sensor | 1 |
-| 11 | ![image10](./index_img/10.png) | DHT11 Temperature and Humidity Sensor | 1 |
-| 12 | ![image11](./index_img/11.png) | PIR Motion Sensor | 1 |
-| 13 | ![image12](./index_img/12.png) | 5V Relay Module | 1 |
-| 14 | ![image13](./index_img/13.png) | Soil Humidity Sensor | 1 |
-| 15 | ![image14](./index_img/14.png) | Water Level Sensor | 1 |
-| 16 | ![image15](./index_img/15.png) | SR01 V3 Ultrasonic Module | 1 |
-| 17 | ![image16](./index_img/16.png) | White LED Module | 1 |
-| 18 | ![image17](./index_img/17.png) | Photoresistor | 1 |
-| 19 | ![image18](./index_img/18.png) | 9G 180° Servo (23 * 12.2 * 29mm) | 1 |
-| 20 | ![image19](./index_img/19.png) | I2C 1602 LCD Display | 1 |
-| 21 | ![image20](./index_img/20.png) | 6-slot AA Battery Holder | 1 |
-| 22 | ![image21](./index_img/21.png) | DC 3V Water Pump (With 15CM Breadboard Wire) | 1 |
-| 23 | ![image22](./index_img/22.png) | USB Cable TYPE-C | 1 |
-| 24 | ![image23](./index_img/23.png) | M1.4*6MM Self-Tapping Screw | 6 |
-| 25 | ![image24](./index_img/24.png) | M3 Lock-Nut | 6 |
-| 26 | ![image25](./index_img/25.png) | M4*8MM Round Head Screw | 18 |
-| 27 | ![image26](./index_img/26.png) | M3*6MM Round Head Screw | 8 |
-| 28 | ![image27](./index_img/27.png) | M3*10MM Round Head Screw | 16 |
-| 29 | ![image28](./index_img/28.png) | M2*12MM Round Head Screw | 2 |
-| 30 | ![image29](./index_img/29.png) | M4 Nut | 18 |
-| 31 | ![image30](./index_img/30.png) | M3 Nut | 12 |
-| 32 | ![image31](./index_img/31.png) | M2 Nut | 2 |
-| 33 | ![image32](./index_img/32.png) | M3*10MM Dual-Pass Copper Pillar | 4 |
-| 34 | ![image33](./index_img/wps1.jpg) | M1.2*4MM Self-Tapping Screw | 4 |
-| 35 | ![image34](./index_img/33.png) | 15cm 3P F-F DuPont Wires (Connected, 26AWG, Black-Red-Yellow) | 4 |
-| 36 | ![image35](./index_img/34.png) | 20cm 3P F-F DuPont Wires (Connected, 26AWG, Black-Red-Yellow) | 5 |
-| 37 | ![image36](./index_img/34.png) | 25cm 3P F-F DuPont Wires (Connected, 26AWG, Black-Red-Yellow) | 1 |
-| 38 | ![image37](./index_img/35.png) | 20cm 4P F-F DuPont Wires (Connected, 26AWG, Black-Red-Blue-Green) | 1 |
-| 39 | ![image38](./index_img/36.png) | 20cm 4P F-F DuPont Wires (Divided, 26AWG, Black-Green-Blue-Red) | 1 |
-| 40 | ![image39](./index_img/37.png) | 20cm 4P F-F DuPont Wires (Divided, 26AWG, Black-Red-Blue-Green) | 1 |
-| 41 | ![image40](./index_img/38.png) | 22CM 40P M-M DuPont Wires | 1 |
-| 42 | ![image41](./index_img/39.png) | 3.0*40MM Phillips Screwdriver | 1 |
-| 43 | ![image42](./index_img/40.png) | Slotted Screwdriver | 1 |
-| 44 | ![image43](./index_img/48.png) | Plastic Box | 2 |
-| 45 | ![image44](./index_img/45.png) | Water Pump Pipe | 6cm |
-| 46 | ![image45](./index_img/46.png) | Solar panel | 1 |
-| 47 | ![image46](./index_img/49.png) | Cross Wrench | 1 |
-| 48 | ![image47](./index_img/53.png) | Stickers | 1 |
+| 1 | ![img](media/1-1.png) | Basswood Board*6 | 1 |
+| 2 | ![image1](media/47.png) | Basswood Board with Patterns | 1 |
+| 3 | ![image2](media/2.png) | Acrylic Board | 1 |
+| 4 | ![image3](media/3.png) | ESP32 PLUS Development Board | 1 |
+| 5 | ![image4](media/4.png) | Button Module | 1 |
+| 6 | ![image5](media/5.png) | Button Cap (12 * 12 * 7.3) | 1 |
+| 7 | ![image6](media/6.png) | Passive Buzzer | 1 |
+| 8 | ![image7](media/7.png) | 130 Motor | 1 |
+| 9 | ![image8](media/8.png) | Fan | 1 |
+| 10 | ![image9](media/9.png) | Steam Sensor | 1 |
+| 11 | ![image10](media/10.png) | DHT11 Temperature and Humidity Sensor | 1 |
+| 12 | ![image11](media/11.png) | PIR Motion Sensor | 1 |
+| 13 | ![image12](media/12.png) | 5V Relay Module | 1 |
+| 14 | ![image13](media/13.png) | Soil Humidity Sensor | 1 |
+| 15 | ![image14](media/14.png) | Water Level Sensor | 1 |
+| 16 | ![image15](media/15.png) | SR01 V3 Ultrasonic Module | 1 |
+| 17 | ![image16](media/16.png) | White LED Module | 1 |
+| 18 | ![image17](media/17.png) | Photoresistor | 1 |
+| 19 | ![image18](media/18.png) | 9G 180° Servo (23 * 12.2 * 29mm) | 1 |
+| 20 | ![image19](media/19.png) | I2C 1602 LCD Display | 1 |
+| 21 | ![image20](media/20.png) | 6-slot AA Battery Holder | 1 |
+| 22 | ![image21](media/21.png) | DC 3V Water Pump (With 15CM Breadboard Wire) | 1 |
+| 23 | ![image22](media/22.png) | USB Cable TYPE-C | 1 |
+| 24 | ![image23](media/23.png) | M1.4*6MM Self-Tapping Screw | 6 |
+| 25 | ![image24](media/24.png) | M3 Lock-Nut | 6 |
+| 26 | ![image25](media/25.png) | M4*8MM Round Head Screw | 18 |
+| 27 | ![image26](media/26.png) | M3*6MM Round Head Screw | 8 |
+| 28 | ![image27](media/27.png) | M3*10MM Round Head Screw | 16 |
+| 29 | ![image28](media/28.png) | M2*12MM Round Head Screw | 2 |
+| 30 | ![image29](media/29.png) | M4 Nut | 18 |
+| 31 | ![image30](media/30.png) | M3 Nut | 12 |
+| 32 | ![image31](media/31.png) | M2 Nut | 2 |
+| 33 | ![image32](media/32.png) | M3*10MM Dual-Pass Copper Pillar | 4 |
+| 34 | ![image33](media/wps1.jpg) | M1.2*4MM Self-Tapping Screw | 4 |
+| 35 | ![image34](media/33.png) | 15cm 3P F-F DuPont Wires (Connected, 26AWG, Black-Red-Yellow) | 4 |
+| 36 | ![image35](media/34.png) | 20cm 3P F-F DuPont Wires (Connected, 26AWG, Black-Red-Yellow) | 5 |
+| 37 | ![image36](media/34.png) | 25cm 3P F-F DuPont Wires (Connected, 26AWG, Black-Red-Yellow) | 1 |
+| 38 | ![image37](media/35.png) | 20cm 4P F-F DuPont Wires (Connected, 26AWG, Black-Red-Blue-Green) | 1 |
+| 39 | ![image38](media/36.png) | 20cm 4P F-F DuPont Wires (Divided, 26AWG, Black-Green-Blue-Red) | 1 |
+| 40 | ![image39](media/37.png) | 20cm 4P F-F DuPont Wires (Divided, 26AWG, Black-Red-Blue-Green) | 1 |
+| 41 | ![image40](media/38.png) | 22CM 40P M-M DuPont Wires | 1 |
+| 42 | ![image41](media/39.png) | 3.0*40MM Phillips Screwdriver | 1 |
+| 43 | ![image42](media/40.png) | Slotted Screwdriver | 1 |
+| 44 | ![image43](media/48.png) | Plastic Box | 2 |
+| 45 | ![image44](media/45.png) | Water Pump Pipe | 6cm |
+| 46 | ![image45](media/46.png) | Solar panel | 1 |
+| 47 | ![image46](media/49.png) | Cross Wrench | 1 |
+| 48 | ![image47](media/53.png) | Stickers | 1 |
 
 ---
 
@@ -196,7 +196,7 @@ https://wiki.keyestudio.com/KS5016_Keyestudio_ESP32_PLUS_Development_Board
 
 Download links for the tutorial's library files and code files:
 
-[Click to download](/KS0567/resource.zip)
+[Click to download](./resource.zip)
 
 ## 6. Resources
 
