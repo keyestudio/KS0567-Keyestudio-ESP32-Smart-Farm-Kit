@@ -1,97 +1,140 @@
-## 3. Assemblaggio
+## 3. 組み立て
 
-Durante l'assemblaggio, è necessario caricare alcuni codici, quindi si prega di installare prima il software.
 
-L'intero assemblaggio può essere generalmente diviso in due parti: assemblaggio
-dei componenti e cablaggio.
+組み立て中にいくつかのコードを書き込む必要があるため、まずソフトウェアをインストールしてください。
+
+組み立て全体は、一般的に部品の組み立てと配線の2つの部分に分けられます。
 
 ---
 
-### Step 1 Installare la scheda ESP32 e il modulo relè
 
-#### 1.1 Componenti richiesti
+
+### ステップ1 ESP32ボードとリレーモジュールを取り付ける
+
+
+
+#### 1.1 必要なコンポーネント
+
 
 ![img](../media/image001.png)
 
 ---
 
+
+
 #### 1.2
+
 
 ![img](../media/image002.png)
 
 ---
 
+
+
 #### 1.3
+
 
 ![img](../media/image003.png)
 
 ---
 
+
+
 #### 1.4
+
 
 ![img](../media/image004.png)
 
 ---
 
+
+
 #### 1.5
+
 
 ![img](../media/image006.png)
 
 ---
 
-### Step 2 Installare il telaio di fissaggio per il vano batteria e installare la cabina di alimentazione, collegare la scheda ESP32 e il modulo relè
 
-#### 2.1 Componenti richiesti
+
+### ステップ2 バッテリーケースの固定フレームを取り付け、給餌キャビンを取り付け、ESP32ボードとリレーモジュールを接続する
+
+
+
+#### 2.1 必要なコンポーネント
+
 
 ![img](../media/image007.png)
 
 ---
 
+
+
 #### 2.2
 
-Assemblare le tavole di legno X e O sulla piastra inferiore
+
+木製ボードXとOを底板に取り付ける
 
 ![img](../media/image008.png)
 
 ---
 
+
+
 #### 2.3
+
 
 ![img](../media/image010.png)
 
 ---
 
+
+
 #### 2.4
+
 
 ![img](../media/image011.png)
 
 ---
 
+
+
 #### 2.5
+
 
 ![img](../media/image012.png)
 
 ---
 
+
+
 #### 2.6
+
 
 ![img](../media/image013.png)
 
 ---
 
+
+
 #### 2.7
+
 
 ![img](../media/image014.png)
 
 ---
 
-#### 2.8 Collegare la scheda ESP32 e il modulo relè
 
-| Modulo | Filo | Pin |
+
+#### 2.8 ESP32ボードとリレーモジュールを接続する
+
+
+| モジュール | ワイヤー | ピン |
 | --- | --- | --- |
-| Modulo relè | 3PIN 20cm | IO25 |
+| リレーモジュール | 3PIN 20cm | IO25 |
 
-| Pin modulo | Colore filo | Pin scheda ESP32 |
+| モジュールピン | ワイヤーの色 | ESP32ボードピン |
 | --- | --- | --- |
 | V | RED | V |
 | G | BLACK | G |
@@ -101,206 +144,290 @@ Assemblare le tavole di legno X e O sulla piastra inferiore
 
 ---
 
+
+
 #### 2.9
+
 
 ![img](../media/image015-1.png)
 
 ---
 
-### Step 3 Installare la sottostruttura della casa
+
+
+### ステップ3 家の基礎構造を取り付ける
+
 
 ---
 
-#### 3.1 Componenti richiesti
+
+
+#### 3.1 必要なコンポーネント
+
 
 ![img](../media/image016.png)
 
 ---
 
+
+
 #### 3.2
+
 
 ![img](../media/image017.png)
 
 ---
 
+
+
 #### 3.3
+
 
 ![img](../media/image018.png)
 
 ---
 
+
+
 #### 3.4
+
 
 ![img](../media/image019.png)
 
 ---
 
+
+
 #### 3.5
+
 
 ![img](../media/image020.png)
 
 ---
 
+
+
 #### 3.6
+
 
 ![img](../media/image021.png)
 
 ---
 
+
+
 #### 3.7
+
 
 ![img](../media/image022.png)
 
 ---
 
+
+
 #### 3.8
+
 
 ![img](../media/image023.png)
 
 ---
 
+
+
 #### 3.9
+
 
 ![img](../media/image024.png)
 
 ---
 
+
+
 #### 3.10
+
 
 ![img](../media/image025.png)
 
 ---
 
+
+
 #### 3.11
+
 
 ![img](../media/image026.png)
 
 ---
 
-### Step 4 Installare la porta della cabina di alimentazione
+
+
+### ステップ4 給餌キャビンのドアを取り付ける
+
 
 ---
 
-#### 4.1 Componenti richiesti
+
+
+#### 4.1 必要なコンポーネント
+
 
 ![image027](../media/image027.png)
 
 ![image](../media/image-20250416162128859.png)
 
-Il foglio acrilico è imballato separatamente, e si raccomanda di rimuovere la sua pellicola protettiva per ridurre l'attrito quando si muove come una porta.
+アクリルシートは別々に梱包されており、ドアとして動く際の摩擦を減らすために保護フィルムを剥がすことをお勧めします。
 
 ---
 
-#### 4.2 Impostare il Servo a 165°
 
-> **⚠ ATTENZIONE — Leggere prima di procedere:**
+
+#### 4.2 サーボを165°に設定する
+
+> **⚠ 警告 — 進む前に読んでください:**
 >
-> 1. **NON impostare il servo a 180°.** Il meccanismo della porta non richiede l'intera gamma 0°–180°. Impostarlo all'estremità causerà la pressione del servo contro il fermo meccanico, il che potrebbe surriscaldare e danneggiare permanentemente il motore del servo.
-> 2. **Mantenere la scheda alimentata durante l'installazione.** Quando il servo è alimentato e mantiene il suo angolo, NON forzare l'ingranaggio o la porta a mano. Se la scheda è spenta, il servo non ha coppia di tenuta, e ruotare manualmente l'ingranaggio sposterà l'angolo calibrato, causando un disallineamento dopo l'accensione.
-> 3. **NON usare la forza bruta.** Se la porta non si muove agevolmente, fermarsi immediatamente e controllare l'assemblaggio. Forzarla danneggerà gli ingranaggi del servo.
+> 1. **サーボを180°に設定しないでください。** ドア機構は0°～180°の全範囲を必要としません。極端な端に設定すると、サーボが機械的なストッパーに押し付けられ、過熱してサーボモーターが永久に損傷する可能性があります。
+> 2. **取り付け中はボードに電源を供給し続けてください。** サーボに電源が供給され、その角度を保持している間は、手でギアやドアを無理に動かさないでください。ボードの電源が切れている場合、サーボは保持トルクを持たず、手動でギアを回転させると校正された角度がずれてしまい、電源投入後に位置ずれが発生します。
+> 3. **無理な力を加えないでください。** ドアがスムーズに動かない場合は、すぐに停止して組み立てを確認してください。無理に動かすとサーボギアが破損します。
 
-Si prega di notare che questo passaggio è molto importante. Prima dell'installazione, assicurarsi di impostare il servo a **165°** (con un buffer di 15° riservato a ciascuna estremità per prevenire danni meccanici).
+このステップは非常に重要です。取り付け前に、サーボを**165°**に設定してください（機械的な損傷を防ぐため、両端に15°のバッファを確保してください）。
 
-**Prima di montare il servo, impostare prima l'angolo a 165° programmando con KidsBlock (programmazione grafica).**
+**サーボを取り付ける前に、まずKidsBlock（グラフィカルプログラミング）でプログラミングして角度を165°に設定してください。**
 
-Si prega di fare riferimento ai passaggi di installazione del software per i dettagli.
+詳細については、ソフトウェアのインストール手順を参照してください。
 
-**Collegare il Servo alla scheda di sviluppo ESP32 al pin IO26.**
+**サーボをESP32開発ボードのio26ピンに接続します。**
 
 ![img](../media/image028-1.png)
 
 ---
+
 
 ![img](../media/image028-3.png)
 
 ---
 
-- Aprire **KidsBlock**. Selezionare la scheda ESP32 e la porta seriale corretta, e caricare il seguente codice sulla scheda. Il codice imposta il servo a **165°**.
+
+- **KidsBlock**を開きます。ESP32ボードと正しいシリアルポートを選択し、以下のコードをボードに書き込みます。このコードはサーボを**165°**に設定します。
 
 ![image-20250425134842857](../media/image-20250425134842857.png)
 
 ![img](../media/image028-2.png)
 
-> **Importante:** Mantenere la scheda alimentata e il servo a 165° mentre si procede con il passaggio di assemblaggio. NON scollegare l'alimentazione o muovere manualmente l'ingranaggio finché il pannello della porta non è completamente installato.
+> **重要:** 組み立て手順に進む間、ボードに電源を供給し、サーボを165°に保持したままにしてください。ドアパネルが完全に設置されるまで、電源を切断したり、手動でギアを動かしたりしないでください。
 
 ---
 
-#### 4.3 Installare il Servo
+
+
+#### 4.3 サーボを取り付ける
+
 
 ![img](../media/image029.png)
 
 ---
 
+
+
 #### 4.4
 
-**Nota: Le viti devono essere serrate per mantenere il servo stabile, altrimenti la porta potrebbe bloccarsi**
+**注：サーボを安定させるためにネジを締める必要があります。そうしないとドアが詰まる可能性があります。**
 
 ![img](../media/image030.png)
 
 ---
 
+
+
 #### 4.5
+
 
 ![image-20250416162337896](../media/image-20250416162337896.png)
 
-Installare le viti autofilettanti M1.4*6MM come mostrato di seguito
+以下に示すようにM1.4*6MMのタッピングネジを取り付けます。
 
 ![6e1caadec8b1ec99b0093200763607b6](../media/6e1caadec8b1ec99b0093200763607b6.jpg)
 
 ---
 
+
+
 #### 4.6
+
 
 ![image-20250416162754513](../media/image-20250416162754513.png)
 
 ---
 
+
+
 #### 4.7
+
 
 ![img](../media/image033.png)
 
 ---
 
+
+
 #### 4.8
 
-Non girare l'ingranaggio dopo che è stato installato sul servo. Se hai già girato l'ingranaggio, dovrai riaggiustare l'angolo del servo a 180°.
+
+サーボに取り付けた後、ギアを回さないでください。ギアを回してしまった場合は、サーボの角度を180°に再調整する必要があります。
 
 ![img](../media/image034.png)
 
 ---
 
+
+
 #### 4.9
 
-**NOTA: Quando si installa il coperchio della scatola di alimentazione, la sua apertura deve essere completamente chiusa.**
+**注：給餌ボックスの蓋を取り付ける際は、開口部が完全に閉まっている必要があります。**
 
 ![img](../media/image035.png)
 
 ---
 
+
+
 #### 4.10
+
 
 ![img](../media/image036.png)
 
 ---
 
+
+
 #### 4.11
+
 
 ![img](../media/image037.png)
 
 ---
 
+
+
 #### 4.12
+
 
 ![img](../media/image037-1.png)
 
 ---
 
-#### 4.13 Testare la porta
 
-1. Collegare il Servo al pin IO26 della scheda ESP32. Collegare il giallo a S, il rosso a V, il nero a G.
+
+#### 4.13 ドアのテスト
+
+
+1. サーボをESP32ボードのio26ピンに接続します。黄色をS、赤をV、黒をGに接続します。
 
 ![img](../media/image028-1.png)
 
-2. Collegare 6 batterie AA alla porta DC 7-12V della scheda ESP32. (Batterie non incluse nel kit)
+2. 6本の単三電池をESP32ボードのDC 7-12Vポートに接続します。（電池はキットに含まれていません）
 
-![
+![image-20250417084747308](../media/image-20250417084747308.png)
+
+3. テストコードをアップロードする
+
+A. USBケーブルでESP32ボードをコンピュータに接続します。**6.1Servo.sb3**フォルダ内のINOファイルをKidsBlock

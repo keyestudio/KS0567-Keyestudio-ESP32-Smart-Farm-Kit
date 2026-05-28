@@ -1,59 +1,59 @@
-## 2. Installazione del software
+## 2. ソフトウェアのインストール
 
 
-### 2.1 Installare il driver
+### 2.1 ドライバーのインストール
 
 
-**NOTA: Se il tuo computer ha già installato un driver, salta questa sezione. In caso contrario, segui questi passaggi.**
+**注: お使いのコンピューターにすでにドライバーがインストールされている場合は、このセクションをスキップしてください。そうでない場合は、以下の手順に従ってください。**
 
-Fai clic su ![image4](../media/an13.png) per selezionare " **Installa driver** ".
+![image4](../media/an13.png) をクリックして「 **ドライバーのインストール** 」を選択します。
 
 ![img](../media/an14.png)
 
-- Fai clic su " **Avanti** " quando vedi la procedura guidata di installazione del driver del dispositivo:
+- デバイスドライバーのインストールウィザードが表示されたら、「 **次へ** 」をクリックします。
 
 ![img](../media/an15.png)
 
-- Fai clic su " **Fine** ".
+- 「 **完了** 」をクリックします。
 
 ![img](../media/an16.png)
 
-- Fai clic su " **Avanti** ".
+- 「 **次へ** 」をクリックします。
 
 ![img](../media/an17.png)
 
-- Fai clic su " **Fine** ".
+- 「 **完了** 」をクリックします。
 
 ![img](../media/an18.png)
 
-- Se viene visualizzato un avviso, fai semplicemente clic su " **Consenti** ". Quindi fai clic su " **Installa** ".
+- 警告が表示された場合は、「 **許可** 」をクリックするだけです。次に「 **インストール** 」をクリックします。
 
 ![img](../media/an19.png)
 
-- Tocca " **Fine** ".
+- 「 **完了** 」をタップします。
 
 ![img](../media/an20.png)
 
-- Fai clic su " **Estrai** ".
+- 「 **展開** 」をクリックします。
 
 ![img](../media/an21.png)
 
-- Fai clic su " **Avanti** ".
+- 「 **次へ** 」をクリックします。
 
 ![img](../media/an22.png)
 
-- Spunta " **Accetto questo accordo** " e fai clic su " **Avanti** ".
+- 「 **この契約に同意します** 」にチェックを入れて「 **次へ** 」をクリックします。
 
 ![img](../media/an23.png)
 
-- Fai clic su " **Fine** ".
+- 「 **完了** 」をクリックします。
 
 ![img](../media/an24.png)
 
-- Scegli " **INSTALLA** ".
+- 「 **インストール** 」を選択します。
 
 ![img](../media/an25.png)
 
-- Dopo un paio di secondi, il driver verrà installato correttamente. Quindi fai clic su " **OK** ".
+- 数秒後、ドライバーが正常にインストールされます。次に「 **OK** 」をクリックします。
 
 ![img](../media/an26.png)

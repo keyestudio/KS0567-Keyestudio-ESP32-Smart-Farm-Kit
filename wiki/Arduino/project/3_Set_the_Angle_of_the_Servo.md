@@ -1,39 +1,39 @@
-## 3. Impostare l'angolo del servo
+## 3. サーボの角度を設定する
 
-Nella prossima lezione, assembleremo questo kit di fattoria intelligente. Prima di assemblare il servo al kit, dobbiamo **impostare il suo angolo a 165°** (con un margine di 15° riservato a ciascuna estremità) in modo che funzioni come previsto ed eviti danni meccanici.
+次のレッスンでは、このスマートファームキットを組み立てます。キットにサーボを組み立てる前に、**角度を165°に設定する**（両端に15°のバッファを確保する）必要があります。これにより、期待どおりに動作し、機械的損傷を回避できます。
 
-> **⚠ ATTENZIONE — Leggere prima di procedere:**
+> **⚠ 警告 — 続行する前にお読みください:**
 >
-> 1. **NON impostare il servo a 180°.** Il meccanismo della porta non richiede l'intera gamma 0°–180°. Impostarlo all'estremità causerà la pressione del servo contro il fermo meccanico, il che potrebbe surriscaldare e danneggiare permanentemente il motore del servo.
-> 2. **Mantenere la scheda alimentata durante l'installazione.** Quando il servo è alimentato e mantiene il suo angolo, NON forzare l'ingranaggio o la porta a mano. Se la scheda non è alimentata, il servo non ha coppia di tenuta e la rotazione manuale dell'ingranaggio sposterà l'angolo calibrato, causando un disallineamento dopo l'accensione.
-> 3. **NON usare la forza bruta.** Se la porta non si muove agevolmente, fermarsi immediatamente e controllare l'assemblaggio. Forzarla danneggerà gli ingranaggi del servo.
+> 1. **サーボを180°に設定しないでください。** ドア機構は0°～180°の全範囲を必要としません。極端な端に設定すると、サーボが機械的なストッパーに押し付けられ、過熱してサーボモーターが永久に損傷する可能性があります。
+> 2. **取り付け中はボードに電源を供給し続けてください。** サーボに電源が供給され、角度を保持している間は、ギアやドアを手で無理に動かさないでください。ボードに電源が供給されていない場合、サーボには保持トルクがなく、ギアを手動で回転させると、校正された角度がずれ、電源投入後に位置ずれが発生します。
+> 3. **無理な力を加えないでください。** ドアがスムーズに動かない場合は、すぐに停止して組み立てを確認してください。無理に動かすとサーボギアが破損します。
 
 ![image-20250416152950497](../media/image-20250416152950497.png)
 
-1. Collegare il servo al **pin io26** della scheda ESP32 PLUS. Nota: I fili marrone, rosso e arancione del servo sono rispettivamente collegati a GND(G), 5V(V) e **Pin io26.**
+1. サーボをESP32 PLUSボードの**ピンio26**に接続します。注：サーボの茶色、赤、オレンジのワイヤーはそれぞれGND(G)、5V(V)、**ピンio26**に接続されています。
 
 ![image028-1](../media/image028-1.png)
 
-2. Collegare la scheda ESP32 PLUS al computer.
+2. ESP32 PLUSボードをコンピューターに接続します。
 
 ![image-20250416153731709](../media/image-20250416153731709.png)
 
-3. Assicurarsi di aver installato la libreria **ESP32Servo.h** per l'Arduino IDE. In caso contrario, fare riferimento alla sezione precedente per installarla.
+3. Arduino IDE用の**ESP32Servo.h**ライブラリがインストールされていることを確認してください。インストールされていない場合は、前のセクションを参照してインストールしてください。
 
 ![3bd9304d-73d9-4fc3-9e59-50c55f947960](../media/3bd9304d-73d9-4fc3-9e59-50c55f947960.png)
 
-4. Aprire il codice **window_servo** fornito nel nostro pacchetto tutorial con Arduino IDE.
+4. チュートリアルパッケージで提供されている**window_servo**コードをArduino IDEで開きます。
 
-> **Nota:** Il codice `window_servo` fornito imposta il servo a **165°** (non 180°). Questo riserva un margine meccanico di 15° per prevenire collisioni al fine corsa. L'intervallo di lavoro della porta è 15°–165°.
+> **注:** 提供されている`window_servo`コードは、サーボを**165°**に設定します（180°ではありません）。これにより、終端での衝突を防ぐために15°の機械的バッファが確保されます。ドアの動作範囲は15°～165°です。
 
 ![image-20250416154133013](../media/image-20250416154133013.png)
 
-5. Cliccare su **Strumenti**, selezionare "**ESP32 Dev Module**" per il tipo di scheda e selezionare **COM-XX** per la porta come mostrato in Gestione dispositivi.
+5. **ツール**をクリックし、ボードタイプに「**ESP32 Dev Module**」を選択し、デバイスマネージャーに表示されているようにポートに**COM-XX**を選択します。
 
 ![51454125](../media/51454125.png)
 
-6. Cliccare ![image-20250416154532804](../media/image-20250416154532804.png) per caricare. Dopo che il caricamento è completo, il servo si sposterà a **165°** e manterrà quella posizione.
+6. ![image-20250416154532804](../media/image-20250416154532804.png)をクリックしてアップロードします。アップロードが完了すると、サーボは**165°**に移動し、その位置を保持します。
 
-> **Importante:** Mantenere la scheda alimentata e il servo in posizione a 165° mentre si procede al passaggio di assemblaggio. **Non** scollegare l'alimentazione o muovere manualmente l'ingranaggio finché il pannello della porta non è completamente installato.
+> **重要:** 組み立て手順に進む間、ボードに電源を供給し、サーボを165°で保持したままにしてください。ドアパネルが完全にインストールされるまで、電源を切断したり、ギアを手動で動かしたり**しないでください**。
 
 ![image-20250416155301751](../media/image-20250416155301751.png)

@@ -1,12 +1,12 @@
-## 4. Assemblare il Kit Smart Farm
+## 4. スマートファームキットを組み立てる
 
 
 
-### Step 1 Installare la scheda ESP32 e il modulo relè
+### ステップ1 ESP32ボードとリレーモジュールを取り付ける
 
 
 
-#### 1.1 Componenti richiesti
+#### 1.1 必要なコンポーネント
 
 
 ![img](../media/image001.png)
@@ -36,11 +36,11 @@
 ![img](../media/image006.png)
 
 
-### Step 2 Installare il telaio di fissaggio per il vano batteria e installare la cabina di alimentazione, collegare la scheda ESP32 e il modulo relè
+### ステップ2 バッテリーケースの固定フレームを取り付け、給餌キャビンを取り付け、ESP32ボードとリレーモジュールを接続する
 
 
 
-#### 2.1 Componenti richiesti
+#### 2.1 必要なコンポーネント
 
 
 ![img](../media/image007.png)
@@ -49,7 +49,7 @@
 #### 2.2
 
 
-Assemblare le tavole di legno X e O sulla piastra inferiore
+底板に木製ボードXとOを組み立てます
 
 ![img](../media/image008.png)
 
@@ -84,18 +84,18 @@ Assemblare le tavole di legno X e O sulla piastra inferiore
 ![img](../media/image014.png)
 
 
-#### 2.8 Collegare la scheda ESP32 e il modulo relè
+#### 2.8 ESP32ボードとリレーモジュールを接続する
 
 
-| Modulo | Cavo | Pin |
+| モジュール | ワイヤー | ピン |
 | --- | --- | --- |
-| Modulo relè | 3PIN 20cm | IO25 |
+| リレーモジュール | 3PIN 20cm | IO25 |
 
-| Pin modulo | Colore cavo | Pin scheda ESP32 |
+| モジュールピン | ワイヤーの色 | ESP32ボードピン |
 | --- | --- | --- |
-| V | ROSSO | V |
-| G | NERO | G |
-| S | GIALLO | io25 |
+| V | 赤 | V |
+| G | 黒 | G |
+| S | 黄 | io25 |
 
 ![img](../media/image015.png)
 
@@ -106,11 +106,11 @@ Assemblare le tavole di legno X e O sulla piastra inferiore
 ![img](../media/image015-1.png)
 
 
-### Step 3 Installare la sottostruttura della casa
+### ステップ3 家の基礎構造を取り付ける
 
 
 
-#### 3.1 Componenti richiesti
+#### 3.1 必要なコンポーネント
 
 
 ![img](../media/image016.png)
@@ -176,27 +176,25 @@ Assemblare le tavole di legno X e O sulla piastra inferiore
 ![img](../media/image026.png)
 
 
-### Step 4 Installare la porta della cabina di alimentazione
+### ステップ4 給餌キャビンのドアを取り付ける
 
 
 
-#### 4.1 Componenti richiesti
+#### 4.1 必要なコンポーネント
 
 
 ![img](../media/image027.png)
 
 
-#### 4.2 Impostare il Servo a 180°
+#### 4.2 サーボを180°に設定する
 
 
 ![image-20250416162128859](../media/image-20250416162128859.png)
 
-Il foglio acrilico è confezionato separatamente, e si consiglia di
-rimuovere la sua pellicola protettiva per ridurre l'attrito quando si muove come
-porta.
+アクリル板は個別に梱包されており、ドアとして動く際の摩擦を減らすために保護フィルムを剥がすことをお勧めします。
 
 
-#### 4.3 Installare il Servo
+#### 4.3 サーボを取り付ける
 
 
 ![img](../media/image029.png)
@@ -205,8 +203,7 @@ porta.
 #### 4.4
 
 
-**Nota: Le viti devono essere serrate per mantenere il servo stabile,
-altrimenti la porta potrebbe bloccarsi**
+**注：ネジはサーボを安定させるためにしっかりと締める必要があります。そうしないとドアが詰まる可能性があります。**
 
 ![img](../media/image030.png)
 
@@ -216,7 +213,7 @@ altrimenti la porta potrebbe bloccarsi**
 
 ![image-20250416162337896](../media/image-20250416162337896.png)
 
-Installare le viti autofilettanti M1.4*6MM come mostrato di seguito
+以下に示すようにM1.4*6MMのタッピングネジを取り付けます
 
 ![img](../media/6e1caadec8b1ec99b0093200763607b6.jpg)
 
@@ -236,9 +233,7 @@ Installare le viti autofilettanti M1.4*6MM come mostrato di seguito
 #### 4.8
 
 
-Non ruotare l'ingranaggio dopo che è stato installato sul servo. Se si è
-già ruotato l'ingranaggio, sarà necessario regolare nuovamente l'angolo del servo a
-180°.
+サーボに取り付けた後はギアを回さないでください。ギアを回してしまった場合は、サーボの角度を180°に再調整する必要があります。
 
 ![img](../media/image034.png)
 
@@ -246,8 +241,7 @@ già ruotato l'ingranaggio, sarà necessario regolare nuovamente l'angolo del se
 #### 4.9
 
 
-**NOTA: Quando si installa il coperchio della scatola di alimentazione, la sua apertura deve
-essere completamente chiusa.**
+**注：給餌ボックスの蓋を取り付ける際は、開口部が完全に閉じている必要があります。**
 
 ![img](../media/image035.png)
 
@@ -270,55 +264,46 @@ essere completamente chiusa.**
 ![img](../media/image037-1.png)
 
 
-#### 4.13 Testare la porta
+#### 4.13 ドアをテストする
 
 
-1. Collegare il Servo al pin IO26 della scheda ESP32. Collegare il giallo a S,
-   il rosso a V, il nero a G.
+1. サーボをESP32ボードのピンIO26に接続します。黄色をSに、赤をVに、黒をGに接続します。
 
 ![image028-1](../media/image028-1-1744850789118-1.png)
 
-2. Collegare 6 batterie AA alla porta DC 7-12V della scheda ESP32.
-   (Batterie non incluse nel kit)
+2. 6本の単三電池をESP32ボードのDC 7-12Vポートに接続します。（電池はキットに含まれていません）
 
 ![image-20250417084747308](../media/image-20250417084747308.png)
 
-3. Caricare il codice di test
+3. テストコードをアップロードする
 
-A. Collegare la scheda ESP32 al computer con il cavo USB. Aprire il
-file INO all'interno della cartella **6.1Servo** con Arduino IDE.
+A. USBケーブルでESP32ボードをコンピューターに接続します。**6.1Servo**フォルダー内のINOファイルをArduino IDEで開きます。
 
 ![image-20250418081022882](../media/image-20250418081022882.png)
 
 ![image-20250418081231084](../media/image-20250418081231084.png)
 
-B. Cliccare su Strumenti, selezionare "ESP32 Dev Module" per il tipo di scheda nel
-menu a discesa, e selezionare COM-XX per la Porta (Secondo la porta
-assegnata dal computer in gestione dispositivi)
+B. ツールをクリックし、ドロップダウンメニューバーでボードタイプに「ESP32 Dev Module」を選択し、ポートにCOM-XXを選択します（デバイスマネージャーでコンピューターに割り当てられたポートに従って）。
 
-C. Assicurarsi di aver caricato la libreria **ESP32Servo** e quindi caricare il codice. La porta della cabina di alimentazione si aprirà e chiuderà lentamente.
+C. **ESP32Servo**ライブラリをアップロードしたことを確認してからコードをアップロードしてください。給餌キャビンのドアがゆっくりと開閉します。
 
 ![image-20250417085407205](../media/image-20250417085407205.png)
 
-NOTA: Dopo aver caricato il codice, se la porta non può essere aperta e chiusa e il servo è caldo, spegnere immediatamente l'alimentazione.
+注：コードをアップロードした後、ドアが開閉せず、サーボが熱くなっている場合は、すぐに電源を切ってください。
 
-**Verificare:**
+**確認：**
 
-1. Se la porta di plastica ha un buon contatto e punti di forza con la
-   struttura dell'ingranaggio del servo.
-1. Se la punta della vite di fissaggio sulla struttura dell'ingranaggio del
-   servo è bloccata con il guscio di plastica del servo. In tal caso, si prega di
-   allentare un po' la vite di fissaggio per evitare che la sua punta entri in contatto
-   con il servo.
+1. プラスチック製のドアがサーボのギア構造と良好な接触と力点を持っているか。
+1. サーボのギア構造の固定ネジの先端がサーボのプラスチックシェルに引っかかっていないか。もし引っかかっている場合は、固定ネジを少し緩めて、先端がサーボに接触しないようにしてください。
 
 ![image-20250417085630662](../media/image-20250417085630662.png)
 
 
-### Step 5 Installare il display LCD e il sensore DHT11
+### ステップ5 LCDディスプレイとDHT11センサーを取り付ける
 
 
 
-#### 5.1 Componenti richiesti
+#### 5.1 必要なコンポーネント
 
 
 ![img](../media/image038.png)
@@ -342,15 +327,31 @@ NOTA: Dopo aver caricato il codice, se la porta non può essere aperta e chiusa 
 ![img](../media/image041.png)
 
 
-#### 5.5 Prototipo
+#### 5.5 プロトタイプ
 
 
 ![img](../media/image042.png)
 
 
-#### 5.6 Cablaggio
+#### 5.6 配線
 
 
-**Collegare i moduli tramite cavi Dupont.**
+**デュポンワイヤーでモジュールを接続します。**
 
-|
+| モジュール | ワイヤー |
+| --- | --- |
+| 温度湿度センサー | 3PIN 20cm |
+
+**デュポンワイヤーの色に注意してください：**
+
+**温度湿度センサーの場合、黄色をSに、赤をVに、黒をGに接続します。**
+
+![img](../media/image043.png)
+
+
+#### 5.7
+
+
+| モジュール | ワイヤー |
+| --- | --- |
+| LCD

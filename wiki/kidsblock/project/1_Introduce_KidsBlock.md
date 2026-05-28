@@ -1,229 +1,197 @@
-## 1. Introduzione a KidsBlock
+## 1. KidsBlockの紹介
 
+### 1.1 KidsBlockのインストール
 
+#### 1.1.1 WindowsシステムへのKidsBlockのインストール
 
-### 1.1 Installazione di KidsBlock
+1. KidsBlockは以下からダウンロードできます。
 
+   - リンク: http://xiazai.keyesrobot.cn/KidsBlock.exe
 
+   - 提供ファイル: ![img](../media/an1-1.png)
 
-#### 1.1.1 Installare KidsBlock su sistema Windows
+2. ダウンロード後、「KidsBlock.exe」をクリックします。![image1](../media/an1.png)
 
-
-1. È possibile scaricare KidsBlock da:
-
-   -  Link: http://xiazai.keyesrobot.cn/KidsBlock.exe
-
-   -  File fornito: ![img](../media/an1-1.png)
-
-1. Dopo il download, fare clic su "KidsBlock.exe" ![image1](../media/an1.png)
-
-1. Spuntare " **Anyone who uses this computer(all users)** " e quindi fare clic su "**Next**".
+3. 「**このコンピューターを使用するすべてのユーザー(all users)**」にチェックを入れ、「**Next**」をクリックします。
 
 ![img](../media/an2.png)
 
-4. Fare clic su " **Browse...** " per scegliere un percorso di installazione (qui scegliamo il disco C; è possibile selezionare qualsiasi posizione desiderata) e fare clic su " **Install** ". Ora è in fase di installazione!
+4. 「**Browse...**」をクリックしてインストールパスを選択し（ここではCドライブを選択していますが、お好きな場所を選択できます）、「**Install**」をクリックします。インストールが開始されます！
 
 ![img](../media/an3.png)
 
 ![img](../media/an4.png)
 
-5. Al termine dell'installazione, fare clic su " **Finish** " per aprirlo.
+5. インストール完了後、「**Finish**」をクリックして開きます。
 
 ![img](../media/an5.png)
 
-6. Se viene visualizzato un avviso, fare clic su " **Allow access** " per accedere alla pagina principale del software.
+6. 警告が表示された場合は、「**Allow access**」をクリックしてソフトウェアのメインページに入ります。
 
 ![img](../media/an6.png)
 
 ---
 
+#### 1.1.2 MacOSへのKidsBlockのインストール
 
-
-#### 1.1.2 Installare KidsBlock su MacOS
-
-
-1. Scaricare prima il pacchetto KidsBlock: http://xiazai.keyesrobot.cn/KidsBlock.dmg
+1. まずKidsBlockパッケージをダウンロードしてください: http://xiazai.keyesrobot.cn/KidsBlock.dmg
 
 ![img](../media/an7.png)
 
-2. Fare clic su KidsBlock e trascinare " **KidsBlock Desktop** " in " **Applications** ", come mostrato di seguito.
+2. KidsBlockをクリックし、「**KidsBlock Desktop**」を「**Applications**」にドラッグします。以下に示す通りです。
 
 ![img](../media/an8.png)
 
-3. Dopo l'installazione, l'icona di KidsBlock apparirà nel pad operativo:
+3. インストール後、KidsBlockアイコンが操作パッドに表示されます。
 
 ![img](../media/an9.png)
 
-4. Fare clic sull'icona di KidsBlock per accedere al software. Se non funziona, modificare alcune impostazioni del computer per rientrarvi. Questo perché i sistemi Mac, per impostazione predefinita, autorizzano l'installazione solo nell'App Store, quindi altri non sono autorizzati a essere installati.
+4. KidsBlockアイコンをクリックしてソフトウェアに入ります。失敗した場合は、一部のコンピューター設定を変更して再入力してください。これは、MacシステムがデフォルトでApp Storeでのインストールのみを許可しており、他のインストールが許可されていないためです。
 
 ![img](../media/an9-1.png)
 
-5. Aprire le impostazioni e fare clic su Privacy e sicurezza. Cambiare l'opzione di sicurezza in "App Store e sviluppatori approvati" e fare clic su "Apri comunque".
+5. 設定を開き、「プライバシーとセキュリティ」をクリックします。セキュリティオプションを「App Storeと承認済み開発者」に切り替え、「それでも開く」をクリックします。
 
 ![img](../media/an9-2.png)
 
-6. Fare clic su "Apri" per rientrare nel software bloccato.
+6. 「開く」をクリックして、ブロックされたソフトウェアに再入力します。
 
 ![img](../media/an9-3.png)
 
-7. Dopo le impostazioni, può funzionare normalmente.
+7. 設定後、正常に動作します。
 
 ![img](../media/an9-4.png)
 
-8. L'interfaccia di avvio è come mostrato di seguito. Ora goditi il tuo viaggio nella programmazione!
+8. 起動インターフェースは以下の通りです。さあ、プログラミングの旅を楽しんでください！
 
 ![img](../media/an9-5.png)
 
 ---
 
+### 1.2 ソフトウェアガイド
 
+（**以下のデモンストレーションはWindowsシステムに基づいており、MacOSの参考としてのみです。**）
 
-### 1.2 Guida al software
-
-
-(**Le seguenti dimostrazioni sono basate sul sistema Windows e sono solo un
-riferimento per MacOS.**)
-
-
-#### 1.2.1 Distribuzione delle funzioni della pagina principale 1
-
+#### 1.2.1 メインページ機能の分布 1
 
 ![img](../media/an10.png)
 
+#### 1.2.2 言語の選択
 
-#### 1.2.2 Seleziona lingua
+![image2](../media/an11.png)をクリックして「English」または「简体中文」を選択します。![image3](../media/an12.png)
 
+#### 1.2.3 デバイスの選択
 
-Fare clic su ![image2](../media/an11.png) per selezionare "English" o "简体中文" ![image3](../media/an12.png)
+**デバイスとシリアルポートを選択する**
 
+- ![image5](../media/an27.png)をクリックしてデバイスを選択します。
 
-#### 1.2.3 Seleziona dispositivi
-
-
-**Scegliere un dispositivo e una porta seriale**
-
--  Fare clic su ![image5](../media/an27.png) per scegliere un dispositivo.
-
--  Qui inseriamo **Kit** per trovare **Smart farm for ESP32** e aggiungerlo. Si noti che tutti i sensori sono inclusi in questo kit, quindi non è necessario importarli ulteriormente.
+- ここでは**Kit**に入り、**Smart farm for ESP32**を見つけて追加します。すべてのセンサーはこのキットに含まれているため、追加でインポートする必要はありません。
 
 ![img](../media/an28.png)
 
--  Dopo aver importato questo kit, vedrai la seguente interfaccia di selezione della porta. Fare clic su **Connect** sulla porta corretta.
+- このキットをインポートすると、ポート選択の以下のインターフェースが表示されます。正しいポートで「**Connect**」をクリックします。
 
 ![img](../media/an29.png)
 
--  Toccare **Go to Editor**.
+- 「**Go to Editor**」をタップします。
 
 ![img](../media/an30.png)
 
--  Pagina principale:
+- メインページ:
 
 ![img](../media/an31.png)
 
-**Disconnettere il dispositivo**
+**デバイスの切断**
 
--  Se si desidera disconnettere il kit e la porta, fare clic su ![image6](../media/an32.png).
+- キットとポートを切断したい場合は、![image6](../media/an32.png)をクリックしてください。
 
--  Quindi toccare **Disconnect** per scollegare la connessione corrente.
+- 次に「**Disconnect**」をタップして、現在の接続を解除します。
 
 ![img](../media/an33.png)
 
 ---
 
-
-
-#### 1.2.4 Distribuzione delle funzioni della pagina principale 2
-
+#### 1.2.4 メインページ機能の分布 2
 
 ![img](../media/an34.png)
 
+#### 1.2.5 センサー/モジュールの拡張
 
-#### 1.2.5 Espandere un sensore/modulo
+**注: 必要なすべてのセンサーがキットに統合されており、拡張する必要がないため、この部分はスキップできます。除外されたモジュールを採用したい場合は、以下の手順を参照してください。**
 
+- ![an42](../media/an35.png)をクリックしてセンサー/モジュール拡張ライブラリに入ります。
 
-**NOTA: Questa parte può essere SALTA, poiché tutti i sensori richiesti sono integrati
-nel kit senza bisogno di espansione. Se si desidera adottare un modulo escluso,
-fare riferimento alle seguenti procedure.**
-
--  Fare clic su ![an42](../media/an35.png) per accedere alla libreria di estensione di sensori/moduli.
-
--  Scegliere un'estensione.
+- 拡張機能を選択します。
 
 ![img](../media/an36.png)
 
--  Ad esempio, se è richiesto un modulo buzzer, fare clic su buzzer passivo:
-   
--  ![img](../media/an37.png)
+- 例えば、ブザーモジュールが必要な場合は、パッシブブザーをクリックします。
 
--  Quando " **Not loaded** " diventa " **Loaded** ", questo modulo è stato importato con successo.
+- ![img](../media/an37.png)
+
+- 「**Not loaded**」が「**Loaded**」に変わると、このモジュールは正常にインポートされました。
 
 ![img](../media/an38.png)
 
--  Fare clic su ![image7](../media/an39.png) per tornare all'editor. Ora scoprirai che un blocco Buzzer passivo appare in Code.
+- ![image7](../media/an39.png)をクリックしてエディターに戻ります。これで、コードにパッシブブザーブロックが表示されていることがわかります。
 
 ![img](../media/an41.png)
 
--  Se si desidera rimuovere il "Buzzer passivo", fare clic su ![image8](../media/an42.png) per accedere alla libreria e toccare.
+- 「Passive buzzer」を削除したい場合は、![image8](../media/an42.png)をクリックしてライブラリに入り、タップします。
 
 ![img](../media/an38.png)
 
--  Quando "Loaded" passa a "Not loaded", questo modulo è stato eliminato con successo.
+- 「Loaded」が「Not loaded」に変わると、このモジュールは正常に削除されました。
 
 ![img](../media/an37.png)
 
+#### 1.2.6 ファイルのインポート
 
-#### 1.2.6 Importa file
+- 方法 1
 
-
--  Metodo 1
-
-   -  Se il software non è in funzione, fare clic direttamente sul file SB3
-      per aprirlo. Ad esempio, fare clic su ![image9](../media/an46.png) per aprirlo. Ricordarsi di selezionare un dispositivo.
+   - ソフトウェアが動作していない場合は、SB3ファイルを直接クリックして開きます。例えば、![image9](../media/an46.png)をクリックして開きます。デバイスを選択することを忘れないでください。
 
 ![img](../media/an54.png)
 
--  Metodo 2
+- 方法 2
 
-   -  Aprire KidsBlock. Fare clic su " **file** " per scegliere " **Load from your computer** ". ![image10](../media/an47.png)
-      
--  Selezionare un file SB3 (come ![image11](../media/an46.png)).
+   - Kidsblockを開きます。「**file**」をクリックして「**Load from your computer**」を選択します。![image10](../media/an47.png)
+
+- SB3ファイルを選択します（例: ![image11](../media/an46.png)）。
 
 ![img](../media/an50.png)
 
-   -  Importazione riuscita!
+   - 正常にインポートされました！
 
 ![img](../media/an54.png)
 
+#### 1.2.7 コードのアップロードとボーレートの設定
 
-#### 1.2.7 Carica codice e imposta Baud Rate
+**コードのアップロード**
 
+- ファイル![image12](../media/an47.png)をKidsblockにアップロードします。
 
-**Carica codice**
-
--  Carica il file ![image12](../media/an47.png) su KidsBlock.
-
--  Collegare la scheda di sviluppo al computer (se non si riesce a vedere
-   una porta, installare prima un driver) e selezionare la porta corretta e fare clic su ![image13](../media/an52.png).
+- 開発ボードをコンピューターに接続し（ポートが表示されない場合は、まずドライバーをインストールしてください）、正しいポートを選択して![image13](../media/an52.png)をクリックします。
 
 ![img](../media/an54.png)
 
--  Attendere il caricamento.
+- アップロードを待ちます。
 
 ![img](../media/an53.png)
 
-**Imposta Baud rate**
+**ボーレートの設定**
 
--  Se non c'è una casella di stampa, fare clic su una delle ![image14](../media/an56.png) per regolare
-   la dimensione della casella.
+- 印刷ボックスがない場合は、![image14](../media/an56.png)のいずれかをクリックしてボックスサイズを調整してください。
 
-   -  Casella di stampa piccola ![image15](../media/an58.png)
-   -  Casella di stampa grande ![image16](../media/an59.png)
-   -  Nessuna casella di stampa ![image17](../media/an60.png)
+   - 小さい印刷ボックス ![image15](../media/an58.png)
+   - 大きい印刷ボックス ![image16](../media/an59.png)
+   - 印刷ボックスなし ![image17](../media/an60.png)
 
--  Fare clic su ![image18](../media/an57.png) per impostare la velocità di trasmissione corrispondente.
+- ![image18](../media/an57.png)をクリックして対応するボーレートを設定します。
 
 ![img](../media/an55.png)
 
--  " **Hello KidsBlock** " inizia a essere stampato nella casella dopo l'impostazione.
+- 設定後、ボックスに「**Hello KidsBlock**」が印刷され始めます。
 
 ![img](../media/an62.png)

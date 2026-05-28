@@ -1,76 +1,62 @@
-## 1. Introduzione ad Arduino
+## 1. Arduinoの紹介
 
-### 1.1 Cos'è Arduino?
+### 1.1 Arduinoとは？
 
-Arduino è una piattaforma elettronica open-source basata su hardware e
-software facili da usare. Le schede Arduino sono in grado di leggere
-input - luce su un sensore, un dito su un pulsante o un messaggio
-Twitter - e trasformarli in un output - attivare un motore, accendere
-un LED, pubblicare qualcosa online. Puoi dire alla tua scheda cosa fare
-scrivendo il codice del programma nell'IDE e inviando le istruzioni al
-microcontrollore sulla scheda. Per fare ciò, utilizzi il linguaggio di
-programmazione Arduino (basato su Wiring) e il software Arduino (IDE),
-basato su Processing.
+Arduinoは、使いやすいハードウェアとソフトウェアに基づいたオープンソースの電子プラットフォームです。Arduinoボードは、センサーの光、ボタンの指、Twitterメッセージなどの入力を読み取り、モーターの作動、LEDの点灯、オンラインでの公開などの出力に変換することができます。IDEでプログラムコードを記述し、ボード上のマイクロコントローラーに指示を送信することで、ボードに何をさせるかを指示できます。これを行うには、Arduinoプログラミング言語（Wiringに基づく）と、Processingに基づくArduinoソフトウェア（IDE）を使用します。
 
-### 1.2 Installare l'IDE Arduino per Windows
+### 1.2 Windows用Arduino IDEのインストール
 
-Arduino ufficiale: `Software |
-Arduino <https://www.arduino.cc/en/software/>`.
+Arduino公式: `Software |
+Arduino <https://www.arduino.cc/en/software/>`。
 
-Qui clicchiamo sull'opzione ![image-20250416143412683](../media/image-20250416143412683.png) per l'installazione più semplice.
+ここでは、最も簡単なインストールのために、![image-20250416143412683](../media/image-20250416143412683.png)オプションをクリックします。
 
 ![image](../media/a2.png)
 
-1. Qui, prenderemo il sistema Windows come esempio per introdurre come
-   scaricarlo e installarlo. Sono disponibili due versioni per Windows:
-   per l'installazione e per il download (un file compresso, non è
-   necessaria l'installazione).
+1. ここでは、Windowsシステムを例に、ダウンロードとインストール方法を紹介します。Windows向けには、インストール用とダウンロード用（zipファイル、インストール不要）の2つのバージョンが提供されています。
 
 ![a3](../media/a3.png)
 
-Clicca **JUST DOWNLOAD** per scaricare il software.
+ソフトウェアをダウンロードするには、**JUST DOWNLOAD**をクリックします。
 
-2. Salva il file .exe scaricato dalla pagina del software sul tuo disco
-   rigido e semplicemente esegui il file.
+2. ソフトウェアページからダウンロードした.exeファイルをハードドライブに保存し、ファイルを単に実行します。
 
 ![a5](../media/a5.png)
 
-3. Leggi l'Accordo di Licenza e accettalo.
+3. ライセンス契約を読み、同意します。
 
 ![a6](../media/a6.png)
 
-4. Scegli le opzioni di installazione.
+4. インストールオプションを選択します。
 
 ![a7](../media/a7.png)
 
-5. Scegli la posizione di installazione.
+5. インストール場所を選択します。
 
 ![a8](../media/a8.png)
 
-6. Clicca su finish ed esegui Arduino IDE
+6. 完了をクリックしてArduino IDEを実行します。
 
 ![a9](../media/a9-1744785033221-7.png)
 
-### 1.3 Introduzione all'IDE Arduino 2.0
+### 1.3 Arduino IDE 2.0の紹介
 
 ![image-20250416145828363](../media/image-20250416145828363.png)
 
-**Verifica / Carica** - compila e carica il tuo codice sulla tua scheda
-Arduino.
+**Verify / Upload** - コードをコンパイルしてArduinoボードにアップロードします。
 
-**Seleziona Scheda e Porta** - le schede Arduino rilevate
-automaticamente vengono visualizzate qui, insieme al numero di porta.
+**Select Board & Port** - 検出されたArduinoボードがポート番号とともにここに自動的に表示されます。
 
-**Sketchbook** - qui troverai tutti i tuoi sketch archiviati localmente sul tuo computer. Inoltre, puoi sincronizzarti con Arduino Cloud e ottenere i tuoi sketch dall'ambiente online.
+**Sketchbook** - ここには、コンピューターにローカルに保存されているすべてのスケッチがあります。さらに、Arduino Cloudと同期したり、オンライン環境からスケッチを取得したりすることもできます。
 
-**Gestore Schede** - sfoglia i pacchetti Arduino e di terze parti che possono essere installati. Ad esempio, l'utilizzo di una scheda MKR WiFi 1010 richiede l'installazione del pacchetto Arduino SAMD Boards.
+**Boards Manager** - インストール可能なArduinoおよびサードパーティのパッケージを参照します。たとえば、MKR WiFi 1010ボードを使用するには、Arduino SAMD Boardsパッケージがインストールされている必要があります。
 
-**Gestore Librerie** - sfoglia migliaia di librerie Arduino, create da Arduino e dalla sua comunità.
+**Library Manager** - Arduinoとそのコミュニティによって作成された何千ものArduinoライブラリを参照します。
 
-**Debugger** - testa e debugga i programmi in tempo reale.
+**Debugger** - プログラムをリアルタイムでテストおよびデバッグします。
 
-**Cerca** - cerca parole chiave nel tuo codice.
+**Search** - コード内のキーワードを検索します。
 
-**Apri Monitor Seriale** - apre lo strumento Monitor Seriale, come una nuova scheda nella console.
+**Open Serial Monitor** - コンソールの新しいタブとしてシリアルモニターツールを開きます。
 
-Se vuoi saperne di più sull'IDE Arduino, consulta questo documento: Getting Started with Arduino IDE 2
+Arduino IDEについてさらに詳しく知りたい場合は、このドキュメントを参照してください：Getting Started with Arduino IDE 2

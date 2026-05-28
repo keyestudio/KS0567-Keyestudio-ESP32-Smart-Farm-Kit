@@ -2,28 +2,28 @@
 
 
 
-### D: Che tipo di batterie dovrebbe essere equipaggiato questo kit?
+### Q: このキットにはどのような種類の電池を装備すべきですか？
 
 
-R: Sei batterie AA, ciascuna con un diametro di 14 mm e un'altezza di 49 mm. Si prega di installare le batterie correttamente e di non invertirle! Per i più giovani, si prega di operare con l'accompagnamento dei genitori.
+A: 単三電池6本で、それぞれ直径14mm、高さ49mmです。電池は正しい方法で取り付けてください。逆向きに取り付けないでください！小さなお子様は、保護者の同伴のもとで操作してください。
 
 
-### D: Si verifica un errore durante la masterizzazione dei programmi sulla scheda madre ESP32.
+### Q: ESP32メインボードにプログラムを書き込む際にエラーが発生します。
 
 
-R:
+A:
 
--  Si prega di verificare se la porta COM è corretta.
--  Si prega di verificare se la scheda selezionata è corretta.
-
-
-### D: Questo kit può espandersi ad altri moduli?
+- COMポートが正しいか確認してください。
+- 選択したボードが正しいか確認してください。
 
 
-R: Sì. Quando si espande ad altri moduli, si prega di controllare la descrizione dei pin per assicurarsi che i pin ESP32 funzionino normalmente.
+### Q: このキットは他のモジュールに拡張できますか？
 
 
-### D: Si verifica un errore durante l'importazione della libreria <Wire.h>.
+A: はい。他のモジュールに拡張する際は、ピン記述を確認してESP32のピンが正常に動作することを確認してください。
 
 
-R: Quando si installa la scheda di sviluppo ESP32 su Arduino IDE, la libreria <Wire.h> verrà importata automaticamente, quindi non è necessario aggiungerla ripetutamente.
+### Q: <Wire.h>ライブラリをインポートする際にエラーが発生します。
+
+
+A: Arduino IDEにESP32開発ボードをインストールすると、<Wire.h>ライブラリは自動的にインポートされるため、繰り返し追加する必要はありません。
