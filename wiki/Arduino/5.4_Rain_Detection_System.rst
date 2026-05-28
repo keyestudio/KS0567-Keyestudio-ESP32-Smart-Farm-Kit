@@ -1,0 +1,133 @@
+.. _54-rain-detection-system:
+
+5.4 Rain Detection System
+=========================
+
+.. _541-steam-sensor:
+
+5.4.1 Steam Sensor
+------------------
+
+|image1|
+
+Steam sensor detects the presence of water, so it is usually used in
+rain detection. If the rain hits the conductive pads on the sensor, it
+will send a signal to the Arduino board.
+
+|image2|
+
+**Parameters**:
+
+- Voltage: 3~5V
+
+- Current: 1.5mA
+
+- Power: 7.5mW
+
+Open the **5.4.1Alarm-System** code with Arduino IDE.
+
+.. code:: c
+
+   #define SteamPin 35   //Define the steam sensor pin to 35
+
+   void setup() {
+     Serial.begin(9600);
+     pinMode(SteamPin,INPUT);
+   }
+
+   void loop() {
+     //Read the value of steam sensor
+     int ReadValue = analogRead(SteamPin);
+     Serial.print("Steam Value: ");
+     Serial.println(ReadValue);
+     delay(500);
+   }
+
+Choose the **ESP32 Dev Module** board and **COM** port, and upload the
+code.
+
+|image3|
+
+**Test Result:**
+
+Touch the detection area with your finger. The larger the area you
+touched is, the larger the valuewill be.
+
+You can open the serial monitorto observe the currently detected value
+(range: 0~4095).
+
+|image4|
+
+.. _542-rainwater-detection-system:
+
+5.4.2 Rainwater Detection System
+--------------------------------
+
+Open the **5.4.2Rainwater-Detection-System** code with Arduino IDE
+
+.. code:: c
+
+   #define SteamPin 35   //Define pins
+   #define BuzzerPin 16
+
+   void setup() {
+     Serial.begin(9600);
+     pinMode(SteamPin,INPUT);
+     pinMode(BuzzerPin,OUTPUT);
+   }
+
+   void loop() {
+     //Read the value of steam sensor
+     int ReadValue = analogRead(SteamPin);
+     Serial.print("Steam Value: ");
+     Serial.println(ReadValue);
+     //Determine whether the detected value is within 800~2000
+     if(ReadValue >= 800 && 2000 > ReadValue){
+       //Execute for 3 times
+       for (int i = 0; i < 3; i++) {
+         tone(BuzzerPin,200);
+         delay(100);
+         noTone(BuzzerPin);
+         delay(100);
+       }
+     }
+     //Determine whether the detected value is within 2000~4000
+     else if (ReadValue >= 2000 && 4000 >= ReadValue) {
+       for (int i = 0; i < 3; i++) {
+         tone(BuzzerPin,400);
+         delay(100);
+         noTone(BuzzerPin);
+         delay(100);
+       }
+     }
+     //Determine whether the detected value is greater than 4000
+     else if (ReadValue > 4000) {
+       for (int i = 0; i < 3; i++) {
+         tone(BuzzerPin,600);
+         delay(100);
+         noTone(BuzzerPin);
+         delay(100);
+       }
+     }
+     noTone(BuzzerPin);
+     delay(500);
+   }
+
+Choose the **ESP32 Dev Module** board and **COM** port, and upload the
+code.
+
+|image5|
+
+**Test Result:**
+
+The greater the detected value of the steam sensor is, the loader the
+sound emitted by the buzzer will be.
+
+|image6|
+
+.. |image1| image:: ./media/cou41.png
+.. |image2| image:: ./media/couy41.png
+.. |image3| image:: ./media/5458448.png
+.. |image4| image:: ./media/image-20250417131110395.png
+.. |image5| image:: ./media/5458448.png
+.. |image6| image:: ./media/flo4.png
