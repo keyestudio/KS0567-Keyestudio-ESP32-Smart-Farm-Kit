@@ -284,7 +284,7 @@ https://wiki.keyestudio.com/KS5016_Keyestudio_ESP32_PLUS_Development_Board
 
 Download links for the tutorial's library files and code files:
 
-`Click to download </KS0567/resource.zip>`__
+:download:`Click to download <resource.zip>`
 
 .. _6-resources:
 
