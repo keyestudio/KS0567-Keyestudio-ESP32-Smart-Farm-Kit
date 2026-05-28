@@ -16,8 +16,8 @@ Kidsblock
 
 
 
-4. Projekt
-----------
+4. Proyecto
+------------
 
 
 .. toctree::

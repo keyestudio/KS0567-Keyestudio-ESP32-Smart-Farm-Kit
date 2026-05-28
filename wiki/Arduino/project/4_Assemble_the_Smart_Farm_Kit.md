@@ -1,12 +1,12 @@
-## 4. Smart Farm Kit zusammenbauen
+## 4. Ensamblar el Kit de Granja Inteligente
 
 
 
-### Schritt 1 ESP32 Board und Relaismodul installieren
+### Paso 1 Instalar la Placa ESP32 y el Módulo de Relé
 
 
 
-#### 1.1 Benötigte Komponenten
+#### 1.1 Componentes requeridos
 
 
 ![img](../media/image001.png)
@@ -36,11 +36,11 @@
 ![img](../media/image006.png)
 
 
-### Schritt 2 Befestigungsrahmen für das Batteriegehäuse installieren und die Futterkabine installieren, das ESP32 Board und das Relaismodul verbinden
+### Paso 2 Instalar el Marco de Fijación para la Caja de Baterías e instalar la Cabina de Alimentación, conectar la placa ESP32 y el Módulo de Relé
 
 
 
-#### 2.1 Benötigte Komponenten
+#### 2.1 Componentes requeridos
 
 
 ![img](../media/image007.png)
@@ -49,7 +49,7 @@
 #### 2.2
 
 
-Holzplatte X und O auf der Bodenplatte montieren
+Ensamblar las tablas de madera X y O en la placa base
 
 ![img](../media/image008.png)
 
@@ -84,18 +84,18 @@ Holzplatte X und O auf der Bodenplatte montieren
 ![img](../media/image014.png)
 
 
-#### 2.8 ESP32 Board und Relaismodul verbinden
+#### 2.8 Conectar la placa ESP32 y el Módulo de Relé
 
 
-| Modul | Kabel | Pin |
+| Módulo | Cable | Pin |
 | --- | --- | --- |
-| Relaismodul | 3PIN 20cm | IO25 |
+| Módulo de Relé | 3PIN 20cm | IO25 |
 
-| Modul Pin | Kabelfarbe | ESP32 Board Pin |
+| Pin del Módulo | Color del Cable | Pin de la Placa ESP32 |
 | --- | --- | --- |
-| V | ROT | V |
-| G | SCHWARZ | G |
-| S | GELB | io25 |
+| V | ROJO | V |
+| G | NEGRO | G |
+| S | AMARILLO | io25 |
 
 ![img](../media/image015.png)
 
@@ -106,11 +106,11 @@ Holzplatte X und O auf der Bodenplatte montieren
 ![img](../media/image015-1.png)
 
 
-### Schritt 3 Unterkonstruktion des Hauses installieren
+### Paso 3 Instalar la Subestructura de la casa
 
 
 
-#### 3.1 Benötigte Komponenten
+#### 3.1 Componentes requeridos
 
 
 ![img](../media/image016.png)
@@ -176,27 +176,27 @@ Holzplatte X und O auf der Bodenplatte montieren
 ![img](../media/image026.png)
 
 
-### Schritt 4 Tür der Futterkabine installieren
+### Paso 4 Instalar la Puerta de la Cabina de Alimentación
 
 
 
-#### 4.1 Benötigte Komponenten
+#### 4.1 Componentes requeridos
 
 
 ![img](../media/image027.png)
 
 
-#### 4.2 Servo auf 180° einstellen
+#### 4.2 Ajustar el Servo a 180°
 
 
 ![image-20250416162128859](../media/image-20250416162128859.png)
 
-Die Acrylplatte ist separat verpackt, und es wird empfohlen, die
-Schutzfolie zu entfernen, um die Reibung beim Bewegen als Tür zu
-reduzieren.
+La lámina acrílica se empaqueta por separado, y se recomienda que
+retire su película protectora para reducir la fricción cuando se mueva como
+una puerta.
 
 
-#### 4.3 Servo installieren
+#### 4.3 Instalar el Servo
 
 
 ![img](../media/image029.png)
@@ -205,8 +205,8 @@ reduzieren.
 #### 4.4
 
 
-**Hinweis: Die Schrauben müssen fest angezogen werden, um das Servo
-stabil zu halten, da sich die Tür sonst verklemmen kann.**
+**Nota: Los tornillos deben apretarse para mantener el servo estable,
+de lo contrario, la puerta podría atascarse.**
 
 ![img](../media/image030.png)
 
@@ -216,7 +216,7 @@ stabil zu halten, da sich die Tür sonst verklemmen kann.**
 
 ![image-20250416162337896](../media/image-20250416162337896.png)
 
-M1.4*6MM selbstschneidende Schrauben wie unten gezeigt installieren
+Instale los tornillos autorroscantes M1.4*6MM como se muestra a continuación
 
 ![img](../media/6e1caadec8b1ec99b0093200763607b6.jpg)
 
@@ -236,9 +236,9 @@ M1.4*6MM selbstschneidende Schrauben wie unten gezeigt installieren
 #### 4.8
 
 
-Drehen Sie das Zahnrad nicht, nachdem es am Servo installiert wurde. Wenn
-Sie das Zahnrad bereits gedreht haben, müssen Sie den Servowinkel auf
-180° neu einstellen.
+No gire el engranaje después de instalarlo en el servo. Si ya ha
+girado el engranaje, deberá reajustar el ángulo del servo a
+180°.
 
 ![img](../media/image034.png)
 
@@ -246,8 +246,8 @@ Sie das Zahnrad bereits gedreht haben, müssen Sie den Servowinkel auf
 #### 4.9
 
 
-**HINWEIS: Beim Anbringen des Deckels des Futterkastens sollte dessen
-Öffnung vollständig geschlossen sein.**
+**NOTA: Al instalar la tapa de la caja de alimentación, su abertura debe
+estar completamente cerrada.**
 
 ![img](../media/image035.png)
 
@@ -270,57 +270,57 @@ Sie das Zahnrad bereits gedreht haben, müssen Sie den Servowinkel auf
 ![img](../media/image037-1.png)
 
 
-#### 4.13 Tür testen
+#### 4.13 Probar la puerta
 
 
-1. Servo an Pin IO26 des ESP32 Boards anschließen. Gelb an S,
-   rot an V, schwarz an G anschließen.
+1. Conecte el Servo al pin IO26 de la placa ESP32. Conecte el amarillo a S,
+   el rojo a V, el negro a G.
 
 ![image028-1](../media/image028-1-1744850789118-1.png)
 
-2. 6 AA-Batterien an den DC 7-12V-Anschluss des ESP32 Boards
-   anschließen. (Batterien nicht im Kit enthalten)
+2. Conecte 6 pilas AA al puerto DC 7-12V de la placa ESP32.
+   (Pilas no incluidas en el kit)
 
 ![image-20250417084747308](../media/image-20250417084747308.png)
 
-3. Testcode hochladen
+3. Subir el código de prueba
 
-A. Das ESP32 Board mit dem USB-Kabel an den Computer anschließen. Die
-INO-Datei im Ordner **6.1Servo** mit Arduino IDE öffnen.
+A. Conecte la placa ESP32 al ordenador con el cable USB. Abra el
+archivo INO dentro de la carpeta **6.1Servo** con Arduino IDE.
 
 ![image-20250418081022882](../media/image-20250418081022882.png)
 
 ![image-20250418081231084](../media/image-20250418081231084.png)
 
-B. Auf "Tools" klicken, im Dropdown-Menü "ESP32 Dev Module" als Boardtyp
-auswählen und COM-XX für den Port auswählen (entsprechend dem vom
-Computer im Gerätemanager zugewiesenen Port).
+B. Haga clic en Herramientas, seleccione "ESP32 Dev Module" para el tipo de placa en la
+barra de menú desplegable, y seleccione COM-XX para el Puerto (Según el puerto
+asignado por su ordenador en el administrador de dispositivos)
 
-C. Bitte stellen Sie sicher, dass Sie die **ESP32Servo** Bibliothek
-hochgeladen haben und laden Sie dann den Code hoch. Die Tür der
-Futterkabine öffnet und schließt sich langsam.
+C. Asegúrese de haber subido la biblioteca **ESP32Servo** y
+luego suba el código. La puerta de la cabina de alimentación se abrirá y cerrará
+lentamente.
 
 ![image-20250417085407205](../media/image-20250417085407205.png)
 
-HINWEIS: Wenn sich die Tür nach dem Hochladen des Codes nicht öffnen und schließen lässt und das Servo heiß ist, schalten Sie die Stromversorgung sofort aus.
+NOTA: Después de subir el código, si la puerta no se puede abrir y cerrar y el servo está caliente, apague la alimentación inmediatamente.
 
-**Überprüfen:**
+**comprobar:**
 
-1. Ob die Kunststofftür guten Kontakt und Kraftpunkte mit der
-   Getriebestruktur des Servos hat.
-1. Ob die Spitze der Befestigungsschraube an der Getriebestruktur des
-   Servos mit dem Kunststoffgehäuse des Servos verklemmt ist. Falls ja,
-   lösen Sie die Befestigungsschraube etwas, um zu verhindern, dass ihre
-   Spitze das Servo berührt.
+1. Si la puerta de plástico tiene buen contacto y puntos de fuerza con la
+   estructura de engranajes del servo.
+1. Si la punta del tornillo de fijación en la estructura de engranajes del
+   servo está atascada con la carcasa de plástico del servo. Si es así, por favor
+   afloje un poco el tornillo de fijación para evitar que su punta entre en contacto
+   con el servo.
 
 ![image-20250417085630662](../media/image-20250417085630662.png)
 
 
-### Schritt 5 LCD-Display und DHT11-Sensor installieren
+### Paso 5 Instalar la pantalla LCD y el Sensor DHT11
 
 
 
-#### 5.1 Benötigte Komponenten
+#### 5.1 Componentes requeridos
 
 
 ![img](../media/image038.png)
@@ -344,19 +344,17 @@ HINWEIS: Wenn sich die Tür nach dem Hochladen des Codes nicht öffnen und schli
 ![img](../media/image041.png)
 
 
-#### 5.5 Prototyp
+#### 5.5 Prototipo
 
 
 ![img](../media/image042.png)
 
 
-#### 5.6 Verkabelung
+#### 5.6 Cableado
 
 
-**Module über Dupont-Kabel verbinden.**
+**Conectar módulos mediante cables Dupont.**
 
-| Modul | Kabel |
+| Módulo | Cable |
 | --- | --- |
-| Temperatur- und Feuchtigkeitssensor | 3PIN 20cm |
-
-**Achten Sie auf die Farbe
+|

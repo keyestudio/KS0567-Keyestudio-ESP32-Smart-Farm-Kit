@@ -10,16 +10,11 @@ Arduino
     project/2_Driver_Installation_and_Environment_Configuration
     project/3_Set_the_Angle_of_the_Servo
 
-
-.. toctree::
-    :maxdepth: 2
-
-
     project/4_Assemble_the_Smart_Farm_Kit
 
 
 
-5. Projekt
+5. Proyecto
 ------------
 
 

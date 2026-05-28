@@ -1,59 +1,59 @@
-## 2. Software-Installation
+## 2. Instalación del software
 
 
-### 2.1 Treiber installieren
+### 2.1 Instalar controlador
 
 
-**HINWEIS: Wenn auf Ihrem Computer bereits ein Treiber installiert ist, überspringen Sie diesen Abschnitt bitte einfach. Andernfalls befolgen Sie bitte diese Schritte.**
+**NOTA: Si su computadora ya tiene un controlador instalado, omita esta sección. Si no, siga estos pasos.**
 
-Klicken Sie auf ![image4](../media/an13.png), um „ **Treiber installieren** “ auszuwählen.
+Haga clic en ![image4](../media/an13.png) para seleccionar " **Instalar controlador** ".
 
 ![img](../media/an14.png)
 
-- Klicken Sie auf „ **Weiter** “, wenn Sie den Assistenten zur Gerätetreiberinstallation sehen:
+- Haga clic en " **Siguiente** " cuando vea el asistente de instalación del controlador del dispositivo:
 
 ![img](../media/an15.png)
 
-- Klicken Sie auf „ **Fertig stellen** “.
+- Haga clic en " **Finalizar** ".
 
 ![img](../media/an16.png)
 
-- Klicken Sie auf „ **Weiter** “.
+- Haga clic en " **Siguiente** ".
 
 ![img](../media/an17.png)
 
-- Klicken Sie auf „ **Fertig stellen** “.
+- Haga clic en " **Finalizar** ".
 
 ![img](../media/an18.png)
 
-- Wenn eine Warnung angezeigt wird, klicken Sie einfach auf „ **Zulassen** “. Klicken Sie dann auf „ **Installieren** “.
+- Si aparece una advertencia, simplemente haga clic en " **Permitir** ". Luego haga clic en " **Instalar** ".
 
 ![img](../media/an19.png)
 
-- Tippen Sie auf „ **Fertig stellen** “.
+- Toque " **Finalizar** ".
 
 ![img](../media/an20.png)
 
-- Klicken Sie auf „ **Extrahieren** “.
+- Haga clic en " **Extraer** ".
 
 ![img](../media/an21.png)
 
-- Klicken Sie auf „ **Weiter** “.
+- Haga clic en " **Siguiente** ".
 
 ![img](../media/an22.png)
 
-- Aktivieren Sie „ **Ich akzeptiere diese Vereinbarung** “ und klicken Sie auf „ **Weiter** “.
+- Marque " **Acepto este acuerdo** " y haga clic en " **Siguiente** ".
 
 ![img](../media/an23.png)
 
-- Klicken Sie auf „ **Fertig stellen** “.
+- Haga clic en " **Finalizar** ".
 
 ![img](../media/an24.png)
 
-- Wählen Sie „ **INSTALLIEREN** “.
+- Elija " **INSTALAR** ".
 
 ![img](../media/an25.png)
 
-- Einige Sekunden später wird der Treiber erfolgreich installiert. Klicken Sie dann auf „ **OK** “.
+- Un par de segundos después, el controlador se instalará correctamente. Luego haga clic en " **OK** ".
 
 ![img](../media/an26.png)
