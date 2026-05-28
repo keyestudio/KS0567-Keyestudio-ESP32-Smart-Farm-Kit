@@ -4,7 +4,7 @@ Kidsblock
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    
    
    ./1_Introduce_KidsBlock
@@ -19,7 +19,7 @@ Kidsblock
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
 
    ./4.1_Project__Lighting_System
    ./4.2_Project__Light_Control_System
