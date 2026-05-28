@@ -1,12 +1,12 @@
-## 4. Assembler le kit de ferme intelligente
+## 4. Assemblare il Kit Smart Farm
 
 
 
-### Étape 1 Installer la carte ESP32 et le module de relais
+### Step 1 Installare la scheda ESP32 e il modulo relè
 
 
 
-#### 1.1 Composants requis
+#### 1.1 Componenti richiesti
 
 
 ![img](../media/image001.png)
@@ -36,11 +36,11 @@
 ![img](../media/image006.png)
 
 
-### Étape 2 Installer le cadre de fixation du boîtier de batterie et installer la cabine d'alimentation, connecter la carte ESP32 et le module de relais
+### Step 2 Installare il telaio di fissaggio per il vano batteria e installare la cabina di alimentazione, collegare la scheda ESP32 e il modulo relè
 
 
 
-#### 2.1 Composants requis
+#### 2.1 Componenti richiesti
 
 
 ![img](../media/image007.png)
@@ -49,7 +49,7 @@
 #### 2.2
 
 
-Assembler les planches de bois X et O sur la plaque inférieure
+Assemblare le tavole di legno X e O sulla piastra inferiore
 
 ![img](../media/image008.png)
 
@@ -84,18 +84,18 @@ Assembler les planches de bois X et O sur la plaque inférieure
 ![img](../media/image014.png)
 
 
-#### 2.8 Connecter la carte ESP32 et le module de relais
+#### 2.8 Collegare la scheda ESP32 e il modulo relè
 
 
-| Module | Fil | Broche |
+| Modulo | Cavo | Pin |
 | --- | --- | --- |
-| Module de relais | 3PIN 20cm | IO25 |
+| Modulo relè | 3PIN 20cm | IO25 |
 
-| Broche du module | Couleur du fil | Broche de la carte ESP32 |
+| Pin modulo | Colore cavo | Pin scheda ESP32 |
 | --- | --- | --- |
-| V | ROUGE | V |
-| G | NOIR | G |
-| S | JAUNE | io25 |
+| V | ROSSO | V |
+| G | NERO | G |
+| S | GIALLO | io25 |
 
 ![img](../media/image015.png)
 
@@ -106,11 +106,11 @@ Assembler les planches de bois X et O sur la plaque inférieure
 ![img](../media/image015-1.png)
 
 
-### Étape 3 Installer la sous-structure de la maison
+### Step 3 Installare la sottostruttura della casa
 
 
 
-#### 3.1 Composants requis
+#### 3.1 Componenti richiesti
 
 
 ![img](../media/image016.png)
@@ -176,27 +176,27 @@ Assembler les planches de bois X et O sur la plaque inférieure
 ![img](../media/image026.png)
 
 
-### Étape 4 Installer la porte de la cabine d'alimentation
+### Step 4 Installare la porta della cabina di alimentazione
 
 
 
-#### 4.1 Composants requis
+#### 4.1 Componenti richiesti
 
 
 ![img](../media/image027.png)
 
 
-#### 4.2 Régler le Servo à 180°
+#### 4.2 Impostare il Servo a 180°
 
 
 ![image-20250416162128859](../media/image-20250416162128859.png)
 
-La feuille acrylique est emballée séparément, et il est recommandé d'en
-retirer le film protecteur pour réduire la friction lorsqu'elle se déplace comme une
-porte.
+Il foglio acrilico è confezionato separatamente, e si consiglia di
+rimuovere la sua pellicola protettiva per ridurre l'attrito quando si muove come
+porta.
 
 
-#### 4.3 Installer le Servo
+#### 4.3 Installare il Servo
 
 
 ![img](../media/image029.png)
@@ -205,8 +205,8 @@ porte.
 #### 4.4
 
 
-**Remarque : Les vis doivent être serrées pour maintenir le servo stable,
-sinon la porte pourrait se bloquer.**
+**Nota: Le viti devono essere serrate per mantenere il servo stabile,
+altrimenti la porta potrebbe bloccarsi**
 
 ![img](../media/image030.png)
 
@@ -216,7 +216,7 @@ sinon la porte pourrait se bloquer.**
 
 ![image-20250416162337896](../media/image-20250416162337896.png)
 
-Installer les vis autotaraudeuses M1.4*6MM comme indiqué ci-dessous
+Installare le viti autofilettanti M1.4*6MM come mostrato di seguito
 
 ![img](../media/6e1caadec8b1ec99b0093200763607b6.jpg)
 
@@ -236,8 +236,8 @@ Installer les vis autotaraudeuses M1.4*6MM comme indiqué ci-dessous
 #### 4.8
 
 
-Ne pas tourner l'engrenage après l'avoir installé sur le servo. Si vous
-avez déjà tourné l'engrenage, vous devrez réajuster l'angle du servo à
+Non ruotare l'ingranaggio dopo che è stato installato sul servo. Se si è
+già ruotato l'ingranaggio, sarà necessario regolare nuovamente l'angolo del servo a
 180°.
 
 ![img](../media/image034.png)
@@ -246,8 +246,8 @@ avez déjà tourné l'engrenage, vous devrez réajuster l'angle du servo à
 #### 4.9
 
 
-**REMARQUE : Lors de l'installation du couvercle de la boîte d'alimentation, son ouverture doit
-être complètement fermée.**
+**NOTA: Quando si installa il coperchio della scatola di alimentazione, la sua apertura deve
+essere completamente chiusa.**
 
 ![img](../media/image035.png)
 
@@ -270,57 +270,55 @@ avez déjà tourné l'engrenage, vous devrez réajuster l'angle du servo à
 ![img](../media/image037-1.png)
 
 
-#### 4.13 Tester la porte
+#### 4.13 Testare la porta
 
 
-1. Connecter le Servo à la broche IO26 de la carte ESP32. Connecter le fil jaune à S,
-   le rouge à V, le noir à G.
+1. Collegare il Servo al pin IO26 della scheda ESP32. Collegare il giallo a S,
+   il rosso a V, il nero a G.
 
 ![image028-1](../media/image028-1-1744850789118-1.png)
 
-2. Connecter 6 piles AA au port DC 7-12V de la carte ESP32.
-   (Piles non incluses dans le kit)
+2. Collegare 6 batterie AA alla porta DC 7-12V della scheda ESP32.
+   (Batterie non incluse nel kit)
 
 ![image-20250417084747308](../media/image-20250417084747308.png)
 
-3. Télécharger le code de test
+3. Caricare il codice di test
 
-A. Connecter la carte ESP32 à l'ordinateur avec le câble USB. Ouvrir le
-fichier INO dans le dossier **6.1Servo** avec Arduino IDE.
+A. Collegare la scheda ESP32 al computer con il cavo USB. Aprire il
+file INO all'interno della cartella **6.1Servo** con Arduino IDE.
 
 ![image-20250418081022882](../media/image-20250418081022882.png)
 
 ![image-20250418081231084](../media/image-20250418081231084.png)
 
-B. Cliquer sur Outils, sélectionner "ESP32 Dev Module" pour le type de carte dans la
-barre de menu déroulant, et sélectionner COM-XX pour le Port (Selon le port
-attribué par votre ordinateur dans le gestionnaire de périphériques)
+B. Cliccare su Strumenti, selezionare "ESP32 Dev Module" per il tipo di scheda nel
+menu a discesa, e selezionare COM-XX per la Porta (Secondo la porta
+assegnata dal computer in gestione dispositivi)
 
-C. Veuillez vous assurer que vous avez téléchargé la bibliothèque **ESP32Servo** et
-ensuite télécharger le code. La porte de la cabine d'alimentation s'ouvrira et se fermera
-lentement.
+C. Assicurarsi di aver caricato la libreria **ESP32Servo** e quindi caricare il codice. La porta della cabina di alimentazione si aprirà e chiuderà lentamente.
 
 ![image-20250417085407205](../media/image-20250417085407205.png)
 
-REMARQUE : Après avoir téléchargé le code, si la porte ne peut pas être ouverte et fermée et que le servo est chaud, veuillez couper l'alimentation immédiatement.
+NOTA: Dopo aver caricato il codice, se la porta non può essere aperta e chiusa e il servo è caldo, spegnere immediatamente l'alimentazione.
 
-**vérifier :**
+**Verificare:**
 
-1. Si la porte en plastique a un bon contact et des points de force avec la
-   structure d'engrenage du servo.
-1. Si la pointe de la vis de fixation sur la structure d'engrenage du
-   servo est bloquée avec la coque en plastique du servo. Si c'est le cas, veuillez
-   desserrer un peu la vis de fixation pour éviter que sa pointe ne touche
-   le servo.
+1. Se la porta di plastica ha un buon contatto e punti di forza con la
+   struttura dell'ingranaggio del servo.
+1. Se la punta della vite di fissaggio sulla struttura dell'ingranaggio del
+   servo è bloccata con il guscio di plastica del servo. In tal caso, si prega di
+   allentare un po' la vite di fissaggio per evitare che la sua punta entri in contatto
+   con il servo.
 
 ![image-20250417085630662](../media/image-20250417085630662.png)
 
 
-### Étape 5 Installer l'écran LCD et le capteur DHT11
+### Step 5 Installare il display LCD e il sensore DHT11
 
 
 
-#### 5.1 Composants requis
+#### 5.1 Componenti richiesti
 
 
 ![img](../media/image038.png)
@@ -344,13 +342,15 @@ REMARQUE : Après avoir téléchargé le code, si la porte ne peut pas être ouv
 ![img](../media/image041.png)
 
 
-#### 5.5 Prototype
+#### 5.5 Prototipo
 
 
 ![img](../media/image042.png)
 
 
-#### 5.6 Câblage
+#### 5.6 Cablaggio
 
 
-**Connecter les modules via des fils Dupont.**
+**Collegare i moduli tramite cavi Dupont.**
+
+|

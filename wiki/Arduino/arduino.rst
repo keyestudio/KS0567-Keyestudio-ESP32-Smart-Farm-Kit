@@ -14,7 +14,7 @@ Arduino
 
 
 
-5. Projet
+5. Progetto
 ------------
 
 

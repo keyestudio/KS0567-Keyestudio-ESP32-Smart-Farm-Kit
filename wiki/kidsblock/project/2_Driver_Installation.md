@@ -1,59 +1,59 @@
-## 2. Installation du logiciel
+## 2. Installazione del software
 
 
-### 2.1 Installer le pilote
+### 2.1 Installare il driver
 
 
-**REMARQUE : Si un pilote est déjà installé sur votre ordinateur, veuillez simplement ignorer cette section. Sinon, veuillez suivre ces étapes.**
+**NOTA: Se il tuo computer ha già installato un driver, salta questa sezione. In caso contrario, segui questi passaggi.**
 
-Cliquez sur ![image4](../media/an13.png) pour sélectionner « **Installer le pilote** ».
+Fai clic su ![image4](../media/an13.png) per selezionare " **Installa driver** ".
 
 ![img](../media/an14.png)
 
-- Cliquez sur « **Suivant** » lorsque vous voyez l'assistant d'installation du pilote de périphérique :
+- Fai clic su " **Avanti** " quando vedi la procedura guidata di installazione del driver del dispositivo:
 
 ![img](../media/an15.png)
 
-- Cliquez sur « **Terminer** ».
+- Fai clic su " **Fine** ".
 
 ![img](../media/an16.png)
 
-- Cliquez sur « **Suivant** ».
+- Fai clic su " **Avanti** ".
 
 ![img](../media/an17.png)
 
-- Cliquez sur « **Terminer** ».
+- Fai clic su " **Fine** ".
 
 ![img](../media/an18.png)
 
-- Si un avertissement apparaît, cliquez simplement sur « **Autoriser** ». Cliquez ensuite sur « **Installer** ».
+- Se viene visualizzato un avviso, fai semplicemente clic su " **Consenti** ". Quindi fai clic su " **Installa** ".
 
 ![img](../media/an19.png)
 
-- Appuyez sur « **Terminer** ».
+- Tocca " **Fine** ".
 
 ![img](../media/an20.png)
 
-- Cliquez sur « **Extraire** ».
+- Fai clic su " **Estrai** ".
 
 ![img](../media/an21.png)
 
-- Cliquez sur « **Suivant** ».
+- Fai clic su " **Avanti** ".
 
 ![img](../media/an22.png)
 
-- Cochez « **J'accepte cet accord** » et cliquez sur « **Suivant** ».
+- Spunta " **Accetto questo accordo** " e fai clic su " **Avanti** ".
 
 ![img](../media/an23.png)
 
-- Cliquez sur « **Terminer** ».
+- Fai clic su " **Fine** ".
 
 ![img](../media/an24.png)
 
-- Choisissez « **INSTALLER** ».
+- Scegli " **INSTALLA** ".
 
 ![img](../media/an25.png)
 
-- Quelques secondes plus tard, le pilote sera installé avec succès. Cliquez ensuite sur « **OK** ».
+- Dopo un paio di secondi, il driver verrà installato correttamente. Quindi fai clic su " **OK** ".
 
 ![img](../media/an26.png)

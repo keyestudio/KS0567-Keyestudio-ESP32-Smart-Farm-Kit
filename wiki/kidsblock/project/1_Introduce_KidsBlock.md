@@ -1,197 +1,229 @@
-## 1. Présentation de KidsBlock
+## 1. Introduzione a KidsBlock
 
-### 1.1 Installation de KidsBlock
 
-#### 1.1.1 Installer KidsBlock sur un système Windows
 
-1. Vous pouvez télécharger KidsBlock depuis :
+### 1.1 Installazione di KidsBlock
 
-   - Lien : http://xiazai.keyesrobot.cn/KidsBlock.exe
 
-   - Fichier fourni : ![img](../media/an1-1.png)
 
-2. Après le téléchargement, cliquez sur « KidsBlock.exe » ![image1](../media/an1.png)
+#### 1.1.1 Installare KidsBlock su sistema Windows
 
-3. Cochez « **Anyone who uses this computer(all users)** » (Toute personne utilisant cet ordinateur (tous les utilisateurs)) puis cliquez sur « **Next** » (Suivant).
+
+1. È possibile scaricare KidsBlock da:
+
+   -  Link: http://xiazai.keyesrobot.cn/KidsBlock.exe
+
+   -  File fornito: ![img](../media/an1-1.png)
+
+1. Dopo il download, fare clic su "KidsBlock.exe" ![image1](../media/an1.png)
+
+1. Spuntare " **Anyone who uses this computer(all users)** " e quindi fare clic su "**Next**".
 
 ![img](../media/an2.png)
 
-4. Cliquez sur « **Browse...** » (Parcourir...) pour choisir un chemin d'installation (ici nous choisissons le disque C ; vous pouvez choisir n'importe quel emplacement), puis cliquez sur « **Install** » (Installer). L'installation est en cours !
+4. Fare clic su " **Browse...** " per scegliere un percorso di installazione (qui scegliamo il disco C; è possibile selezionare qualsiasi posizione desiderata) e fare clic su " **Install** ". Ora è in fase di installazione!
 
 ![img](../media/an3.png)
 
 ![img](../media/an4.png)
 
-5. Une fois l'installation terminée, cliquez sur « **Finish** » (Terminer) pour l'ouvrir.
+5. Al termine dell'installazione, fare clic su " **Finish** " per aprirlo.
 
 ![img](../media/an5.png)
 
-6. Si un avertissement apparaît, cliquez simplement sur « **Allow access** » (Autoriser l'accès) pour accéder à la page principale du logiciel.
+6. Se viene visualizzato un avviso, fare clic su " **Allow access** " per accedere alla pagina principale del software.
 
 ![img](../media/an6.png)
 
 ---
 
-#### 1.1.2 Installer KidsBlock sur MacOS
 
-1. Veuillez d'abord télécharger le package KidsBlock : http://xiazai.keyesrobot.cn/KidsBlock.dmg
+
+#### 1.1.2 Installare KidsBlock su MacOS
+
+
+1. Scaricare prima il pacchetto KidsBlock: http://xiazai.keyesrobot.cn/KidsBlock.dmg
 
 ![img](../media/an7.png)
 
-2. Cliquez sur KidsBlock et faites glisser le « **KidsBlock Desktop** » dans « **Applications** », comme indiqué ci-dessous.
+2. Fare clic su KidsBlock e trascinare " **KidsBlock Desktop** " in " **Applications** ", come mostrato di seguito.
 
 ![img](../media/an8.png)
 
-3. Après l'installation, l'icône KidsBlock apparaîtra dans le pavé d'opération :
+3. Dopo l'installazione, l'icona di KidsBlock apparirà nel pad operativo:
 
 ![img](../media/an9.png)
 
-4. Cliquez sur l'icône KidsBlock pour entrer dans le logiciel. Si cela échoue, veuillez modifier certains paramètres de l'ordinateur pour y accéder à nouveau. Cela est dû au fait que les systèmes Mac, par défaut, n'autorisent l'installation que depuis l'App Store, de sorte que les autres ne sont pas autorisés à être installés.
+4. Fare clic sull'icona di KidsBlock per accedere al software. Se non funziona, modificare alcune impostazioni del computer per rientrarvi. Questo perché i sistemi Mac, per impostazione predefinita, autorizzano l'installazione solo nell'App Store, quindi altri non sono autorizzati a essere installati.
 
 ![img](../media/an9-1.png)
 
-5. Ouvrez les paramètres et cliquez sur Confidentialité et sécurité. Changez l'option de sécurité en « App Store et développeurs approuvés », et cliquez sur « Ouvrir quand même ».
+5. Aprire le impostazioni e fare clic su Privacy e sicurezza. Cambiare l'opzione di sicurezza in "App Store e sviluppatori approvati" e fare clic su "Apri comunque".
 
-![img.](../media/an9-2.png)
+![img](../media/an9-2.png)
 
-6. Cliquez sur « Ouvrir » pour accéder à nouveau au logiciel bloqué.
+6. Fare clic su "Apri" per rientrare nel software bloccato.
 
 ![img](../media/an9-3.png)
 
-7. Après les réglages, cela peut fonctionner normalement.
+7. Dopo le impostazioni, può funzionare normalmente.
 
 ![img](../media/an9-4.png)
 
-8. L'interface de démarrage est comme ci-dessous. Profitez maintenant de votre voyage de programmation !
+8. L'interfaccia di avvio è come mostrato di seguito. Ora goditi il tuo viaggio nella programmazione!
 
 ![img](../media/an9-5.png)
 
 ---
 
-### 1.2 Guide logiciel
 
-(**Les démonstrations suivantes sont basées sur le système Windows et ne sont qu'une référence pour MacOS.**)
 
-#### 1.2.1 Distribution des fonctions de la page principale 1
+### 1.2 Guida al software
+
+
+(**Le seguenti dimostrazioni sono basate sul sistema Windows e sono solo un
+riferimento per MacOS.**)
+
+
+#### 1.2.1 Distribuzione delle funzioni della pagina principale 1
+
 
 ![img](../media/an10.png)
 
-#### 1.2.2 Sélectionner la langue
 
-Cliquez sur ![image2](../media/an11.png) pour sélectionner « English » ou « 简体中文 » ![image3](../media/an12.png)
+#### 1.2.2 Seleziona lingua
 
-#### 1.2.3 Sélectionner les appareils
 
-**Choisir un appareil et un port série**
+Fare clic su ![image2](../media/an11.png) per selezionare "English" o "简体中文" ![image3](../media/an12.png)
 
-- Cliquez sur ![image5](../media/an27.png) pour choisir un appareil.
 
-- Ici, nous entrons **Kit** pour trouver **Smart farm for ESP32** et l'ajouter. Notez que tous les capteurs sont inclus dans ce kit, vous n'avez donc pas besoin de les importer en plus.
+#### 1.2.3 Seleziona dispositivi
+
+
+**Scegliere un dispositivo e una porta seriale**
+
+-  Fare clic su ![image5](../media/an27.png) per scegliere un dispositivo.
+
+-  Qui inseriamo **Kit** per trovare **Smart farm for ESP32** e aggiungerlo. Si noti che tutti i sensori sono inclusi in questo kit, quindi non è necessario importarli ulteriormente.
 
 ![img](../media/an28.png)
 
-- Après avoir importé ce kit, vous verrez l'interface suivante de sélection de port. Cliquez sur **Connect** sur le bon port.
+-  Dopo aver importato questo kit, vedrai la seguente interfaccia di selezione della porta. Fare clic su **Connect** sulla porta corretta.
 
 ![img](../media/an29.png)
 
-- Appuyez sur **Go to Editor**.
+-  Toccare **Go to Editor**.
 
 ![img](../media/an30.png)
 
-- Page principale :
+-  Pagina principale:
 
 ![img](../media/an31.png)
 
-**Déconnecter l'appareil**
+**Disconnettere il dispositivo**
 
-- Si vous souhaitez déconnecter le kit et le port, veuillez cliquer sur ![image6](../media/an32.png).
+-  Se si desidera disconnettere il kit e la porta, fare clic su ![image6](../media/an32.png).
 
-- Ensuite, appuyez sur **Disconnect** pour délier la connexion actuelle.
+-  Quindi toccare **Disconnect** per scollegare la connessione corrente.
 
 ![img](../media/an33.png)
 
 ---
 
-#### 1.2.4 Distribution des fonctions de la page principale 2
+
+
+#### 1.2.4 Distribuzione delle funzioni della pagina principale 2
+
 
 ![img](../media/an34.png)
 
-#### 1.2.5 Étendre un capteur/module
 
-**NOTE : Cette partie peut être SAUTÉE, car tous les capteurs requis sont intégrés dans le kit sans avoir besoin d'être étendus. Si vous souhaitez adopter un module exclu, veuillez vous référer aux procédures suivantes.**
+#### 1.2.5 Espandere un sensore/modulo
 
-- Cliquez sur ![an42](../media/an35.png) pour entrer dans la bibliothèque d'extension des capteurs/modules.
 
-- Choisissez une extension.
+**NOTA: Questa parte può essere SALTA, poiché tutti i sensori richiesti sono integrati
+nel kit senza bisogno di espansione. Se si desidera adottare un modulo escluso,
+fare riferimento alle seguenti procedure.**
+
+-  Fare clic su ![an42](../media/an35.png) per accedere alla libreria di estensione di sensori/moduli.
+
+-  Scegliere un'estensione.
 
 ![img](../media/an36.png)
 
-- Par exemple, si un module buzzer est requis, veuillez cliquer sur buzzer passif :
+-  Ad esempio, se è richiesto un modulo buzzer, fare clic su buzzer passivo:
+   
+-  ![img](../media/an37.png)
 
-- ![img](../media/an37.png)
-
-- Lorsque « **Not loaded** » (Non chargé) devient « **Loaded** » (Chargé), ce module est importé avec succès.
+-  Quando " **Not loaded** " diventa " **Loaded** ", questo modulo è stato importato con successo.
 
 ![img](../media/an38.png)
 
-- Cliquez sur ![image7](../media/an39.png) pour revenir à l'éditeur. Vous constaterez maintenant qu'un bloc de buzzer passif apparaît dans le Code.
+-  Fare clic su ![image7](../media/an39.png) per tornare all'editor. Ora scoprirai che un blocco Buzzer passivo appare in Code.
 
 ![img](../media/an41.png)
 
-- Si vous souhaitez supprimer le « Passive buzzer », cliquez simplement sur ![image8](../media/an42.png) pour entrer dans la bibliothèque et appuyez.
+-  Se si desidera rimuovere il "Buzzer passivo", fare clic su ![image8](../media/an42.png) per accedere alla libreria e toccare.
 
 ![img](../media/an38.png)
 
-- Lorsque « Loaded » (Chargé) passe à « Not loaded » (Non chargé), ce module est supprimé avec succès.
+-  Quando "Loaded" passa a "Not loaded", questo modulo è stato eliminato con successo.
 
 ![img](../media/an37.png)
 
-#### 1.2.6 Importer un fichier
 
-- Méthode 1
+#### 1.2.6 Importa file
 
-  - Si le logiciel n'est pas en cours d'exécution, cliquez directement sur le fichier SB3 pour l'ouvrir. Par exemple, cliquez sur ![image9](../media/an46.png) pour l'ouvrir. N'oubliez pas de sélectionner un appareil.
+
+-  Metodo 1
+
+   -  Se il software non è in funzione, fare clic direttamente sul file SB3
+      per aprirlo. Ad esempio, fare clic su ![image9](../media/an46.png) per aprirlo. Ricordarsi di selezionare un dispositivo.
 
 ![img](../media/an54.png)
 
-- Méthode 2
+-  Metodo 2
 
-  - Ouvrez KidsBlock. Cliquez sur « **file** » (fichier) pour choisir « **Load from your computer** » (Charger depuis votre ordinateur). ![image10](../media/an47.png)
-
-- Sélectionnez un fichier SB3 (comme ![image11](../media/an46.png)).
+   -  Aprire KidsBlock. Fare clic su " **file** " per scegliere " **Load from your computer** ". ![image10](../media/an47.png)
+      
+-  Selezionare un file SB3 (come ![image11](../media/an46.png)).
 
 ![img](../media/an50.png)
 
-  - Importation réussie !
+   -  Importazione riuscita!
 
 ![img](../media/an54.png)
 
-#### 1.2.7 Télécharger le code et définir le débit en bauds
 
-**Télécharger le code**
+#### 1.2.7 Carica codice e imposta Baud Rate
 
-- Téléchargez le fichier ![image12](../media/an47.png) vers KidsBlock.
 
-- Connectez la carte de développement à votre ordinateur (si vous ne voyez pas de port, veuillez d'abord installer un pilote), sélectionnez le bon port et cliquez sur ![image13](../media/an52.png).
+**Carica codice**
+
+-  Carica il file ![image12](../media/an47.png) su KidsBlock.
+
+-  Collegare la scheda di sviluppo al computer (se non si riesce a vedere
+   una porta, installare prima un driver) e selezionare la porta corretta e fare clic su ![image13](../media/an52.png).
 
 ![img](../media/an54.png)
 
-- Attendez le téléchargement.
+-  Attendere il caricamento.
 
 ![img](../media/an53.png)
 
-**Définir le débit en bauds**
+**Imposta Baud rate**
 
-- S'il n'y a pas de boîte d'impression, veuillez cliquer sur l'une des ![image14](../media/an56.png) pour ajuster la taille de la boîte.
+-  Se non c'è una casella di stampa, fare clic su una delle ![image14](../media/an56.png) per regolare
+   la dimensione della casella.
 
-  - Petite boîte d'impression ![image15](../media/an58.png)
-  - Grande boîte d'impression ![image16](../media/an59.png)
-  - Pas de boîte d'impression ![image17](../media/an60.png)
+   -  Casella di stampa piccola ![image15](../media/an58.png)
+   -  Casella di stampa grande ![image16](../media/an59.png)
+   -  Nessuna casella di stampa ![image17](../media/an60.png)
 
-- Cliquez sur ![image18](../media/an57.png) pour définir le débit en bauds correspondant.
+-  Fare clic su ![image18](../media/an57.png) per impostare la velocità di trasmissione corrispondente.
 
 ![img](../media/an55.png)
 
-- « **Hello KidsBlock** » commence à être imprimé dans la boîte après le réglage.
+-  " **Hello KidsBlock** " inizia a essere stampato nella casella dopo l'impostazione.
 
 ![img](../media/an62.png)
