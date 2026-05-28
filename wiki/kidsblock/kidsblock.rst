@@ -1,6 +1,6 @@
-
+==========
 Kidsblock
-------------
+==========
 
 
 .. toctree::
@@ -10,7 +10,17 @@ Kidsblock
    ./1_Introduce_KidsBlock.md
    ./2_Driver_Installation.md
    ./3_Assembling.md
-   
+
+
+
+
+4. Project
+----------
+
+
+.. toctree::
+   :maxdepth: 1
+
    ./4.1_Project__Lighting_System.md
    ./4.2_Project__Light_Control_System.md
    ./4.3_Project__Alarm_System.md

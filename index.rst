@@ -6,6 +6,7 @@
    wiki/index.rst
    wiki/Arduino/arduino.rst
    wiki/kidsblock/kidsblock.rst
+   wiki/5_FAQ.rst
 
 
 
