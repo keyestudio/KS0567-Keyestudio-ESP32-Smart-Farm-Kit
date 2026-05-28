@@ -13,9 +13,9 @@ Arduino
 
 .. _5-projects:
 
-===========
+
 5. Projects
-===========
+------------
 
 **Things to note before starting the projects**
 
