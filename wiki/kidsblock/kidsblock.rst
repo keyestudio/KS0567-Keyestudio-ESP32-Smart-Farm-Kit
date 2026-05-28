@@ -9,6 +9,12 @@ Kidsblock
    
    ./1_Introduce_KidsBlock
    ./2_Driver_Installation
+
+
+.. toctree::
+   :maxdepth: 2
+   
+   
    ./3_Assembling
 
 

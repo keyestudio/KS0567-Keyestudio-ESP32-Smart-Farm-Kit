@@ -9,6 +9,12 @@ Arduino
     ./1 Introduce Arduino
     ./2_Driver_Installation_and_Environment_Configuration
     ./3_Set_the_Angle_of_the_Servo
+
+
+.. toctree::
+    :maxdepth: 2
+
+
     ./4_Assemble_the_Smart_Farm_Kit
 
 .. _5-projects:
