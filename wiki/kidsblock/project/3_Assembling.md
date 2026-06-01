@@ -3,8 +3,8 @@
 
 Während der Montage müssen einige Codes gebrannt werden, daher installieren Sie bitte zuerst die Software.
 
-Die gesamte Montage lässt sich im Allgemeinen in zwei Teile unterteilen: Montage
-von Teilen und Verkabelung.
+Die gesamte Montage lässt sich im Allgemeinen in zwei Teile unterteilen: das Zusammenfügen von
+Teilen und die Verkabelung.
 
 ---
 
@@ -135,7 +135,7 @@ Montieren Sie die Holzplatte X und O auf der Bodenplatte
 | --- | --- | --- |
 | Relaismodul | 3PIN 20cm | IO25 |
 
-| Modul Pin | Kabelfarbe | ESP32 Board Pin |
+| Modul-Pin | Kabelfarbe | ESP32 Board Pin |
 | --- | --- | --- |
 | V | ROT | V |
 | G | SCHWARZ | G |
@@ -176,10 +176,6 @@ Montieren Sie die Holzplatte X und O auf der Bodenplatte
 
 
 ![img](../media/image017.png)
-
----
-
-
 
 #### 3.3
 
@@ -262,14 +258,14 @@ Montieren Sie die Holzplatte X und O auf der Bodenplatte
 
 
 
-### Schritt 4 Installieren Sie die Tür der Futterkabine
+### Schritt 4: Tür der Futterkabine einbauen
 
 
 ---
 
 
 
-#### 4.1 Benötigte Komponenten
+#### 4.1 Erforderliche Komponenten
 
 
 ![image027](../media/image027.png)
@@ -287,14 +283,14 @@ Die Acrylplatte ist separat verpackt, und es wird empfohlen, die Schutzfolie abz
 > **⚠ WARNUNG — Vor dem Fortfahren lesen:**
 >
 > 1. **Stellen Sie den Servo NICHT auf 180° ein.** Der Türmechanismus benötigt nicht den vollen Bereich von 0°–180°. Das Einstellen auf das extreme Ende führt dazu, dass der Servo gegen den mechanischen Anschlag drückt, was den Servomotor überhitzen und dauerhaft beschädigen kann.
-> 2. **Halten Sie die Platine während der Installation mit Strom versorgt.** Wenn der Servo mit Strom versorgt wird und seinen Winkel hält, zwingen Sie das Getriebe oder die Tür NICHT von Hand. Wenn die Platine nicht mit Strom versorgt wird, hat der Servo kein Haltemoment, und das manuelle Drehen des Getriebes verschiebt den kalibrierten Winkel, was nach dem Einschalten zu einer Fehlausrichtung führt.
-> 3. **Wenden Sie KEINE rohe Gewalt an.** Wenn sich die Tür nicht reibungslos bewegt, halten Sie sofort an und überprüfen Sie die Montage. Gewaltanwendung führt zum Ausreißen der Servozahnräder.
+> 2. **Halten Sie die Platine während der Installation mit Strom versorgt.** Wenn der Servo mit Strom versorgt wird und seinen Winkel hält, erzwingen Sie NICHT das Zahnrad oder die Tür von Hand. Wenn die Platine nicht mit Strom versorgt wird, hat der Servo kein Haltemoment, und das manuelle Drehen des Zahnrads verschiebt den kalibrierten Winkel, was nach dem Einschalten zu einer Fehlausrichtung führt.
+> 3. **Wenden Sie keine rohe Gewalt an.** Wenn sich die Tür nicht reibungslos bewegt, halten Sie sofort an und überprüfen Sie die Montage. Erzwingen führt zum Ausreißen der Servozahnräder.
 
-Bitte beachten Sie, dass dieser Schritt sehr wichtig ist. Stellen Sie den Servo vor der Installation unbedingt auf **165°** ein (mit einem Puffer von 15° an jedem Ende, um mechanische Schäden zu vermeiden).
+Bitte beachten Sie, dass dieser Schritt sehr wichtig ist. Stellen Sie vor der Installation sicher, dass der Servo auf **165°** eingestellt ist (mit einem 15°-Puffer an jedem Ende, um mechanische Schäden zu vermeiden).
 
-**Bevor Sie den Servo montieren, stellen Sie den Winkel zuerst auf 165° ein, indem Sie mit KidsBlock (Grafische Programmierung) programmieren.**
+**Bevor Sie den Servo montieren, stellen Sie bitte zuerst den Winkel mit KidsBlock (Grafische Programmierung) auf 165° ein.**
 
-Einzelheiten entnehmen Sie bitte den Schritten zur Softwareinstallation.
+Bitte beachten Sie die Software-Installationsschritte für Details.
 
 **Verbinden Sie den Servo mit dem ESP32 Entwicklungsboard an Pin IO26.**
 
@@ -308,13 +304,13 @@ Einzelheiten entnehmen Sie bitte den Schritten zur Softwareinstallation.
 ---
 
 
-- Öffnen Sie **KidsBlock**. Wählen Sie das ESP32 Board und den richtigen seriellen Port aus und brennen Sie den folgenden Code auf das Board. Der Code stellt den Servo auf **165°** ein.
+-  Öffnen Sie **KidsBlock**. Wählen Sie das ESP32-Board und den richtigen seriellen Port aus und brennen Sie den folgenden Code auf das Board. Der Code stellt den Servo auf **165°** ein.
 
 ![image-20250425134842857](../media/image-20250425134842857.png)
 
 ![img](../media/image028-2.png)
 
-> **Wichtig:** Halten Sie die Platine mit Strom versorgt und den Servo auf 165° gehalten, während Sie mit dem Montageschritt fortfahren. Trennen Sie die Stromversorgung **nicht** und bewegen Sie das Getriebe nicht manuell, bis die Türverkleidung vollständig installiert ist.
+> **Wichtig:** Halten Sie die Platine mit Strom versorgt und den Servo auf 165° gehalten, während Sie mit dem Montageschritt fortfahren. Trennen Sie die Stromversorgung **nicht** und bewegen Sie das Zahnrad nicht manuell, bis die Türverkleidung vollständig installiert ist.
 
 ---
 
@@ -331,7 +327,7 @@ Einzelheiten entnehmen Sie bitte den Schritten zur Softwareinstallation.
 
 #### 4.4
 
-**Hinweis: Die Schrauben müssen fest angezogen werden, um den Servo stabil zu halten, da sonst die Tür klemmen kann.**
+**Hinweis: Die Schrauben müssen fest angezogen werden, um den Servo stabil zu halten, da die Tür sonst klemmen könnte.**
 
 ![img](../media/image030.png)
 
@@ -357,10 +353,6 @@ Installieren Sie M1.4*6MM selbstschneidende Schrauben wie unten gezeigt
 
 ![image-20250416162754513](../media/image-20250416162754513.png)
 
----
-
-
-
 #### 4.7
 
 
@@ -383,7 +375,7 @@ Drehen Sie das Zahnrad nicht, nachdem es am Servo installiert wurde. Wenn Sie da
 
 #### 4.9
 
-**HINWEIS: Beim Anbringen des Deckels des Futterkastens sollte dessen Öffnung vollständig geschlossen sein.**
+**HINWEIS: Beim Anbringen des Deckels der Futterbox sollte dessen Öffnung vollständig geschlossen sein.**
 
 ![img](../media/image035.png)
 
@@ -418,11 +410,1203 @@ Drehen Sie das Zahnrad nicht, nachdem es am Servo installiert wurde. Wenn Sie da
 
 
 
-#### 4.13 Tür testen
+#### 4.13 Testen der Tür
 
 
-1. Verbinden Sie den Servo mit Pin IO26 des ESP32 Boards. Verbinden Sie Gelb mit S, Rot mit V, Schwarz mit G.
+1. Verbinden Sie den Servo mit Pin IO26 des ESP32-Boards. Verbinden Sie Gelb mit S, Rot mit V, Schwarz mit G.
 
 ![img](../media/image028-1.png)
 
-2. Verbinden Sie 6 AA-Batterien mit dem DC 7-12V Port des ESP32 Boards. (Batterien nicht im
+2. Schließen Sie 6 AA-Batterien an den DC 7-12V-Anschluss des ESP32-Boards an. (Batterien nicht im Kit enthalten)
+
+![image-20250417084747308](../media/image-20250417084747308.png)
+
+3. Laden Sie den Testcode hoch
+
+A. Verbinden Sie das ESP32-Board mit dem USB-Kabel mit dem Computer. Öffnen Sie die INO-Datei im Ordner **6.1Servo.sb3** mit KidsBlock.
+
+![image-20250427084645025](../media/image-20250427084645025.png)
+
+B. Code hochladen
+
+![image-20250417085407205](../media/image-20250417085407205.png)
+
+> **⚠ HINWEIS:** Wenn sich die Tür nach dem Hochladen des Codes nicht reibungslos öffnen und schließen lässt und der Servo heiß ist, **schalten Sie die Stromversorgung sofort aus**, um ein Durchbrennen des Servos zu verhindern. Überprüfen Sie dann die folgenden Punkte.
+>
+> **Verwenden Sie KEINE Gewalt**, um die Tür oder das Getriebe zu bewegen.
+
+**Überprüfen Sie:**
+
+1. Ob die Kunststofftür einen guten Kontakt und Kraftpunkte mit der Getriebestruktur des Servos hat.
+1. Ob die Spitze der Befestigungsschraube an der Getriebestruktur des Servos mit dem Kunststoffgehäuse des Servos verklemmt ist. Wenn ja, lösen Sie die Befestigungsschraube etwas, um zu verhindern, dass ihre Spitze den Servo berührt.
+
+![image-20250417085630662](../media/image-20250417085630662.png)
+
+
+### Schritt 5 Installieren Sie das LCD-Display und den DHT11-Sensor
+
+
+---
+
+
+
+#### 5.1 Erforderliche Komponenten
+
+
+![img](../media/image038.png)
+
+---
+
+
+
+#### 5.2
+
+
+![img](../media/image039.png)
+
+---
+
+
+
+#### 5.3
+
+
+![img](../media/image040.png)
+
+---
+
+
+
+#### 5.4
+
+
+![img](../media/image041.png)
+
+---
+
+
+
+#### 5.5 Prototyp
+
+
+![img](../media/image042.png)
+
+---
+
+
+
+#### 5.6 Verkabelung
+
+
+**Module über Dupont-Kabel verbinden.**
+
+| Modul | Kabel |
+| --- | --- |
+| Temperatur- und Feuchtigkeitssensor | 3PIN 20cm |
+| LCD 1602 | 4PIN **(Schwarz-Rot-Blau-Grün)** |
+
+**Achten Sie auf die Farbe des Dupont-Kabels:**
+
+**Für den Temperatur- und Feuchtigkeitssensor verbinden Sie Gelb mit S, Rot mit V,
+Schwarz mit G.**
+
+![img](../media/image043.png)
+
+---
+
+
+
+#### 5.7
+
+
+| Modul | Kabel |
+| --- | --- |
+| LCD 1602 | 4PIN **(Schwarz-Rot-Blau-Grün)** |
+
+**Für das LCD-Display verbinden Sie Grün mit SCL, Blau mit SDA, Rot mit VCC, Schwarz mit GND.**
+
+![img](../media/image044.png)
+
+---
+
+### Schritt 6: Das Ultraschallmodul installieren
+
+
+---
+
+
+
+#### 6.1 Benötigte Komponenten
+
+
+![img](../media/image045.png)
+
+---
+
+
+
+#### 6.2
+
+
+![img](../media/image046.png)
+
+---
+
+
+
+#### 6.3
+
+
+![img](../media/image047.png)
+
+---
+
+
+
+#### 6.4 Verkabelung
+
+
+| Modul | Kabel |
+| --- | --- |
+| Ultraschallmodul | 4PIN **(Schwarz-Grün-Blau-Rot)** |
+
+**Achten Sie auf die Farbe des Dupont-Kabels: Für das Ultraschallmodul
+verbinden Sie Blau mit TRIG, Grün mit ECHO, Rot mit VCC, Schwarz mit GND.**
+
+![img](../media/image048.png)
+
+---
+
+
+
+### Schritt 7: PIR-Bewegungssensor und Tastenmodul installieren
+
+
+---
+
+
+
+#### 7.1 Benötigte Komponenten
+
+
+![img](../media/image049.png)
+
+---
+
+
+
+#### 7.2
+
+
+![img](../media/image050.png)
+
+---
+
+
+
+#### 7.3
+
+
+![img](../media/image051.png)
+
+---
+
+
+
+#### 7.4 Verkabelung
+
+
+**Module über Dupont-Kabel verbinden.**
+
+| Modul | Kabel |
+| --- | --- |
+| PIR-Bewegungssensor | 3PIN 15cm |
+| Tastenmodul | 3PIN 15cm |
+
+**Achten Sie auf die Farbe des Dupont-Kabels: Verbinden Sie Gelb mit S, Rot mit V, Schwarz mit G.**
+
+![img](../media/image052.png)
+
+---
+
+
+
+### Schritt 8: Die Hauswände installieren
+
+
+---
+
+
+
+#### 8.1 Benötigte Komponenten
+
+
+![img](../media/image053.png)
+
+---
+
+
+
+#### 8.2
+
+
+![img](../media/image054.png)
+
+---
+
+
+
+#### 8.3
+
+
+![img](../media/image055.png)
+
+---
+
+
+
+#### 8.4
+
+
+![img](../media/image056.png)
+
+---
+
+
+
+#### 8.5
+
+
+![img](../media/image057.png)
+
+---
+
+
+
+#### 8.6
+
+
+![img](../media/image058.png)
+
+---
+
+
+
+#### 8.7
+
+
+![img](../media/image059.png)
+
+---
+
+
+
+#### 8.8 Prototyp
+
+
+![img](../media/image060.png)
+
+#### 8.9 Verkabelung
+
+
+| Modul | Kabel |
+| --- | --- |
+| Lüfter | 4PIN **geteilt (Schwarz-Rot-Blau-Grün)** |
+| Dampfsensor | 3PIN 15cm |
+| Fotowiderstand | 3PIN 15cm |
+
+**Achten Sie auf die Farbe des Dupont-Kabels für den Lüfter:**
+
+| Modul-Pin | Kabelfarbe | ESP32 Board Pins |
+| :--- | :--- | :--- |
+| IN- | GRÜN | io18 |
+| IN+ | BLAU | io19 |
+| V | ROT | V |
+| G | SCHWARZ | G |
+
+**Für Dampfsensor und Fotowiderstand: Gelb an S, Rot an V, Schwarz an G anschließen.**
+
+![img](../media/image061.png)
+
+---
+
+
+
+### Schritt 9 Das Dach des Hauses anbringen
+
+
+---
+
+
+
+#### 9.1 Benötigte Komponenten
+
+
+![img](../media/image062.png)
+
+---
+
+
+
+#### 9.2
+
+
+![img](../media/image063.png)
+
+---
+
+
+
+#### 9.3
+
+
+![img](../media/image064.png)
+
+---
+
+
+
+#### 9.4 Kabel ordentlich verlegen
+
+
+![img](../media/image065.png)
+
+---
+
+
+
+### Schritt 10 Haus und Boden installieren
+
+
+
+#### 10.1 Benötigte Komponenten
+
+
+![img](../media/image066.png)
+
+---
+
+
+
+#### 10.2
+
+
+![img](../media/image067.png)
+
+---
+
+
+
+#### 10.3
+
+
+![img](../media/image068.png)
+
+---
+
+
+
+#### 10.4 Unteransicht
+
+
+![img](../media/image069.png)
+
+---
+
+
+
+#### 10.5
+
+
+![img](../media/image070.png)
+
+---
+
+
+
+#### 10.6 Kabel anordnen
+
+
+![img](../media/image071.png)
+
+---
+
+
+
+#### 10.7
+
+
+![img](../media/image072.png)
+
+---
+
+
+
+### Schritt 11 Verkabelung des Hauses
+
+
+---
+
+
+
+#### 11.1
+
+**Achten Sie auf die Farbe des Dupont-Kabels: Gelb an S, Rot an V, Schwarz an G anschließen.**
+
+| NR. | Komponenten | Kabel | ESP32 Board Pins | |
+| --- | --- | --- | --- | --- |
+| 1 | Lüfter | 4-polig, **geteilt** Schwarz-Rot-Blau-Grün | io18(IN-) \ io19(IN+) | |
+| 2 | PIR Bewegungssensor | 3-polig 15cm | io23 | |
+| 3 | Taste | 3-polig 15cm | io5 | |
+| 4 | Ultraschallmodul | 4-polig, **geteilt** Schwarz-Grün-Blau-Rot | D12(TRIG) D13(ECHO) | |
+| 5 | LCD 1602 | 4-polig, **verbunden** | I2C | |
+| 6 | Temperatur- und Feuchtigkeitssensor | 3-polig 20cm | io17 | |
+| 7 | Dampfsensor | 3-polig 15cm | io35 | |
+| 8 | Fotowiderstand | 3-polig 15cm | io34 | |
+| 9 | Servo | -- | io26 | |
+| 10 | Summer | 3-polig 20cm | io16 | |
+| 11 | LED | 3-polig 20cm | io27 | |
+| 12 | Wasserstandssensor | 3-polig 25cm | io33 | |
+| 13 | Bodenfeuchtigkeitssensor | 3-polig 20cm | io32 | |
+| 14 | Wasserpumpe | 3-polig 20cm | io25 | |
+
+
+#### 11.2 Lüfter
+
+
+Führen Sie das mit dem Lüfter verbundene Dupont-Kabel durch das Loch **mit der Nummer 30** auf der Holzplatte.
+
+| Komponenten | Kabel | ESP32 Board Pins |
+| :--- | :--- | :--- |
+| Lüfter | 4PIN **geteilt (Schwarz-Rot-Blau-Grün)** | io18(IN-), io19(IN+) |
+
+| Modul-Pin | Kabelfarbe | ESP32 Board-Pins |
+| :--- | :--- | :--- |
+| IN- | GRÜN | io18 |
+| IN+ | BLAU | io19 |
+| V | ROT | V |
+| G | SCHWARZ | G |
+
+![img](../media/image073.png)
+
+---
+
+
+
+#### 11.3 PIR-Bewegungssensor
+
+
+Führen Sie das mit dem PIR-Bewegungssensor verbundene Dupont-Kabel durch das mit 24 markierte Loch auf der Holzplatte.
+
+| Komponente | Kabel | ESP32 Board-Pin |
+| --- | --- | --- |
+| PIR-Bewegungssensor | 3PIN 15cm | io23 |
+
+**Verbinden Sie Rot mit V, Schwarz mit G, Gelb mit S.**
+
+| Modul-Pin | Kabelfarbe | ESP32 Board-Pin |
+| --- | --- | --- |
+| V | ROT | V |
+| G | SCHWARZ | G |
+| S | GELB | io23 |
+
+![img](../media/image074.png)
+
+---
+
+
+
+#### 11.4 Tastenmodul
+
+
+Führen Sie das mit dem Tastenmodul verbundene Dupont-Kabel durch das mit 25 markierte Loch auf der Holzplatte.
+
+| Komponente | Kabel | ESP32 Board-Pin |
+| --- | --- | --- |
+| Taste | 3PIN 15cm | io5 |
+
+**Verbinden Sie Rot mit V, Schwarz mit G, Gelb mit S.**
+
+| Modul-Pin | Kabelfarbe | ESP32 Board-Pin |
+| --- | --- | --- |
+| V | ROT | V |
+| G | SCHWARZ | G |
+| S | GELB | io5 |
+
+![img](../media/image075.png)
+
+---
+
+
+
+#### 11.5 Ultraschallmodul
+
+
+| Komponente | Kabel | ESP32 Board-Pins |
+| --- | --- | --- |
+| Ultraschallmodul | 4PIN **Geteilt** (Schwarz-Grün-Blau-Rot) | io13(ECHO), io12(TRIG) |
+
+**Verbinden Sie Rot mit V, Schwarz mit G, Blau mit io12, Grün mit io13.**
+
+| Modul-Pin | Kabelfarbe | ESP32 Board-Pin |
+| --- | --- | --- |
+| V | ROT | V (io12) |
+| G | SCHWARZ | G (io12) |
+| ECHO | GRÜN | io13 |
+| TRIG | BLAU | io12 |
+
+![img](../media/image076.png)
+
+---
+
+
+
+#### 11.6 LCD 1602
+
+
+| Komponente | Kabel | ESP32 Board-Pins |
+| --- | --- | --- |
+| LCD1602 | 4PIN **Verbunden** **(Schwarz-Rot-Blau-Grün)** | I2C |
+
+**Verbinden Sie Rot mit V, Schwarz mit G, Blau mit SDA, Grün mit SCL.**
+
+| Modul-Pin | Kabelfarbe | ESP32 Board-Pin |
+| --- | --- | --- |
+| V | ROT | V |
+| G | SCHWARZ | G |
+| SCL | GRÜN | SCL |
+| SDA | BLAU | SDA |
+
+![img](../media/image077.png)
+
+---
+
+
+
+#### 11.7 Temperatur- und Feuchtigkeitssensor
+
+
+Führen Sie das mit dem Tastenmodul verbundene Dupont-Kabel durch das mit 20 markierte Loch auf der Holzplatte.
+
+| Komponente | Kabel | ESP32 Board-Pins |
+| --- | --- | --- |
+| Temperatur- und Feuchtigkeitssensor | 3PIN 20cm | io17 |
+
+**Verbinden Sie Rot mit V, Schwarz mit G, Gelb mit io17.**
+
+| Modul-Pin | Kabelfarbe | ESP32 Board-Pin |
+| --- | --- | --- |
+| V | ROT | V |
+| G | SCHWARZ | G |
+| S | GELB | io17 |
+
+![img](../media/image078.png)
+
+---
+
+
+
+#### 11.8 Dampfsensor
+
+
+| Komponente | Kabel | ESP32 Board-Pin |
+| --- | --- | --- |
+| Dampfsensor | 3PIN 15cm | io35 |
+
+**Verbinden Sie Rot mit V, Schwarz mit G, Gelb mit io35.**
+
+| Modul-Pin | Kabelfarbe | ESP32 Board-Pin |
+| --- | --- | --- |
+| V | ROT | V |
+| G | SCHWARZ | G |
+| S | GELB | io35 |
+
+![img](../media/image079.png)
+
+---
+
+
+
+#### 11.9 Fotowiderstand
+
+
+| Komponente | Kabel | ESP32 Board-Pin |
+| --- | --- | --- |
+| Fotowiderstand | 3PIN 15cm | io34 |
+
+**Verbinden Sie Rot mit V, Schwarz mit G, Gelb mit io34.**
+
+| Modul-Pin | Kabelfarbe | ESP32 Board-Pin |
+| --- | --- | --- |
+| V | ROT | V |
+| G | SCHWARZ | G |
+| S | GELB | io34 |
+
+![img](../media/image080.png)
+
+---
+
+
+
+#### 11.10 Servo
+
+**Führen Sie das Kabel des Servos durch Loch 15 und verbinden Sie es dann mit dem ESP32-Board.**
+
+| Komponente | Kabel | ESP32 Board-Pin |
+| --- | --- | --- |
+| Servo | 3PIN | io26 |
+
+**Verbinden Sie Rot mit V, Schwarz mit G, Gelb mit io26.**
+
+| Board Pin | Wire Color |
+| --- | --- |
+| V | ROT |
+| G | SCHWARZ |
+| IO26 | GELB |
+
+![img](../media/image081.png)
+
+---
+
+
+
+#### 11.11 Summer
+
+**Führen Sie das Kabel des Summers durch Loch 17 und verbinden Sie es dann mit der ESP32-Platine.**
+
+| Komponente | Kabel | ESP32 Board Pin |
+| --- | --- | --- |
+| Summer | 3PIN 20cm | io16 |
+
+**Verbinden Sie Rot mit V, Schwarz mit G, Gelb mit io16.**
+
+| Modul Pin | Drahtfarbe | ESP32 Board Pin |
+| --- | --- | --- |
+| V | ROT | V |
+| G | SCHWARZ | G |
+| S | GELB | io16 |
+
+![image-20250417093147856](../media/image-20250417093147856.png)
+
+![img](../media/image082.png)
+
+---
+
+
+
+#### 11.12 LED
+
+
+**Führen Sie das Kabel der LED durch Loch 7 und verbinden Sie es dann mit der ESP32-Platine.**
+
+| Komponente | Kabel | ESP32 Board Pin |
+| --- | --- | --- |
+| LED | 3PIN 20cm | io27 |
+
+**Verbinden Sie Rot mit V, Schwarz mit G, Gelb mit io27.**
+
+| Modul Pin | Drahtfarbe | ESP32 Board Pin |
+| --- | --- | --- |
+| V | ROT | V |
+| G | SCHWARZ | G |
+| S | GELB | io27 |
+
+![img](../media/image083.png)
+
+---
+
+
+
+#### 11.13 Wasserstandssensor
+
+
+**Führen Sie das Kabel des Wasserstandssensors durch Loch 13 und verbinden Sie es dann mit der ESP32-Platine.**
+
+| Komponente | Kabel | ESP32 Board Pin |
+| --- | --- | --- |
+| Wasserstandssensor | 3PIN 25cm | io33 |
+
+**Verbinden Sie Rot mit V, Schwarz mit G, Gelb mit io33.**
+
+| Modul Pin | Drahtfarbe | ESP32 Board Pin |
+| --- | --- | --- |
+| V | ROT | V |
+| G | SCHWARZ | G |
+| S | GELB | io33 |
+
+![img](../media/image084.png)
+
+---
+
+
+
+#### 11.14 Bodenfeuchtigkeitssensor
+
+
+**Führen Sie das Kabel des Bodenfeuchtigkeitssensors durch Loch 11 und verbinden Sie es dann mit der ESP32-Platine.**
+
+| Komponente | Kabel | ESP32 Board Pin |
+| --- | --- | --- |
+| Bodenfeuchtigkeitssensor | 3PIN 20cm | io32 |
+
+**Verbinden Sie Rot mit V, Schwarz mit G, Gelb mit io32.**
+
+| Modul Pin | Drahtfarbe | ESP32 Board Pin |
+| --- | --- | --- |
+| V | ROT | V |
+| G | SCHWARZ | G |
+| S | GELB | io32 |
+
+![img](../media/image085.png)
+
+---
+
+
+
+#### 11.15 Relaismodul
+
+
+| Komponente | Kabel | ESP32 Board Pin |
+| --- | --- | --- |
+| Relaismodul | 3PIN | io25 |
+
+| Modul Pin | Drahtfarbe | ESP32 Board Pin |
+| --- | --- | --- |
+| V | ROT | V |
+| G | SCHWARZ | G |
+| S | GELB | io25 |
+
+**Führen Sie das Kabel der Wasserpumpe wie unten gezeigt durch Loch 11:**
+
+![img](../media/image086.png)
+
+Das rote Kabel der Wasserpumpe wird mit dem mittleren Anschluss des Relaismoduls verbunden, und das schwarze Kabel wird mit dem GND der ESP32-Platine verbunden.
+
+Zusätzlich müssen Sie ein Dupont-Kabel verwenden, um den linken Anschluss des Relaismoduls mit 3,3 V des ESP32 zu verbinden.
+
+![img](../media/image087.png)
+
+---
+
+
+
+#### 11.16
+
+
+![img](../media/image088.png)
+
+---
+
+
+Stecken Sie den Stecker des Dupont-Kabels in den Buchsenanschluss des Relaismoduls und ziehen Sie ihn mit einem Schraubendreher fest.
+
+![image-20250417093737686](../media/image-20250417093737686.png)
+
+Nach den oben genannten Schritten ist die gesamte Verkabelung abgeschlossen. Die Kabel der LED, des Wasserstandssensors, des Bodenfeuchtigkeitssensors, des Summers und der Relaiswasserpumpe wurden jeweils durch die Löcher 7, 11, 13, 17 und 40 geführt, die in die Lindenholzplatte geschnitzt wurden, um die spätere Installation vorzubereiten.
+
+![354e13bf130d878628f1361fdd37b997](../media/354e13bf130d878628f1361fdd37b997.png)
+
+
+### Schritt 12 Haus und Fundament installieren
+
+
+---
+
+
+
+#### 12.1 Benötigte Komponenten
+
+
+![img](../media/image089.png)
+
+---
+
+
+
+#### 12.2
+
+
+![img](../media/image090.png)
+
+---
+
+#### 12.3
+
+
+![img](../media/image091.png)
+
+---
+
+
+
+#### 12.4
+
+
+![img](../media/image092.png)
+
+---
+
+
+
+#### 12.5
+
+
+![img](../media/image093.png)
+
+---
+
+
+
+### Schritt 13: Kunststoffspülen installieren
+
+
+---
+
+
+
+#### 13.1 Benötigte Komponenten
+
+
+![img](../media/image094.png)
+
+---
+
+
+
+#### 13.2
+
+
+![img](../media/image095.png)
+
+---
+
+
+
+#### 13.3
+
+
+![img](../media/image096.png)
+
+---
+
+
+
+### Schritt 14: Bodenmodul und Wasserstandsmodul installieren
+
+
+---
+
+
+
+#### 14.1 Benötigte Komponenten
+
+
+![img](../media/image098.png)
+
+---
+
+
+
+#### 14.2
+
+
+![img](../media/image099.png)
+
+---
+
+
+
+#### 14.3
+
+
+![img](../media/image100.png)
+
+---
+
+
+
+#### 14.4
+
+
+![image-20230718085623979](../media/image-20230718085623979.png)
+
+---
+
+
+
+#### 14.5
+
+
+![image-20230718085641291](../media/image-20230718085641291.png)
+
+---
+
+
+
+#### 14.6
+
+
+![image-20230718085722378](../media/image-20230718085722378.png)
+
+---
+
+
+
+#### 14.7
+
+
+![image-20230718085743776](../media/image-20230718085743776.png)
+
+---
+
+
+
+### Schritt 15: Zaun installieren
+
+
+---
+
+
+
+#### 15.1 Benötigte Komponenten
+
+
+![image-20230718085854136](../media/image-20230718085854136.png)
+
+---
+
+
+
+#### 15.2
+
+
+![image-20230718085921988](../media/image-20230718085921988.png)
+
+---
+
+
+
+#### 15.3
+
+
+![image-20230718085936256](../media/image-20230718085936256.png)
+
+---
+
+
+
+#### 15.4
+
+
+![image-20230718085954487](../media/image-20230718085954487.png)
+
+---
+
+
+
+### Schritt 16: Summer und LED-Modul installieren
+
+#### 16.1 Benötigte Komponenten
+
+
+![image-20230718090031524](../media/image-20230718090031524.png)
+
+---
+
+
+
+#### 16.2
+
+
+![image-20230718090057124](../media/image-20230718090057124.png)
+
+---
+
+
+
+#### 16.3
+
+
+![image-20230718090110113](../media/image-20230718090110113.png)
+
+---
+
+
+
+#### 16.4
+
+
+![image-20230718090127577](../media/image-20230718090127577.png)
+
+---
+
+
+
+### Schritt 17 Das Haus dekorieren
+
+
+---
+
+
+
+#### 17.1 Benötigte Komponenten
+
+
+![image-20230718090150918](../media/image-20230718090150918.png)
+
+---
+
+
+
+#### 17.2
+
+
+![image-20230718090215504](../media/image-20230718090215504.png)
+
+---
+
+
+
+#### 17.3
+
+
+![image-20230718090227072](../media/image-20230718090227072.png)
+
+---
+
+
+
+### Schritt 18 Solarpanel installieren
+
+
+---
+
+
+
+#### 18.1
+
+
+![img](../media/image128.png)
+
+---
+
+
+
+#### 18.2
+
+
+![img](../media/image129.png)
+
+---
+
+
+
+#### 18.3
+
+
+![img](../media/image130.png)
+
+---
+
+
+
+#### 18.4
+
+
+![img](../media/image131.png)
+
+---
+
+
+
+#### 18.5
+
+
+Installieren Sie die LED-Leuchte des Solarpanels in dieses Loch.
+
+![img](../media/image132.png)
+
+---
+
+
+
+#### 18.6
+
+
+Befestigen Sie die Kabel mit einem Aufkleber an der Wand.
+
+![img](../media/image131-1.png)
+
+---
+
+
+
+#### 18.7
+
+
+![img](../media/image132-1.png)
+
+---
+
+
+
+#### 18.8
+
+
+![img](../media/image133.png)
+
+---
+
+
+
+#### 18.9
+
+
+![img](../media/image135.png)
+
+---
+
+
+
+#### 18.10
+
+
+![image-20230718091556561](../media/image-20230718091556561.png)
+
+---
+
+
+
+### Schritt 19 Batteriegehäuse installieren
+
+
+---
+
+#### 19.1
+
+
+![image-20230718091623881](../media/image-20230718091623881.png)
+
+---
+
+
+
+#### 19.2
+
+
+Legen Sie 6 AA-Batterien ein (nicht im Lieferumfang enthalten).
+
+![image-20250417095312061](../media/image-20250417095312061.png)
+
+![image-20230718091649546](../media/image-20230718091649546.png)
+
+---
+
+
+
+#### 19.3
+
+
+![image-20230718091701966](../media/image-20230718091701966.png)
+
+
