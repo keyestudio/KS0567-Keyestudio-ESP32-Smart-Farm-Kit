@@ -14,9 +14,17 @@ Arduino
 
 
 
-5. Proyecto
-------------
+5. Proyectos
+-------------
 
+
+**Cosas a tener en cuenta antes de iniciar los proyectos**
+
+> **Nota sobre el entorno de software:** Si aún no ha configurado el Arduino IDE para la placa ESP32 (instalación de controladores, importación de bibliotecas y selección del tipo de placa), consulte el capítulo **[2. Configurar el Arduino]** antes de proceder a cargar cualquier código de proyecto.
+
+La memoria de Arduino puede almacenar un proyecto a la vez; la actualización del código borra el código anterior.
+
+Aprendamos cómo funciona esta granja inteligente paso a paso a través de proyectos de diferentes niveles de dificultad.
 
 
 .. toctree::
