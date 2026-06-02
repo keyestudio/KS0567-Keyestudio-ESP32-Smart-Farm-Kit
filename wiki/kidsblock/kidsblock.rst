@@ -16,7 +16,7 @@ Kidsblock
 
 
 
-4. Progetto
+4. Progetti
 ------------
 
 

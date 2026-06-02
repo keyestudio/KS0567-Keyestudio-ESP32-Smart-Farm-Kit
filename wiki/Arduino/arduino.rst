@@ -14,8 +14,16 @@ Arduino
 
 
 
-5. Progetto
+5. Progetti
 ------------
+
+**Cose da notare prima di iniziare i progetti**
+
+> **Nota sull'ambiente software:** Se non hai ancora configurato l'Arduino IDE per la scheda ESP32 (installazione del driver, importazione della libreria e selezione del tipo di scheda), fai riferimento al capitolo **[2. Configura l'Arduino]** prima di procedere al caricamento di qualsiasi codice di progetto.
+
+La memoria di Arduino può memorizzare un progetto alla volta; l'aggiornamento del codice cancella il codice precedente.
+
+Impariamo come funziona questa fattoria intelligente passo dopo passo attraverso progetti di diversi livelli di difficoltà.
 
 
 
