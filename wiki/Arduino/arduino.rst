@@ -14,9 +14,16 @@ Arduino
 
 
 
-5. Projet
+5. Projets
 ------------
 
+**Points à noter avant de commencer les projets**
+
+> **Remarque sur l'environnement logiciel :** Si vous n'avez pas encore configuré l'IDE Arduino pour la carte ESP32 (installation du pilote, importation de la bibliothèque et sélection du type de carte), veuillez vous référer au chapitre **[2. Configurer l'Arduino]** avant de procéder au téléchargement de tout code de projet.
+
+La mémoire d'Arduino peut stocker un projet à la fois ; la mise à jour du code efface le code précédent.
+
+Apprenons comment cette ferme intelligente fonctionne étape par étape à travers des projets de différents niveaux de difficulté.
 
 
 .. toctree::
