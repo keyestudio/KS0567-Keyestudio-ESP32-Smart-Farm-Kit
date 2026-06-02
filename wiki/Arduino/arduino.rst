@@ -14,10 +14,16 @@ Arduino
 
 
 
-5. Project
+5. Projecten
 ---------------
 
+**Aandachtspunten voordat u met de projecten begint**
 
+> **Opmerking over softwareomgeving:** Als u de Arduino IDE voor het ESP32-bord nog niet hebt geconfigureerd (driverinstallatie, bibliotheekimport en selectie van het bordtype), raadpleeg dan het hoofdstuk **[2. Configureer de Arduino]** voordat u projectcode uploadt.
+
+Het geheugen van Arduino kan één project tegelijk opslaan; het bijwerken van de code wist de vorige code.
+
+Laten we stap voor stap leren hoe deze slimme boerderij werkt aan de hand van projecten van verschillende moeilijkheidsgraden.
 
 .. toctree::
     :maxdepth: 3
